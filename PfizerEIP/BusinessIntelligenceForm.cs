@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace PfizerEIP
 {
-    public partial class Form1 : Form
+    public partial class BusinessIntelligenceForm : Form
     {
-        public Form1()
+        public BusinessIntelligenceForm()
         {
             InitializeComponent();
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
