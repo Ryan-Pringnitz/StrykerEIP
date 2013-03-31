@@ -20,5 +20,10 @@ namespace PfizerEIP
         {
 
         }
+
+        private void perspectivesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
