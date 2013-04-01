@@ -30,18 +30,18 @@ namespace PfizerEIP
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.CustomerTabPage = new System.Windows.Forms.TabPage();
             this.FinancialTabPage = new System.Windows.Forms.TabPage();
@@ -54,6 +54,7 @@ namespace PfizerEIP
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.clearFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnToMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,7 +69,6 @@ namespace PfizerEIP
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).BeginInit();
@@ -131,67 +131,67 @@ namespace PfizerEIP
             // 
             // CustomerChart
             // 
-            chartArea5.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend5);
+            chartArea17.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea17);
+            legend17.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend17);
             this.CustomerChart.Location = new System.Drawing.Point(7, 33);
             this.CustomerChart.Name = "CustomerChart";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series5);
+            series17.ChartArea = "ChartArea1";
+            series17.Legend = "Legend1";
+            series17.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series17);
             this.CustomerChart.Size = new System.Drawing.Size(285, 247);
             this.CustomerChart.TabIndex = 1;
             this.CustomerChart.Text = "chart1";
             // 
             // FinancialChart
             // 
-            chartArea6.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend6);
+            chartArea18.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea18);
+            legend18.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend18);
             this.FinancialChart.Location = new System.Drawing.Point(311, 33);
             this.FinancialChart.Name = "FinancialChart";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series6.Legend = "Legend1";
-            series6.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series6);
+            series18.ChartArea = "ChartArea1";
+            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series18.Legend = "Legend1";
+            series18.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series18);
             this.FinancialChart.Size = new System.Drawing.Size(285, 247);
             this.FinancialChart.TabIndex = 2;
             this.FinancialChart.Text = "chart2";
             // 
             // OperationsChart
             // 
-            chartArea7.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend7);
+            chartArea19.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea19);
+            legend19.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend19);
             this.OperationsChart.Location = new System.Drawing.Point(615, 33);
             this.OperationsChart.Name = "OperationsChart";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series7.Legend = "Legend1";
-            series7.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series7);
+            series19.ChartArea = "ChartArea1";
+            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series19.Legend = "Legend1";
+            series19.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series19);
             this.OperationsChart.Size = new System.Drawing.Size(285, 247);
             this.OperationsChart.TabIndex = 3;
             this.OperationsChart.Text = "chart3";
             // 
             // InnovationsChart
             // 
-            chartArea8.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea8);
-            legend8.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend8);
+            chartArea20.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea20);
+            legend20.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend20);
             this.InnovationsChart.Location = new System.Drawing.Point(919, 33);
             this.InnovationsChart.Name = "InnovationsChart";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series8);
+            series20.ChartArea = "ChartArea1";
+            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series20.Legend = "Legend1";
+            series20.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series20);
             this.InnovationsChart.Size = new System.Drawing.Size(285, 247);
             this.InnovationsChart.TabIndex = 4;
             this.InnovationsChart.Text = "chart4";
@@ -224,25 +224,33 @@ namespace PfizerEIP
             // calculateToolStripMenuItem
             // 
             this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
-            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.calculateToolStripMenuItem.Text = "Calculate";
+            this.calculateToolStripMenuItem.Click += new System.EventHandler(this.calculateToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(154, 6);
             // 
             // clearFormToolStripMenuItem
             // 
             this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.clearFormToolStripMenuItem.Text = "Clear Form";
+            this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
             // 
             // returnToMenuToolStripMenuItem
             // 
             this.returnToMenuToolStripMenuItem.Name = "returnToMenuToolStripMenuItem";
-            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.returnToMenuToolStripMenuItem.Text = "Return to Menu";
+            this.returnToMenuToolStripMenuItem.Click += new System.EventHandler(this.returnToMenuToolStripMenuItem_Click);
             // 
             // exitProgramToolStripMenuItem
             // 
             this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.exitProgramToolStripMenuItem.Text = "Exit Program";
             this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
             // 
@@ -307,7 +315,7 @@ namespace PfizerEIP
             // selfHelpPDFToolStripMenuItem
             // 
             this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
-            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
             this.selfHelpPDFToolStripMenuItem.Click += new System.EventHandler(this.selfHelpPDFToolStripMenuItem_Click);
             // 
@@ -316,6 +324,7 @@ namespace PfizerEIP
             this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
             this.contactToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.contactToolStripMenuItem.Text = "Contact";
+            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -323,11 +332,6 @@ namespace PfizerEIP
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(154, 6);
             // 
             // BusinessIntelligenceForm
             // 
@@ -343,6 +347,7 @@ namespace PfizerEIP
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BusinessIntelligenceForm";
             this.Text = "Business Intelligence Dashboard";
+            this.Load += new System.EventHandler(this.BusinessIntelligenceForm_Load);
             this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).EndInit();
