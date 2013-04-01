@@ -25,12 +25,14 @@ namespace MainDashboard
 
         private void businessIntelligenceButton_Click(object sender, EventArgs e)
         {
+            //Show Business Intelligence Form
             businessIntelligenceForm abusinessIntelligenceForm = new businessIntelligenceForm();
             abusinessIntelligenceForm.ShowDialog();
         }
 
         private void sustainabilityIntelligenceButton_Click(object sender, EventArgs e)
         {
+            //Show Sustainability Intelligence Form
             sustainabilityIntelligenceForm asustainabilityForm = new sustainabilityIntelligenceForm();
             asustainabilityForm.ShowDialog();
         }
