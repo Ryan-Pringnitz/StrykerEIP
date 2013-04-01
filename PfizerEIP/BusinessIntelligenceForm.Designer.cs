@@ -263,7 +263,6 @@ namespace PfizerEIP
             this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
             this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.perspectivesToolStripMenuItem.Text = "Subsystem";
-            this.perspectivesToolStripMenuItem.Click += new System.EventHandler(this.perspectivesToolStripMenuItem_Click);
             // 
             // eServicesToolStripMenuItem
             // 
@@ -276,7 +275,6 @@ namespace PfizerEIP
             this.financialAccountingToolStripMenuItem.Name = "financialAccountingToolStripMenuItem";
             this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.financialAccountingToolStripMenuItem.Text = "Financial Accounting";
-            this.financialAccountingToolStripMenuItem.Click += new System.EventHandler(this.financialAccountingToolStripMenuItem_Click);
             // 
             // materialsManagementToolStripMenuItem
             // 
