@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PfizerEIP")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Stryker Management Dashboard")]
+[assembly: AssemblyDescription("Managent Dashboard created for Stryker Corporation by CIS 4990, a class at Western Michigan University taught by Dr. Targowski")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PfizerEIP")]
+[assembly: AssemblyCompany("Stryker Corporation")]
+[assembly: AssemblyProduct("Stryker Management Dashboard")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
