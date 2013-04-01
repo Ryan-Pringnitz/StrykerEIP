@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
 
+
 namespace PfizerEIP
 {
     public partial class BusinessIntelligenceForm : Form
@@ -45,6 +46,7 @@ namespace PfizerEIP
 
         private void exitProgramToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Closes the application
             Application.Exit();
         }
 
@@ -52,12 +54,40 @@ namespace PfizerEIP
         {
             try
             {
-                Process.Start("141.218.103.141\\ERP_DATA"); //This would be used to connect to the pdf file located in the DB.
+                //This would be used to connect to the pdf file located in the DB.
+                Process.Start("141.218.103.141\\ERP_DATA"); 
             }
             catch (Exception ex)
             { 
+                //Exception thrown 
                 MessageBox.Show(ex.Message); 
             }
+        }
+
+        private void BusinessIntelligenceForm_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Performs calculation
+        }
+
+        private void clearFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Clears fields of all content
+        }
+
+        private void returnToMenuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Returns the user back to the main navigation menu
+        }
+            
+        private void contactToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ContactForm frmContact = new ContactForm();
+            frmContact.Show();
         }
 
     }
