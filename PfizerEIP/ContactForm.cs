@@ -29,8 +29,8 @@ namespace PfizerEIP
             string SendersAddress = "cisstryker4990@gmail.com"; //The users address
             string ReceiversAddress = "woofy181st@gmail.com"; //Receivers address
             string SendersPassword = "Targowski"; //Users gmail password 
-            string subject = "Stryker Dashboard Help Request from " + txtName.ToString(); //Standard subject line
-            string body = txtQuestion.ToString(); //Users help request / question.
+            string subject = "Stryker Dashboard Help Request from " + txtName.Text; //Standard subject line
+            string body = txtQuestion.Text; //Users help request / question.
 
             try
             {
