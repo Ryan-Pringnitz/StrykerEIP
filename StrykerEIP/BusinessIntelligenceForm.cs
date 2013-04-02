@@ -90,5 +90,14 @@ namespace StrykerEIP
             frmContact.Show();
         }
 
+        private void KPI1_btnCalculate_Click(object sender, EventArgs e)
+        {
+            KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+            KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+            KPI1_lblState.ForeColor = System.Drawing.Color.Purple; //Conflict State
+            KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+            KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+        }
+
     }
 }
