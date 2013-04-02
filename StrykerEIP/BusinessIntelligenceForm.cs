@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 
 
-namespace PfizerEIP
+namespace StrykerEIP
 {
     public partial class BusinessIntelligenceForm : Form
     {

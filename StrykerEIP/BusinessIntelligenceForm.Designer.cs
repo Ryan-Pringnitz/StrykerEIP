@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms.DataVisualization.Charting;
 
-namespace PfizerEIP
+namespace StrykerEIP
 {
     partial class BusinessIntelligenceForm
     {

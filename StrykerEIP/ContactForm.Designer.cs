@@ -1,4 +1,4 @@
-﻿namespace PfizerEIP
+﻿namespace StrykerEIP
 {
     partial class ContactForm
     {
