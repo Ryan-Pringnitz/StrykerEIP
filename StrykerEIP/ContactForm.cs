@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Mail;
 
-namespace PfizerEIP
+namespace StrykerEIP
 {
     public partial class ContactForm : Form
     {
