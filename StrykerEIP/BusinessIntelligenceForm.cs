@@ -21,6 +21,9 @@ namespace StrykerEIP
             {
                 subSystem.Click += new EventHandler(subSystem_Click);
             }
+
+            DataServices objDataServices = new DataServices();
+            objDataServices.GetBusinessProcessInfo("CustomerService");
         }
 
         private void subSystem_Click(object sender, EventArgs e)
@@ -77,6 +80,17 @@ namespace StrykerEIP
         private void clearFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Clears fields of all content
+            KPI1_txtDecisionSummary.Visible = false;
+            KPI1_groupDecision.Visible = false;
+            KPI1_btnSubmitDecision.Visible = false;
+            KPI1_lblState.Visible = false;
+
+            KPI1_txtVar1.Text = "";
+            KPI1_txtVar2.Text = "";
+            KPI1_txtVar3.Text = "";
+            KPI1_txtVar4.Text = "";
+            KPI1_txtVar5.Text = "";
+
         }
 
         private void returnToMenuToolStripMenuItem_Click(object sender, EventArgs e)
@@ -88,6 +102,42 @@ namespace StrykerEIP
         {
             ContactForm frmContact = new ContactForm();
             frmContact.Show();
+        }
+
+        private void KPI1_btnCalculate_Click(object sender, EventArgs e)
+        {
+            KPI1_txtDecisionSummary.Visible = true;
+            KPI1_groupDecision.Visible = true;
+            KPI1_btnSubmitDecision.Visible = true;
+            KPI1_lblState.Visible = true;
+
+            KPI1_lblState.Text = "Failure";
+
+            //Changes the color of the state text, depending on the state.
+            if (KPI1_lblState.Text == "Success")
+            {
+                KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+            }
+
+            if (KPI1_lblState.Text == "Normal")
+            {
+                KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+            }
+
+            if (KPI1_lblState.Text == "Conflict")
+            {
+                KPI1_lblState.ForeColor = System.Drawing.Color.Purple; //Conflict State
+            }
+
+            if (KPI1_lblState.Text == "Crisis")
+            {
+                KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+            }
+
+            if (KPI1_lblState.Text == "Failure")
+            {
+                KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+            }
         }
 
     }
