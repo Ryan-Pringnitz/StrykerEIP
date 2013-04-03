@@ -30,20 +30,22 @@ namespace StrykerEIP
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.KPI4_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
+            this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
+            this.KPI1_lblVar5 = new System.Windows.Forms.Label();
             this.KPI1_lblState = new System.Windows.Forms.Label();
             this.KPI1_btnCalculate = new System.Windows.Forms.Button();
             this.KPI1_lblVar4 = new System.Windows.Forms.Label();
@@ -57,9 +59,9 @@ namespace StrykerEIP
             this.KPI1_btnSubmitDecision = new System.Windows.Forms.Button();
             this.KPI1_groupDecision = new System.Windows.Forms.GroupBox();
             this.KPI1_txtDecisionSummary = new System.Windows.Forms.RichTextBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.KPI1_radioDecision3 = new System.Windows.Forms.RadioButton();
+            this.KPI1_radioDecision2 = new System.Windows.Forms.RadioButton();
+            this.KPI1_radioDecision1 = new System.Windows.Forms.RadioButton();
             this.KPI1_lblDecisionLogo = new System.Windows.Forms.Label();
             this.KPI1_lblStateLogo = new System.Windows.Forms.Label();
             this.KPI1_lblCalculateLogo = new System.Windows.Forms.Label();
@@ -93,8 +95,6 @@ namespace StrykerEIP
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.KPI1_lblVar5 = new System.Windows.Forms.Label();
-            this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
             this.KPI4_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -148,6 +148,22 @@ namespace StrykerEIP
             this.KPI1_tabPage.TabIndex = 0;
             this.KPI1_tabPage.Text = "Customer";
             this.KPI1_tabPage.UseVisualStyleBackColor = true;
+            // 
+            // KPI1_txtVar5
+            // 
+            this.KPI1_txtVar5.Location = new System.Drawing.Point(304, 170);
+            this.KPI1_txtVar5.Name = "KPI1_txtVar5";
+            this.KPI1_txtVar5.Size = new System.Drawing.Size(100, 20);
+            this.KPI1_txtVar5.TabIndex = 21;
+            // 
+            // KPI1_lblVar5
+            // 
+            this.KPI1_lblVar5.AutoSize = true;
+            this.KPI1_lblVar5.Location = new System.Drawing.Point(263, 174);
+            this.KPI1_lblVar5.Name = "KPI1_lblVar5";
+            this.KPI1_lblVar5.Size = new System.Drawing.Size(35, 13);
+            this.KPI1_lblVar5.TabIndex = 20;
+            this.KPI1_lblVar5.Text = "label7";
             // 
             // KPI1_lblState
             // 
@@ -247,9 +263,9 @@ namespace StrykerEIP
             // KPI1_groupDecision
             // 
             this.KPI1_groupDecision.Controls.Add(this.KPI1_txtDecisionSummary);
-            this.KPI1_groupDecision.Controls.Add(this.radioButton3);
-            this.KPI1_groupDecision.Controls.Add(this.radioButton2);
-            this.KPI1_groupDecision.Controls.Add(this.radioButton1);
+            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision3);
+            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision2);
+            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision1);
             this.KPI1_groupDecision.Location = new System.Drawing.Point(835, 23);
             this.KPI1_groupDecision.Name = "KPI1_groupDecision";
             this.KPI1_groupDecision.Size = new System.Drawing.Size(333, 188);
@@ -268,38 +284,38 @@ namespace StrykerEIP
             this.KPI1_txtDecisionSummary.TabIndex = 3;
             this.KPI1_txtDecisionSummary.Text = "";
             // 
-            // radioButton3
+            // KPI1_radioDecision3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(7, 66);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.KPI1_radioDecision3.AutoSize = true;
+            this.KPI1_radioDecision3.Location = new System.Drawing.Point(7, 66);
+            this.KPI1_radioDecision3.Name = "KPI1_radioDecision3";
+            this.KPI1_radioDecision3.Size = new System.Drawing.Size(85, 17);
+            this.KPI1_radioDecision3.TabIndex = 2;
+            this.KPI1_radioDecision3.TabStop = true;
+            this.KPI1_radioDecision3.Text = "radioButton3";
+            this.KPI1_radioDecision3.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // KPI1_radioDecision2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(7, 43);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.KPI1_radioDecision2.AutoSize = true;
+            this.KPI1_radioDecision2.Location = new System.Drawing.Point(7, 43);
+            this.KPI1_radioDecision2.Name = "KPI1_radioDecision2";
+            this.KPI1_radioDecision2.Size = new System.Drawing.Size(85, 17);
+            this.KPI1_radioDecision2.TabIndex = 1;
+            this.KPI1_radioDecision2.TabStop = true;
+            this.KPI1_radioDecision2.Text = "radioButton2";
+            this.KPI1_radioDecision2.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // KPI1_radioDecision1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(7, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.KPI1_radioDecision1.AutoSize = true;
+            this.KPI1_radioDecision1.Location = new System.Drawing.Point(7, 20);
+            this.KPI1_radioDecision1.Name = "KPI1_radioDecision1";
+            this.KPI1_radioDecision1.Size = new System.Drawing.Size(85, 17);
+            this.KPI1_radioDecision1.TabIndex = 0;
+            this.KPI1_radioDecision1.TabStop = true;
+            this.KPI1_radioDecision1.Text = "radioButton1";
+            this.KPI1_radioDecision1.UseVisualStyleBackColor = true;
             // 
             // KPI1_lblDecisionLogo
             // 
@@ -410,67 +426,67 @@ namespace StrykerEIP
             // 
             // CustomerChart
             // 
-            chartArea1.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend5);
             this.CustomerChart.Location = new System.Drawing.Point(7, 33);
             this.CustomerChart.Name = "CustomerChart";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series5);
             this.CustomerChart.Size = new System.Drawing.Size(285, 247);
             this.CustomerChart.TabIndex = 1;
             this.CustomerChart.Text = "chart1";
             // 
             // FinancialChart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend2);
+            chartArea6.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend6);
             this.FinancialChart.Location = new System.Drawing.Point(311, 33);
             this.FinancialChart.Name = "FinancialChart";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series2.Legend = "Legend1";
-            series2.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series2);
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series6.Legend = "Legend1";
+            series6.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series6);
             this.FinancialChart.Size = new System.Drawing.Size(285, 247);
             this.FinancialChart.TabIndex = 2;
             this.FinancialChart.Text = "chart2";
             // 
             // OperationsChart
             // 
-            chartArea3.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend3);
+            chartArea7.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend7);
             this.OperationsChart.Location = new System.Drawing.Point(615, 33);
             this.OperationsChart.Name = "OperationsChart";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series3.Legend = "Legend1";
-            series3.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series3);
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series7.Legend = "Legend1";
+            series7.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series7);
             this.OperationsChart.Size = new System.Drawing.Size(285, 247);
             this.OperationsChart.TabIndex = 3;
             this.OperationsChart.Text = "chart3";
             // 
             // InnovationsChart
             // 
-            chartArea4.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend4);
+            chartArea8.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend8);
             this.InnovationsChart.Location = new System.Drawing.Point(919, 33);
             this.InnovationsChart.Name = "InnovationsChart";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Legend = "Legend1";
-            series4.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series4);
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series8.Legend = "Legend1";
+            series8.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series8);
             this.InnovationsChart.Size = new System.Drawing.Size(285, 247);
             this.InnovationsChart.TabIndex = 4;
             this.InnovationsChart.Text = "chart4";
@@ -612,22 +628,6 @@ namespace StrykerEIP
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // KPI1_lblVar5
-            // 
-            this.KPI1_lblVar5.AutoSize = true;
-            this.KPI1_lblVar5.Location = new System.Drawing.Point(263, 174);
-            this.KPI1_lblVar5.Name = "KPI1_lblVar5";
-            this.KPI1_lblVar5.Size = new System.Drawing.Size(35, 13);
-            this.KPI1_lblVar5.TabIndex = 20;
-            this.KPI1_lblVar5.Text = "label7";
-            // 
-            // KPI1_txtVar5
-            // 
-            this.KPI1_txtVar5.Location = new System.Drawing.Point(304, 170);
-            this.KPI1_txtVar5.Name = "KPI1_txtVar5";
-            this.KPI1_txtVar5.Size = new System.Drawing.Size(100, 20);
-            this.KPI1_txtVar5.TabIndex = 21;
-            // 
             // BusinessIntelligenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -701,9 +701,9 @@ namespace StrykerEIP
         private System.Windows.Forms.Button KPI1_btnSubmitDecision;
         private System.Windows.Forms.GroupBox KPI1_groupDecision;
         private System.Windows.Forms.RichTextBox KPI1_txtDecisionSummary;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton KPI1_radioDecision3;
+        private System.Windows.Forms.RadioButton KPI1_radioDecision2;
+        private System.Windows.Forms.RadioButton KPI1_radioDecision1;
         private System.Windows.Forms.Label KPI1_lblDecisionLogo;
         private System.Windows.Forms.Label KPI1_lblStateLogo;
         private System.Windows.Forms.Label KPI1_lblCalculateLogo;
