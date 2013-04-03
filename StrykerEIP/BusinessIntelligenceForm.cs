@@ -21,9 +21,6 @@ namespace StrykerEIP
             {
                 subSystem.Click += new EventHandler(subSystem_Click);
             }
-
-            DataServices objDataServices = new DataServices();
-            objDataServices.GetBusinessProcessInfo("CustomerService");
         }
 
         private void subSystem_Click(object sender, EventArgs e)
@@ -39,6 +36,9 @@ namespace StrykerEIP
             this.Text = selectedSubSystem.Text + " Management Dashboard";
             selectedSubSystem.BackColor = Color.Gainsboro;
 
+            // Pull data for selected business process
+            DataServices objDataServices = new DataServices();
+            DataSet dataSetBusinessProcess = objDataServices.GetBusinessProcessInfo(selectedSubSystem.Text.Replace(" ", "").Replace("-", "").Trim());
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -58,18 +58,18 @@ namespace StrykerEIP
             try
             {
                 //This would be used to connect to the pdf file located in the DB.
-                Process.Start("141.218.103.141\\ERP_DATA"); 
+                Process.Start("141.218.103.141\\ERP_DATA");
             }
             catch (Exception ex)
-            { 
+            {
                 //Exception thrown 
-                MessageBox.Show(ex.Message); 
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void BusinessIntelligenceForm_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -97,7 +97,7 @@ namespace StrykerEIP
         {
             //Returns the user back to the main navigation menu
         }
-            
+
         private void contactToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ContactForm frmContact = new ContactForm();
