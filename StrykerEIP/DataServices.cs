@@ -6,14 +6,14 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Configuration;
 using System.Data.Sql;
-using System.Linq;
+//using System.Linq;
 
 namespace StrykerEIP
 {
     class DataServices
     {
         private SqlConnection DataMartConnection = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["EISConnection"].ConnectionString);
-        SqlParameter[] _objectSqlParameters = null;
+        //SqlParameter[] _objectSqlParameters = null;
 
         public DataSet GetBusinessProcessInfo(string businessProcessName)
         {
@@ -42,7 +42,7 @@ namespace StrykerEIP
                     da.TableMappings.Add("KPI9", "States");
                     da.TableMappings.Add("KPI10", "Decisions");
 
-                    da.Fill(dataSetBusinessProcess, "KPI");
+                    //da.Fill(dataSetBusinessProcess, "KPI");
 
                     return dataSetBusinessProcess;
                 }
