@@ -50,6 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
@@ -74,6 +75,7 @@
     <Compile Include="BusinessIntelligenceForm.Designer.cs">
       <DependentUpon>BusinessIntelligenceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataServices.cs" />
     <Compile Include="ContactForm.cs">
       <SubType>Form</SubType>
     </Compile>

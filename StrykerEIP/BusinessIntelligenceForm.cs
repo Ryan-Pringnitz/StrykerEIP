@@ -21,6 +21,9 @@ namespace StrykerEIP
             {
                 subSystem.Click += new EventHandler(subSystem_Click);
             }
+
+            DataServices objDataServices = new DataServices();
+            objDataServices.GetBusinessProcessInfo("CustomerService");
         }
 
         private void subSystem_Click(object sender, EventArgs e)
