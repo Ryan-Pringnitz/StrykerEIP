@@ -86,8 +86,8 @@ namespace StrykerEIP
                             CustomerChart.Series["CustomerSeries"].XValueMember = "Date";
                             CustomerChart.Series["CustomerSeries"].XValueType = ChartValueType.Date;
                             CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
-
                             lblKPI1Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI1_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             //}
                             //else
                             //{
@@ -102,6 +102,7 @@ namespace StrykerEIP
                             OperationsChart.Series["OperationsSeries"].XValueType = ChartValueType.Date;
                             OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
                             lblKPI2Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI2_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             //}
                             break;
                         case 2:
@@ -112,6 +113,7 @@ namespace StrykerEIP
                             FinancialChart.Series["FinancialSeries"].XValueType = ChartValueType.Date;
                             FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
                             lblKPI3Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI3_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             //}
                             break;
                         case 3:
@@ -122,10 +124,12 @@ namespace StrykerEIP
                             InnovationsChart.Series["InnovationsSeries"].XValueType = ChartValueType.Date;
                             InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
                             lblKPI4Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI4_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             //}
                             break;
                     }
                 }
+
 
 
                 //Adds text to the labels for KPI #1
@@ -142,6 +146,11 @@ namespace StrykerEIP
                         KPI1_lblVar3.Visible = false;
                         KPI1_lblVar4.Visible = false;
                         KPI1_lblVar5.Visible = false;
+                        KPI1_txtVar1.Visible = true;
+                        KPI1_txtVar2.Visible = false;
+                        KPI1_txtVar3.Visible = false;
+                        KPI1_txtVar4.Visible = false;
+                        KPI1_txtVar5.Visible = false;
 
                     }
 
@@ -154,6 +163,11 @@ namespace StrykerEIP
                         KPI1_lblVar3.Visible = false;
                         KPI1_lblVar4.Visible = false;
                         KPI1_lblVar5.Visible = false;
+                        KPI1_txtVar1.Visible = true;
+                        KPI1_txtVar2.Visible = true;
+                        KPI1_txtVar3.Visible = false;
+                        KPI1_txtVar4.Visible = false;
+                        KPI1_txtVar5.Visible = false;
                     }
 
 
@@ -167,6 +181,11 @@ namespace StrykerEIP
                         KPI1_lblVar3.Visible = true;
                         KPI1_lblVar4.Visible = false;
                         KPI1_lblVar5.Visible = false;
+                        KPI1_txtVar1.Visible = true;
+                        KPI1_txtVar2.Visible = true;
+                        KPI1_txtVar3.Visible = true;
+                        KPI1_txtVar4.Visible = false;
+                        KPI1_txtVar5.Visible = false;
                     }
                     else { KPI1_lblVar3.Visible = false; KPI1_lblVar4.Visible = false; KPI1_lblVar5.Visible = false; }
 
@@ -182,6 +201,11 @@ namespace StrykerEIP
                         KPI1_lblVar3.Visible = true;
                         KPI1_lblVar4.Visible = true;
                         KPI1_lblVar5.Visible = false;
+                        KPI1_txtVar1.Visible = true;
+                        KPI1_txtVar2.Visible = true;
+                        KPI1_txtVar3.Visible = true;
+                        KPI1_txtVar4.Visible = true;
+                        KPI1_txtVar5.Visible = false;
                     }
                     else { KPI1_lblVar4.Visible = false; KPI1_lblVar5.Visible = false; }
 
@@ -198,6 +222,11 @@ namespace StrykerEIP
                         KPI1_lblVar3.Visible = true;
                         KPI1_lblVar4.Visible = true;
                         KPI1_lblVar5.Visible = true;
+                        KPI1_txtVar1.Visible = true;
+                        KPI1_txtVar2.Visible = true;
+                        KPI1_txtVar3.Visible = true;
+                        KPI1_txtVar4.Visible = true;
+                        KPI1_txtVar5.Visible = true;
                     }
                 }
 
@@ -217,6 +246,11 @@ namespace StrykerEIP
                         KPI2_lblVar3.Visible = false;
                         KPI2_lblVar4.Visible = false;
                         KPI2_lblVar5.Visible = false;
+                        KPI2_txtVar1.Visible = true;
+                        KPI2_txtVar2.Visible = false;
+                        KPI2_txtVar3.Visible = false;
+                        KPI2_txtVar4.Visible = false;
+                        KPI2_txtVar5.Visible = false;
 
                     }
 
@@ -229,6 +263,11 @@ namespace StrykerEIP
                         KPI2_lblVar3.Visible = false;
                         KPI2_lblVar4.Visible = false;
                         KPI2_lblVar5.Visible = false;
+                        KPI2_txtVar1.Visible = true;
+                        KPI2_txtVar2.Visible = true;
+                        KPI2_txtVar3.Visible = false;
+                        KPI2_txtVar4.Visible = false;
+                        KPI2_txtVar5.Visible = false;
                     }
 
 
@@ -242,6 +281,11 @@ namespace StrykerEIP
                         KPI2_lblVar3.Visible = true;
                         KPI2_lblVar4.Visible = false;
                         KPI2_lblVar5.Visible = false;
+                        KPI2_txtVar1.Visible = true;
+                        KPI2_txtVar2.Visible = true;
+                        KPI2_txtVar3.Visible = true;
+                        KPI2_txtVar4.Visible = false;
+                        KPI2_txtVar5.Visible = false;
                     }
                     else { KPI2_lblVar3.Visible = false; KPI2_lblVar4.Visible = false; KPI2_lblVar5.Visible = false; }
 
@@ -257,6 +301,11 @@ namespace StrykerEIP
                         KPI2_lblVar3.Visible = true;
                         KPI2_lblVar4.Visible = true;
                         KPI2_lblVar5.Visible = false;
+                        KPI2_txtVar1.Visible = true;
+                        KPI2_txtVar2.Visible = true;
+                        KPI2_txtVar3.Visible = true;
+                        KPI2_txtVar4.Visible = true;
+                        KPI2_txtVar5.Visible = false;
                     }
                     else { KPI2_lblVar4.Visible = false; KPI2_lblVar5.Visible = false; }
 
@@ -273,6 +322,11 @@ namespace StrykerEIP
                         KPI2_lblVar3.Visible = true;
                         KPI2_lblVar4.Visible = true;
                         KPI2_lblVar5.Visible = true;
+                        KPI2_txtVar1.Visible = true;
+                        KPI2_txtVar2.Visible = true;
+                        KPI2_txtVar3.Visible = true;
+                        KPI2_txtVar4.Visible = true;
+                        KPI2_txtVar5.Visible = true;
                     }
                 }
 
@@ -292,6 +346,11 @@ namespace StrykerEIP
                         KPI3_lblVar3.Visible = false;
                         KPI3_lblVar4.Visible = false;
                         KPI3_lblVar5.Visible = false;
+                        KPI3_txtVar1.Visible = true;
+                        KPI3_txtVar2.Visible = false;
+                        KPI3_txtVar3.Visible = false;
+                        KPI3_txtVar4.Visible = false;
+                        KPI3_txtVar5.Visible = false;
 
                     }
 
@@ -304,6 +363,11 @@ namespace StrykerEIP
                         KPI3_lblVar3.Visible = false;
                         KPI3_lblVar4.Visible = false;
                         KPI3_lblVar5.Visible = false;
+                        KPI3_txtVar1.Visible = true;
+                        KPI3_txtVar2.Visible = true;
+                        KPI3_txtVar3.Visible = false;
+                        KPI3_txtVar4.Visible = false;
+                        KPI3_txtVar5.Visible = false;
                     }
 
 
@@ -317,6 +381,11 @@ namespace StrykerEIP
                         KPI3_lblVar3.Visible = true;
                         KPI3_lblVar4.Visible = false;
                         KPI3_lblVar5.Visible = false;
+                        KPI3_txtVar1.Visible = true;
+                        KPI3_txtVar2.Visible = true;
+                        KPI3_txtVar3.Visible = true;
+                        KPI3_txtVar4.Visible = false;
+                        KPI3_txtVar5.Visible = false;
                     }
 
                     if (j == 3)
@@ -330,6 +399,11 @@ namespace StrykerEIP
                         KPI3_lblVar3.Visible = true;
                         KPI3_lblVar4.Visible = true;
                         KPI3_lblVar5.Visible = false;
+                        KPI3_txtVar1.Visible = true;
+                        KPI3_txtVar2.Visible = true;
+                        KPI3_txtVar3.Visible = true;
+                        KPI3_txtVar4.Visible = true;
+                        KPI3_txtVar5.Visible = false;
                     }
 
                     if (j == 4)
@@ -344,6 +418,11 @@ namespace StrykerEIP
                         KPI3_lblVar3.Visible = true;
                         KPI3_lblVar4.Visible = true;
                         KPI3_lblVar5.Visible = true;
+                        KPI3_txtVar1.Visible = true;
+                        KPI3_txtVar2.Visible = true;
+                        KPI3_txtVar3.Visible = true;
+                        KPI3_txtVar4.Visible = true;
+                        KPI3_txtVar5.Visible = true;
                     }
                 }
 
@@ -364,6 +443,11 @@ namespace StrykerEIP
                         KPI4_lblVar3.Visible = false;
                         KPI4_lblVar4.Visible = false;
                         KPI4_lblVar5.Visible = false;
+                        KPI4_txtVar1.Visible = true;
+                        KPI4_txtVar2.Visible = false;
+                        KPI4_txtVar3.Visible = false;
+                        KPI4_txtVar4.Visible = false;
+                        KPI4_txtVar5.Visible = false;
 
                     }
 
@@ -376,6 +460,11 @@ namespace StrykerEIP
                         KPI4_lblVar3.Visible = false;
                         KPI4_lblVar4.Visible = false;
                         KPI4_lblVar5.Visible = false;
+                        KPI4_txtVar1.Visible = true;
+                        KPI4_txtVar2.Visible = true;
+                        KPI4_txtVar3.Visible = false;
+                        KPI4_txtVar4.Visible = false;
+                        KPI4_txtVar5.Visible = false;
                     }
 
 
@@ -389,6 +478,11 @@ namespace StrykerEIP
                         KPI4_lblVar3.Visible = true;
                         KPI4_lblVar4.Visible = false;
                         KPI4_lblVar5.Visible = false;
+                        KPI4_txtVar1.Visible = true;
+                        KPI4_txtVar2.Visible = true;
+                        KPI4_txtVar3.Visible = true;
+                        KPI4_txtVar4.Visible = false;
+                        KPI4_txtVar5.Visible = false;
                     }
                     else { KPI4_lblVar3.Visible = false; KPI4_lblVar4.Visible = false; KPI4_lblVar5.Visible = false; }
 
@@ -404,6 +498,11 @@ namespace StrykerEIP
                         KPI4_lblVar3.Visible = true;
                         KPI4_lblVar4.Visible = true;
                         KPI4_lblVar5.Visible = false;
+                        KPI4_txtVar1.Visible = true;
+                        KPI4_txtVar2.Visible = true;
+                        KPI4_txtVar3.Visible = true;
+                        KPI4_txtVar4.Visible = true;
+                        KPI4_txtVar5.Visible = false;
                     }
                     else { KPI4_lblVar4.Visible = false; KPI4_lblVar5.Visible = false; }
 
@@ -420,6 +519,11 @@ namespace StrykerEIP
                         KPI4_lblVar3.Visible = true;
                         KPI4_lblVar4.Visible = true;
                         KPI4_lblVar5.Visible = true;
+                        KPI4_txtVar1.Visible = true;
+                        KPI4_txtVar2.Visible = true;
+                        KPI4_txtVar3.Visible = true;
+                        KPI4_txtVar4.Visible = true;
+                        KPI4_txtVar5.Visible = true;
                     }
                 }
 
