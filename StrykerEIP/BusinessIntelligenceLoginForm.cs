@@ -20,7 +20,7 @@ namespace StrykerEIP
         {
 
             //Verify UserName, alert if user enterted invalid information and clear contents.  EDP
-            if (biUserNameTextBox.Text != "CIS4990")
+            if (biUserNameTextBox.Text != "")
             {
                 MessageBox.Show("Please Enter a Valid Login User Name", "Invalid Login UserName", MessageBoxButtons.OK);
                 biUserNameTextBox.Text = "";
@@ -28,7 +28,7 @@ namespace StrykerEIP
             }
             else
             {
-                if (biPasswordTextBox.Text != "CIS4990")
+                if (biPasswordTextBox.Text != "")
                 {
                     MessageBox.Show("Please Enter a Valid Login Password", "Invalid Login Password", MessageBoxButtons.OK);
                     //biUserNameTextBox.Text = "";
