@@ -25,9 +25,6 @@ namespace StrykerEIP
 
         private void subSystem_Click(object sender, EventArgs e)
         {
-            //Disable Spash Screen visibility to display Data.  EDP
-
-            bidSplashScreenGroupBox.Visible = false;
             
             //Add comments
             var selectedSubSystem = (ToolStripItem)sender;
@@ -69,19 +66,6 @@ namespace StrykerEIP
                 //Exception thrown 
                 MessageBox.Show(ex.Message);
             }
-        }
-
-        private void BusinessIntelligenceForm_Load(object sender, EventArgs e)
-        {
-            //Set the visibility of BID splash Screen and Disable/Enable Menu Items and Group Boxes for Login Procedure. EDP
-            bidSplashScreenGroupBox.Visible = true;
-            perspectivesToolStripMenuItem.Enabled = false;
-            biLoginGroupBox.Enabled = true;
-            biLoginGroupBox.Visible = true;
-            biMessageGroupBox.Visible = true;
-            biBoldedLoginLabel.Visible = true;
-            biBoldedSubSystemsLabel.Visible = true;
-            biSplashChooseAreaGroupBox.Visible = false;
         }
 
         private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -154,62 +138,5 @@ namespace StrykerEIP
                 KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
             }
         }
-
-        private void biLoginButton_Click(object sender, EventArgs e)
-        {
-            //Create Login Validation to verify user is eligible to view Business Intel. EDP
-
-
-            //Verify UserName, alert if user enterted invalid information and clear contents.  EDP
-            if (biUserNameTextBox.Text != "CIS4990")
-            {
-                MessageBox.Show("Please Enter a Valid Login User Name", "Invalid Login UserName", MessageBoxButtons.OK);
-                biUserNameTextBox.Text = "";
-                biPasswordTextBox.Text = "";
-            }
-            else
-            {
-                if (biPasswordTextBox.Text != "CIS4990")
-                {
-                    MessageBox.Show("Please Enter a Valid Login Password", "Invalid Login Password", MessageBoxButtons.OK);
-                    //biUserNameTextBox.Text = "";
-                    //biPasswordTextBox.Text = "";
-                }
-                else
-                {
-
-                    //Upon successful login validation, enable perspectives selection and hide login request.
-                    perspectivesToolStripMenuItem.Enabled = true;
-                    biLoginGroupBox.Enabled = false;
-                    biLoginGroupBox.Visible = false;
-                    biMessageGroupBox.Visible = false;
-                    biBoldedLoginLabel.Visible = false;
-                    biBoldedSubSystemsLabel.Visible = false;
-                    biSplashChooseAreaGroupBox.Visible = true;
-                }
-            }
-
-        }
-
-        private void biLoginClearButton_Click(object sender, EventArgs e)
-        {
-            //Clear the contents of Login User Name and Password. EDP
-            biUserNameTextBox.Text = "";
-            biPasswordTextBox.Text = "";
-        }
-
-        private void biSplashCancelButton_Click(object sender, EventArgs e)
-        {
-            //Program the splash screen cancel button. Returns the user back to the main navigation menu. EDP
-            MainDashboardForm frmMD = new MainDashboardForm();
-            this.Hide();
-            frmMD.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-    }
+     }
 }

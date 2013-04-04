@@ -31,18 +31,18 @@ namespace StrykerEIP
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BusinessIntelligenceForm));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.KPI4_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
             this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
@@ -96,25 +96,6 @@ namespace StrykerEIP
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bidSplashScreenGroupBox = new System.Windows.Forms.GroupBox();
-            this.biSplashChooseAreaGroupBox = new System.Windows.Forms.GroupBox();
-            this.biSplashChooseSubRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.biLoginGroupBox = new System.Windows.Forms.GroupBox();
-            this.biPasswordTextBox = new System.Windows.Forms.TextBox();
-            this.biUserNameTextBox = new System.Windows.Forms.TextBox();
-            this.biLoginClearButton = new System.Windows.Forms.Button();
-            this.biLoginButton = new System.Windows.Forms.Button();
-            this.biPasswordLabel = new System.Windows.Forms.Label();
-            this.biUserNameLabel = new System.Windows.Forms.Label();
-            this.biMessageGroupBox = new System.Windows.Forms.GroupBox();
-            this.biBoldedSubSystemsLabel = new System.Windows.Forms.Label();
-            this.biBoldedLoginLabel = new System.Windows.Forms.Label();
-            this.biSplashScreenRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.biSplashHelpButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.biSplashCancelButton = new System.Windows.Forms.Button();
-            this.biWelcomeLabel = new System.Windows.Forms.Label();
-            this.biSplashScreenLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.KPI4_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -123,11 +104,6 @@ namespace StrykerEIP
             ((System.ComponentModel.ISupportInitialize)(this.OperationsChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            this.bidSplashScreenGroupBox.SuspendLayout();
-            this.biSplashChooseAreaGroupBox.SuspendLayout();
-            this.biLoginGroupBox.SuspendLayout();
-            this.biMessageGroupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.biSplashScreenLogoPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // KPI4_tabPage
@@ -144,7 +120,6 @@ namespace StrykerEIP
             // 
             // KPI1_tabPage
             // 
-            this.KPI1_tabPage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("KPI1_tabPage.BackgroundImage")));
             this.KPI1_tabPage.Controls.Add(this.KPI1_txtVar5);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblVar5);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblState);
@@ -456,16 +431,16 @@ namespace StrykerEIP
             // CustomerChart
             // 
             this.CustomerChart.BackColor = System.Drawing.Color.Transparent;
-            chartArea5.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend1);
             this.CustomerChart.Location = new System.Drawing.Point(7, 33);
             this.CustomerChart.Name = "CustomerChart";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series1);
             this.CustomerChart.Size = new System.Drawing.Size(285, 247);
             this.CustomerChart.TabIndex = 1;
             this.CustomerChart.Text = "chart1";
@@ -473,17 +448,17 @@ namespace StrykerEIP
             // FinancialChart
             // 
             this.FinancialChart.BackColor = System.Drawing.Color.Transparent;
-            chartArea6.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend6);
+            chartArea2.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend2);
             this.FinancialChart.Location = new System.Drawing.Point(311, 33);
             this.FinancialChart.Name = "FinancialChart";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series6.Legend = "Legend1";
-            series6.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series6);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series2.Legend = "Legend1";
+            series2.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series2);
             this.FinancialChart.Size = new System.Drawing.Size(285, 247);
             this.FinancialChart.TabIndex = 2;
             this.FinancialChart.Text = "chart2";
@@ -491,17 +466,17 @@ namespace StrykerEIP
             // OperationsChart
             // 
             this.OperationsChart.BackColor = System.Drawing.Color.Transparent;
-            chartArea7.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend7);
+            chartArea3.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend3);
             this.OperationsChart.Location = new System.Drawing.Point(615, 33);
             this.OperationsChart.Name = "OperationsChart";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series7.Legend = "Legend1";
-            series7.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series7);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series3.Legend = "Legend1";
+            series3.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series3);
             this.OperationsChart.Size = new System.Drawing.Size(285, 247);
             this.OperationsChart.TabIndex = 3;
             this.OperationsChart.Text = "chart3";
@@ -509,17 +484,17 @@ namespace StrykerEIP
             // InnovationsChart
             // 
             this.InnovationsChart.BackColor = System.Drawing.Color.Transparent;
-            chartArea8.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea8);
-            legend8.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend8);
+            chartArea4.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend4);
             this.InnovationsChart.Location = new System.Drawing.Point(919, 33);
             this.InnovationsChart.Name = "InnovationsChart";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series8);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Legend = "Legend1";
+            series4.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series4);
             this.InnovationsChart.Size = new System.Drawing.Size(285, 247);
             this.InnovationsChart.TabIndex = 4;
             this.InnovationsChart.Text = "chart4";
@@ -591,7 +566,6 @@ namespace StrykerEIP
             this.productionToolStripMenuItem,
             this.customerServiceToolStripMenuItem,
             this.humanResourcesToolStripMenuItem});
-            this.perspectivesToolStripMenuItem.Enabled = false;
             this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
             this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.perspectivesToolStripMenuItem.Text = "Subsystem";
@@ -662,227 +636,12 @@ namespace StrykerEIP
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // bidSplashScreenGroupBox
-            // 
-            this.bidSplashScreenGroupBox.BackColor = System.Drawing.Color.Maroon;
-            this.bidSplashScreenGroupBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bidSplashScreenGroupBox.BackgroundImage")));
-            this.bidSplashScreenGroupBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bidSplashScreenGroupBox.Controls.Add(this.biSplashChooseAreaGroupBox);
-            this.bidSplashScreenGroupBox.Controls.Add(this.biLoginGroupBox);
-            this.bidSplashScreenGroupBox.Controls.Add(this.biMessageGroupBox);
-            this.bidSplashScreenGroupBox.Controls.Add(this.biWelcomeLabel);
-            this.bidSplashScreenGroupBox.Controls.Add(this.biSplashScreenLogoPictureBox);
-            this.bidSplashScreenGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.bidSplashScreenGroupBox.Location = new System.Drawing.Point(7, 29);
-            this.bidSplashScreenGroupBox.Name = "bidSplashScreenGroupBox";
-            this.bidSplashScreenGroupBox.Size = new System.Drawing.Size(1209, 564);
-            this.bidSplashScreenGroupBox.TabIndex = 6;
-            this.bidSplashScreenGroupBox.TabStop = false;
-            this.bidSplashScreenGroupBox.Text = "Business Intelligence User Interface 1.0";
-            // 
-            // biSplashChooseAreaGroupBox
-            // 
-            this.biSplashChooseAreaGroupBox.BackColor = System.Drawing.Color.Transparent;
-            this.biSplashChooseAreaGroupBox.Controls.Add(this.biSplashChooseSubRichTextBox);
-            this.biSplashChooseAreaGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.biSplashChooseAreaGroupBox.Location = new System.Drawing.Point(853, 349);
-            this.biSplashChooseAreaGroupBox.Name = "biSplashChooseAreaGroupBox";
-            this.biSplashChooseAreaGroupBox.Size = new System.Drawing.Size(244, 153);
-            this.biSplashChooseAreaGroupBox.TabIndex = 10;
-            this.biSplashChooseAreaGroupBox.TabStop = false;
-            this.biSplashChooseAreaGroupBox.Text = "Choose a Sub System";
-            this.biSplashChooseAreaGroupBox.Visible = false;
-            // 
-            // biSplashChooseSubRichTextBox
-            // 
-            this.biSplashChooseSubRichTextBox.BackColor = System.Drawing.Color.Maroon;
-            this.biSplashChooseSubRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biSplashChooseSubRichTextBox.Location = new System.Drawing.Point(19, 28);
-            this.biSplashChooseSubRichTextBox.Name = "biSplashChooseSubRichTextBox";
-            this.biSplashChooseSubRichTextBox.Size = new System.Drawing.Size(205, 100);
-            this.biSplashChooseSubRichTextBox.TabIndex = 0;
-            this.biSplashChooseSubRichTextBox.Text = "To view specific Functional Areas Choose a function from the \"Sub Systems\" menu b" +
-                "ar.";
-            // 
-            // biLoginGroupBox
-            // 
-            this.biLoginGroupBox.BackColor = System.Drawing.Color.Transparent;
-            this.biLoginGroupBox.Controls.Add(this.biPasswordTextBox);
-            this.biLoginGroupBox.Controls.Add(this.biUserNameTextBox);
-            this.biLoginGroupBox.Controls.Add(this.biLoginClearButton);
-            this.biLoginGroupBox.Controls.Add(this.biLoginButton);
-            this.biLoginGroupBox.Controls.Add(this.biPasswordLabel);
-            this.biLoginGroupBox.Controls.Add(this.biUserNameLabel);
-            this.biLoginGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.biLoginGroupBox.Location = new System.Drawing.Point(577, 349);
-            this.biLoginGroupBox.Name = "biLoginGroupBox";
-            this.biLoginGroupBox.Size = new System.Drawing.Size(244, 153);
-            this.biLoginGroupBox.TabIndex = 9;
-            this.biLoginGroupBox.TabStop = false;
-            this.biLoginGroupBox.Text = "Provide Login Information:";
-            // 
-            // biPasswordTextBox
-            // 
-            this.biPasswordTextBox.Location = new System.Drawing.Point(102, 61);
-            this.biPasswordTextBox.Name = "biPasswordTextBox";
-            this.biPasswordTextBox.Size = new System.Drawing.Size(100, 20);
-            this.biPasswordTextBox.TabIndex = 11;
-            // 
-            // biUserNameTextBox
-            // 
-            this.biUserNameTextBox.Location = new System.Drawing.Point(104, 25);
-            this.biUserNameTextBox.Name = "biUserNameTextBox";
-            this.biUserNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.biUserNameTextBox.TabIndex = 10;
-            // 
-            // biLoginClearButton
-            // 
-            this.biLoginClearButton.Location = new System.Drawing.Point(128, 100);
-            this.biLoginClearButton.Name = "biLoginClearButton";
-            this.biLoginClearButton.Size = new System.Drawing.Size(85, 33);
-            this.biLoginClearButton.TabIndex = 14;
-            this.biLoginClearButton.Text = "C&lear";
-            this.biLoginClearButton.UseVisualStyleBackColor = true;
-            this.biLoginClearButton.Click += new System.EventHandler(this.biLoginClearButton_Click);
-            // 
-            // biLoginButton
-            // 
-            this.biLoginButton.Location = new System.Drawing.Point(28, 100);
-            this.biLoginButton.Name = "biLoginButton";
-            this.biLoginButton.Size = new System.Drawing.Size(85, 33);
-            this.biLoginButton.TabIndex = 13;
-            this.biLoginButton.Text = "&Login";
-            this.biLoginButton.UseVisualStyleBackColor = true;
-            this.biLoginButton.Click += new System.EventHandler(this.biLoginButton_Click);
-            // 
-            // biPasswordLabel
-            // 
-            this.biPasswordLabel.AutoSize = true;
-            this.biPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biPasswordLabel.Location = new System.Drawing.Point(25, 63);
-            this.biPasswordLabel.Name = "biPasswordLabel";
-            this.biPasswordLabel.Size = new System.Drawing.Size(71, 16);
-            this.biPasswordLabel.TabIndex = 10;
-            this.biPasswordLabel.Text = "Password:";
-            // 
-            // biUserNameLabel
-            // 
-            this.biUserNameLabel.AutoSize = true;
-            this.biUserNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biUserNameLabel.Location = new System.Drawing.Point(21, 28);
-            this.biUserNameLabel.Name = "biUserNameLabel";
-            this.biUserNameLabel.Size = new System.Drawing.Size(77, 16);
-            this.biUserNameLabel.TabIndex = 0;
-            this.biUserNameLabel.Text = "UserName:";
-            // 
-            // biMessageGroupBox
-            // 
-            this.biMessageGroupBox.BackColor = System.Drawing.Color.Transparent;
-            this.biMessageGroupBox.Controls.Add(this.biBoldedSubSystemsLabel);
-            this.biMessageGroupBox.Controls.Add(this.biBoldedLoginLabel);
-            this.biMessageGroupBox.Controls.Add(this.biSplashScreenRichTextBox);
-            this.biMessageGroupBox.Controls.Add(this.biSplashHelpButton);
-            this.biMessageGroupBox.Controls.Add(this.button3);
-            this.biMessageGroupBox.Controls.Add(this.biSplashCancelButton);
-            this.biMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biMessageGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.biMessageGroupBox.Location = new System.Drawing.Point(74, 349);
-            this.biMessageGroupBox.Name = "biMessageGroupBox";
-            this.biMessageGroupBox.Size = new System.Drawing.Size(449, 153);
-            this.biMessageGroupBox.TabIndex = 8;
-            this.biMessageGroupBox.TabStop = false;
-            this.biMessageGroupBox.Text = "Login to Specify Area of Interest";
-            // 
-            // biBoldedSubSystemsLabel
-            // 
-            this.biBoldedSubSystemsLabel.AutoSize = true;
-            this.biBoldedSubSystemsLabel.BackColor = System.Drawing.Color.Maroon;
-            this.biBoldedSubSystemsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biBoldedSubSystemsLabel.Location = new System.Drawing.Point(117, 63);
-            this.biBoldedSubSystemsLabel.Name = "biBoldedSubSystemsLabel";
-            this.biBoldedSubSystemsLabel.Size = new System.Drawing.Size(119, 18);
-            this.biBoldedSubSystemsLabel.TabIndex = 10;
-            this.biBoldedSubSystemsLabel.Text = "\"Sub Systems\"";
-            // 
-            // biBoldedLoginLabel
-            // 
-            this.biBoldedLoginLabel.AutoSize = true;
-            this.biBoldedLoginLabel.BackColor = System.Drawing.Color.Maroon;
-            this.biBoldedLoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biBoldedLoginLabel.Location = new System.Drawing.Point(265, 24);
-            this.biBoldedLoginLabel.Name = "biBoldedLoginLabel";
-            this.biBoldedLoginLabel.Size = new System.Drawing.Size(66, 18);
-            this.biBoldedLoginLabel.TabIndex = 8;
-            this.biBoldedLoginLabel.Text = "\"Log In\"";
-            // 
-            // biSplashScreenRichTextBox
-            // 
-            this.biSplashScreenRichTextBox.BackColor = System.Drawing.Color.Maroon;
-            this.biSplashScreenRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biSplashScreenRichTextBox.Location = new System.Drawing.Point(16, 19);
-            this.biSplashScreenRichTextBox.Name = "biSplashScreenRichTextBox";
-            this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
-            this.biSplashScreenRichTextBox.TabIndex = 2;
-            this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  and choose the area of Stryk" +
-                "er of wish to review from the drop down menu labeled";
-            // 
-            // biSplashHelpButton
-            // 
-            this.biSplashHelpButton.Location = new System.Drawing.Point(26, 102);
-            this.biSplashHelpButton.Name = "biSplashHelpButton";
-            this.biSplashHelpButton.Size = new System.Drawing.Size(93, 31);
-            this.biSplashHelpButton.TabIndex = 5;
-            this.biSplashHelpButton.Text = "&Help";
-            this.biSplashHelpButton.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(268, 102);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(91, 31);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "E&xit";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // biSplashCancelButton
-            // 
-            this.biSplashCancelButton.Location = new System.Drawing.Point(136, 103);
-            this.biSplashCancelButton.Name = "biSplashCancelButton";
-            this.biSplashCancelButton.Size = new System.Drawing.Size(116, 30);
-            this.biSplashCancelButton.TabIndex = 6;
-            this.biSplashCancelButton.Text = "&Cancel";
-            this.biSplashCancelButton.UseVisualStyleBackColor = true;
-            this.biSplashCancelButton.Click += new System.EventHandler(this.biSplashCancelButton_Click);
-            // 
-            // biWelcomeLabel
-            // 
-            this.biWelcomeLabel.AutoSize = true;
-            this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.biWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biWelcomeLabel.Location = new System.Drawing.Point(14, 316);
-            this.biWelcomeLabel.Name = "biWelcomeLabel";
-            this.biWelcomeLabel.Size = new System.Drawing.Size(506, 24);
-            this.biWelcomeLabel.TabIndex = 4;
-            this.biWelcomeLabel.Text = "Welcome to the Stryker Business Intelligence Module";
-            // 
-            // biSplashScreenLogoPictureBox
-            // 
-            this.biSplashScreenLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("biSplashScreenLogoPictureBox.Image")));
-            this.biSplashScreenLogoPictureBox.Location = new System.Drawing.Point(564, 164);
-            this.biSplashScreenLogoPictureBox.Name = "biSplashScreenLogoPictureBox";
-            this.biSplashScreenLogoPictureBox.Size = new System.Drawing.Size(595, 152);
-            this.biSplashScreenLogoPictureBox.TabIndex = 3;
-            this.biSplashScreenLogoPictureBox.TabStop = false;
-            this.biSplashScreenLogoPictureBox.Visible = false;
-            // 
             // BusinessIntelligenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1216, 609);
-            this.Controls.Add(this.bidSplashScreenGroupBox);
             this.Controls.Add(this.InnovationsChart);
             this.Controls.Add(this.OperationsChart);
             this.Controls.Add(this.FinancialChart);
@@ -892,7 +651,6 @@ namespace StrykerEIP
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BusinessIntelligenceForm";
             this.Text = "Business Intelligence Dashboard";
-            this.Load += new System.EventHandler(this.BusinessIntelligenceForm_Load);
             this.KPI4_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.PerformLayout();
@@ -904,14 +662,6 @@ namespace StrykerEIP
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.bidSplashScreenGroupBox.ResumeLayout(false);
-            this.bidSplashScreenGroupBox.PerformLayout();
-            this.biSplashChooseAreaGroupBox.ResumeLayout(false);
-            this.biLoginGroupBox.ResumeLayout(false);
-            this.biLoginGroupBox.PerformLayout();
-            this.biMessageGroupBox.ResumeLayout(false);
-            this.biMessageGroupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.biSplashScreenLogoPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -972,25 +722,6 @@ namespace StrykerEIP
         private System.Windows.Forms.Label lblColumn1;
         private System.Windows.Forms.TextBox KPI1_txtVar5;
         private System.Windows.Forms.Label KPI1_lblVar5;
-        private System.Windows.Forms.GroupBox bidSplashScreenGroupBox;
-        private System.Windows.Forms.Label biWelcomeLabel;
-        private System.Windows.Forms.PictureBox biSplashScreenLogoPictureBox;
-        private System.Windows.Forms.RichTextBox biSplashScreenRichTextBox;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button biSplashCancelButton;
-        private System.Windows.Forms.Button biSplashHelpButton;
-        private System.Windows.Forms.GroupBox biLoginGroupBox;
-        private System.Windows.Forms.GroupBox biMessageGroupBox;
-        private System.Windows.Forms.Button biLoginClearButton;
-        private System.Windows.Forms.Button biLoginButton;
-        private System.Windows.Forms.Label biPasswordLabel;
-        private System.Windows.Forms.Label biUserNameLabel;
-        private System.Windows.Forms.Label biBoldedSubSystemsLabel;
-        private System.Windows.Forms.Label biBoldedLoginLabel;
-        private System.Windows.Forms.TextBox biUserNameTextBox;
-        private System.Windows.Forms.TextBox biPasswordTextBox;
-        private System.Windows.Forms.GroupBox biSplashChooseAreaGroupBox;
-        private System.Windows.Forms.RichTextBox biSplashChooseSubRichTextBox;
     }
 }
 

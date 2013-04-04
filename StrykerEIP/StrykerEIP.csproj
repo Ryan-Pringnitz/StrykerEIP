@@ -75,6 +75,12 @@
     <Compile Include="BusinessIntelligenceForm.Designer.cs">
       <DependentUpon>BusinessIntelligenceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BusinessIntelligenceLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusinessIntelligenceLoginForm.Designer.cs">
+      <DependentUpon>BusinessIntelligenceLoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataServices.cs" />
     <Compile Include="ContactForm.cs">
       <SubType>Form</SubType>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BusinessIntelligenceForm.resx">
       <DependentUpon>BusinessIntelligenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusinessIntelligenceLoginForm.resx">
+      <DependentUpon>BusinessIntelligenceLoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContactForm.resx">
       <DependentUpon>ContactForm.cs</DependentUpon>
