@@ -41,7 +41,7 @@ namespace StrykerEIP
             this.Text = selectedSubSystem.Text + " Management Dashboard";
             selectedSubSystem.BackColor = Color.Gainsboro;
 
-
+            lblBusinessProcessName.Text = selectedSubSystem.Text + " Management Dashboard";
 
             try
             {
