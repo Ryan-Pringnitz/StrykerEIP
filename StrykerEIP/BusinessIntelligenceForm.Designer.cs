@@ -44,7 +44,7 @@ namespace StrykerEIP
             System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BusinessIntelligenceForm));
-            this.KPI4_tabPage = new System.Windows.Forms.TabControl();
+            this.KPIs_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
             this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
             this.KPI1_lblVar5 = new System.Windows.Forms.Label();
@@ -123,7 +123,7 @@ namespace StrykerEIP
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.InnovationsTabPage = new System.Windows.Forms.TabPage();
+            this.KPI4_tabPage = new System.Windows.Forms.TabPage();
             this.KPI4_txtVar5 = new System.Windows.Forms.TextBox();
             this.KPI4_lblVar5 = new System.Windows.Forms.Label();
             this.KPI4_lblState = new System.Windows.Forms.Label();
@@ -176,14 +176,14 @@ namespace StrykerEIP
             this.lblKPI2Name = new System.Windows.Forms.Label();
             this.lblKPI3Name = new System.Windows.Forms.Label();
             this.lblKPI4Name = new System.Windows.Forms.Label();
-            this.KPI4_tabPage.SuspendLayout();
+            this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
             this.KPI2_tabPage.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.KPI3_tabPage.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.InnovationsTabPage.SuspendLayout();
+            this.KPI4_tabPage.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationsChart)).BeginInit();
@@ -192,17 +192,17 @@ namespace StrykerEIP
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).BeginInit();
             this.SuspendLayout();
             // 
-            // KPI4_tabPage
+            // KPIs_tabPage
             // 
-            this.KPI4_tabPage.Controls.Add(this.KPI1_tabPage);
-            this.KPI4_tabPage.Controls.Add(this.KPI2_tabPage);
-            this.KPI4_tabPage.Controls.Add(this.KPI3_tabPage);
-            this.KPI4_tabPage.Controls.Add(this.InnovationsTabPage);
-            this.KPI4_tabPage.Location = new System.Drawing.Point(12, 561);
-            this.KPI4_tabPage.Name = "KPI4_tabPage";
-            this.KPI4_tabPage.SelectedIndex = 0;
-            this.KPI4_tabPage.Size = new System.Drawing.Size(1580, 309);
-            this.KPI4_tabPage.TabIndex = 0;
+            this.KPIs_tabPage.Controls.Add(this.KPI1_tabPage);
+            this.KPIs_tabPage.Controls.Add(this.KPI2_tabPage);
+            this.KPIs_tabPage.Controls.Add(this.KPI3_tabPage);
+            this.KPIs_tabPage.Controls.Add(this.KPI4_tabPage);
+            this.KPIs_tabPage.Location = new System.Drawing.Point(12, 561);
+            this.KPIs_tabPage.Name = "KPIs_tabPage";
+            this.KPIs_tabPage.SelectedIndex = 0;
+            this.KPIs_tabPage.Size = new System.Drawing.Size(1580, 309);
+            this.KPIs_tabPage.TabIndex = 0;
             // 
             // KPI1_tabPage
             // 
@@ -997,37 +997,37 @@ namespace StrykerEIP
             this.label28.Size = new System.Drawing.Size(10, 285);
             this.label28.TabIndex = 22;
             // 
-            // InnovationsTabPage
+            // KPI4_tabPage
             // 
-            this.InnovationsTabPage.Controls.Add(this.KPI4_txtVar5);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_lblVar5);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_lblState);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_btnCalculate);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_lblVar4);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_lblVar3);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_lblVar2);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_lblVar1);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_txtVar4);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_txtVar3);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_txtVar2);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_txtVar1);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_btnSubmitDecision);
-            this.InnovationsTabPage.Controls.Add(this.groupBox3);
-            this.InnovationsTabPage.Controls.Add(this.label35);
-            this.InnovationsTabPage.Controls.Add(this.label36);
-            this.InnovationsTabPage.Controls.Add(this.label37);
-            this.InnovationsTabPage.Controls.Add(this.label38);
-            this.InnovationsTabPage.Controls.Add(this.KPI4_txtKPISummary);
-            this.InnovationsTabPage.Controls.Add(this.label39);
-            this.InnovationsTabPage.Controls.Add(this.label40);
-            this.InnovationsTabPage.Controls.Add(this.label41);
-            this.InnovationsTabPage.Location = new System.Drawing.Point(4, 22);
-            this.InnovationsTabPage.Name = "InnovationsTabPage";
-            this.InnovationsTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.InnovationsTabPage.Size = new System.Drawing.Size(1572, 283);
-            this.InnovationsTabPage.TabIndex = 3;
-            this.InnovationsTabPage.Text = "Innovations";
-            this.InnovationsTabPage.UseVisualStyleBackColor = true;
+            this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar5);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_lblVar5);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_lblState);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_btnCalculate);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_lblVar4);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_lblVar3);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_lblVar2);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_lblVar1);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar4);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar3);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar2);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar1);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_btnSubmitDecision);
+            this.KPI4_tabPage.Controls.Add(this.groupBox3);
+            this.KPI4_tabPage.Controls.Add(this.label35);
+            this.KPI4_tabPage.Controls.Add(this.label36);
+            this.KPI4_tabPage.Controls.Add(this.label37);
+            this.KPI4_tabPage.Controls.Add(this.label38);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_txtKPISummary);
+            this.KPI4_tabPage.Controls.Add(this.label39);
+            this.KPI4_tabPage.Controls.Add(this.label40);
+            this.KPI4_tabPage.Controls.Add(this.label41);
+            this.KPI4_tabPage.Location = new System.Drawing.Point(4, 22);
+            this.KPI4_tabPage.Name = "KPI4_tabPage";
+            this.KPI4_tabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.KPI4_tabPage.Size = new System.Drawing.Size(1572, 283);
+            this.KPI4_tabPage.TabIndex = 3;
+            this.KPI4_tabPage.Text = "Innovations";
+            this.KPI4_tabPage.UseVisualStyleBackColor = true;
             // 
             // KPI4_txtVar5
             // 
@@ -1553,12 +1553,12 @@ namespace StrykerEIP
             this.Controls.Add(this.OperationsChart);
             this.Controls.Add(this.FinancialChart);
             this.Controls.Add(this.CustomerChart);
-            this.Controls.Add(this.KPI4_tabPage);
+            this.Controls.Add(this.KPIs_tabPage);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BusinessIntelligenceForm";
             this.Text = "Business Intelligence Dashboard";
-            this.KPI4_tabPage.ResumeLayout(false);
+            this.KPIs_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.PerformLayout();
             this.KPI1_groupDecision.ResumeLayout(false);
@@ -1571,8 +1571,8 @@ namespace StrykerEIP
             this.KPI3_tabPage.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.InnovationsTabPage.ResumeLayout(false);
-            this.InnovationsTabPage.PerformLayout();
+            this.KPI4_tabPage.ResumeLayout(false);
+            this.KPI4_tabPage.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).EndInit();
@@ -1588,11 +1588,11 @@ namespace StrykerEIP
 
         #endregion
 
-        private System.Windows.Forms.TabControl KPI4_tabPage;
+        private System.Windows.Forms.TabControl KPIs_tabPage;
         private System.Windows.Forms.TabPage KPI1_tabPage;
         private System.Windows.Forms.TabPage KPI2_tabPage;
         private System.Windows.Forms.TabPage KPI3_tabPage;
-        private System.Windows.Forms.TabPage InnovationsTabPage;
+        private System.Windows.Forms.TabPage KPI4_tabPage;
         private System.Windows.Forms.DataVisualization.Charting.Chart CustomerChart;
         private System.Windows.Forms.DataVisualization.Charting.Chart OperationsChart;
         private System.Windows.Forms.DataVisualization.Charting.Chart InnovationsChart;
