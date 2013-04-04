@@ -14,6 +14,9 @@ namespace StrykerEIP
         public MainDashboardForm()
         {
             InitializeComponent();
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void mdBusinessIntelligenceButton_Click(object sender, EventArgs e)

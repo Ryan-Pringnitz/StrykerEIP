@@ -14,6 +14,9 @@ namespace StrykerEIP
         public BusinessIntelligenceLoginForm()
         {
             InitializeComponent();
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void biLoginButton_Click(object sender, EventArgs e)

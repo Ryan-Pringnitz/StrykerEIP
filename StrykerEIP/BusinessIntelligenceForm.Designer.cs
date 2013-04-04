@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms.DataVisualization.Charting;
+﻿using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace StrykerEIP
 {
@@ -433,6 +434,7 @@ namespace StrykerEIP
             this.CustomerChart.BackColor = System.Drawing.Color.Transparent;
             chartArea1.Name = "ChartArea1";
             this.CustomerChart.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
             legend1.Name = "Legend1";
             this.CustomerChart.Legends.Add(legend1);
             this.CustomerChart.Location = new System.Drawing.Point(7, 33);
@@ -450,6 +452,7 @@ namespace StrykerEIP
             this.FinancialChart.BackColor = System.Drawing.Color.Transparent;
             chartArea2.Name = "ChartArea1";
             this.FinancialChart.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
             legend2.Name = "Legend1";
             this.FinancialChart.Legends.Add(legend2);
             this.FinancialChart.Location = new System.Drawing.Point(311, 33);
@@ -468,6 +471,7 @@ namespace StrykerEIP
             this.OperationsChart.BackColor = System.Drawing.Color.Transparent;
             chartArea3.Name = "ChartArea1";
             this.OperationsChart.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
             legend3.Name = "Legend1";
             this.OperationsChart.Legends.Add(legend3);
             this.OperationsChart.Location = new System.Drawing.Point(615, 33);
@@ -486,6 +490,7 @@ namespace StrykerEIP
             this.InnovationsChart.BackColor = System.Drawing.Color.Transparent;
             chartArea4.Name = "ChartArea1";
             this.InnovationsChart.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
             legend4.Name = "Legend1";
             this.InnovationsChart.Legends.Add(legend4);
             this.InnovationsChart.Location = new System.Drawing.Point(919, 33);
@@ -521,39 +526,39 @@ namespace StrykerEIP
             this.returnToMenuToolStripMenuItem,
             this.exitProgramToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // calculateToolStripMenuItem
             // 
             this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
-            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.calculateToolStripMenuItem.Text = "Calculate";
             this.calculateToolStripMenuItem.Click += new System.EventHandler(this.calculateToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(154, 6);
             // 
             // clearFormToolStripMenuItem
             // 
             this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.clearFormToolStripMenuItem.Text = "Clear Form";
             this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
             // 
             // returnToMenuToolStripMenuItem
             // 
             this.returnToMenuToolStripMenuItem.Name = "returnToMenuToolStripMenuItem";
-            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.returnToMenuToolStripMenuItem.Text = "Return to Menu";
             this.returnToMenuToolStripMenuItem.Click += new System.EventHandler(this.returnToMenuToolStripMenuItem_Click);
             // 
             // exitProgramToolStripMenuItem
             // 
             this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.exitProgramToolStripMenuItem.Text = "Exit Program";
             this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
             // 
@@ -567,43 +572,43 @@ namespace StrykerEIP
             this.customerServiceToolStripMenuItem,
             this.humanResourcesToolStripMenuItem});
             this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
-            this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.perspectivesToolStripMenuItem.Text = "Subsystem";
             // 
             // eServicesToolStripMenuItem
             // 
             this.eServicesToolStripMenuItem.Name = "eServicesToolStripMenuItem";
-            this.eServicesToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.eServicesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.eServicesToolStripMenuItem.Text = "E-Services";
             // 
             // financialAccountingToolStripMenuItem
             // 
             this.financialAccountingToolStripMenuItem.Name = "financialAccountingToolStripMenuItem";
-            this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.financialAccountingToolStripMenuItem.Text = "Financial Accounting";
             // 
             // materialsManagementToolStripMenuItem
             // 
             this.materialsManagementToolStripMenuItem.Name = "materialsManagementToolStripMenuItem";
-            this.materialsManagementToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.materialsManagementToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.materialsManagementToolStripMenuItem.Text = "Materials Management";
             // 
             // productionToolStripMenuItem
             // 
             this.productionToolStripMenuItem.Name = "productionToolStripMenuItem";
-            this.productionToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.productionToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.productionToolStripMenuItem.Text = "Production";
             // 
             // customerServiceToolStripMenuItem
             // 
             this.customerServiceToolStripMenuItem.Name = "customerServiceToolStripMenuItem";
-            this.customerServiceToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.customerServiceToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.customerServiceToolStripMenuItem.Text = "Customer Service";
             // 
             // humanResourcesToolStripMenuItem
             // 
             this.humanResourcesToolStripMenuItem.Name = "humanResourcesToolStripMenuItem";
-            this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.humanResourcesToolStripMenuItem.Text = "Human Resources";
             // 
             // helpToolStripMenuItem
@@ -612,27 +617,27 @@ namespace StrykerEIP
             this.selfHelpPDFToolStripMenuItem,
             this.contactToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // selfHelpPDFToolStripMenuItem
             // 
             this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
-            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
             this.selfHelpPDFToolStripMenuItem.Click += new System.EventHandler(this.selfHelpPDFToolStripMenuItem_Click);
             // 
             // contactToolStripMenuItem
             // 
             this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.contactToolStripMenuItem.Text = "Contact";
             this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 

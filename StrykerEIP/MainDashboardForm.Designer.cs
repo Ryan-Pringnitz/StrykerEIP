@@ -64,7 +64,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(337, 62);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Strategic Overview you wish to review.  For descriptions of Strategic " +
-                "Overviews and/or general assistance choose the button labeled \"Help\".";
+    "Overviews and/or general assistance choose the button labeled \"Help\".";
             // 
             // mdHelpButton
             // 
