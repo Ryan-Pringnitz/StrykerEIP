@@ -81,35 +81,48 @@ namespace StrykerEIP
                     {
                         case 0:
                             CustomerChart.Series["CustomerSeries"].ChartType = kpiChartType;
-                            if (kpiChartType != SeriesChartType.Pie)
-                            {
-                                CustomerChart.Series["CustomerSeries"].XValueMember = "Date";
-                                CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
-                            }
+                            //if (kpiChartType != SeriesChartType.Pie)
+                            //{
+                            CustomerChart.Series["CustomerSeries"].XValueMember = "Date";
+                            CustomerChart.Series["CustomerSeries"].XValueType = ChartValueType.Date;
+                            CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
+
+                            lblKPI1Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            //}
+                            //else
+                            //{
+
+                            //}
                             break;
                         case 1:
-                            FinancialChart.Series["FinancialSeries"].ChartType = kpiChartType;
-                            if (kpiChartType != SeriesChartType.Pie)
-                            {
-                                OperationsChart.Series["OperationsSeries"].XValueMember = "Date";
-                                OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
-                            }
+                            OperationsChart.Series["OperationsSeries"].ChartType = kpiChartType;
+                            //if (kpiChartType != SeriesChartType.Pie)
+                            //{
+                            OperationsChart.Series["OperationsSeries"].XValueMember = "Date";
+                            OperationsChart.Series["OperationsSeries"].XValueType = ChartValueType.Date;
+                            OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
+                            lblKPI2Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            //}
                             break;
                         case 2:
-                            OperationsChart.Series["OperationsSeries"].ChartType = kpiChartType;
-                            if (kpiChartType != SeriesChartType.Pie)
-                            {
-                                FinancialChart.Series["FinancialSeries"].XValueMember = "Date";
-                                FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
-                            }
+                            FinancialChart.Series["FinancialSeries"].ChartType = kpiChartType;
+                            //if (kpiChartType != SeriesChartType.Pie)
+                            //{
+                            FinancialChart.Series["FinancialSeries"].XValueMember = "Date";
+                            FinancialChart.Series["FinancialSeries"].XValueType = ChartValueType.Date;
+                            FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
+                            lblKPI3Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            //}
                             break;
                         case 3:
                             InnovationsChart.Series["InnovationsSeries"].ChartType = kpiChartType;
-                            if (kpiChartType != SeriesChartType.Pie)
-                            {
-                                InnovationsChart.Series["InnovationsSeries"].XValueMember = "Date";
-                                InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
-                            }
+                            //if (kpiChartType != SeriesChartType.Pie)
+                            //{
+                            InnovationsChart.Series["InnovationsSeries"].XValueMember = "Date";
+                            InnovationsChart.Series["InnovationsSeries"].XValueType = ChartValueType.Date;
+                            InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
+                            lblKPI4Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            //}
                             break;
                     }
                 }
