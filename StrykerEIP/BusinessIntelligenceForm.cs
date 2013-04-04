@@ -127,6 +127,303 @@ namespace StrykerEIP
                     }
                 }
 
+
+                //Adds text to the labels for KPI #1
+                string[] arr1 = new string[dataSetBusinessProcess.Tables[1].Columns.Count];
+                for (int j = 0; j < dataSetBusinessProcess.Tables[1].Columns.Count; j++)
+                {
+                    arr1[j] = dataSetBusinessProcess.Tables[1].Columns[j].ToString();
+
+                    if (j == 0)
+                    {
+                        KPI1_lblVar1.Text = arr1[0].ToString();
+                        KPI1_lblVar1.Visible = true;
+                        KPI1_lblVar2.Visible = false;
+                        KPI1_lblVar3.Visible = false;
+                        KPI1_lblVar4.Visible = false;
+                        KPI1_lblVar5.Visible = false;
+
+                    }
+
+                    if (j == 1)
+                    {
+                        KPI1_lblVar1.Text = arr1[0].ToString();
+                        KPI1_lblVar2.Text = arr1[1].ToString();
+                        KPI1_lblVar1.Visible = true;
+                        KPI1_lblVar2.Visible = true;
+                        KPI1_lblVar3.Visible = false;
+                        KPI1_lblVar4.Visible = false;
+                        KPI1_lblVar5.Visible = false;
+                    }
+
+
+                    if (j == 2)
+                    {
+                        KPI1_lblVar1.Text = arr1[0].ToString();
+                        KPI1_lblVar2.Text = arr1[1].ToString();
+                        KPI1_lblVar3.Text = arr1[2].ToString();
+                        KPI1_lblVar1.Visible = true;
+                        KPI1_lblVar2.Visible = true;
+                        KPI1_lblVar3.Visible = true;
+                        KPI1_lblVar4.Visible = false;
+                        KPI1_lblVar5.Visible = false;
+                    }
+                    else { KPI1_lblVar3.Visible = false; KPI1_lblVar4.Visible = false; KPI1_lblVar5.Visible = false; }
+
+
+                    if (j == 3)
+                    {
+                        KPI1_lblVar1.Text = arr1[0].ToString();
+                        KPI1_lblVar2.Text = arr1[1].ToString();
+                        KPI1_lblVar3.Text = arr1[2].ToString();
+                        KPI1_lblVar4.Text = arr1[3].ToString();
+                        KPI1_lblVar1.Visible = true;
+                        KPI1_lblVar2.Visible = true;
+                        KPI1_lblVar3.Visible = true;
+                        KPI1_lblVar4.Visible = true;
+                        KPI1_lblVar5.Visible = false;
+                    }
+                    else { KPI1_lblVar4.Visible = false; KPI1_lblVar5.Visible = false; }
+
+
+                    if (j == 4)
+                    {
+                        KPI1_lblVar1.Text = arr1[0].ToString();
+                        KPI1_lblVar2.Text = arr1[1].ToString();
+                        KPI1_lblVar3.Text = arr1[2].ToString();
+                        KPI1_lblVar4.Text = arr1[3].ToString();
+                        KPI1_lblVar5.Text = arr1[4].ToString();
+                        KPI1_lblVar1.Visible = true;
+                        KPI1_lblVar2.Visible = true;
+                        KPI1_lblVar3.Visible = true;
+                        KPI1_lblVar4.Visible = true;
+                        KPI1_lblVar5.Visible = true;
+                    }
+                }
+
+
+
+                //Adds text to the labels for KPI #2
+                string[] arr2 = new string[dataSetBusinessProcess.Tables[2].Columns.Count];
+                for (int j = 0; j < dataSetBusinessProcess.Tables[2].Columns.Count; j++)
+                {
+                    arr2[j] = dataSetBusinessProcess.Tables[2].Columns[j].ToString();
+
+                    if (j == 0)
+                    {
+                        KPI2_lblVar1.Text = arr2[0].ToString();
+                        KPI2_lblVar1.Visible = true;
+                        KPI2_lblVar2.Visible = false;
+                        KPI2_lblVar3.Visible = false;
+                        KPI2_lblVar4.Visible = false;
+                        KPI2_lblVar5.Visible = false;
+
+                    }
+
+                    if (j == 1)
+                    {
+                        KPI2_lblVar1.Text = arr2[0].ToString();
+                        KPI2_lblVar2.Text = arr2[1].ToString();
+                        KPI2_lblVar1.Visible = true;
+                        KPI2_lblVar2.Visible = true;
+                        KPI2_lblVar3.Visible = false;
+                        KPI2_lblVar4.Visible = false;
+                        KPI2_lblVar5.Visible = false;
+                    }
+
+
+                    if (j == 2)
+                    {
+                        KPI2_lblVar1.Text = arr2[0].ToString();
+                        KPI2_lblVar2.Text = arr2[1].ToString();
+                        KPI2_lblVar3.Text = arr2[2].ToString();
+                        KPI2_lblVar1.Visible = true;
+                        KPI2_lblVar2.Visible = true;
+                        KPI2_lblVar3.Visible = true;
+                        KPI2_lblVar4.Visible = false;
+                        KPI2_lblVar5.Visible = false;
+                    }
+                    else { KPI2_lblVar3.Visible = false; KPI2_lblVar4.Visible = false; KPI2_lblVar5.Visible = false; }
+
+
+                    if (j == 3)
+                    {
+                        KPI2_lblVar1.Text = arr2[0].ToString();
+                        KPI2_lblVar2.Text = arr2[1].ToString();
+                        KPI2_lblVar3.Text = arr2[2].ToString();
+                        KPI2_lblVar4.Text = arr2[3].ToString();
+                        KPI2_lblVar1.Visible = true;
+                        KPI2_lblVar2.Visible = true;
+                        KPI2_lblVar3.Visible = true;
+                        KPI2_lblVar4.Visible = true;
+                        KPI2_lblVar5.Visible = false;
+                    }
+                    else { KPI2_lblVar4.Visible = false; KPI2_lblVar5.Visible = false; }
+
+
+                    if (j == 4)
+                    {
+                        KPI2_lblVar1.Text = arr2[0].ToString();
+                        KPI2_lblVar2.Text = arr2[1].ToString();
+                        KPI2_lblVar3.Text = arr2[2].ToString();
+                        KPI2_lblVar4.Text = arr2[3].ToString();
+                        KPI2_lblVar5.Text = arr2[4].ToString();
+                        KPI2_lblVar1.Visible = true;
+                        KPI2_lblVar2.Visible = true;
+                        KPI2_lblVar3.Visible = true;
+                        KPI2_lblVar4.Visible = true;
+                        KPI2_lblVar5.Visible = true;
+                    }
+                }
+
+
+
+                //Adds text to the labels for KPI #3
+                string[] arr3 = new string[dataSetBusinessProcess.Tables[3].Columns.Count];
+                for (int j = 0; j < dataSetBusinessProcess.Tables[3].Columns.Count; j++)
+                {
+                    arr3[j] = dataSetBusinessProcess.Tables[3].Columns[j].ToString();
+
+                    if (j == 0)
+                    {
+                        KPI3_lblVar1.Text = arr3[0].ToString();
+                        KPI3_lblVar1.Visible = true;
+                        KPI3_lblVar2.Visible = false;
+                        KPI3_lblVar3.Visible = false;
+                        KPI3_lblVar4.Visible = false;
+                        KPI3_lblVar5.Visible = false;
+
+                    }
+
+                    if (j == 1)
+                    {
+                        KPI3_lblVar1.Text = arr3[0].ToString();
+                        KPI3_lblVar2.Text = arr3[1].ToString();
+                        KPI3_lblVar1.Visible = true;
+                        KPI3_lblVar2.Visible = true;
+                        KPI3_lblVar3.Visible = false;
+                        KPI3_lblVar4.Visible = false;
+                        KPI3_lblVar5.Visible = false;
+                    }
+
+
+                    if (j == 2)
+                    {
+                        KPI3_lblVar1.Text = arr3[0].ToString();
+                        KPI3_lblVar2.Text = arr3[1].ToString();
+                        KPI3_lblVar3.Text = arr3[2].ToString();
+                        KPI3_lblVar1.Visible = true;
+                        KPI3_lblVar2.Visible = true;
+                        KPI3_lblVar3.Visible = true;
+                        KPI3_lblVar4.Visible = false;
+                        KPI3_lblVar5.Visible = false;
+                    }
+
+                    if (j == 3)
+                    {
+                        KPI3_lblVar1.Text = arr3[0].ToString();
+                        KPI3_lblVar2.Text = arr3[1].ToString();
+                        KPI3_lblVar3.Text = arr3[2].ToString();
+                        KPI3_lblVar4.Text = arr3[3].ToString();
+                        KPI3_lblVar1.Visible = true;
+                        KPI3_lblVar2.Visible = true;
+                        KPI3_lblVar3.Visible = true;
+                        KPI3_lblVar4.Visible = true;
+                        KPI3_lblVar5.Visible = false;
+                    }
+
+                    if (j == 4)
+                    {
+                        KPI3_lblVar1.Text = arr3[0].ToString();
+                        KPI3_lblVar2.Text = arr3[1].ToString();
+                        KPI3_lblVar3.Text = arr3[2].ToString();
+                        KPI3_lblVar4.Text = arr3[3].ToString();
+                        KPI3_lblVar5.Text = arr3[4].ToString();
+                        KPI3_lblVar1.Visible = true;
+                        KPI3_lblVar2.Visible = true;
+                        KPI3_lblVar3.Visible = true;
+                        KPI3_lblVar4.Visible = true;
+                        KPI3_lblVar5.Visible = true;
+                    }
+                }
+
+
+
+
+                //Adds text to the labels for KPI #4
+                string[] arr4 = new string[dataSetBusinessProcess.Tables[4].Columns.Count];
+                for (int j = 0; j < dataSetBusinessProcess.Tables[4].Columns.Count; j++)
+                {
+                    arr4[j] = dataSetBusinessProcess.Tables[4].Columns[j].ToString();
+
+                    if (j == 0)
+                    {
+                        KPI4_lblVar1.Text = arr4[0].ToString();
+                        KPI4_lblVar1.Visible = true;
+                        KPI4_lblVar2.Visible = false;
+                        KPI4_lblVar3.Visible = false;
+                        KPI4_lblVar4.Visible = false;
+                        KPI4_lblVar5.Visible = false;
+
+                    }
+
+                    if (j == 1)
+                    {
+                        KPI4_lblVar1.Text = arr4[0].ToString();
+                        KPI4_lblVar2.Text = arr4[1].ToString();
+                        KPI4_lblVar1.Visible = true;
+                        KPI4_lblVar2.Visible = true;
+                        KPI4_lblVar3.Visible = false;
+                        KPI4_lblVar4.Visible = false;
+                        KPI4_lblVar5.Visible = false;
+                    }
+
+
+                    if (j == 2)
+                    {
+                        KPI4_lblVar1.Text = arr4[0].ToString();
+                        KPI4_lblVar2.Text = arr4[1].ToString();
+                        KPI4_lblVar3.Text = arr4[2].ToString();
+                        KPI4_lblVar1.Visible = true;
+                        KPI4_lblVar2.Visible = true;
+                        KPI4_lblVar3.Visible = true;
+                        KPI4_lblVar4.Visible = false;
+                        KPI4_lblVar5.Visible = false;
+                    }
+                    else { KPI4_lblVar3.Visible = false; KPI4_lblVar4.Visible = false; KPI4_lblVar5.Visible = false; }
+
+
+                    if (j == 3)
+                    {
+                        KPI4_lblVar1.Text = arr4[0].ToString();
+                        KPI4_lblVar2.Text = arr4[1].ToString();
+                        KPI4_lblVar3.Text = arr4[2].ToString();
+                        KPI4_lblVar4.Text = arr4[3].ToString();
+                        KPI4_lblVar1.Visible = true;
+                        KPI4_lblVar2.Visible = true;
+                        KPI4_lblVar3.Visible = true;
+                        KPI4_lblVar4.Visible = true;
+                        KPI4_lblVar5.Visible = false;
+                    }
+                    else { KPI4_lblVar4.Visible = false; KPI4_lblVar5.Visible = false; }
+
+
+                    if (j == 4)
+                    {
+                        KPI4_lblVar1.Text = arr4[0].ToString();
+                        KPI4_lblVar2.Text = arr4[1].ToString();
+                        KPI4_lblVar3.Text = arr4[2].ToString();
+                        KPI4_lblVar4.Text = arr4[3].ToString();
+                        KPI4_lblVar5.Text = arr4[4].ToString();
+                        KPI4_lblVar1.Visible = true;
+                        KPI4_lblVar2.Visible = true;
+                        KPI4_lblVar3.Visible = true;
+                        KPI4_lblVar4.Visible = true;
+                        KPI4_lblVar5.Visible = true;
+                    }
+                }
+
+
                 CustomerChart.DataBind();
                 FinancialChart.DataBind();
                 OperationsChart.DataBind();
@@ -172,7 +469,6 @@ namespace StrykerEIP
         private void clearFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Clears fields of all content
-            KPI1_txtDecisionSummary.Visible = false;
             KPI1_groupDecision.Visible = false;
             KPI1_btnSubmitDecision.Visible = false;
             KPI1_lblState.Visible = false;
@@ -201,7 +497,6 @@ namespace StrykerEIP
 
         private void KPI1_btnCalculate_Click(object sender, EventArgs e)
         {
-            KPI1_txtDecisionSummary.Visible = true;
             KPI1_groupDecision.Visible = true;
             KPI1_btnSubmitDecision.Visible = true;
             KPI1_lblState.Visible = true;
