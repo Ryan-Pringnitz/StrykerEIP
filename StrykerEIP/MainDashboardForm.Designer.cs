@@ -60,9 +60,9 @@
             this.mdWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdWelcomeLabel.Location = new System.Drawing.Point(265, 314);
             this.mdWelcomeLabel.Name = "mdWelcomeLabel";
-            this.mdWelcomeLabel.Size = new System.Drawing.Size(403, 20);
+            this.mdWelcomeLabel.Size = new System.Drawing.Size(371, 20);
             this.mdWelcomeLabel.TabIndex = 0;
-            this.mdWelcomeLabel.Text = "Welcome to the Stryker Management Dashboard:";
+            this.mdWelcomeLabel.Text = "Stryker Management Intelligence Dashboard:";
             // 
             // richTextBox1
             // 
@@ -70,14 +70,15 @@
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(17, 26);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(337, 62);
+            this.richTextBox1.Size = new System.Drawing.Size(337, 74);
             this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "Choose the Strategic Overview you wish to review.  For descriptions of Strategic " +
-                "Overviews and/or general assistance choose the button labeled \"Help\".";
+            this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
+                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+                "elp\".";
             // 
             // mdHelpButton
             // 
-            this.mdHelpButton.Location = new System.Drawing.Point(198, 94);
+            this.mdHelpButton.Location = new System.Drawing.Point(185, 106);
             this.mdHelpButton.Name = "mdHelpButton";
             this.mdHelpButton.Size = new System.Drawing.Size(75, 23);
             this.mdHelpButton.TabIndex = 2;
@@ -86,7 +87,7 @@
             // 
             // mdExitButton
             // 
-            this.mdExitButton.Location = new System.Drawing.Point(279, 94);
+            this.mdExitButton.Location = new System.Drawing.Point(266, 106);
             this.mdExitButton.Name = "mdExitButton";
             this.mdExitButton.Size = new System.Drawing.Size(75, 23);
             this.mdExitButton.TabIndex = 3;
@@ -128,7 +129,7 @@
             this.mdMessageGroupBox.Size = new System.Drawing.Size(369, 135);
             this.mdMessageGroupBox.TabIndex = 6;
             this.mdMessageGroupBox.TabStop = false;
-            this.mdMessageGroupBox.Text = "Overview Navigation:";
+            this.mdMessageGroupBox.Text = "Choose Scope of Intelligence:";
             // 
             // mdOverviewsGroupBox
             // 
@@ -142,7 +143,7 @@
             this.mdOverviewsGroupBox.Size = new System.Drawing.Size(284, 135);
             this.mdOverviewsGroupBox.TabIndex = 7;
             this.mdOverviewsGroupBox.TabStop = false;
-            this.mdOverviewsGroupBox.Text = "Stragic Overviews:";
+            this.mdOverviewsGroupBox.Text = "Stragic Intelligences:";
             // 
             // mdSustainabilityIntelligence
             // 
@@ -199,14 +200,14 @@
             // LogOutToolStripMenuItem
             // 
             this.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem";
-            this.LogOutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.LogOutToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.LogOutToolStripMenuItem.Text = "Log Out";
             this.LogOutToolStripMenuItem.Click += new System.EventHandler(this.LogOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -222,13 +223,13 @@
             // selfhelpPDFToolStripMenuItem
             // 
             this.selfhelpPDFToolStripMenuItem.Name = "selfhelpPDFToolStripMenuItem";
-            this.selfhelpPDFToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.selfhelpPDFToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.selfhelpPDFToolStripMenuItem.Text = "Self-help PDF";
             // 
             // contactToolStripMenuItem
             // 
             this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.contactToolStripMenuItem.Text = "Contact";
             this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
             // 

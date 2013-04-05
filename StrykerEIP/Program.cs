@@ -15,7 +15,7 @@ namespace StrykerEIP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BusinessIntelligenceLoginForm());
+            Application.Run(new LoginForm());
         }
     }
 }

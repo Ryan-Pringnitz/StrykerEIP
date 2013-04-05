@@ -37,9 +37,9 @@ namespace StrykerEIP
         private void LogOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Create Logout CLick Event. EDP
-            BusinessIntelligenceLoginForm frmBILogin = new BusinessIntelligenceLoginForm();
+            LoginForm frmLogin = new LoginForm();
             this.Hide();
-            frmBILogin.Show();
+            frmLogin.Show();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

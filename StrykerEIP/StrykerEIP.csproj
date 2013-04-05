@@ -75,18 +75,18 @@
     <Compile Include="BusinessIntelligenceForm.Designer.cs">
       <DependentUpon>BusinessIntelligenceForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BusinessIntelligenceLoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BusinessIntelligenceLoginForm.Designer.cs">
-      <DependentUpon>BusinessIntelligenceLoginForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="DataServices.cs" />
     <Compile Include="ContactForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ContactForm.Designer.cs">
       <DependentUpon>ContactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainDashboardForm.cs">
       <SubType>Form</SubType>
@@ -102,11 +102,11 @@
     <EmbeddedResource Include="BusinessIntelligenceForm.resx">
       <DependentUpon>BusinessIntelligenceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BusinessIntelligenceLoginForm.resx">
-      <DependentUpon>BusinessIntelligenceLoginForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ContactForm.resx">
       <DependentUpon>ContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDashboardForm.resx">
       <DependentUpon>MainDashboardForm.cs</DependentUpon>
