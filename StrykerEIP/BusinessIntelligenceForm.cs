@@ -65,7 +65,7 @@ namespace StrykerEIP
                     switch (dtKPI.Rows[i]["GraphType"].ToString().ToUpper())
                     {
                         case "BAR":
-                            kpiChartType = SeriesChartType.Bar;
+                            kpiChartType = SeriesChartType.Column;
                             break;
                         case "PIE":
                             kpiChartType = SeriesChartType.Pie;
@@ -74,7 +74,7 @@ namespace StrykerEIP
                             kpiChartType = SeriesChartType.Line;
                             break;
                         default:
-                            kpiChartType = SeriesChartType.Bar;
+                            kpiChartType = SeriesChartType.Column;
                             break;
                     }
                     switch (i)
@@ -88,6 +88,7 @@ namespace StrykerEIP
                             CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
                             lblKPI1Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI1_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI1_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
                             //}
                             //else
                             //{
@@ -103,6 +104,7 @@ namespace StrykerEIP
                             OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
                             lblKPI2Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI2_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI2_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
                             //}
                             break;
                         case 2:
@@ -114,6 +116,7 @@ namespace StrykerEIP
                             FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
                             lblKPI3Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI3_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI3_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
                             //}
                             break;
                         case 3:
@@ -125,6 +128,7 @@ namespace StrykerEIP
                             InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
                             lblKPI4Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI4_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
+                            KPI4_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
                             //}
                             break;
                     }
@@ -620,7 +624,7 @@ namespace StrykerEIP
 
             if (KPI1_lblState.Text == "Conflict")
             {
-                KPI1_lblState.ForeColor = System.Drawing.Color.Purple; //Conflict State
+                KPI1_lblState.ForeColor = System.Drawing.Color.Gold; //Conflict State
             }
 
             if (KPI1_lblState.Text == "Crisis")

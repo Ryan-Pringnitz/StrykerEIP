@@ -438,9 +438,10 @@ namespace StrykerEIP
             // 
             // KPI1_txtKPISummary
             // 
-            this.KPI1_txtKPISummary.Enabled = false;
+            this.KPI1_txtKPISummary.ForeColor = System.Drawing.Color.Black;
             this.KPI1_txtKPISummary.Location = new System.Drawing.Point(6, 66);
             this.KPI1_txtKPISummary.Name = "KPI1_txtKPISummary";
+            this.KPI1_txtKPISummary.ReadOnly = true;
             this.KPI1_txtKPISummary.Size = new System.Drawing.Size(184, 211);
             this.KPI1_txtKPISummary.TabIndex = 3;
             this.KPI1_txtKPISummary.Text = "";
@@ -1499,11 +1500,11 @@ namespace StrykerEIP
             // 
             this.lblKPI1Name.AutoSize = true;
             this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI1Name.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblKPI1Name.Location = new System.Drawing.Point(45, 124);
             this.lblKPI1Name.Name = "lblKPI1Name";
-            this.lblKPI1Name.Size = new System.Drawing.Size(192, 44);
+            this.lblKPI1Name.Size = new System.Drawing.Size(170, 37);
             this.lblKPI1Name.TabIndex = 18;
             this.lblKPI1Name.Text = "KPI Name";
             this.lblKPI1Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1512,11 +1513,11 @@ namespace StrykerEIP
             // 
             this.lblKPI2Name.AutoSize = true;
             this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI2Name.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblKPI2Name.Location = new System.Drawing.Point(425, 124);
             this.lblKPI2Name.Name = "lblKPI2Name";
-            this.lblKPI2Name.Size = new System.Drawing.Size(192, 44);
+            this.lblKPI2Name.Size = new System.Drawing.Size(170, 37);
             this.lblKPI2Name.TabIndex = 19;
             this.lblKPI2Name.Text = "KPI Name";
             this.lblKPI2Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1525,11 +1526,11 @@ namespace StrykerEIP
             // 
             this.lblKPI3Name.AutoSize = true;
             this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI3Name.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblKPI3Name.Location = new System.Drawing.Point(805, 124);
             this.lblKPI3Name.Name = "lblKPI3Name";
-            this.lblKPI3Name.Size = new System.Drawing.Size(192, 44);
+            this.lblKPI3Name.Size = new System.Drawing.Size(170, 37);
             this.lblKPI3Name.TabIndex = 20;
             this.lblKPI3Name.Text = "KPI Name";
             this.lblKPI3Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1538,11 +1539,11 @@ namespace StrykerEIP
             // 
             this.lblKPI4Name.AutoSize = true;
             this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI4Name.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblKPI4Name.Location = new System.Drawing.Point(1185, 124);
             this.lblKPI4Name.Name = "lblKPI4Name";
-            this.lblKPI4Name.Size = new System.Drawing.Size(192, 44);
+            this.lblKPI4Name.Size = new System.Drawing.Size(170, 37);
             this.lblKPI4Name.TabIndex = 21;
             this.lblKPI4Name.Text = "KPI Name";
             this.lblKPI4Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
