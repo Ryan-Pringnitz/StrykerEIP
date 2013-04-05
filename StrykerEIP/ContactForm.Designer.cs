@@ -35,8 +35,6 @@
             this.lblQuestion = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSend
@@ -61,7 +59,7 @@
             // 
             // txtQuestion
             // 
-            this.txtQuestion.BackColor = System.Drawing.Color.Maroon;
+            this.txtQuestion.BackColor = System.Drawing.Color.RoyalBlue;
             this.txtQuestion.Location = new System.Drawing.Point(55, 74);
             this.txtQuestion.Name = "txtQuestion";
             this.txtQuestion.Size = new System.Drawing.Size(260, 120);
@@ -79,7 +77,7 @@
             // 
             // txtName
             // 
-            this.txtName.BackColor = System.Drawing.Color.Maroon;
+            this.txtName.BackColor = System.Drawing.Color.RoyalBlue;
             this.txtName.Location = new System.Drawing.Point(52, 29);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(259, 20);
@@ -94,22 +92,13 @@
             this.lblName.TabIndex = 3;
             this.lblName.Text = "Your Name";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 238);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(359, 90);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
             // ContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(382, 335);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.txtQuestion);
             this.Controls.Add(this.lblName);
@@ -119,7 +108,6 @@
             this.Name = "ContactForm";
             this.Text = "Contact";
             this.Load += new System.EventHandler(this.ContactForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,6 +121,5 @@
         private System.Windows.Forms.Label lblQuestion;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

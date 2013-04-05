@@ -196,7 +196,7 @@
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  and choose the area of Stryk" +
-    "er of wish to review from the drop down menu labeled";
+                "er of wish to review from the drop down menu labeled";
             // 
             // biLoginHelpButton
             // 
@@ -256,34 +256,34 @@
             this.returnToMenuToolStripMenuItem,
             this.exitProgramToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.loginToolStripMenuItem.Text = "Login";
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // clearFormToolStripMenuItem
             // 
             this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.clearFormToolStripMenuItem.Text = "Clear Form";
             this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
             // 
             // returnToMenuToolStripMenuItem
             // 
             this.returnToMenuToolStripMenuItem.Name = "returnToMenuToolStripMenuItem";
-            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.returnToMenuToolStripMenuItem.Text = "Return to Menu";
             this.returnToMenuToolStripMenuItem.Click += new System.EventHandler(this.returnToMenuToolStripMenuItem_Click);
             // 
             // exitProgramToolStripMenuItem
             // 
             this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.exitProgramToolStripMenuItem.Text = "Exit Program";
             this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
             // 
@@ -293,27 +293,27 @@
             this.selfhelpPDFToolStripMenuItem,
             this.contactToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // selfhelpPDFToolStripMenuItem
             // 
             this.selfhelpPDFToolStripMenuItem.Name = "selfhelpPDFToolStripMenuItem";
-            this.selfhelpPDFToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.selfhelpPDFToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.selfhelpPDFToolStripMenuItem.Text = "Self-help PDF";
             this.selfhelpPDFToolStripMenuItem.Click += new System.EventHandler(this.selfhelpPDFToolStripMenuItem_Click);
             // 
             // contactToolStripMenuItem
             // 
             this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.contactToolStripMenuItem.Text = "Contact";
             this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -321,6 +321,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(857, 505);
             this.Controls.Add(this.bidSplashScreenGroupBox);
             this.Controls.Add(this.menuStrip1);
