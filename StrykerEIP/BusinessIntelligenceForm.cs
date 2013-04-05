@@ -633,5 +633,10 @@ namespace StrykerEIP
                 KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
             }
         }
+
+        private void BusinessIntelligenceForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
