@@ -707,7 +707,101 @@ namespace StrykerEIP
             var numberOfFieldsForKpi = _globalBusinessProcessDataSet.Tables[selectedTabIndex].Columns.Count + 1;
             var kpiFormula = _globalBusinessProcessDataSet.Tables["KPI"].Rows[selectedTabIndex]["Formula"].ToString();
 
+            Dictionary<string, string> kpiVariableDict = new Dictionary<string, string>();
 
+            for (int i = 1; i <= numberOfFieldsForKpi; i++)
+            {
+                switch (selectedTabIndex)
+                {
+                    case 1:
+                        switch (i)
+                        {
+                            case 1:
+                                kpiVariableDict.Add(_kpi1Var1Name, KPI1_txtVar1.Text);
+                                break;
+                            case 2:
+                                kpiVariableDict.Add(_kpi1Var2Name, KPI1_txtVar2.Text);
+                                break;
+                            case 3:
+                                kpiVariableDict.Add(_kpi1Var3Name, KPI1_txtVar3.Text);
+                                break;
+                            case 4:
+                                kpiVariableDict.Add(_kpi1Var4Name, KPI1_txtVar4.Text);
+                                break;
+                            case 5:
+                                kpiVariableDict.Add(_kpi1Var5Name, KPI1_txtVar5.Text);
+                                break;
+                        }
+                        break;
+                    case 2:
+                        switch (i)
+                        {
+                            case 1:
+                                kpiVariableDict.Add(_kpi2Var1Name, KPI2_txtVar1.Text);
+                                break;
+                            case 2:
+                                kpiVariableDict.Add(_kpi2Var2Name, KPI2_txtVar2.Text);
+                                break;
+                            case 3:
+                                kpiVariableDict.Add(_kpi2Var3Name, KPI2_txtVar3.Text);
+                                break;
+                            case 4:
+                                kpiVariableDict.Add(_kpi2Var4Name, KPI2_txtVar4.Text);
+                                break;
+                            case 5:
+                                kpiVariableDict.Add(_kpi2Var5Name, KPI2_txtVar5.Text);
+                                break;
+                        }
+                        break;
+                    case 3:
+                        switch (i)
+                        {
+                            case 1:
+                                kpiVariableDict.Add(_kpi3Var1Name, KPI3_txtVar1.Text);
+                                break;
+                            case 2:
+                                kpiVariableDict.Add(_kpi3Var2Name, KPI3_txtVar2.Text);
+                                break;
+                            case 3:
+                                kpiVariableDict.Add(_kpi3Var3Name, KPI3_txtVar3.Text);
+                                break;
+                            case 4:
+                                kpiVariableDict.Add(_kpi3Var4Name, KPI3_txtVar4.Text);
+                                break;
+                            case 5:
+                                kpiVariableDict.Add(_kpi3Var5Name, KPI3_txtVar5.Text);
+                                break;
+                        }
+                        break;
+                    case 4:
+                        switch (i)
+                        {
+                            case 1:
+                                kpiVariableDict.Add(_kpi4Var1Name, KPI4_txtVar1.Text);
+                                break;
+                            case 2:
+                                kpiVariableDict.Add(_kpi4Var2Name, KPI4_txtVar2.Text);
+                                break;
+                            case 3:
+                                kpiVariableDict.Add(_kpi4Var3Name, KPI4_txtVar3.Text);
+                                break;
+                            case 4:
+                                kpiVariableDict.Add(_kpi4Var4Name, KPI4_txtVar4.Text);
+                                break;
+                            case 5:
+                                kpiVariableDict.Add(_kpi4Var5Name, KPI4_txtVar5.Text);
+                                break;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            kpiVariableDict.Add("Formula", kpiFormula);
+
+            DataServices objDataServices = new DataServices();
+            DataSet dsKPIResults = new DataSet();
 
             //Changes the color of the state text, depending on the state.
             if (KPI1_lblState.Text == "Success")
