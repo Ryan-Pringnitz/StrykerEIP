@@ -271,7 +271,7 @@ namespace StrykerEIP
             this.KPI1_btnCalculate.TabIndex = 18;
             this.KPI1_btnCalculate.Text = "Calculate";
             this.KPI1_btnCalculate.UseVisualStyleBackColor = true;
-            this.KPI1_btnCalculate.Click += new System.EventHandler(this.KPI1_btnCalculate_Click);
+            this.KPI1_btnCalculate.Click += new System.EventHandler(this.KPI_btnCalculate_Click);
             // 
             // KPI1_lblVar4
             // 

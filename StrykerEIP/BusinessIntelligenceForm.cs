@@ -14,6 +14,32 @@ namespace StrykerEIP
 {
     public partial class BusinessIntelligenceForm : Form
     {
+        private DataSet _globalBusinessProcessDataSet;
+        //KPI 1 Variable Names
+        private string _kpi1Var1Name = string.Empty;
+        private string _kpi1Var2Name = string.Empty;
+        private string _kpi1Var3Name = string.Empty;
+        private string _kpi1Var4Name = string.Empty;
+        private string _kpi1Var5Name = string.Empty;
+        //KPI 2 Variable Names
+        private string _kpi2Var1Name = string.Empty;
+        private string _kpi2Var2Name = string.Empty;
+        private string _kpi2Var3Name = string.Empty;
+        private string _kpi2Var4Name = string.Empty;
+        private string _kpi2Var5Name = string.Empty;
+        //KPI 3 Variable Names
+        private string _kpi3Var1Name = string.Empty;
+        private string _kpi3Var2Name = string.Empty;
+        private string _kpi3Var3Name = string.Empty;
+        private string _kpi3Var4Name = string.Empty;
+        private string _kpi3Var5Name = string.Empty;
+        //KPI 4 Variable Names
+        private string _kpi4Var1Name = string.Empty;
+        private string _kpi4Var2Name = string.Empty;
+        private string _kpi4Var3Name = string.Empty;
+        private string _kpi4Var4Name = string.Empty;
+        private string _kpi4Var5Name = string.Empty;
+
         public BusinessIntelligenceForm()
         {
             InitializeComponent();
@@ -25,6 +51,10 @@ namespace StrykerEIP
             {
                 subSystem.Click += new EventHandler(subSystem_Click);
             }
+            KPI1_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
+            KPI2_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
+            KPI3_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
+            KPI4_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
         }
 
         private void subSystem_Click(object sender, EventArgs e)
@@ -48,6 +78,7 @@ namespace StrykerEIP
                 // Pull data for selected business process
                 DataServices objDataServices = new DataServices();
                 DataSet dataSetBusinessProcess = objDataServices.GetBusinessProcessInfo(selectedSubSystem.Text.Replace(" ", "").Replace("-", "").Trim());
+                _globalBusinessProcessDataSet = dataSetBusinessProcess;
                 DataTable dtKPIResult1 = dataSetBusinessProcess.Tables["KPIResult1"];
                 DataTable dtKPIResult2 = dataSetBusinessProcess.Tables["KPIResult2"];
                 DataTable dtKPIResult3 = dataSetBusinessProcess.Tables["KPIResult3"];
@@ -145,6 +176,7 @@ namespace StrykerEIP
                     if (j == 0)
                     {
                         KPI1_lblVar1.Text = arr1[0].ToString();
+                        _kpi1Var1Name = arr1[0].ToString();
                         KPI1_lblVar1.Visible = true;
                         KPI1_lblVar2.Visible = false;
                         KPI1_lblVar3.Visible = false;
@@ -162,6 +194,8 @@ namespace StrykerEIP
                     {
                         KPI1_lblVar1.Text = arr1[0].ToString();
                         KPI1_lblVar2.Text = arr1[1].ToString();
+                        _kpi1Var1Name = arr1[0].ToString();
+                        _kpi1Var2Name = arr1[1].ToString();
                         KPI1_lblVar1.Visible = true;
                         KPI1_lblVar2.Visible = true;
                         KPI1_lblVar3.Visible = false;
@@ -180,6 +214,9 @@ namespace StrykerEIP
                         KPI1_lblVar1.Text = arr1[0].ToString();
                         KPI1_lblVar2.Text = arr1[1].ToString();
                         KPI1_lblVar3.Text = arr1[2].ToString();
+                        _kpi1Var1Name = arr1[0].ToString();
+                        _kpi1Var2Name = arr1[1].ToString();
+                        _kpi1Var3Name = arr1[2].ToString();
                         KPI1_lblVar1.Visible = true;
                         KPI1_lblVar2.Visible = true;
                         KPI1_lblVar3.Visible = true;
@@ -200,6 +237,10 @@ namespace StrykerEIP
                         KPI1_lblVar2.Text = arr1[1].ToString();
                         KPI1_lblVar3.Text = arr1[2].ToString();
                         KPI1_lblVar4.Text = arr1[3].ToString();
+                        _kpi1Var1Name = arr1[0].ToString();
+                        _kpi1Var2Name = arr1[1].ToString();
+                        _kpi1Var3Name = arr1[2].ToString();
+                        _kpi1Var4Name = arr1[3].ToString();
                         KPI1_lblVar1.Visible = true;
                         KPI1_lblVar2.Visible = true;
                         KPI1_lblVar3.Visible = true;
@@ -221,6 +262,11 @@ namespace StrykerEIP
                         KPI1_lblVar3.Text = arr1[2].ToString();
                         KPI1_lblVar4.Text = arr1[3].ToString();
                         KPI1_lblVar5.Text = arr1[4].ToString();
+                        _kpi1Var1Name = arr1[0].ToString();
+                        _kpi1Var2Name = arr1[1].ToString();
+                        _kpi1Var3Name = arr1[2].ToString();
+                        _kpi1Var4Name = arr1[3].ToString();
+                        _kpi1Var5Name = arr1[4].ToString();
                         KPI1_lblVar1.Visible = true;
                         KPI1_lblVar2.Visible = true;
                         KPI1_lblVar3.Visible = true;
@@ -245,6 +291,7 @@ namespace StrykerEIP
                     if (j == 0)
                     {
                         KPI2_lblVar1.Text = arr2[0].ToString();
+                        _kpi2Var1Name = arr2[0].ToString();
                         KPI2_lblVar1.Visible = true;
                         KPI2_lblVar2.Visible = false;
                         KPI2_lblVar3.Visible = false;
@@ -262,6 +309,8 @@ namespace StrykerEIP
                     {
                         KPI2_lblVar1.Text = arr2[0].ToString();
                         KPI2_lblVar2.Text = arr2[1].ToString();
+                        _kpi2Var1Name = arr2[0].ToString();
+                        _kpi2Var2Name = arr2[1].ToString();
                         KPI2_lblVar1.Visible = true;
                         KPI2_lblVar2.Visible = true;
                         KPI2_lblVar3.Visible = false;
@@ -280,6 +329,9 @@ namespace StrykerEIP
                         KPI2_lblVar1.Text = arr2[0].ToString();
                         KPI2_lblVar2.Text = arr2[1].ToString();
                         KPI2_lblVar3.Text = arr2[2].ToString();
+                        _kpi2Var1Name = arr2[0].ToString();
+                        _kpi2Var2Name = arr2[1].ToString();
+                        _kpi2Var3Name = arr2[2].ToString();
                         KPI2_lblVar1.Visible = true;
                         KPI2_lblVar2.Visible = true;
                         KPI2_lblVar3.Visible = true;
@@ -300,6 +352,10 @@ namespace StrykerEIP
                         KPI2_lblVar2.Text = arr2[1].ToString();
                         KPI2_lblVar3.Text = arr2[2].ToString();
                         KPI2_lblVar4.Text = arr2[3].ToString();
+                        _kpi2Var1Name = arr2[0].ToString();
+                        _kpi2Var2Name = arr2[1].ToString();
+                        _kpi2Var3Name = arr2[2].ToString();
+                        _kpi2Var4Name = arr2[3].ToString();
                         KPI2_lblVar1.Visible = true;
                         KPI2_lblVar2.Visible = true;
                         KPI2_lblVar3.Visible = true;
@@ -321,6 +377,11 @@ namespace StrykerEIP
                         KPI2_lblVar3.Text = arr2[2].ToString();
                         KPI2_lblVar4.Text = arr2[3].ToString();
                         KPI2_lblVar5.Text = arr2[4].ToString();
+                        _kpi2Var1Name = arr2[0].ToString();
+                        _kpi2Var2Name = arr2[1].ToString();
+                        _kpi2Var3Name = arr2[2].ToString();
+                        _kpi2Var4Name = arr2[3].ToString();
+                        _kpi2Var5Name = arr2[4].ToString();
                         KPI2_lblVar1.Visible = true;
                         KPI2_lblVar2.Visible = true;
                         KPI2_lblVar3.Visible = true;
@@ -345,6 +406,7 @@ namespace StrykerEIP
                     if (j == 0)
                     {
                         KPI3_lblVar1.Text = arr3[0].ToString();
+                        _kpi3Var1Name = arr3[0].ToString();
                         KPI3_lblVar1.Visible = true;
                         KPI3_lblVar2.Visible = false;
                         KPI3_lblVar3.Visible = false;
@@ -362,6 +424,8 @@ namespace StrykerEIP
                     {
                         KPI3_lblVar1.Text = arr3[0].ToString();
                         KPI3_lblVar2.Text = arr3[1].ToString();
+                        _kpi3Var1Name = arr3[0].ToString();
+                        _kpi3Var2Name = arr3[1].ToString();
                         KPI3_lblVar1.Visible = true;
                         KPI3_lblVar2.Visible = true;
                         KPI3_lblVar3.Visible = false;
@@ -380,6 +444,9 @@ namespace StrykerEIP
                         KPI3_lblVar1.Text = arr3[0].ToString();
                         KPI3_lblVar2.Text = arr3[1].ToString();
                         KPI3_lblVar3.Text = arr3[2].ToString();
+                        _kpi3Var1Name = arr3[0].ToString();
+                        _kpi3Var2Name = arr3[1].ToString();
+                        _kpi3Var3Name = arr3[2].ToString();
                         KPI3_lblVar1.Visible = true;
                         KPI3_lblVar2.Visible = true;
                         KPI3_lblVar3.Visible = true;
@@ -398,6 +465,10 @@ namespace StrykerEIP
                         KPI3_lblVar2.Text = arr3[1].ToString();
                         KPI3_lblVar3.Text = arr3[2].ToString();
                         KPI3_lblVar4.Text = arr3[3].ToString();
+                        _kpi3Var1Name = arr3[0].ToString();
+                        _kpi3Var2Name = arr3[1].ToString();
+                        _kpi3Var3Name = arr3[2].ToString();
+                        _kpi3Var4Name = arr3[3].ToString();
                         KPI3_lblVar1.Visible = true;
                         KPI3_lblVar2.Visible = true;
                         KPI3_lblVar3.Visible = true;
@@ -417,6 +488,11 @@ namespace StrykerEIP
                         KPI3_lblVar3.Text = arr3[2].ToString();
                         KPI3_lblVar4.Text = arr3[3].ToString();
                         KPI3_lblVar5.Text = arr3[4].ToString();
+                        _kpi3Var1Name = arr3[0].ToString();
+                        _kpi3Var2Name = arr3[1].ToString();
+                        _kpi3Var3Name = arr3[2].ToString();
+                        _kpi3Var4Name = arr3[3].ToString();
+                        _kpi3Var5Name = arr3[4].ToString();
                         KPI3_lblVar1.Visible = true;
                         KPI3_lblVar2.Visible = true;
                         KPI3_lblVar3.Visible = true;
@@ -442,6 +518,7 @@ namespace StrykerEIP
                     if (j == 0)
                     {
                         KPI4_lblVar1.Text = arr4[0].ToString();
+                        _kpi4Var1Name = arr4[0].ToString();
                         KPI4_lblVar1.Visible = true;
                         KPI4_lblVar2.Visible = false;
                         KPI4_lblVar3.Visible = false;
@@ -459,6 +536,8 @@ namespace StrykerEIP
                     {
                         KPI4_lblVar1.Text = arr4[0].ToString();
                         KPI4_lblVar2.Text = arr4[1].ToString();
+                        _kpi4Var1Name = arr4[0].ToString();
+                        _kpi4Var2Name = arr4[1].ToString();
                         KPI4_lblVar1.Visible = true;
                         KPI4_lblVar2.Visible = true;
                         KPI4_lblVar3.Visible = false;
@@ -477,6 +556,9 @@ namespace StrykerEIP
                         KPI4_lblVar1.Text = arr4[0].ToString();
                         KPI4_lblVar2.Text = arr4[1].ToString();
                         KPI4_lblVar3.Text = arr4[2].ToString();
+                        _kpi4Var1Name = arr4[0].ToString();
+                        _kpi4Var2Name = arr4[1].ToString();
+                        _kpi4Var3Name = arr4[2].ToString();
                         KPI4_lblVar1.Visible = true;
                         KPI4_lblVar2.Visible = true;
                         KPI4_lblVar3.Visible = true;
@@ -497,6 +579,10 @@ namespace StrykerEIP
                         KPI4_lblVar2.Text = arr4[1].ToString();
                         KPI4_lblVar3.Text = arr4[2].ToString();
                         KPI4_lblVar4.Text = arr4[3].ToString();
+                        _kpi4Var1Name = arr4[0].ToString();
+                        _kpi4Var2Name = arr4[1].ToString();
+                        _kpi4Var3Name = arr4[2].ToString();
+                        _kpi4Var4Name = arr4[3].ToString();
                         KPI4_lblVar1.Visible = true;
                         KPI4_lblVar2.Visible = true;
                         KPI4_lblVar3.Visible = true;
@@ -518,6 +604,11 @@ namespace StrykerEIP
                         KPI4_lblVar3.Text = arr4[2].ToString();
                         KPI4_lblVar4.Text = arr4[3].ToString();
                         KPI4_lblVar5.Text = arr4[4].ToString();
+                        _kpi4Var1Name = arr4[0].ToString();
+                        _kpi4Var2Name = arr4[1].ToString();
+                        _kpi4Var3Name = arr4[2].ToString();
+                        _kpi4Var4Name = arr4[3].ToString();
+                        _kpi4Var5Name = arr4[4].ToString();
                         KPI4_lblVar1.Visible = true;
                         KPI4_lblVar2.Visible = true;
                         KPI4_lblVar3.Visible = true;
@@ -571,7 +662,7 @@ namespace StrykerEIP
 
         private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Performs calculation
+            KPI_btnCalculate_Click(null, null);
         }
 
         private void clearFormToolStripMenuItem_Click(object sender, EventArgs e)
@@ -603,13 +694,20 @@ namespace StrykerEIP
             frmContact.Show();
         }
 
-        private void KPI1_btnCalculate_Click(object sender, EventArgs e)
+        private void KPI_btnCalculate_Click(object sender, EventArgs e)
         {
             KPI1_groupDecision.Visible = true;
             KPI1_btnSubmitDecision.Visible = true;
             KPI1_lblState.Visible = true;
 
             KPI1_lblState.Text = "Failure";
+
+            DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
+            var selectedTabIndex = KPIs_tabPage.SelectedTab.TabIndex;
+            var numberOfFieldsForKpi = _globalBusinessProcessDataSet.Tables[selectedTabIndex].Columns.Count + 1;
+            var kpiFormula = _globalBusinessProcessDataSet.Tables["KPI"].Rows[selectedTabIndex]["Formula"].ToString();
+
+
 
             //Changes the color of the state text, depending on the state.
             if (KPI1_lblState.Text == "Success")
