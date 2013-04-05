@@ -22,9 +22,9 @@ namespace StrykerEIP
         private void mdBusinessIntelligenceButton_Click(object sender, EventArgs e)
         {
             //Create click event to open Business Intelligence and close Main Dashboard.
-            BusinessIntelligenceLoginForm frmBILogin = new BusinessIntelligenceLoginForm();
+            BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
             this.Hide();
-            frmBILogin.Show();
+            frmBI.Show();
 
         }
 

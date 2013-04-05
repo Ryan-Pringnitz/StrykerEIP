@@ -40,9 +40,9 @@ namespace StrykerEIP
                 else
                 {
                     //Upon successful login validation, enable perspectives selection and hide login request.
-                    BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
+                    MainDashboardForm frmMD = new MainDashboardForm();
                     this.Hide();
-                    frmBI.Show();
+                    frmMD.Show();
                 }
             }
         }
