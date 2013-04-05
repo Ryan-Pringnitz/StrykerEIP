@@ -119,7 +119,7 @@ namespace StrykerEIP
                             CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
                             lblKPI1Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI1_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
-                            KPI1_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
+                            KPI1_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             //}
                             //else
                             //{
@@ -135,7 +135,7 @@ namespace StrykerEIP
                             OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
                             lblKPI2Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI2_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
-                            KPI2_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
+                            KPI2_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             //}
                             break;
                         case 2:
@@ -147,7 +147,7 @@ namespace StrykerEIP
                             FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
                             lblKPI3Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI3_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
-                            KPI3_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
+                            KPI3_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             //}
                             break;
                         case 3:
@@ -159,7 +159,7 @@ namespace StrykerEIP
                             InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
                             lblKPI4Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI4_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
-                            KPI4_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString();
+                            KPI4_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             //}
                             break;
                     }
