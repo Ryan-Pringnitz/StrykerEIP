@@ -43,7 +43,6 @@
             this.biSplashScreenRichTextBox = new System.Windows.Forms.RichTextBox();
             this.biLoginHelpButton = new System.Windows.Forms.Button();
             this.biLoginExitButton = new System.Windows.Forms.Button();
-            this.biLoginCancelButton = new System.Windows.Forms.Button();
             this.biWelcomeLabel = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,7 +69,7 @@
             this.bidSplashScreenGroupBox.Controls.Add(this.biMessageGroupBox);
             this.bidSplashScreenGroupBox.Controls.Add(this.biWelcomeLabel);
             this.bidSplashScreenGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.bidSplashScreenGroupBox.Location = new System.Drawing.Point(0, 27);
+            this.bidSplashScreenGroupBox.Location = new System.Drawing.Point(202, 48);
             this.bidSplashScreenGroupBox.Name = "bidSplashScreenGroupBox";
             this.bidSplashScreenGroupBox.Size = new System.Drawing.Size(856, 478);
             this.bidSplashScreenGroupBox.TabIndex = 7;
@@ -155,7 +154,6 @@
             this.biMessageGroupBox.Controls.Add(this.biSplashScreenRichTextBox);
             this.biMessageGroupBox.Controls.Add(this.biLoginHelpButton);
             this.biMessageGroupBox.Controls.Add(this.biLoginExitButton);
-            this.biMessageGroupBox.Controls.Add(this.biLoginCancelButton);
             this.biMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biMessageGroupBox.ForeColor = System.Drawing.Color.Black;
             this.biMessageGroupBox.Location = new System.Drawing.Point(43, 307);
@@ -216,15 +214,6 @@
             this.biLoginExitButton.Text = "E&xit";
             this.biLoginExitButton.UseVisualStyleBackColor = true;
             // 
-            // biLoginCancelButton
-            // 
-            this.biLoginCancelButton.Location = new System.Drawing.Point(136, 103);
-            this.biLoginCancelButton.Name = "biLoginCancelButton";
-            this.biLoginCancelButton.Size = new System.Drawing.Size(116, 30);
-            this.biLoginCancelButton.TabIndex = 6;
-            this.biLoginCancelButton.Text = "&Cancel";
-            this.biLoginCancelButton.UseVisualStyleBackColor = true;
-            // 
             // biWelcomeLabel
             // 
             this.biWelcomeLabel.AutoSize = true;
@@ -244,7 +233,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(857, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -324,7 +313,7 @@
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(857, 505);
+            this.ClientSize = new System.Drawing.Size(1284, 698);
             this.Controls.Add(this.bidSplashScreenGroupBox);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -359,7 +348,6 @@
         private System.Windows.Forms.RichTextBox biSplashScreenRichTextBox;
         private System.Windows.Forms.Button biLoginHelpButton;
         private System.Windows.Forms.Button biLoginExitButton;
-        private System.Windows.Forms.Button biLoginCancelButton;
         private System.Windows.Forms.Label biWelcomeLabel;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;

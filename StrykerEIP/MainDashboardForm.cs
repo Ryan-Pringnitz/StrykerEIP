@@ -33,5 +33,33 @@ namespace StrykerEIP
             //Create Exit Button Click Event. EDP
             Application.Exit();
         }
+
+        private void LogOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Create Logout CLick Event. EDP
+            BusinessIntelligenceLoginForm frmBILogin = new BusinessIntelligenceLoginForm();
+            this.Hide();
+            frmBILogin.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Create Exit Menu Bar Item Click Event. EDP
+            Application.Exit();
+        }
+
+        private void contactToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ContactForm frmContact = new ContactForm();
+            this.Hide();
+            frmContact.Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm frmAbout = new AboutForm();
+            this.Hide();
+            frmAbout.Show();
+        }
     }
 }
