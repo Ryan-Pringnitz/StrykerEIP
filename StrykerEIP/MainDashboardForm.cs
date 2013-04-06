@@ -51,14 +51,12 @@ namespace StrykerEIP
         private void contactToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ContactForm frmContact = new ContactForm();
-            this.Hide();
             frmContact.Show();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AboutForm frmAbout = new AboutForm();
-            this.Hide();
             frmAbout.Show();
         }
     }

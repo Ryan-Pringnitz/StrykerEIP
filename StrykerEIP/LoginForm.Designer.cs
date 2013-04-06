@@ -33,11 +33,15 @@
             this.lfLoginGroupBox = new System.Windows.Forms.GroupBox();
             this.lfPasswordTextBox = new System.Windows.Forms.TextBox();
             this.lfUserNameTextBox = new System.Windows.Forms.TextBox();
+            this.lfClearButton = new System.Windows.Forms.Button();
             this.biPasswordLabel = new System.Windows.Forms.Label();
+            this.biLoginButton = new System.Windows.Forms.Button();
             this.biUserNameLabel = new System.Windows.Forms.Label();
             this.lfMessageGroupBox = new System.Windows.Forms.GroupBox();
             this.biBoldedLoginLabel = new System.Windows.Forms.Label();
             this.biSplashScreenRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.lfHelpButton = new System.Windows.Forms.Button();
+            this.lfExitButton = new System.Windows.Forms.Button();
             this.biWelcomeLabel = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,10 +52,6 @@
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lfClearButton = new System.Windows.Forms.Button();
-            this.biLoginButton = new System.Windows.Forms.Button();
-            this.lfHelpButton = new System.Windows.Forms.Button();
-            this.lfExitButton = new System.Windows.Forms.Button();
             this.lfGroupBox.SuspendLayout();
             this.lfLoginGroupBox.SuspendLayout();
             this.lfMessageGroupBox.SuspendLayout();
@@ -72,7 +72,6 @@
             this.lfGroupBox.Size = new System.Drawing.Size(856, 478);
             this.lfGroupBox.TabIndex = 8;
             this.lfGroupBox.TabStop = false;
-            this.lfGroupBox.Text = "Business Intelligence User Interface 1.0";
             // 
             // lfLoginGroupBox
             // 
@@ -109,6 +108,18 @@
             this.lfUserNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.lfUserNameTextBox.TabIndex = 10;
             // 
+            // lfClearButton
+            // 
+            this.lfClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lfClearButton.ForeColor = System.Drawing.Color.Black;
+            this.lfClearButton.Location = new System.Drawing.Point(128, 105);
+            this.lfClearButton.Name = "lfClearButton";
+            this.lfClearButton.Size = new System.Drawing.Size(85, 33);
+            this.lfClearButton.TabIndex = 14;
+            this.lfClearButton.Text = "C&lear";
+            this.lfClearButton.UseVisualStyleBackColor = true;
+            this.lfClearButton.Click += new System.EventHandler(this.lfClearButton_Click);
+            // 
             // biPasswordLabel
             // 
             this.biPasswordLabel.AutoSize = true;
@@ -119,6 +130,19 @@
             this.biPasswordLabel.Size = new System.Drawing.Size(71, 16);
             this.biPasswordLabel.TabIndex = 10;
             this.biPasswordLabel.Text = "Password:";
+            // 
+            // biLoginButton
+            // 
+            this.biLoginButton.AccessibleDescription = "lfLoginButton";
+            this.biLoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biLoginButton.ForeColor = System.Drawing.Color.Black;
+            this.biLoginButton.Location = new System.Drawing.Point(28, 105);
+            this.biLoginButton.Name = "biLoginButton";
+            this.biLoginButton.Size = new System.Drawing.Size(85, 33);
+            this.biLoginButton.TabIndex = 13;
+            this.biLoginButton.Text = "&Log in";
+            this.biLoginButton.UseVisualStyleBackColor = true;
+            this.biLoginButton.Click += new System.EventHandler(this.biLoginButton_Click);
             // 
             // biUserNameLabel
             // 
@@ -171,115 +195,6 @@
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
                 "e and Password and press the button labeled \"Log In\"";
             // 
-            // biWelcomeLabel
-            // 
-            this.biWelcomeLabel.AutoSize = true;
-            this.biWelcomeLabel.BackColor = System.Drawing.Color.Black;
-            this.biWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biWelcomeLabel.ForeColor = System.Drawing.Color.White;
-            this.biWelcomeLabel.Location = new System.Drawing.Point(15, 271);
-            this.biWelcomeLabel.Name = "biWelcomeLabel";
-            this.biWelcomeLabel.Size = new System.Drawing.Size(466, 24);
-            this.biWelcomeLabel.TabIndex = 4;
-            this.biWelcomeLabel.Text = "Welcome to the Stryker Management Dashboard:";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
-            this.menuStrip1.TabIndex = 9;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem,
-            this.clearFormToolStripMenuItem,
-            this.exitProgramToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // loginToolStripMenuItem
-            // 
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.loginToolStripMenuItem.Text = "Login";
-            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
-            // 
-            // clearFormToolStripMenuItem
-            // 
-            this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.clearFormToolStripMenuItem.Text = "Clear Form";
-            this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
-            // 
-            // exitProgramToolStripMenuItem
-            // 
-            this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitProgramToolStripMenuItem.Text = "Exit Program";
-            this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.selfHelpPDFToolStripMenuItem,
-            this.contactToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // selfHelpPDFToolStripMenuItem
-            // 
-            this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
-            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
-            // 
-            // contactToolStripMenuItem
-            // 
-            this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.contactToolStripMenuItem.Text = "Contact";
-            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // lfClearButton
-            // 
-            this.lfClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lfClearButton.ForeColor = System.Drawing.Color.Black;
-            this.lfClearButton.Location = new System.Drawing.Point(128, 105);
-            this.lfClearButton.Name = "lfClearButton";
-            this.lfClearButton.Size = new System.Drawing.Size(85, 33);
-            this.lfClearButton.TabIndex = 14;
-            this.lfClearButton.Text = "C&lear";
-            this.lfClearButton.UseVisualStyleBackColor = true;
-            this.lfClearButton.Click += new System.EventHandler(this.lfClearButton_Click);
-            // 
-            // biLoginButton
-            // 
-            this.biLoginButton.AccessibleDescription = "lfLoginButton";
-            this.biLoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biLoginButton.ForeColor = System.Drawing.Color.Black;
-            this.biLoginButton.Location = new System.Drawing.Point(28, 105);
-            this.biLoginButton.Name = "biLoginButton";
-            this.biLoginButton.Size = new System.Drawing.Size(85, 33);
-            this.biLoginButton.TabIndex = 13;
-            this.biLoginButton.Text = "&Log in";
-            this.biLoginButton.UseVisualStyleBackColor = true;
-            this.biLoginButton.Click += new System.EventHandler(this.biLoginButton_Click);
-            // 
             // lfHelpButton
             // 
             this.lfHelpButton.ForeColor = System.Drawing.Color.Black;
@@ -301,6 +216,90 @@
             this.lfExitButton.UseVisualStyleBackColor = true;
             this.lfExitButton.Click += new System.EventHandler(this.lfExitButton_Click);
             // 
+            // biWelcomeLabel
+            // 
+            this.biWelcomeLabel.AutoSize = true;
+            this.biWelcomeLabel.BackColor = System.Drawing.Color.Black;
+            this.biWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biWelcomeLabel.ForeColor = System.Drawing.Color.White;
+            this.biWelcomeLabel.Location = new System.Drawing.Point(15, 271);
+            this.biWelcomeLabel.Name = "biWelcomeLabel";
+            this.biWelcomeLabel.Size = new System.Drawing.Size(466, 24);
+            this.biWelcomeLabel.TabIndex = 4;
+            this.biWelcomeLabel.Text = "Welcome to the Stryker Management Dashboard:";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
+            this.menuStrip1.TabIndex = 9;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loginToolStripMenuItem,
+            this.clearFormToolStripMenuItem,
+            this.exitProgramToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // loginToolStripMenuItem
+            // 
+            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.loginToolStripMenuItem.Text = "Login";
+            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
+            // 
+            // clearFormToolStripMenuItem
+            // 
+            this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.clearFormToolStripMenuItem.Text = "Clear Form";
+            this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
+            // 
+            // exitProgramToolStripMenuItem
+            // 
+            this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.exitProgramToolStripMenuItem.Text = "Exit Program";
+            this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.selfHelpPDFToolStripMenuItem,
+            this.contactToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // selfHelpPDFToolStripMenuItem
+            // 
+            this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
+            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
+            // 
+            // contactToolStripMenuItem
+            // 
+            this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.contactToolStripMenuItem.Text = "Contact";
+            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -308,7 +307,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1284, 674);
+            this.ClientSize = new System.Drawing.Size(1276, 674);
             this.Controls.Add(this.lfGroupBox);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;
