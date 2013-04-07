@@ -704,14 +704,14 @@ namespace StrykerEIP
 
             DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
             var selectedTabIndex = KPIs_tabPage.SelectedTab.TabIndex;
-            var numberOfFieldsForKpi = _globalBusinessProcessDataSet.Tables[selectedTabIndex].Columns.Count + 1;
+            var numberOfFieldsForKpi = _globalBusinessProcessDataSet.Tables[selectedTabIndex + 1].Columns.Count;
             var kpiFormula = _globalBusinessProcessDataSet.Tables["KPI"].Rows[selectedTabIndex]["Formula"].ToString();
 
             Dictionary<string, string> kpiVariableDict = new Dictionary<string, string>();
 
             for (int i = 1; i <= numberOfFieldsForKpi; i++)
             {
-                switch (selectedTabIndex)
+                switch (selectedTabIndex + 1)
                 {
                     case 1:
                         switch (i)
@@ -802,6 +802,8 @@ namespace StrykerEIP
 
             DataServices objDataServices = new DataServices();
             DataSet dsKPIResults = new DataSet();
+
+            dsKPIResults = objDataServices.GetKPIResult(kpiVariableDict);
 
             //Changes the color of the state text, depending on the state.
             if (KPI1_lblState.Text == "Success")
