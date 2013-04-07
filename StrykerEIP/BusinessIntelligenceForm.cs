@@ -720,6 +720,7 @@ namespace StrykerEIP
             IEnumerable<DataRow> drkpiState;
             IEnumerable<DataRow> drCollectionKPIDecisions;
             string kpiState;
+            int i;
 
             switch (kpiName)
             {
@@ -729,7 +730,7 @@ namespace StrykerEIP
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
                     drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
-                    int i = 1;
+                    i = 1;
                     foreach (DataRow dr in drCollectionKPIDecisions)
                     {
                         switch (i)
@@ -762,7 +763,28 @@ namespace StrykerEIP
                     calculatedKPI = (double.Parse(KPI1_txtVar2.Text) - double.Parse(KPI1_txtVar3.Text)) / double.Parse(KPI1_txtVar2.Text);
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
-                    MessageBox.Show(kpiState);
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI1_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI1_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI1_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI1_lblState.Text = kpiState;
                     break;
                 case "Market Share":
                     break;
