@@ -254,6 +254,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainDashboardForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainDashboardForm";
             this.Load += new System.EventHandler(this.MainDashboardForm_Load);
             this.mdMessageGroupBox.ResumeLayout(false);

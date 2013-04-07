@@ -85,7 +85,7 @@ namespace StrykerEIP
             this.KPI2_txtVar2 = new System.Windows.Forms.TextBox();
             this.KPI2_txtVar1 = new System.Windows.Forms.TextBox();
             this.KPI2_btnSubmitDecision = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.KPI2_groupDecision = new System.Windows.Forms.GroupBox();
             this.KPI2_radioDecision3 = new System.Windows.Forms.RadioButton();
             this.KPI2_radioDecision2 = new System.Windows.Forms.RadioButton();
             this.KPI2_radioDecision1 = new System.Windows.Forms.RadioButton();
@@ -111,7 +111,7 @@ namespace StrykerEIP
             this.KPI3_txtVar2 = new System.Windows.Forms.TextBox();
             this.KPI3_txtVar1 = new System.Windows.Forms.TextBox();
             this.KPI3_btnSubmitDecision = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.KPI3_groupDecision = new System.Windows.Forms.GroupBox();
             this.KPI3_radioDecision3 = new System.Windows.Forms.RadioButton();
             this.KPI3_radioDecision2 = new System.Windows.Forms.RadioButton();
             this.KPI3_radioDecision1 = new System.Windows.Forms.RadioButton();
@@ -137,7 +137,7 @@ namespace StrykerEIP
             this.KPI4_txtVar2 = new System.Windows.Forms.TextBox();
             this.KPI4_txtVar1 = new System.Windows.Forms.TextBox();
             this.KPI4_btnSubmitDecision = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.KPI4_groupDecision = new System.Windows.Forms.GroupBox();
             this.KPI4_radioDecision3 = new System.Windows.Forms.RadioButton();
             this.KPI4_radioDecision2 = new System.Windows.Forms.RadioButton();
             this.KPI4_radioDecision1 = new System.Windows.Forms.RadioButton();
@@ -180,11 +180,11 @@ namespace StrykerEIP
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
             this.KPI2_tabPage.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.KPI2_groupDecision.SuspendLayout();
             this.KPI3_tabPage.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.KPI3_groupDecision.SuspendLayout();
             this.KPI4_tabPage.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.KPI4_groupDecision.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationsChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).BeginInit();
@@ -488,7 +488,7 @@ namespace StrykerEIP
             this.KPI2_tabPage.Controls.Add(this.KPI2_txtVar2);
             this.KPI2_tabPage.Controls.Add(this.KPI2_txtVar1);
             this.KPI2_tabPage.Controls.Add(this.KPI2_btnSubmitDecision);
-            this.KPI2_tabPage.Controls.Add(this.groupBox1);
+            this.KPI2_tabPage.Controls.Add(this.KPI2_groupDecision);
             this.KPI2_tabPage.Controls.Add(this.label9);
             this.KPI2_tabPage.Controls.Add(this.label10);
             this.KPI2_tabPage.Controls.Add(this.label11);
@@ -615,17 +615,17 @@ namespace StrykerEIP
             this.KPI2_btnSubmitDecision.UseVisualStyleBackColor = true;
             this.KPI2_btnSubmitDecision.Visible = false;
             // 
-            // groupBox1
+            // KPI2_groupDecision
             // 
-            this.groupBox1.Controls.Add(this.KPI2_radioDecision3);
-            this.groupBox1.Controls.Add(this.KPI2_radioDecision2);
-            this.groupBox1.Controls.Add(this.KPI2_radioDecision1);
-            this.groupBox1.Location = new System.Drawing.Point(835, 23);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(333, 188);
-            this.groupBox1.TabIndex = 30;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Visible = false;
+            this.KPI2_groupDecision.Controls.Add(this.KPI2_radioDecision3);
+            this.KPI2_groupDecision.Controls.Add(this.KPI2_radioDecision2);
+            this.KPI2_groupDecision.Controls.Add(this.KPI2_radioDecision1);
+            this.KPI2_groupDecision.Location = new System.Drawing.Point(835, 23);
+            this.KPI2_groupDecision.Name = "KPI2_groupDecision";
+            this.KPI2_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI2_groupDecision.TabIndex = 30;
+            this.KPI2_groupDecision.TabStop = false;
+            this.KPI2_groupDecision.Visible = false;
             // 
             // KPI2_radioDecision3
             // 
@@ -753,7 +753,7 @@ namespace StrykerEIP
             this.KPI3_tabPage.Controls.Add(this.KPI3_txtVar2);
             this.KPI3_tabPage.Controls.Add(this.KPI3_txtVar1);
             this.KPI3_tabPage.Controls.Add(this.KPI3_btnSubmitDecision);
-            this.KPI3_tabPage.Controls.Add(this.groupBox2);
+            this.KPI3_tabPage.Controls.Add(this.KPI3_groupDecision);
             this.KPI3_tabPage.Controls.Add(this.label22);
             this.KPI3_tabPage.Controls.Add(this.label23);
             this.KPI3_tabPage.Controls.Add(this.label24);
@@ -880,17 +880,17 @@ namespace StrykerEIP
             this.KPI3_btnSubmitDecision.UseVisualStyleBackColor = true;
             this.KPI3_btnSubmitDecision.Visible = false;
             // 
-            // groupBox2
+            // KPI3_groupDecision
             // 
-            this.groupBox2.Controls.Add(this.KPI3_radioDecision3);
-            this.groupBox2.Controls.Add(this.KPI3_radioDecision2);
-            this.groupBox2.Controls.Add(this.KPI3_radioDecision1);
-            this.groupBox2.Location = new System.Drawing.Point(835, 23);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(333, 188);
-            this.groupBox2.TabIndex = 30;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Visible = false;
+            this.KPI3_groupDecision.Controls.Add(this.KPI3_radioDecision3);
+            this.KPI3_groupDecision.Controls.Add(this.KPI3_radioDecision2);
+            this.KPI3_groupDecision.Controls.Add(this.KPI3_radioDecision1);
+            this.KPI3_groupDecision.Location = new System.Drawing.Point(835, 23);
+            this.KPI3_groupDecision.Name = "KPI3_groupDecision";
+            this.KPI3_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI3_groupDecision.TabIndex = 30;
+            this.KPI3_groupDecision.TabStop = false;
+            this.KPI3_groupDecision.Visible = false;
             // 
             // KPI3_radioDecision3
             // 
@@ -1018,7 +1018,7 @@ namespace StrykerEIP
             this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar2);
             this.KPI4_tabPage.Controls.Add(this.KPI4_txtVar1);
             this.KPI4_tabPage.Controls.Add(this.KPI4_btnSubmitDecision);
-            this.KPI4_tabPage.Controls.Add(this.groupBox3);
+            this.KPI4_tabPage.Controls.Add(this.KPI4_groupDecision);
             this.KPI4_tabPage.Controls.Add(this.label35);
             this.KPI4_tabPage.Controls.Add(this.label36);
             this.KPI4_tabPage.Controls.Add(this.label37);
@@ -1150,17 +1150,17 @@ namespace StrykerEIP
             this.KPI4_btnSubmitDecision.UseVisualStyleBackColor = true;
             this.KPI4_btnSubmitDecision.Visible = false;
             // 
-            // groupBox3
+            // KPI4_groupDecision
             // 
-            this.groupBox3.Controls.Add(this.KPI4_radioDecision3);
-            this.groupBox3.Controls.Add(this.KPI4_radioDecision2);
-            this.groupBox3.Controls.Add(this.KPI4_radioDecision1);
-            this.groupBox3.Location = new System.Drawing.Point(835, 23);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(333, 188);
-            this.groupBox3.TabIndex = 30;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Visible = false;
+            this.KPI4_groupDecision.Controls.Add(this.KPI4_radioDecision3);
+            this.KPI4_groupDecision.Controls.Add(this.KPI4_radioDecision2);
+            this.KPI4_groupDecision.Controls.Add(this.KPI4_radioDecision1);
+            this.KPI4_groupDecision.Location = new System.Drawing.Point(835, 23);
+            this.KPI4_groupDecision.Name = "KPI4_groupDecision";
+            this.KPI4_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI4_groupDecision.TabIndex = 30;
+            this.KPI4_groupDecision.TabStop = false;
+            this.KPI4_groupDecision.Visible = false;
             // 
             // KPI4_radioDecision3
             // 
@@ -1557,6 +1557,7 @@ namespace StrykerEIP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1284, 874);
             this.Controls.Add(this.lblKPI4Name);
@@ -1572,6 +1573,7 @@ namespace StrykerEIP
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BusinessIntelligenceForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Business Intelligence Dashboard";
             this.KPIs_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.ResumeLayout(false);
@@ -1580,16 +1582,16 @@ namespace StrykerEIP
             this.KPI1_groupDecision.PerformLayout();
             this.KPI2_tabPage.ResumeLayout(false);
             this.KPI2_tabPage.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.KPI2_groupDecision.ResumeLayout(false);
+            this.KPI2_groupDecision.PerformLayout();
             this.KPI3_tabPage.ResumeLayout(false);
             this.KPI3_tabPage.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.KPI3_groupDecision.ResumeLayout(false);
+            this.KPI3_groupDecision.PerformLayout();
             this.KPI4_tabPage.ResumeLayout(false);
             this.KPI4_tabPage.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.KPI4_groupDecision.ResumeLayout(false);
+            this.KPI4_groupDecision.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationsChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).EndInit();
@@ -1673,7 +1675,7 @@ namespace StrykerEIP
         private TextBox KPI2_txtVar2;
         private TextBox KPI2_txtVar1;
         private Button KPI2_btnSubmitDecision;
-        private GroupBox groupBox1;
+        private GroupBox KPI2_groupDecision;
         private RadioButton KPI2_radioDecision3;
         private RadioButton KPI2_radioDecision2;
         private RadioButton KPI2_radioDecision1;
@@ -1698,7 +1700,7 @@ namespace StrykerEIP
         private TextBox KPI3_txtVar2;
         private TextBox KPI3_txtVar1;
         private Button KPI3_btnSubmitDecision;
-        private GroupBox groupBox2;
+        private GroupBox KPI3_groupDecision;
         private RadioButton KPI3_radioDecision3;
         private RadioButton KPI3_radioDecision2;
         private RadioButton KPI3_radioDecision1;
@@ -1723,7 +1725,7 @@ namespace StrykerEIP
         private TextBox KPI4_txtVar2;
         private TextBox KPI4_txtVar1;
         private Button KPI4_btnSubmitDecision;
-        private GroupBox groupBox3;
+        private GroupBox KPI4_groupDecision;
         private RadioButton KPI4_radioDecision3;
         private RadioButton KPI4_radioDecision2;
         private RadioButton KPI4_radioDecision1;

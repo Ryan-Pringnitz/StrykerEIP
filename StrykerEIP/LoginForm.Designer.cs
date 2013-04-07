@@ -193,7 +193,7 @@
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
-                "e and Password and press the button labeled \"Log In\"";
+    "e and Password and press the button labeled \"Log In\"";
             // 
             // lfHelpButton
             // 
@@ -312,6 +312,7 @@
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
             this.lfGroupBox.ResumeLayout(false);
             this.lfGroupBox.PerformLayout();

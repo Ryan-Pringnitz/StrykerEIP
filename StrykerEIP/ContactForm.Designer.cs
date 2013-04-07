@@ -106,6 +106,7 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSend);
             this.Name = "ContactForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact";
             this.Load += new System.EventHandler(this.ContactForm_Load);
             this.ResumeLayout(false);

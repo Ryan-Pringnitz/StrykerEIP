@@ -702,12 +702,6 @@ namespace StrykerEIP
 
         private void KPI_btnCalculate_Click(object sender, EventArgs e)
         {
-            KPI1_groupDecision.Visible = true;
-            KPI1_btnSubmitDecision.Visible = true;
-            KPI1_lblState.Visible = true;
-
-            KPI1_lblState.Text = "Failure";
-
             DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
             DataTable dtKPI = _globalBusinessProcessDataSet.Tables["KPI"];
             DataTable dtDecisions = _globalBusinessProcessDataSet.Tables["Decisions"];
@@ -753,6 +747,31 @@ namespace StrykerEIP
                     KPI1_lblState.Text = kpiState;
                     break;
                 case "Customer Training":
+                    TimeSpan kpiTemp = DateTime.Parse(KPI2_txtVar2.Text).Subtract(DateTime.Parse(KPI2_txtVar3.Text));
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= kpiTemp.TotalDays) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= kpiTemp.TotalDays));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI2_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI2_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI2_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI2_lblState.Text = kpiState;
                     break;
                 case "Frequency Complaints":
                     break;
@@ -832,52 +851,117 @@ namespace StrykerEIP
                     break;
             }
 
-            //Changes the color of the state text, depending on the state.
-            switch (KPI1_lblState.Text)
-            {
-                case "Success":
-                    KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
-                    break;
-                case "Normal":
-                    KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
-                    break;
-                case "Conflict":
-                    KPI1_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State
+            Button clickedButton = (Button)sender;
 
+            switch (clickedButton.Name)
+            {
+                case "KPI1_btnCalculate":
+                    KPI1_groupDecision.Visible = true;
+                    KPI1_btnSubmitDecision.Visible = true;
+                    KPI1_lblState.Visible = true;
+                    //Changes the color of the state text, depending on the state.
+                    switch (KPI1_lblState.Text)
+                    {
+                        case "Success":
+                            KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+                            break;
+                        case "Normal":
+                            KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                            break;
+                        case "Conflict":
+                            KPI1_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State
+                            break;
+                        case "Crisis":
+                            KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+                            break;
+                        case "Failure":
+                            KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+                            break;
+                        default:
+                            break;
+                    }
                     break;
-                case "Crisis":
-                    KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+                case "KPI2_btnCalculate":
+                    KPI2_groupDecision.Visible = true;
+                    KPI2_btnSubmitDecision.Visible = true;
+                    KPI2_lblState.Visible = true;
+                    //Changes the color of the state text, depending on the state.
+                    switch (KPI2_lblState.Text)
+                    {
+                        case "Success":
+                            KPI2_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+                            break;
+                        case "Normal":
+                            KPI2_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                            break;
+                        case "Conflict":
+                            KPI2_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State
+                            break;
+                        case "Crisis":
+                            KPI2_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+                            break;
+                        case "Failure":
+                            KPI2_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+                            break;
+                        default:
+                            break;
+                    }
                     break;
-                case "Failure":
-                    KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+                case "KPI3_btnCalculate":
+                    KPI3_groupDecision.Visible = true;
+                    KPI3_btnSubmitDecision.Visible = true;
+                    KPI3_lblState.Visible = true;
+                    //Changes the color of the state text, depending on the state.
+                    switch (KPI3_lblState.Text)
+                    {
+                        case "Success":
+                            KPI3_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+                            break;
+                        case "Normal":
+                            KPI3_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                            break;
+                        case "Conflict":
+                            KPI3_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State
+                            break;
+                        case "Crisis":
+                            KPI3_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+                            break;
+                        case "Failure":
+                            KPI3_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case "KPI4_btnCalculate":
+                    KPI4_groupDecision.Visible = true;
+                    KPI4_btnSubmitDecision.Visible = true;
+                    KPI4_lblState.Visible = true;
+                    //Changes the color of the state text, depending on the state.
+                    switch (KPI4_lblState.Text)
+                    {
+                        case "Success":
+                            KPI4_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+                            break;
+                        case "Normal":
+                            KPI4_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                            break;
+                        case "Conflict":
+                            KPI4_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State
+                            break;
+                        case "Crisis":
+                            KPI4_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+                            break;
+                        case "Failure":
+                            KPI4_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+                            break;
+                        default:
+                            break;
+                    }
                     break;
                 default:
                     break;
             }
-            //if (KPI1_lblState.Text == "Success")
-            //{
-            //    KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
-            //}
-
-            //if (KPI1_lblState.Text == "Normal")
-            //{
-            //    KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
-            //}
-
-            //if (KPI1_lblState.Text == "Conflict")
-            //{
-            //    KPI1_lblState.ForeColor = System.Drawing.Color.Gold; //Conflict State
-            //}
-
-            //if (KPI1_lblState.Text == "Crisis")
-            //{
-            //    KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
-            //}
-
-            //if (KPI1_lblState.Text == "Failure")
-            //{
-            //    KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
-            //}
         }
     }
 }
