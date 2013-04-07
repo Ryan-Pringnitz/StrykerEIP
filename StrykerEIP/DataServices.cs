@@ -48,34 +48,5 @@ namespace StrykerEIP
                 }
             }
         }
-
-        public DataSet GetKPIResult(Dictionary<string, string> kpiVariablesDict)
-        {
-            using (SqlCommand cmd = new SqlCommand())
-            {
-                cmd.Connection = DataMartConnection;
-
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = "GetKPIResult";
-                string parameterList = string.Empty;
-
-                foreach (KeyValuePair<string, string> kvp in kpiVariablesDict)
-                {
-                    parameterList += kvp.Key + "=" + kvp.Value + ",";
-                }
-                parameterList = parameterList.Substring(0, parameterList.Length - 1);
-
-                cmd.Parameters.AddWithValue("@ParameterList", parameterList);
-
-                using (SqlDataAdapter da = new SqlDataAdapter(cmd))
-                {
-                    DataSet dataSetKPIResults = new DataSet();
-
-                    da.Fill(dataSetKPIResults, "KPIResults");
-
-                    return dataSetKPIResults;
-                }
-            }
-        }
     }
 }

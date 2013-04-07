@@ -66,15 +66,15 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.richTextBox1.BackColor = System.Drawing.Color.Thistle;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(17, 26);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(337, 74);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-                "elp\".";
+    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+    "elp\".";
             // 
             // mdHelpButton
             // 
@@ -194,20 +194,20 @@
             this.LogOutToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // LogOutToolStripMenuItem
             // 
             this.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem";
-            this.LogOutToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.LogOutToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.LogOutToolStripMenuItem.Text = "Log Out";
             this.LogOutToolStripMenuItem.Click += new System.EventHandler(this.LogOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -217,26 +217,26 @@
             this.selfhelpPDFToolStripMenuItem,
             this.contactToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // selfhelpPDFToolStripMenuItem
             // 
             this.selfhelpPDFToolStripMenuItem.Name = "selfhelpPDFToolStripMenuItem";
-            this.selfhelpPDFToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.selfhelpPDFToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.selfhelpPDFToolStripMenuItem.Text = "Self-help PDF";
             // 
             // contactToolStripMenuItem
             // 
             this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.contactToolStripMenuItem.Text = "Contact";
             this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -255,6 +255,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainDashboardForm";
             this.Text = "MainDashboardForm";
+            this.Load += new System.EventHandler(this.MainDashboardForm_Load);
             this.mdMessageGroupBox.ResumeLayout(false);
             this.mdOverviewsGroupBox.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);

@@ -59,5 +59,10 @@ namespace StrykerEIP
             AboutForm frmAbout = new AboutForm();
             frmAbout.Show();
         }
+
+        private void MainDashboardForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

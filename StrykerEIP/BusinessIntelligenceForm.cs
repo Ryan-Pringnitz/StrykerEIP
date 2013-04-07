@@ -55,6 +55,11 @@ namespace StrykerEIP
             KPI2_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
             KPI3_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
             KPI4_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
+
+            KPI1_txtVar1.Text = DateTime.Now.ToString();
+            KPI2_txtVar1.Text = DateTime.Now.ToString();
+            KPI3_txtVar1.Text = DateTime.Now.ToString();
+            KPI4_txtVar1.Text = DateTime.Now.ToString();
         }
 
         private void subSystem_Click(object sender, EventArgs e)
@@ -704,106 +709,17 @@ namespace StrykerEIP
 
             DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
             var selectedTabIndex = KPIs_tabPage.SelectedTab.TabIndex;
-            var numberOfFieldsForKpi = _globalBusinessProcessDataSet.Tables[selectedTabIndex + 1].Columns.Count;
-            var kpiFormula = _globalBusinessProcessDataSet.Tables["KPI"].Rows[selectedTabIndex]["Formula"].ToString();
-
-            Dictionary<string, string> kpiVariableDict = new Dictionary<string, string>();
-
-            for (int i = 1; i <= numberOfFieldsForKpi; i++)
+            var kpiName = KPIs_tabPage.SelectedTab.Text;
+            switch (kpiName)
             {
-                switch (selectedTabIndex + 1)
-                {
-                    case 1:
-                        switch (i)
-                        {
-                            case 1:
-                                kpiVariableDict.Add(_kpi1Var1Name, KPI1_txtVar1.Text);
-                                break;
-                            case 2:
-                                kpiVariableDict.Add(_kpi1Var2Name, KPI1_txtVar2.Text);
-                                break;
-                            case 3:
-                                kpiVariableDict.Add(_kpi1Var3Name, KPI1_txtVar3.Text);
-                                break;
-                            case 4:
-                                kpiVariableDict.Add(_kpi1Var4Name, KPI1_txtVar4.Text);
-                                break;
-                            case 5:
-                                kpiVariableDict.Add(_kpi1Var5Name, KPI1_txtVar5.Text);
-                                break;
-                        }
-                        break;
-                    case 2:
-                        switch (i)
-                        {
-                            case 1:
-                                kpiVariableDict.Add(_kpi2Var1Name, KPI2_txtVar1.Text);
-                                break;
-                            case 2:
-                                kpiVariableDict.Add(_kpi2Var2Name, KPI2_txtVar2.Text);
-                                break;
-                            case 3:
-                                kpiVariableDict.Add(_kpi2Var3Name, KPI2_txtVar3.Text);
-                                break;
-                            case 4:
-                                kpiVariableDict.Add(_kpi2Var4Name, KPI2_txtVar4.Text);
-                                break;
-                            case 5:
-                                kpiVariableDict.Add(_kpi2Var5Name, KPI2_txtVar5.Text);
-                                break;
-                        }
-                        break;
-                    case 3:
-                        switch (i)
-                        {
-                            case 1:
-                                kpiVariableDict.Add(_kpi3Var1Name, KPI3_txtVar1.Text);
-                                break;
-                            case 2:
-                                kpiVariableDict.Add(_kpi3Var2Name, KPI3_txtVar2.Text);
-                                break;
-                            case 3:
-                                kpiVariableDict.Add(_kpi3Var3Name, KPI3_txtVar3.Text);
-                                break;
-                            case 4:
-                                kpiVariableDict.Add(_kpi3Var4Name, KPI3_txtVar4.Text);
-                                break;
-                            case 5:
-                                kpiVariableDict.Add(_kpi3Var5Name, KPI3_txtVar5.Text);
-                                break;
-                        }
-                        break;
-                    case 4:
-                        switch (i)
-                        {
-                            case 1:
-                                kpiVariableDict.Add(_kpi4Var1Name, KPI4_txtVar1.Text);
-                                break;
-                            case 2:
-                                kpiVariableDict.Add(_kpi4Var2Name, KPI4_txtVar2.Text);
-                                break;
-                            case 3:
-                                kpiVariableDict.Add(_kpi4Var3Name, KPI4_txtVar3.Text);
-                                break;
-                            case 4:
-                                kpiVariableDict.Add(_kpi4Var4Name, KPI4_txtVar4.Text);
-                                break;
-                            case 5:
-                                kpiVariableDict.Add(_kpi4Var5Name, KPI4_txtVar5.Text);
-                                break;
-                        }
-                        break;
-                    default:
-                        break;
-                }
+                case "Customer Complaints":
+                    var test = decimal.Parse(KPI1_txtVar2.Text) / decimal.Parse(KPI1_txtVar3.Text);
+                    break;
+                default:
+                    break;
             }
 
-            kpiVariableDict.Add("Formula", kpiFormula);
-
-            DataServices objDataServices = new DataServices();
-            DataSet dsKPIResults = new DataSet();
-
-            dsKPIResults = objDataServices.GetKPIResult(kpiVariableDict);
+            
 
             //Changes the color of the state text, depending on the state.
             if (KPI1_lblState.Text == "Success")
@@ -830,11 +746,6 @@ namespace StrykerEIP
             {
                 KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
             }
-        }
-
-        private void BusinessIntelligenceForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

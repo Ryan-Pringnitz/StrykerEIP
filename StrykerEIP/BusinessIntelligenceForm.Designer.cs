@@ -238,9 +238,9 @@ namespace StrykerEIP
             // 
             // KPI1_txtVar5
             // 
-            this.KPI1_txtVar5.Location = new System.Drawing.Point(351, 231);
+            this.KPI1_txtVar5.Location = new System.Drawing.Point(322, 231);
             this.KPI1_txtVar5.Name = "KPI1_txtVar5";
-            this.KPI1_txtVar5.Size = new System.Drawing.Size(100, 20);
+            this.KPI1_txtVar5.Size = new System.Drawing.Size(130, 20);
             this.KPI1_txtVar5.TabIndex = 21;
             // 
             // KPI1_lblVar5
@@ -248,7 +248,7 @@ namespace StrykerEIP
             this.KPI1_lblVar5.Location = new System.Drawing.Point(212, 234);
             this.KPI1_lblVar5.Name = "KPI1_lblVar5";
             this.KPI1_lblVar5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar5.Size = new System.Drawing.Size(133, 37);
+            this.KPI1_lblVar5.Size = new System.Drawing.Size(104, 37);
             this.KPI1_lblVar5.TabIndex = 20;
             this.KPI1_lblVar5.Text = "label7";
             // 
@@ -278,7 +278,7 @@ namespace StrykerEIP
             this.KPI1_lblVar4.Location = new System.Drawing.Point(212, 192);
             this.KPI1_lblVar4.Name = "KPI1_lblVar4";
             this.KPI1_lblVar4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar4.Size = new System.Drawing.Size(133, 37);
+            this.KPI1_lblVar4.Size = new System.Drawing.Size(104, 37);
             this.KPI1_lblVar4.TabIndex = 17;
             this.KPI1_lblVar4.Text = "label6";
             // 
@@ -287,7 +287,7 @@ namespace StrykerEIP
             this.KPI1_lblVar3.Location = new System.Drawing.Point(212, 152);
             this.KPI1_lblVar3.Name = "KPI1_lblVar3";
             this.KPI1_lblVar3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar3.Size = new System.Drawing.Size(133, 37);
+            this.KPI1_lblVar3.Size = new System.Drawing.Size(104, 37);
             this.KPI1_lblVar3.TabIndex = 16;
             this.KPI1_lblVar3.Text = "label5";
             // 
@@ -296,7 +296,7 @@ namespace StrykerEIP
             this.KPI1_lblVar2.Location = new System.Drawing.Point(212, 111);
             this.KPI1_lblVar2.Name = "KPI1_lblVar2";
             this.KPI1_lblVar2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar2.Size = new System.Drawing.Size(133, 37);
+            this.KPI1_lblVar2.Size = new System.Drawing.Size(104, 37);
             this.KPI1_lblVar2.TabIndex = 15;
             this.KPI1_lblVar2.Text = "label4";
             // 
@@ -305,36 +305,37 @@ namespace StrykerEIP
             this.KPI1_lblVar1.Location = new System.Drawing.Point(212, 69);
             this.KPI1_lblVar1.Name = "KPI1_lblVar1";
             this.KPI1_lblVar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar1.Size = new System.Drawing.Size(133, 37);
+            this.KPI1_lblVar1.Size = new System.Drawing.Size(104, 37);
             this.KPI1_lblVar1.TabIndex = 14;
             this.KPI1_lblVar1.Text = "label3";
             // 
             // KPI1_txtVar4
             // 
-            this.KPI1_txtVar4.Location = new System.Drawing.Point(351, 190);
+            this.KPI1_txtVar4.Location = new System.Drawing.Point(322, 190);
             this.KPI1_txtVar4.Name = "KPI1_txtVar4";
-            this.KPI1_txtVar4.Size = new System.Drawing.Size(100, 20);
+            this.KPI1_txtVar4.Size = new System.Drawing.Size(130, 20);
             this.KPI1_txtVar4.TabIndex = 13;
             // 
             // KPI1_txtVar3
             // 
-            this.KPI1_txtVar3.Location = new System.Drawing.Point(351, 149);
+            this.KPI1_txtVar3.Location = new System.Drawing.Point(322, 149);
             this.KPI1_txtVar3.Name = "KPI1_txtVar3";
-            this.KPI1_txtVar3.Size = new System.Drawing.Size(100, 20);
+            this.KPI1_txtVar3.Size = new System.Drawing.Size(130, 20);
             this.KPI1_txtVar3.TabIndex = 12;
             // 
             // KPI1_txtVar2
             // 
-            this.KPI1_txtVar2.Location = new System.Drawing.Point(351, 107);
+            this.KPI1_txtVar2.Location = new System.Drawing.Point(322, 107);
             this.KPI1_txtVar2.Name = "KPI1_txtVar2";
-            this.KPI1_txtVar2.Size = new System.Drawing.Size(100, 20);
+            this.KPI1_txtVar2.Size = new System.Drawing.Size(130, 20);
             this.KPI1_txtVar2.TabIndex = 11;
             // 
             // KPI1_txtVar1
             // 
-            this.KPI1_txtVar1.Location = new System.Drawing.Point(351, 66);
+            this.KPI1_txtVar1.Location = new System.Drawing.Point(322, 66);
             this.KPI1_txtVar1.Name = "KPI1_txtVar1";
-            this.KPI1_txtVar1.Size = new System.Drawing.Size(100, 20);
+            this.KPI1_txtVar1.ReadOnly = true;
+            this.KPI1_txtVar1.Size = new System.Drawing.Size(130, 20);
             this.KPI1_txtVar1.TabIndex = 10;
             // 
             // KPI1_btnSubmitDecision
@@ -504,16 +505,16 @@ namespace StrykerEIP
             // 
             // KPI2_txtVar5
             // 
-            this.KPI2_txtVar5.Location = new System.Drawing.Point(352, 230);
+            this.KPI2_txtVar5.Location = new System.Drawing.Point(323, 230);
             this.KPI2_txtVar5.Name = "KPI2_txtVar5";
-            this.KPI2_txtVar5.Size = new System.Drawing.Size(100, 20);
+            this.KPI2_txtVar5.Size = new System.Drawing.Size(130, 20);
             this.KPI2_txtVar5.TabIndex = 43;
             // 
             // KPI2_lblVar5
             // 
             this.KPI2_lblVar5.Location = new System.Drawing.Point(212, 233);
             this.KPI2_lblVar5.Name = "KPI2_lblVar5";
-            this.KPI2_lblVar5.Size = new System.Drawing.Size(134, 44);
+            this.KPI2_lblVar5.Size = new System.Drawing.Size(104, 44);
             this.KPI2_lblVar5.TabIndex = 42;
             this.KPI2_lblVar5.Text = "label7";
             this.KPI2_lblVar5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -542,7 +543,7 @@ namespace StrykerEIP
             // 
             this.KPI2_lblVar4.Location = new System.Drawing.Point(212, 191);
             this.KPI2_lblVar4.Name = "KPI2_lblVar4";
-            this.KPI2_lblVar4.Size = new System.Drawing.Size(134, 44);
+            this.KPI2_lblVar4.Size = new System.Drawing.Size(104, 44);
             this.KPI2_lblVar4.TabIndex = 39;
             this.KPI2_lblVar4.Text = "label6";
             this.KPI2_lblVar4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -551,7 +552,7 @@ namespace StrykerEIP
             // 
             this.KPI2_lblVar3.Location = new System.Drawing.Point(212, 151);
             this.KPI2_lblVar3.Name = "KPI2_lblVar3";
-            this.KPI2_lblVar3.Size = new System.Drawing.Size(134, 44);
+            this.KPI2_lblVar3.Size = new System.Drawing.Size(104, 44);
             this.KPI2_lblVar3.TabIndex = 38;
             this.KPI2_lblVar3.Text = "label5";
             this.KPI2_lblVar3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -560,7 +561,7 @@ namespace StrykerEIP
             // 
             this.KPI2_lblVar2.Location = new System.Drawing.Point(212, 111);
             this.KPI2_lblVar2.Name = "KPI2_lblVar2";
-            this.KPI2_lblVar2.Size = new System.Drawing.Size(134, 44);
+            this.KPI2_lblVar2.Size = new System.Drawing.Size(104, 44);
             this.KPI2_lblVar2.TabIndex = 37;
             this.KPI2_lblVar2.Text = "label4";
             this.KPI2_lblVar2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -569,37 +570,38 @@ namespace StrykerEIP
             // 
             this.KPI2_lblVar1.Location = new System.Drawing.Point(212, 69);
             this.KPI2_lblVar1.Name = "KPI2_lblVar1";
-            this.KPI2_lblVar1.Size = new System.Drawing.Size(134, 44);
+            this.KPI2_lblVar1.Size = new System.Drawing.Size(104, 44);
             this.KPI2_lblVar1.TabIndex = 36;
             this.KPI2_lblVar1.Text = "label3";
             this.KPI2_lblVar1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // KPI2_txtVar4
             // 
-            this.KPI2_txtVar4.Location = new System.Drawing.Point(352, 189);
+            this.KPI2_txtVar4.Location = new System.Drawing.Point(323, 189);
             this.KPI2_txtVar4.Name = "KPI2_txtVar4";
-            this.KPI2_txtVar4.Size = new System.Drawing.Size(100, 20);
+            this.KPI2_txtVar4.Size = new System.Drawing.Size(130, 20);
             this.KPI2_txtVar4.TabIndex = 35;
             // 
             // KPI2_txtVar3
             // 
-            this.KPI2_txtVar3.Location = new System.Drawing.Point(352, 148);
+            this.KPI2_txtVar3.Location = new System.Drawing.Point(323, 148);
             this.KPI2_txtVar3.Name = "KPI2_txtVar3";
-            this.KPI2_txtVar3.Size = new System.Drawing.Size(100, 20);
+            this.KPI2_txtVar3.Size = new System.Drawing.Size(130, 20);
             this.KPI2_txtVar3.TabIndex = 34;
             // 
             // KPI2_txtVar2
             // 
-            this.KPI2_txtVar2.Location = new System.Drawing.Point(352, 107);
+            this.KPI2_txtVar2.Location = new System.Drawing.Point(323, 107);
             this.KPI2_txtVar2.Name = "KPI2_txtVar2";
-            this.KPI2_txtVar2.Size = new System.Drawing.Size(100, 20);
+            this.KPI2_txtVar2.Size = new System.Drawing.Size(130, 20);
             this.KPI2_txtVar2.TabIndex = 33;
             // 
             // KPI2_txtVar1
             // 
-            this.KPI2_txtVar1.Location = new System.Drawing.Point(352, 66);
+            this.KPI2_txtVar1.Location = new System.Drawing.Point(323, 66);
             this.KPI2_txtVar1.Name = "KPI2_txtVar1";
-            this.KPI2_txtVar1.Size = new System.Drawing.Size(100, 20);
+            this.KPI2_txtVar1.ReadOnly = true;
+            this.KPI2_txtVar1.Size = new System.Drawing.Size(130, 20);
             this.KPI2_txtVar1.TabIndex = 32;
             // 
             // KPI2_btnSubmitDecision
@@ -768,16 +770,16 @@ namespace StrykerEIP
             // 
             // KPI3_txtVar5
             // 
-            this.KPI3_txtVar5.Location = new System.Drawing.Point(353, 230);
+            this.KPI3_txtVar5.Location = new System.Drawing.Point(324, 230);
             this.KPI3_txtVar5.Name = "KPI3_txtVar5";
-            this.KPI3_txtVar5.Size = new System.Drawing.Size(100, 20);
+            this.KPI3_txtVar5.Size = new System.Drawing.Size(130, 20);
             this.KPI3_txtVar5.TabIndex = 43;
             // 
             // KPI3_lblVar5
             // 
             this.KPI3_lblVar5.Location = new System.Drawing.Point(212, 230);
             this.KPI3_lblVar5.Name = "KPI3_lblVar5";
-            this.KPI3_lblVar5.Size = new System.Drawing.Size(135, 40);
+            this.KPI3_lblVar5.Size = new System.Drawing.Size(104, 40);
             this.KPI3_lblVar5.TabIndex = 42;
             this.KPI3_lblVar5.Text = "label7";
             this.KPI3_lblVar5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -806,7 +808,7 @@ namespace StrykerEIP
             // 
             this.KPI3_lblVar4.Location = new System.Drawing.Point(212, 188);
             this.KPI3_lblVar4.Name = "KPI3_lblVar4";
-            this.KPI3_lblVar4.Size = new System.Drawing.Size(135, 40);
+            this.KPI3_lblVar4.Size = new System.Drawing.Size(104, 40);
             this.KPI3_lblVar4.TabIndex = 39;
             this.KPI3_lblVar4.Text = "label6";
             this.KPI3_lblVar4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -815,7 +817,7 @@ namespace StrykerEIP
             // 
             this.KPI3_lblVar3.Location = new System.Drawing.Point(212, 148);
             this.KPI3_lblVar3.Name = "KPI3_lblVar3";
-            this.KPI3_lblVar3.Size = new System.Drawing.Size(135, 40);
+            this.KPI3_lblVar3.Size = new System.Drawing.Size(104, 40);
             this.KPI3_lblVar3.TabIndex = 38;
             this.KPI3_lblVar3.Text = "label5";
             this.KPI3_lblVar3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -824,7 +826,7 @@ namespace StrykerEIP
             // 
             this.KPI3_lblVar2.Location = new System.Drawing.Point(212, 108);
             this.KPI3_lblVar2.Name = "KPI3_lblVar2";
-            this.KPI3_lblVar2.Size = new System.Drawing.Size(135, 40);
+            this.KPI3_lblVar2.Size = new System.Drawing.Size(104, 40);
             this.KPI3_lblVar2.TabIndex = 37;
             this.KPI3_lblVar2.Text = "label4";
             this.KPI3_lblVar2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -833,37 +835,38 @@ namespace StrykerEIP
             // 
             this.KPI3_lblVar1.Location = new System.Drawing.Point(212, 66);
             this.KPI3_lblVar1.Name = "KPI3_lblVar1";
-            this.KPI3_lblVar1.Size = new System.Drawing.Size(135, 40);
+            this.KPI3_lblVar1.Size = new System.Drawing.Size(104, 40);
             this.KPI3_lblVar1.TabIndex = 36;
             this.KPI3_lblVar1.Text = "label3";
             this.KPI3_lblVar1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // KPI3_txtVar4
             // 
-            this.KPI3_txtVar4.Location = new System.Drawing.Point(353, 189);
+            this.KPI3_txtVar4.Location = new System.Drawing.Point(324, 189);
             this.KPI3_txtVar4.Name = "KPI3_txtVar4";
-            this.KPI3_txtVar4.Size = new System.Drawing.Size(100, 20);
+            this.KPI3_txtVar4.Size = new System.Drawing.Size(130, 20);
             this.KPI3_txtVar4.TabIndex = 35;
             // 
             // KPI3_txtVar3
             // 
-            this.KPI3_txtVar3.Location = new System.Drawing.Point(353, 148);
+            this.KPI3_txtVar3.Location = new System.Drawing.Point(324, 148);
             this.KPI3_txtVar3.Name = "KPI3_txtVar3";
-            this.KPI3_txtVar3.Size = new System.Drawing.Size(100, 20);
+            this.KPI3_txtVar3.Size = new System.Drawing.Size(130, 20);
             this.KPI3_txtVar3.TabIndex = 34;
             // 
             // KPI3_txtVar2
             // 
-            this.KPI3_txtVar2.Location = new System.Drawing.Point(353, 107);
+            this.KPI3_txtVar2.Location = new System.Drawing.Point(324, 107);
             this.KPI3_txtVar2.Name = "KPI3_txtVar2";
-            this.KPI3_txtVar2.Size = new System.Drawing.Size(100, 20);
+            this.KPI3_txtVar2.Size = new System.Drawing.Size(130, 20);
             this.KPI3_txtVar2.TabIndex = 33;
             // 
             // KPI3_txtVar1
             // 
-            this.KPI3_txtVar1.Location = new System.Drawing.Point(353, 66);
+            this.KPI3_txtVar1.Location = new System.Drawing.Point(324, 66);
             this.KPI3_txtVar1.Name = "KPI3_txtVar1";
-            this.KPI3_txtVar1.Size = new System.Drawing.Size(100, 20);
+            this.KPI3_txtVar1.ReadOnly = true;
+            this.KPI3_txtVar1.Size = new System.Drawing.Size(130, 20);
             this.KPI3_txtVar1.TabIndex = 32;
             // 
             // KPI3_btnSubmitDecision
@@ -1032,9 +1035,9 @@ namespace StrykerEIP
             // 
             // KPI4_txtVar5
             // 
-            this.KPI4_txtVar5.Location = new System.Drawing.Point(352, 229);
+            this.KPI4_txtVar5.Location = new System.Drawing.Point(322, 229);
             this.KPI4_txtVar5.Name = "KPI4_txtVar5";
-            this.KPI4_txtVar5.Size = new System.Drawing.Size(100, 20);
+            this.KPI4_txtVar5.Size = new System.Drawing.Size(130, 20);
             this.KPI4_txtVar5.TabIndex = 43;
             // 
             // KPI4_lblVar5
@@ -1042,7 +1045,7 @@ namespace StrykerEIP
             this.KPI4_lblVar5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.KPI4_lblVar5.Location = new System.Drawing.Point(212, 230);
             this.KPI4_lblVar5.Name = "KPI4_lblVar5";
-            this.KPI4_lblVar5.Size = new System.Drawing.Size(134, 39);
+            this.KPI4_lblVar5.Size = new System.Drawing.Size(104, 39);
             this.KPI4_lblVar5.TabIndex = 42;
             this.KPI4_lblVar5.Text = "label7";
             this.KPI4_lblVar5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1072,7 +1075,7 @@ namespace StrykerEIP
             this.KPI4_lblVar4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.KPI4_lblVar4.Location = new System.Drawing.Point(212, 188);
             this.KPI4_lblVar4.Name = "KPI4_lblVar4";
-            this.KPI4_lblVar4.Size = new System.Drawing.Size(134, 39);
+            this.KPI4_lblVar4.Size = new System.Drawing.Size(104, 39);
             this.KPI4_lblVar4.TabIndex = 39;
             this.KPI4_lblVar4.Text = "label6";
             this.KPI4_lblVar4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1082,7 +1085,7 @@ namespace StrykerEIP
             this.KPI4_lblVar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.KPI4_lblVar3.Location = new System.Drawing.Point(212, 148);
             this.KPI4_lblVar3.Name = "KPI4_lblVar3";
-            this.KPI4_lblVar3.Size = new System.Drawing.Size(134, 39);
+            this.KPI4_lblVar3.Size = new System.Drawing.Size(104, 39);
             this.KPI4_lblVar3.TabIndex = 38;
             this.KPI4_lblVar3.Text = "label5";
             this.KPI4_lblVar3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1092,7 +1095,7 @@ namespace StrykerEIP
             this.KPI4_lblVar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.KPI4_lblVar2.Location = new System.Drawing.Point(212, 109);
             this.KPI4_lblVar2.Name = "KPI4_lblVar2";
-            this.KPI4_lblVar2.Size = new System.Drawing.Size(134, 39);
+            this.KPI4_lblVar2.Size = new System.Drawing.Size(104, 39);
             this.KPI4_lblVar2.TabIndex = 37;
             this.KPI4_lblVar2.Text = "label4";
             this.KPI4_lblVar2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1102,37 +1105,38 @@ namespace StrykerEIP
             this.KPI4_lblVar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.KPI4_lblVar1.Location = new System.Drawing.Point(212, 67);
             this.KPI4_lblVar1.Name = "KPI4_lblVar1";
-            this.KPI4_lblVar1.Size = new System.Drawing.Size(134, 39);
+            this.KPI4_lblVar1.Size = new System.Drawing.Size(104, 39);
             this.KPI4_lblVar1.TabIndex = 36;
             this.KPI4_lblVar1.Text = "label3";
             this.KPI4_lblVar1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // KPI4_txtVar4
             // 
-            this.KPI4_txtVar4.Location = new System.Drawing.Point(352, 188);
+            this.KPI4_txtVar4.Location = new System.Drawing.Point(322, 188);
             this.KPI4_txtVar4.Name = "KPI4_txtVar4";
-            this.KPI4_txtVar4.Size = new System.Drawing.Size(100, 20);
+            this.KPI4_txtVar4.Size = new System.Drawing.Size(130, 20);
             this.KPI4_txtVar4.TabIndex = 35;
             // 
             // KPI4_txtVar3
             // 
-            this.KPI4_txtVar3.Location = new System.Drawing.Point(352, 147);
+            this.KPI4_txtVar3.Location = new System.Drawing.Point(322, 147);
             this.KPI4_txtVar3.Name = "KPI4_txtVar3";
-            this.KPI4_txtVar3.Size = new System.Drawing.Size(100, 20);
+            this.KPI4_txtVar3.Size = new System.Drawing.Size(130, 20);
             this.KPI4_txtVar3.TabIndex = 34;
             // 
             // KPI4_txtVar2
             // 
-            this.KPI4_txtVar2.Location = new System.Drawing.Point(352, 107);
+            this.KPI4_txtVar2.Location = new System.Drawing.Point(322, 107);
             this.KPI4_txtVar2.Name = "KPI4_txtVar2";
-            this.KPI4_txtVar2.Size = new System.Drawing.Size(100, 20);
+            this.KPI4_txtVar2.Size = new System.Drawing.Size(130, 20);
             this.KPI4_txtVar2.TabIndex = 33;
             // 
             // KPI4_txtVar1
             // 
-            this.KPI4_txtVar1.Location = new System.Drawing.Point(352, 66);
+            this.KPI4_txtVar1.Location = new System.Drawing.Point(322, 66);
             this.KPI4_txtVar1.Name = "KPI4_txtVar1";
-            this.KPI4_txtVar1.Size = new System.Drawing.Size(100, 20);
+            this.KPI4_txtVar1.ReadOnly = true;
+            this.KPI4_txtVar1.Size = new System.Drawing.Size(130, 20);
             this.KPI4_txtVar1.TabIndex = 32;
             // 
             // KPI4_btnSubmitDecision
@@ -1553,7 +1557,7 @@ namespace StrykerEIP
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1284, 882);
+            this.ClientSize = new System.Drawing.Size(1284, 874);
             this.Controls.Add(this.lblKPI4Name);
             this.Controls.Add(this.lblKPI3Name);
             this.Controls.Add(this.lblKPI2Name);
@@ -1568,7 +1572,6 @@ namespace StrykerEIP
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BusinessIntelligenceForm";
             this.Text = "Business Intelligence Dashboard";
-            this.Load += new System.EventHandler(this.BusinessIntelligenceForm_Load);
             this.KPIs_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.PerformLayout();
