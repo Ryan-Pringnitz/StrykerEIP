@@ -284,6 +284,7 @@ namespace StrykerEIP
             // 
             // KPI1_lblVar3
             // 
+            this.KPI1_lblVar3.AutoEllipsis = true;
             this.KPI1_lblVar3.Location = new System.Drawing.Point(212, 152);
             this.KPI1_lblVar3.Name = "KPI1_lblVar3";
             this.KPI1_lblVar3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

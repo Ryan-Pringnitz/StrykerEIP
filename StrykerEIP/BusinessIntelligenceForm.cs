@@ -51,6 +51,7 @@ namespace StrykerEIP
             {
                 subSystem.Click += new EventHandler(subSystem_Click);
             }
+
             KPI1_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
             KPI2_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
             KPI3_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
@@ -708,44 +709,153 @@ namespace StrykerEIP
             KPI1_lblState.Text = "Failure";
 
             DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
+            DataTable dtKPI = _globalBusinessProcessDataSet.Tables["KPI"];
+            DataTable dtDecisions = _globalBusinessProcessDataSet.Tables["Decisions"];
             var selectedTabIndex = KPIs_tabPage.SelectedTab.TabIndex;
             var kpiName = KPIs_tabPage.SelectedTab.Text;
+            var drKPI = dtKPI.AsEnumerable().Where(dr => dr.Field<string>("Name") == kpiName);
+            var kpiId = drKPI.First()["KPIID"].ToString().Trim();
+            var drKPIStates = dtStates.AsEnumerable().Where(dr => dr.Field<string>("KPIID") == kpiId);
+            double calculatedKPI;
+            IEnumerable<DataRow> drkpiState;
+            IEnumerable<DataRow> drCollectionKPIDecisions;
+            string kpiState;
+
             switch (kpiName)
             {
+                // Customer Service KPIs
                 case "Customer Complaints":
-                    var test = decimal.Parse(KPI1_txtVar2.Text) / decimal.Parse(KPI1_txtVar3.Text);
+                    calculatedKPI = double.Parse(KPI1_txtVar2.Text) / double.Parse(KPI1_txtVar3.Text);
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    int i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI1_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI1_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI1_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI1_lblState.Text = kpiState;
+                    break;
+                case "Customer Training":
+                    break;
+                case "Frequency Complaints":
+                    break;
+                case "Troubleshooting":
+                    break;
+                // EServices KPIs
+                case "Employee Retention":
+                    calculatedKPI = (double.Parse(KPI1_txtVar2.Text) - double.Parse(KPI1_txtVar3.Text)) / double.Parse(KPI1_txtVar2.Text);
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    MessageBox.Show(kpiState);
+                    break;
+                case "Market Share":
+                    break;
+                case "Revenue Growth":
+                    break;
+                case "Target Growth Rate":
+                    break;
+                // Financial Accounting KPIs
+                case "Paying Emplopyees":
+                    break;
+                case "Debiting Employers":
+                    break;
+                case "Timekeeping for Employee Hours":
+                    break;
+                case "Pay Period Information Access":
+                    break;
+                // Human Resources KPIs
+                case "Customer Feedback":
+                    break;
+                case "Training Expense Measure":
+                    break;
+                case "Employee Loyalty":
+                    break;
+                case "New Jobs Created Measure":
+                    break;
+                // Materials Management KPIs
+                case "Customer Cycle Time":
+                    break;
+                case "Cycle Time Performance":
+                    break;
+                case "Production Cycle Time":
+                    break;
+                case "Throughput Performance Index":
+                    break;
+                // Production KPIs
+                case "Parts Per Day":
+                    break;
+                case "Mean Time Between Failures":
+                    break;
+                case "Takt Time":
+                    break;
+                case "Daily Defect Ratio":
                     break;
                 default:
                     break;
             }
 
-            
-
             //Changes the color of the state text, depending on the state.
-            if (KPI1_lblState.Text == "Success")
+            switch (KPI1_lblState.Text)
             {
-                KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
-            }
+                case "Success":
+                    KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+                    break;
+                case "Normal":
+                    KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                    break;
+                case "Conflict":
+                    KPI1_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State
 
-            if (KPI1_lblState.Text == "Normal")
-            {
-                KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                    break;
+                case "Crisis":
+                    KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+                    break;
+                case "Failure":
+                    KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+                    break;
+                default:
+                    break;
             }
+            //if (KPI1_lblState.Text == "Success")
+            //{
+            //    KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+            //}
 
-            if (KPI1_lblState.Text == "Conflict")
-            {
-                KPI1_lblState.ForeColor = System.Drawing.Color.Gold; //Conflict State
-            }
+            //if (KPI1_lblState.Text == "Normal")
+            //{
+            //    KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+            //}
 
-            if (KPI1_lblState.Text == "Crisis")
-            {
-                KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
-            }
+            //if (KPI1_lblState.Text == "Conflict")
+            //{
+            //    KPI1_lblState.ForeColor = System.Drawing.Color.Gold; //Conflict State
+            //}
 
-            if (KPI1_lblState.Text == "Failure")
-            {
-                KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
-            }
+            //if (KPI1_lblState.Text == "Crisis")
+            //{
+            //    KPI1_lblState.ForeColor = System.Drawing.Color.DarkOrange; //Crisis State
+            //}
+
+            //if (KPI1_lblState.Text == "Failure")
+            //{
+            //    KPI1_lblState.ForeColor = System.Drawing.Color.Red; //Failure State
+            //}
         }
     }
 }
