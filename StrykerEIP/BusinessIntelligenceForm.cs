@@ -176,6 +176,8 @@ namespace StrykerEIP
 
 
                 //Adds text to the labels for KPI #1
+                #region
+
                 string[] arr1 = new string[dataSetBusinessProcess.Tables[1].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[1].Columns.Count; j++)
                 {
@@ -287,10 +289,10 @@ namespace StrykerEIP
                         KPI1_txtVar5.Visible = true;
                     }
                 }
-
-
-
+                #endregion
                 //Adds text to the labels for KPI #2
+                #region
+
                 string[] arr2 = new string[dataSetBusinessProcess.Tables[2].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[2].Columns.Count; j++)
                 {
@@ -403,9 +405,10 @@ namespace StrykerEIP
                     }
                 }
 
-
-
+                #endregion
                 //Adds text to the labels for KPI #3
+                #region
+
                 string[] arr3 = new string[dataSetBusinessProcess.Tables[3].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[3].Columns.Count; j++)
                 {
@@ -513,11 +516,10 @@ namespace StrykerEIP
                         KPI3_txtVar5.Visible = true;
                     }
                 }
-
-
-
-
+                #endregion
                 //Adds text to the labels for KPI #4
+                #region
+
                 string[] arr4 = new string[dataSetBusinessProcess.Tables[4].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[4].Columns.Count; j++)
                 {
@@ -629,6 +631,8 @@ namespace StrykerEIP
                         KPI4_txtVar5.Visible = true;
                     }
                 }
+                #endregion
+
 
 
                 CustomerChart.DataBind();
