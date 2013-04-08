@@ -59,7 +59,7 @@
             // 
             // txtQuestion
             // 
-            this.txtQuestion.BackColor = System.Drawing.Color.RoyalBlue;
+            this.txtQuestion.BackColor = System.Drawing.Color.PowderBlue;
             this.txtQuestion.Location = new System.Drawing.Point(55, 74);
             this.txtQuestion.Name = "txtQuestion";
             this.txtQuestion.Size = new System.Drawing.Size(260, 120);
@@ -77,7 +77,7 @@
             // 
             // txtName
             // 
-            this.txtName.BackColor = System.Drawing.Color.RoyalBlue;
+            this.txtName.BackColor = System.Drawing.Color.PowderBlue;
             this.txtName.Location = new System.Drawing.Point(52, 29);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(259, 20);
