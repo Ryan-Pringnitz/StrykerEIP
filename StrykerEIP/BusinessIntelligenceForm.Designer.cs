@@ -1506,7 +1506,7 @@ namespace StrykerEIP
             this.lblKPI1Name.AutoSize = true;
             this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI1Name.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblKPI1Name.ForeColor = System.Drawing.Color.Blue;
             this.lblKPI1Name.Location = new System.Drawing.Point(45, 124);
             this.lblKPI1Name.Name = "lblKPI1Name";
             this.lblKPI1Name.Size = new System.Drawing.Size(170, 37);
@@ -1519,7 +1519,7 @@ namespace StrykerEIP
             this.lblKPI2Name.AutoSize = true;
             this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI2Name.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblKPI2Name.ForeColor = System.Drawing.Color.Blue;
             this.lblKPI2Name.Location = new System.Drawing.Point(425, 124);
             this.lblKPI2Name.Name = "lblKPI2Name";
             this.lblKPI2Name.Size = new System.Drawing.Size(170, 37);
@@ -1532,7 +1532,7 @@ namespace StrykerEIP
             this.lblKPI3Name.AutoSize = true;
             this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI3Name.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblKPI3Name.ForeColor = System.Drawing.Color.Blue;
             this.lblKPI3Name.Location = new System.Drawing.Point(805, 124);
             this.lblKPI3Name.Name = "lblKPI3Name";
             this.lblKPI3Name.Size = new System.Drawing.Size(170, 37);
@@ -1545,7 +1545,7 @@ namespace StrykerEIP
             this.lblKPI4Name.AutoSize = true;
             this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI4Name.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblKPI4Name.ForeColor = System.Drawing.Color.Blue;
             this.lblKPI4Name.Location = new System.Drawing.Point(1185, 124);
             this.lblKPI4Name.Name = "lblKPI4Name";
             this.lblKPI4Name.Size = new System.Drawing.Size(170, 37);
