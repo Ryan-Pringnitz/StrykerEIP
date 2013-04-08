@@ -313,7 +313,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoginForm";
+            this.Text = "Login";
             this.lfGroupBox.ResumeLayout(false);
             this.lfGroupBox.PerformLayout();
             this.lfLoginGroupBox.ResumeLayout(false);

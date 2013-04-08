@@ -140,7 +140,7 @@
             this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Black;
             this.mdOverviewsGroupBox.Location = new System.Drawing.Point(687, 337);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
-            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(284, 135);
+            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(547, 330);
             this.mdOverviewsGroupBox.TabIndex = 7;
             this.mdOverviewsGroupBox.TabStop = false;
             this.mdOverviewsGroupBox.Text = "Stragic Intelligences:";
@@ -148,7 +148,7 @@
             // mdSustainabilityIntelligence
             // 
             this.mdSustainabilityIntelligence.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdSustainabilityIntelligence.Location = new System.Drawing.Point(40, 99);
+            this.mdSustainabilityIntelligence.Location = new System.Drawing.Point(40, 210);
             this.mdSustainabilityIntelligence.Name = "mdSustainabilityIntelligence";
             this.mdSustainabilityIntelligence.Size = new System.Drawing.Size(205, 30);
             this.mdSustainabilityIntelligence.TabIndex = 2;
@@ -158,7 +158,7 @@
             // mdGlobalIntelligenceButton
             // 
             this.mdGlobalIntelligenceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdGlobalIntelligenceButton.Location = new System.Drawing.Point(40, 58);
+            this.mdGlobalIntelligenceButton.Location = new System.Drawing.Point(40, 113);
             this.mdGlobalIntelligenceButton.Name = "mdGlobalIntelligenceButton";
             this.mdGlobalIntelligenceButton.Size = new System.Drawing.Size(205, 30);
             this.mdGlobalIntelligenceButton.TabIndex = 1;
@@ -184,7 +184,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1231, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1331, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -245,7 +245,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1231, 540);
+            this.ClientSize = new System.Drawing.Size(1331, 762);
             this.Controls.Add(this.mdOverviewsGroupBox);
             this.Controls.Add(this.mdMessageGroupBox);
             this.Controls.Add(this.mdDateTimePicker);
@@ -255,7 +255,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainDashboardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainDashboardForm";
+            this.Text = "Main Dashboard Page";
             this.Load += new System.EventHandler(this.MainDashboardForm_Load);
             this.mdMessageGroupBox.ResumeLayout(false);
             this.mdOverviewsGroupBox.ResumeLayout(false);
