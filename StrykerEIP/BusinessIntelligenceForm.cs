@@ -1000,7 +1000,7 @@ namespace StrykerEIP
                     break;
                 
                 case "Timekeeping for Employee Hours":
-                    calculatedKPI = double.Parse(KPI3_txtVar2.Text) - double.Parse(KPI3_txtVar3.Text);
+                    calculatedKPI = double.Parse(KPI4_txtVar2.Text) - double.Parse(KPI4_txtVar3.Text);
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
                     drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
@@ -1010,13 +1010,13 @@ namespace StrykerEIP
                         switch (i)
                         {
                             case 1:
-                                KPI3_radioDecision1.Text = dr["Decision"].ToString();
+                                KPI4_radioDecision1.Text = dr["Decision"].ToString();
                                 break;
                             case 2:
-                                KPI3_radioDecision2.Text = dr["Decision"].ToString();
+                                KPI4_radioDecision2.Text = dr["Decision"].ToString();
                                 break;
                             case 3:
-                                KPI3_radioDecision3.Text = dr["Decision"].ToString();
+                                KPI4_radioDecision3.Text = dr["Decision"].ToString();
                                 break;
                             default:
                                 break;
@@ -1024,10 +1024,10 @@ namespace StrykerEIP
                         i++;
                     }
 
-                    KPI3_lblState.Text = kpiState;
+                    KPI4_lblState.Text = kpiState;
                     break;
                 
-                case "Pay Period Information Access	":
+                case "Pay Period Information Access":
                     calculatedKPI = double.Parse(KPI4_txtVar2.Text) - double.Parse(KPI4_txtVar3.Text);
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
@@ -1069,8 +1069,8 @@ namespace StrykerEIP
                 // Materials Management KPIs
                 #region Materials Management
                 case "Customer Cycle Time":
-                    TimeSpan kpiCTT = DateTime.Parse(KPI1_txtVar2.Text).Subtract(DateTime.Parse(KPI1_txtVar3.Text));
-                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= kpiCTT.TotalDays) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= kpiCTT.TotalDays));
+                    TimeSpan kpiCCT = DateTime.Parse(KPI1_txtVar2.Text).Subtract(DateTime.Parse(KPI1_txtVar3.Text));
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= kpiCCT.TotalDays) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= kpiCCT.TotalDays));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
                     drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
                     i = 1;
@@ -1125,8 +1125,8 @@ namespace StrykerEIP
                     break;
 
                 case "Production Cycle Time":
-                    TimeSpan kpiPPIA = DateTime.Parse(KPI2_txtVar2.Text).Subtract(DateTime.Parse(KPI2_txtVar3.Text));
-                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= kpiPPIA.TotalDays) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= kpiPPIA.TotalDays));
+                    TimeSpan kpiPCT = DateTime.Parse(KPI3_txtVar2.Text).Subtract(DateTime.Parse(KPI3_txtVar3.Text));
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= kpiPCT.TotalDays) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= kpiPCT.TotalDays));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
                     drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
                     i = 1;
