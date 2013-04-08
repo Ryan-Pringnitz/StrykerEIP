@@ -978,12 +978,112 @@ namespace StrykerEIP
                 // Production KPIs
                 #region Production
                 case "Parts Per Day":
+                    calculatedKPI = double.Parse(KPI1_txtVar2.Text);
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI1_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI1_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI1_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI1_lblState.Text = kpiState;
                     break;
                 case "Mean Time Between Failures":
+                    calculatedKPI = double.Parse(KPI2_txtVar2.Text);
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI2_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI2_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI2_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI2_lblState.Text = kpiState;
                     break;
                 case "Takt Time":
+                    calculatedKPI = double.Parse(KPI3_txtVar2.Text);
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI3_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI3_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI3_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI3_lblState.Text = kpiState;
                     break;
                 case "Daily Defect Ratio":
+                    calculatedKPI = double.Parse(KPI4_txtVar2.Text) / double.Parse(KPI4_txtVar3.Text);
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI4_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI4_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI4_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI4_lblState.Text = kpiState;
                     break;
                 #endregion
                 default:
