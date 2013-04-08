@@ -341,7 +341,7 @@ namespace StrykerEIP
             // 
             // KPI1_btnSubmitDecision
             // 
-            this.KPI1_btnSubmitDecision.Location = new System.Drawing.Point(1076, 237);
+            this.KPI1_btnSubmitDecision.Location = new System.Drawing.Point(1165, 231);
             this.KPI1_btnSubmitDecision.Name = "KPI1_btnSubmitDecision";
             this.KPI1_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI1_btnSubmitDecision.TabIndex = 9;
@@ -356,7 +356,7 @@ namespace StrykerEIP
             this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision1);
             this.KPI1_groupDecision.Location = new System.Drawing.Point(835, 23);
             this.KPI1_groupDecision.Name = "KPI1_groupDecision";
-            this.KPI1_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI1_groupDecision.Size = new System.Drawing.Size(421, 188);
             this.KPI1_groupDecision.TabIndex = 8;
             this.KPI1_groupDecision.TabStop = false;
             this.KPI1_groupDecision.Visible = false;
@@ -607,7 +607,7 @@ namespace StrykerEIP
             // 
             // KPI2_btnSubmitDecision
             // 
-            this.KPI2_btnSubmitDecision.Location = new System.Drawing.Point(1076, 237);
+            this.KPI2_btnSubmitDecision.Location = new System.Drawing.Point(1151, 219);
             this.KPI2_btnSubmitDecision.Name = "KPI2_btnSubmitDecision";
             this.KPI2_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI2_btnSubmitDecision.TabIndex = 31;
@@ -622,7 +622,7 @@ namespace StrykerEIP
             this.KPI2_groupDecision.Controls.Add(this.KPI2_radioDecision1);
             this.KPI2_groupDecision.Location = new System.Drawing.Point(835, 23);
             this.KPI2_groupDecision.Name = "KPI2_groupDecision";
-            this.KPI2_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI2_groupDecision.Size = new System.Drawing.Size(407, 188);
             this.KPI2_groupDecision.TabIndex = 30;
             this.KPI2_groupDecision.TabStop = false;
             this.KPI2_groupDecision.Visible = false;
@@ -872,7 +872,7 @@ namespace StrykerEIP
             // 
             // KPI3_btnSubmitDecision
             // 
-            this.KPI3_btnSubmitDecision.Location = new System.Drawing.Point(1076, 237);
+            this.KPI3_btnSubmitDecision.Location = new System.Drawing.Point(1151, 218);
             this.KPI3_btnSubmitDecision.Name = "KPI3_btnSubmitDecision";
             this.KPI3_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI3_btnSubmitDecision.TabIndex = 31;
@@ -887,7 +887,7 @@ namespace StrykerEIP
             this.KPI3_groupDecision.Controls.Add(this.KPI3_radioDecision1);
             this.KPI3_groupDecision.Location = new System.Drawing.Point(835, 23);
             this.KPI3_groupDecision.Name = "KPI3_groupDecision";
-            this.KPI3_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI3_groupDecision.Size = new System.Drawing.Size(407, 188);
             this.KPI3_groupDecision.TabIndex = 30;
             this.KPI3_groupDecision.TabStop = false;
             this.KPI3_groupDecision.Visible = false;
@@ -1142,7 +1142,7 @@ namespace StrykerEIP
             // 
             // KPI4_btnSubmitDecision
             // 
-            this.KPI4_btnSubmitDecision.Location = new System.Drawing.Point(1076, 237);
+            this.KPI4_btnSubmitDecision.Location = new System.Drawing.Point(1143, 219);
             this.KPI4_btnSubmitDecision.Name = "KPI4_btnSubmitDecision";
             this.KPI4_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI4_btnSubmitDecision.TabIndex = 31;
@@ -1157,7 +1157,7 @@ namespace StrykerEIP
             this.KPI4_groupDecision.Controls.Add(this.KPI4_radioDecision1);
             this.KPI4_groupDecision.Location = new System.Drawing.Point(835, 23);
             this.KPI4_groupDecision.Name = "KPI4_groupDecision";
-            this.KPI4_groupDecision.Size = new System.Drawing.Size(333, 188);
+            this.KPI4_groupDecision.Size = new System.Drawing.Size(399, 188);
             this.KPI4_groupDecision.TabIndex = 30;
             this.KPI4_groupDecision.TabStop = false;
             this.KPI4_groupDecision.Visible = false;
@@ -1399,8 +1399,8 @@ namespace StrykerEIP
             this.customerServiceToolStripMenuItem,
             this.humanResourcesToolStripMenuItem});
             this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
-            this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.perspectivesToolStripMenuItem.Text = "Subsystem";
+            this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
+            this.perspectivesToolStripMenuItem.Text = "Perspective";
             // 
             // eServicesToolStripMenuItem
             // 
