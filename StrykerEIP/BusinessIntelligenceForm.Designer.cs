@@ -203,6 +203,10 @@ namespace StrykerEIP
             this.productionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customerServiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.humanResourcesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.globalIntellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.sustainableIntelligencToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -213,10 +217,6 @@ namespace StrykerEIP
             this.lblKPI2Name = new System.Windows.Forms.Label();
             this.lblKPI3Name = new System.Windows.Forms.Label();
             this.lblKPI4Name = new System.Windows.Forms.Label();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.globalIntellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sustainableIntelligencToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -1770,7 +1770,7 @@ namespace StrykerEIP
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1444, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1871,6 +1871,28 @@ namespace StrykerEIP
             this.humanResourcesToolStripMenuItem.Name = "humanResourcesToolStripMenuItem";
             this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.humanResourcesToolStripMenuItem.Text = "Human Resources";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(195, 6);
+            // 
+            // globalIntellToolStripMenuItem
+            // 
+            this.globalIntellToolStripMenuItem.Name = "globalIntellToolStripMenuItem";
+            this.globalIntellToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.globalIntellToolStripMenuItem.Text = "Global Intelligence";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(195, 6);
+            // 
+            // sustainableIntelligencToolStripMenuItem
+            // 
+            this.sustainableIntelligencToolStripMenuItem.Name = "sustainableIntelligencToolStripMenuItem";
+            this.sustainableIntelligencToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.sustainableIntelligencToolStripMenuItem.Text = "Sustainable Intelligence";
             // 
             // helpToolStripMenuItem
             // 
@@ -1987,35 +2009,14 @@ namespace StrykerEIP
             this.lblKPI4Name.Text = "KPI Name";
             this.lblKPI4Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(195, 6);
-            // 
-            // globalIntellToolStripMenuItem
-            // 
-            this.globalIntellToolStripMenuItem.Name = "globalIntellToolStripMenuItem";
-            this.globalIntellToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.globalIntellToolStripMenuItem.Text = "Global Intelligence";
-            // 
-            // sustainableIntelligencToolStripMenuItem
-            // 
-            this.sustainableIntelligencToolStripMenuItem.Name = "sustainableIntelligencToolStripMenuItem";
-            this.sustainableIntelligencToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.sustainableIntelligencToolStripMenuItem.Text = "Sustainable Intelligence";
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(195, 6);
-            // 
             // BusinessIntelligenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1444, 873);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1276, 696);
             this.Controls.Add(this.lblKPI4Name);
             this.Controls.Add(this.lblKPI3Name);
             this.Controls.Add(this.lblKPI2Name);

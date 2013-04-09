@@ -80,5 +80,38 @@ namespace StrykerEIP
             this.Hide();
             frmBI.Show();
         }
+
+        private void mdBIButton_HoverOver(object sender, EventArgs e)
+        {
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.REALBI2;
+        }
+
+        private void mdBIButton_Leave(object sender, EventArgs e)
+        {
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
+        }
+
+        private void mdGIButton_MouseHover(object sender, EventArgs e)
+        {
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.GlobalIntelligenceIcon;
+        }
+
+        private void mdGIButton_Leave(object sender, EventArgs e)
+        {
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
+        }
+
+        private void mdSIButton_MouseHover(object sender, EventArgs e)
+        {
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.SustainabilityIcon;
+        }
+
+        private void mdSIButton_Leave(object sender, EventArgs e)
+        {
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
+        }
+
+
+
     }
 }
