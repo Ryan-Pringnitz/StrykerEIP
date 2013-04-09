@@ -1564,6 +1564,7 @@ namespace StrykerEIP
             if (KPI2_radioDecision1.Checked == true)
             {
                 KPI2_lblDecisionFinal.Text = KPI2_radioDecision1.Text;
+
             }
             else
             if (KPI2_radioDecision2.Checked == true)

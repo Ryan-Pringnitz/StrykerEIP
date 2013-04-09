@@ -840,6 +840,7 @@ namespace StrykerEIP
             this.KPI2_btnSubmitDecision.Text = "Submit Decision";
             this.KPI2_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI2_btnSubmitDecision.Visible = false;
+            this.KPI2_btnSubmitDecision.Click += new System.EventHandler(this.KPI2_btnSubmitDecision_Click);
             // 
             // KPI2_groupDecision
             // 
@@ -1208,7 +1209,7 @@ namespace StrykerEIP
             this.KPI3_btnSubmitDecision.Text = "Submit Decision";
             this.KPI3_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI3_btnSubmitDecision.Visible = false;
-            this.KPI3_btnSubmitDecision.Click += new System.EventHandler(this.KPI3_btnSubmitDecision_Click_1);
+            this.KPI3_btnSubmitDecision.Click += new System.EventHandler(this.KPI3_btnSubmitDecision_Click);
             // 
             // KPI3_groupDecision
             // 
@@ -1573,6 +1574,7 @@ namespace StrykerEIP
             this.KPI4_btnSubmitDecision.Text = "Submit Decision";
             this.KPI4_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI4_btnSubmitDecision.Visible = false;
+            this.KPI4_btnSubmitDecision.Click += new System.EventHandler(this.KPI4_btnSubmitDecision_Click);
             // 
             // KPI4_groupDecision
             // 
@@ -1764,7 +1766,7 @@ namespace StrykerEIP
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1689, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1444, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1983,7 +1985,7 @@ namespace StrykerEIP
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1689, 873);
+            this.ClientSize = new System.Drawing.Size(1444, 873);
             this.Controls.Add(this.lblKPI4Name);
             this.Controls.Add(this.lblKPI3Name);
             this.Controls.Add(this.lblKPI2Name);
