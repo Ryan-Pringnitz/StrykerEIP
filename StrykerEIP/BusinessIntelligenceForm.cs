@@ -679,17 +679,50 @@ namespace StrykerEIP
 
         private void clearFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Clears fields of all content
+            //Clears fields of all content - KPI1
             KPI1_groupDecision.Visible = false;
             KPI1_btnSubmitDecision.Visible = false;
             KPI1_lblState.Visible = false;
-
-            KPI1_txtVar1.Text = "";
+            KPI1_lblState.Visible = false;
+            KPI1_btnSubmitDecision.Visible = false;
+            KPI1_lblResult.Visible = false;
             KPI1_txtVar2.Text = "";
             KPI1_txtVar3.Text = "";
             KPI1_txtVar4.Text = "";
             KPI1_txtVar5.Text = "";
-
+            //Clears fields of all content - KPI2
+            KPI2_groupDecision.Visible = false;
+            KPI2_btnSubmitDecision.Visible = false;
+            KPI2_lblState.Visible = false;
+            KPI2_lblState.Visible = false;
+            KPI2_btnSubmitDecision.Visible = false;
+            KPI2_lblResult.Visible = false;
+            KPI2_txtVar2.Text = "";
+            KPI2_txtVar3.Text = "";
+            KPI2_txtVar4.Text = "";
+            KPI2_txtVar5.Text = "";
+            //Clears fields of all content - KPI3
+            KPI3_groupDecision.Visible = false;
+            KPI3_btnSubmitDecision.Visible = false;
+            KPI3_lblState.Visible = false;
+            KPI3_lblState.Visible = false;
+            KPI3_btnSubmitDecision.Visible = false;
+            KPI3_lblResult.Visible = false;
+            KPI3_txtVar2.Text = "";
+            KPI3_txtVar3.Text = "";
+            KPI3_txtVar4.Text = "";
+            KPI3_txtVar5.Text = "";
+            //Clears fields of all content - KPI4
+            KPI4_groupDecision.Visible = false;
+            KPI4_btnSubmitDecision.Visible = false;
+            KPI4_lblState.Visible = false;
+            KPI4_lblState.Visible = false;
+            KPI4_btnSubmitDecision.Visible = false;
+            KPI4_lblResult.Visible = false;
+            KPI4_txtVar2.Text = "";
+            KPI4_txtVar3.Text = "";
+            KPI4_txtVar4.Text = "";
+            KPI4_txtVar5.Text = "";
         }
 
         private void returnToMenuToolStripMenuItem_Click(object sender, EventArgs e)
@@ -708,6 +741,56 @@ namespace StrykerEIP
 
         private void KPI_btnCalculate_Click(object sender, EventArgs e)
         {
+            //Displays controls
+            #region
+            //Clears fields of all content - KPI1
+            KPI1_groupDecision.Visible = true;
+            KPI1_btnSubmitDecision.Visible = true;
+            KPI1_lblState.Visible = true;
+            KPI1_lblState.Visible = true;
+            KPI1_btnSubmitDecision.Visible = true;
+            KPI1_lblResult.Visible = true;
+            KPI1_txtVar2.Text = "";
+            KPI1_txtVar3.Text = "";
+            KPI1_txtVar4.Text = "";
+            KPI1_txtVar5.Text = "";
+            //Clears fields of all content - KPI2
+            KPI2_groupDecision.Visible = true;
+            KPI2_btnSubmitDecision.Visible = true;
+            KPI2_lblState.Visible = true;
+            KPI2_lblState.Visible = true;
+            KPI2_btnSubmitDecision.Visible = true;
+            KPI2_lblResult.Visible = true;
+            KPI2_txtVar2.Text = "";
+            KPI2_txtVar3.Text = "";
+            KPI2_txtVar4.Text = "";
+            KPI2_txtVar5.Text = "";
+            //Clears fields of all content - KPI3
+            KPI3_groupDecision.Visible = true;
+            KPI3_btnSubmitDecision.Visible = true;
+            KPI3_lblState.Visible = true;
+            KPI3_lblState.Visible = true;
+            KPI3_btnSubmitDecision.Visible = true;
+            KPI3_lblResult.Visible = true;
+            KPI3_txtVar2.Text = "";
+            KPI3_txtVar3.Text = "";
+            KPI3_txtVar4.Text = "";
+            KPI3_txtVar5.Text = "";
+            //Clears fields of all content - KPI4
+            KPI4_groupDecision.Visible = true;
+            KPI4_btnSubmitDecision.Visible = true;
+            KPI4_lblState.Visible = true;
+            KPI4_lblState.Visible = true;
+            KPI4_btnSubmitDecision.Visible = true;
+            KPI4_lblResult.Visible = true;
+            KPI4_txtVar2.Text = "";
+            KPI4_txtVar3.Text = "";
+            KPI4_txtVar4.Text = "";
+            KPI4_txtVar5.Text = "";
+#endregion
+
+
+
             DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
             DataTable dtKPI = _globalBusinessProcessDataSet.Tables["KPI"];
             DataTable dtDecisions = _globalBusinessProcessDataSet.Tables["Decisions"];
@@ -1564,7 +1647,6 @@ namespace StrykerEIP
             if (KPI2_radioDecision1.Checked == true)
             {
                 KPI2_lblDecisionFinal.Text = KPI2_radioDecision1.Text;
-
             }
             else
             if (KPI2_radioDecision2.Checked == true)
@@ -1620,5 +1702,10 @@ namespace StrykerEIP
             }
         }
         #endregion
+
+        private void BusinessIntelligenceForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

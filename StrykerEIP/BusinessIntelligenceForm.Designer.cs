@@ -213,6 +213,10 @@ namespace StrykerEIP
             this.lblKPI2Name = new System.Windows.Forms.Label();
             this.lblKPI3Name = new System.Windows.Forms.Label();
             this.lblKPI4Name = new System.Windows.Forms.Label();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.globalIntellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sustainableIntelligencToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -1823,7 +1827,11 @@ namespace StrykerEIP
             this.materialsManagementToolStripMenuItem,
             this.productionToolStripMenuItem,
             this.customerServiceToolStripMenuItem,
-            this.humanResourcesToolStripMenuItem});
+            this.humanResourcesToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.globalIntellToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.sustainableIntelligencToolStripMenuItem});
             this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
             this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.perspectivesToolStripMenuItem.Text = "Perspective";
@@ -1831,37 +1839,37 @@ namespace StrykerEIP
             // eServicesToolStripMenuItem
             // 
             this.eServicesToolStripMenuItem.Name = "eServicesToolStripMenuItem";
-            this.eServicesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.eServicesToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.eServicesToolStripMenuItem.Text = "E-Services";
             // 
             // financialAccountingToolStripMenuItem
             // 
             this.financialAccountingToolStripMenuItem.Name = "financialAccountingToolStripMenuItem";
-            this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.financialAccountingToolStripMenuItem.Text = "Financial Accounting";
             // 
             // materialsManagementToolStripMenuItem
             // 
             this.materialsManagementToolStripMenuItem.Name = "materialsManagementToolStripMenuItem";
-            this.materialsManagementToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.materialsManagementToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.materialsManagementToolStripMenuItem.Text = "Materials Management";
             // 
             // productionToolStripMenuItem
             // 
             this.productionToolStripMenuItem.Name = "productionToolStripMenuItem";
-            this.productionToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.productionToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.productionToolStripMenuItem.Text = "Production";
             // 
             // customerServiceToolStripMenuItem
             // 
             this.customerServiceToolStripMenuItem.Name = "customerServiceToolStripMenuItem";
-            this.customerServiceToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.customerServiceToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.customerServiceToolStripMenuItem.Text = "Customer Service";
             // 
             // humanResourcesToolStripMenuItem
             // 
             this.humanResourcesToolStripMenuItem.Name = "humanResourcesToolStripMenuItem";
-            this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.humanResourcesToolStripMenuItem.Text = "Human Resources";
             // 
             // helpToolStripMenuItem
@@ -1979,6 +1987,28 @@ namespace StrykerEIP
             this.lblKPI4Name.Text = "KPI Name";
             this.lblKPI4Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(195, 6);
+            // 
+            // globalIntellToolStripMenuItem
+            // 
+            this.globalIntellToolStripMenuItem.Name = "globalIntellToolStripMenuItem";
+            this.globalIntellToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.globalIntellToolStripMenuItem.Text = "Global Intelligence";
+            // 
+            // sustainableIntelligencToolStripMenuItem
+            // 
+            this.sustainableIntelligencToolStripMenuItem.Name = "sustainableIntelligencToolStripMenuItem";
+            this.sustainableIntelligencToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.sustainableIntelligencToolStripMenuItem.Text = "Sustainable Intelligence";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(195, 6);
+            // 
             // BusinessIntelligenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2001,6 +2031,7 @@ namespace StrykerEIP
             this.Name = "BusinessIntelligenceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Business Intelligence Dashboard";
+            this.Load += new System.EventHandler(this.BusinessIntelligenceForm_Load);
             this.KPIs_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.ResumeLayout(false);
             this.KPI1_tabPage.PerformLayout();
@@ -2200,6 +2231,10 @@ namespace StrykerEIP
         private Label KPI3_lblDecisionFinal;
         private Label KPI4_lblDecisionFinal;
         private Label label16;
+        private ToolStripSeparator toolStripSeparator2;
+        private ToolStripMenuItem globalIntellToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator3;
+        private ToolStripMenuItem sustainableIntelligencToolStripMenuItem;
     }
 }
 

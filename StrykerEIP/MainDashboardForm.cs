@@ -64,5 +64,21 @@ namespace StrykerEIP
         {
 
         }
+
+        private void mdGlobalIntelligenceButton_Click(object sender, EventArgs e)
+        {
+            //Create click event to open Business Intelligence and close Main Dashboard.
+            BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
+            this.Hide();
+            frmBI.Show();
+        }
+
+        private void mdSustainabilityIntelligence_Click(object sender, EventArgs e)
+        {
+            //Create click event to open Business Intelligence and close Main Dashboard.
+            BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
+            this.Hide();
+            frmBI.Show();
+        }
     }
 }

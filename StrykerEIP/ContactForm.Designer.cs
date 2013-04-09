@@ -39,22 +39,24 @@
             // 
             // btnSend
             // 
+            this.btnSend.BackColor = System.Drawing.Color.Ivory;
             this.btnSend.Location = new System.Drawing.Point(56, 200);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(101, 28);
             this.btnSend.TabIndex = 0;
             this.btnSend.Text = "Send";
-            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.UseVisualStyleBackColor = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // btnCancel
             // 
+            this.btnCancel.BackColor = System.Drawing.Color.Ivory;
             this.btnCancel.Location = new System.Drawing.Point(219, 200);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(96, 28);
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // txtQuestion

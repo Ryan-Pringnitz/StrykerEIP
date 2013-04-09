@@ -110,14 +110,15 @@
             // 
             // lfClearButton
             // 
-            this.lfClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lfClearButton.BackColor = System.Drawing.Color.Ivory;
+            this.lfClearButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfClearButton.ForeColor = System.Drawing.Color.Black;
             this.lfClearButton.Location = new System.Drawing.Point(128, 105);
             this.lfClearButton.Name = "lfClearButton";
             this.lfClearButton.Size = new System.Drawing.Size(85, 33);
             this.lfClearButton.TabIndex = 14;
             this.lfClearButton.Text = "C&lear";
-            this.lfClearButton.UseVisualStyleBackColor = true;
+            this.lfClearButton.UseVisualStyleBackColor = false;
             this.lfClearButton.Click += new System.EventHandler(this.lfClearButton_Click);
             // 
             // biPasswordLabel
@@ -134,14 +135,15 @@
             // biLoginButton
             // 
             this.biLoginButton.AccessibleDescription = "lfLoginButton";
-            this.biLoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biLoginButton.BackColor = System.Drawing.Color.Ivory;
+            this.biLoginButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biLoginButton.ForeColor = System.Drawing.Color.Black;
             this.biLoginButton.Location = new System.Drawing.Point(28, 105);
             this.biLoginButton.Name = "biLoginButton";
             this.biLoginButton.Size = new System.Drawing.Size(85, 33);
             this.biLoginButton.TabIndex = 13;
             this.biLoginButton.Text = "&Log in";
-            this.biLoginButton.UseVisualStyleBackColor = true;
+            this.biLoginButton.UseVisualStyleBackColor = false;
             this.biLoginButton.Click += new System.EventHandler(this.biLoginButton_Click);
             // 
             // biUserNameLabel
@@ -197,23 +199,27 @@
             // 
             // lfHelpButton
             // 
+            this.lfHelpButton.BackColor = System.Drawing.Color.Ivory;
+            this.lfHelpButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfHelpButton.ForeColor = System.Drawing.Color.Black;
             this.lfHelpButton.Location = new System.Drawing.Point(53, 107);
             this.lfHelpButton.Name = "lfHelpButton";
             this.lfHelpButton.Size = new System.Drawing.Size(93, 31);
             this.lfHelpButton.TabIndex = 5;
             this.lfHelpButton.Text = "&Help";
-            this.lfHelpButton.UseVisualStyleBackColor = true;
+            this.lfHelpButton.UseVisualStyleBackColor = false;
             // 
             // lfExitButton
             // 
+            this.lfExitButton.BackColor = System.Drawing.Color.Ivory;
+            this.lfExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfExitButton.ForeColor = System.Drawing.Color.Black;
             this.lfExitButton.Location = new System.Drawing.Point(295, 107);
             this.lfExitButton.Name = "lfExitButton";
             this.lfExitButton.Size = new System.Drawing.Size(91, 31);
             this.lfExitButton.TabIndex = 7;
             this.lfExitButton.Text = "E&xit";
-            this.lfExitButton.UseVisualStyleBackColor = true;
+            this.lfExitButton.UseVisualStyleBackColor = false;
             this.lfExitButton.Click += new System.EventHandler(this.lfExitButton_Click);
             // 
             // biWelcomeLabel
