@@ -46,6 +46,9 @@ namespace StrykerEIP
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BusinessIntelligenceForm));
             this.KPIs_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
+            this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.KPI1_lblResult = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
@@ -78,6 +81,9 @@ namespace StrykerEIP
             this.label1 = new System.Windows.Forms.Label();
             this.lblColumn1 = new System.Windows.Forms.Label();
             this.KPI2_tabPage = new System.Windows.Forms.TabPage();
+            this.KPI2_lblDecisionFinal = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.KPI2_lblResult = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -110,6 +116,10 @@ namespace StrykerEIP
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.KPI3_tabPage = new System.Windows.Forms.TabPage();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.KPI3_lblDecisionFinal = new System.Windows.Forms.Label();
+            this.KPI3_lblResult = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -142,6 +152,9 @@ namespace StrykerEIP
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.KPI4_tabPage = new System.Windows.Forms.TabPage();
+            this.KPI4_lblDecisionFinal = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.KPI4_lblResult = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -200,19 +213,6 @@ namespace StrykerEIP
             this.lblKPI2Name = new System.Windows.Forms.Label();
             this.lblKPI3Name = new System.Windows.Forms.Label();
             this.lblKPI4Name = new System.Windows.Forms.Label();
-            this.KPI1_lblResult = new System.Windows.Forms.Label();
-            this.KPI2_lblResult = new System.Windows.Forms.Label();
-            this.KPI3_lblResult = new System.Windows.Forms.Label();
-            this.KPI4_lblResult = new System.Windows.Forms.Label();
-            this.KPI3_lblDecisionFinal = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.KPI4_lblDecisionFinal = new System.Windows.Forms.Label();
-            this.KPI2_lblDecisionFinal = new System.Windows.Forms.Label();
-            this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
             this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -243,7 +243,7 @@ namespace StrykerEIP
             // 
             // KPI1_tabPage
             // 
-            this.KPI1_tabPage.BackColor = System.Drawing.Color.Lavender;
+            this.KPI1_tabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblDecisionFinal);
             this.KPI1_tabPage.Controls.Add(this.label53);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblResult);
@@ -281,6 +281,36 @@ namespace StrykerEIP
             this.KPI1_tabPage.Size = new System.Drawing.Size(1572, 283);
             this.KPI1_tabPage.TabIndex = 0;
             this.KPI1_tabPage.Text = "Customer";
+            // 
+            // KPI1_lblDecisionFinal
+            // 
+            this.KPI1_lblDecisionFinal.AutoSize = true;
+            this.KPI1_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.KPI1_lblDecisionFinal.Location = new System.Drawing.Point(1397, 124);
+            this.KPI1_lblDecisionFinal.Name = "KPI1_lblDecisionFinal";
+            this.KPI1_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
+            this.KPI1_lblDecisionFinal.TabIndex = 57;
+            this.KPI1_lblDecisionFinal.Text = "Result";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label53.Location = new System.Drawing.Point(1280, 4);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(70, 17);
+            this.label53.TabIndex = 56;
+            this.label53.Text = "Decision";
+            // 
+            // KPI1_lblResult
+            // 
+            this.KPI1_lblResult.AutoSize = true;
+            this.KPI1_lblResult.Location = new System.Drawing.Point(666, 88);
+            this.KPI1_lblResult.Name = "KPI1_lblResult";
+            this.KPI1_lblResult.Size = new System.Drawing.Size(37, 13);
+            this.KPI1_lblResult.TabIndex = 51;
+            this.KPI1_lblResult.Text = "Result";
             // 
             // label48
             // 
@@ -329,7 +359,7 @@ namespace StrykerEIP
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(7, 264);
+            this.label34.Location = new System.Drawing.Point(4, 266);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(30, 13);
             this.label34.TabIndex = 45;
@@ -364,12 +394,13 @@ namespace StrykerEIP
             // 
             // KPI1_btnCalculate
             // 
+            this.KPI1_btnCalculate.BackColor = System.Drawing.Color.Ivory;
             this.KPI1_btnCalculate.Location = new System.Drawing.Point(459, 66);
             this.KPI1_btnCalculate.Name = "KPI1_btnCalculate";
             this.KPI1_btnCalculate.Size = new System.Drawing.Size(75, 185);
             this.KPI1_btnCalculate.TabIndex = 18;
             this.KPI1_btnCalculate.Text = "Calculate";
-            this.KPI1_btnCalculate.UseVisualStyleBackColor = true;
+            this.KPI1_btnCalculate.UseVisualStyleBackColor = false;
             this.KPI1_btnCalculate.Click += new System.EventHandler(this.KPI_btnCalculate_Click);
             // 
             // KPI1_lblVar4
@@ -440,13 +471,15 @@ namespace StrykerEIP
             // 
             // KPI1_btnSubmitDecision
             // 
-            this.KPI1_btnSubmitDecision.Location = new System.Drawing.Point(1165, 231);
+            this.KPI1_btnSubmitDecision.BackColor = System.Drawing.Color.Ivory;
+            this.KPI1_btnSubmitDecision.Location = new System.Drawing.Point(1156, 218);
             this.KPI1_btnSubmitDecision.Name = "KPI1_btnSubmitDecision";
             this.KPI1_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI1_btnSubmitDecision.TabIndex = 9;
             this.KPI1_btnSubmitDecision.Text = "Submit Decision";
-            this.KPI1_btnSubmitDecision.UseVisualStyleBackColor = true;
+            this.KPI1_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI1_btnSubmitDecision.Visible = false;
+            this.KPI1_btnSubmitDecision.Click += new System.EventHandler(this.KPI1_btnSubmitDecision_Click);
             // 
             // KPI1_groupDecision
             // 
@@ -573,7 +606,7 @@ namespace StrykerEIP
             // 
             // KPI2_tabPage
             // 
-            this.KPI2_tabPage.BackColor = System.Drawing.Color.Lavender;
+            this.KPI2_tabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.KPI2_tabPage.Controls.Add(this.KPI2_lblDecisionFinal);
             this.KPI2_tabPage.Controls.Add(this.label52);
             this.KPI2_tabPage.Controls.Add(this.KPI2_lblResult);
@@ -611,6 +644,36 @@ namespace StrykerEIP
             this.KPI2_tabPage.Size = new System.Drawing.Size(1572, 283);
             this.KPI2_tabPage.TabIndex = 1;
             this.KPI2_tabPage.Text = "Financial";
+            // 
+            // KPI2_lblDecisionFinal
+            // 
+            this.KPI2_lblDecisionFinal.AutoSize = true;
+            this.KPI2_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.KPI2_lblDecisionFinal.Location = new System.Drawing.Point(1392, 131);
+            this.KPI2_lblDecisionFinal.Name = "KPI2_lblDecisionFinal";
+            this.KPI2_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
+            this.KPI2_lblDecisionFinal.TabIndex = 57;
+            this.KPI2_lblDecisionFinal.Text = "Result";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.Transparent;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label52.Location = new System.Drawing.Point(1267, 4);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(70, 17);
+            this.label52.TabIndex = 56;
+            this.label52.Text = "Decision";
+            // 
+            // KPI2_lblResult
+            // 
+            this.KPI2_lblResult.AutoSize = true;
+            this.KPI2_lblResult.Location = new System.Drawing.Point(667, 96);
+            this.KPI2_lblResult.Name = "KPI2_lblResult";
+            this.KPI2_lblResult.Size = new System.Drawing.Size(37, 13);
+            this.KPI2_lblResult.TabIndex = 52;
+            this.KPI2_lblResult.Text = "Result";
             // 
             // label47
             // 
@@ -694,12 +757,13 @@ namespace StrykerEIP
             // 
             // KPI2_btnCalculate
             // 
+            this.KPI2_btnCalculate.BackColor = System.Drawing.Color.Ivory;
             this.KPI2_btnCalculate.Location = new System.Drawing.Point(460, 66);
             this.KPI2_btnCalculate.Name = "KPI2_btnCalculate";
             this.KPI2_btnCalculate.Size = new System.Drawing.Size(75, 184);
             this.KPI2_btnCalculate.TabIndex = 40;
             this.KPI2_btnCalculate.Text = "Calculate";
-            this.KPI2_btnCalculate.UseVisualStyleBackColor = true;
+            this.KPI2_btnCalculate.UseVisualStyleBackColor = false;
             // 
             // KPI2_lblVar4
             // 
@@ -768,12 +832,13 @@ namespace StrykerEIP
             // 
             // KPI2_btnSubmitDecision
             // 
-            this.KPI2_btnSubmitDecision.Location = new System.Drawing.Point(1151, 219);
+            this.KPI2_btnSubmitDecision.BackColor = System.Drawing.Color.Ivory;
+            this.KPI2_btnSubmitDecision.Location = new System.Drawing.Point(1157, 219);
             this.KPI2_btnSubmitDecision.Name = "KPI2_btnSubmitDecision";
             this.KPI2_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI2_btnSubmitDecision.TabIndex = 31;
             this.KPI2_btnSubmitDecision.Text = "Submit Decision";
-            this.KPI2_btnSubmitDecision.UseVisualStyleBackColor = true;
+            this.KPI2_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI2_btnSubmitDecision.Visible = false;
             // 
             // KPI2_groupDecision
@@ -900,7 +965,7 @@ namespace StrykerEIP
             // 
             // KPI3_tabPage
             // 
-            this.KPI3_tabPage.BackColor = System.Drawing.Color.Lavender;
+            this.KPI3_tabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.KPI3_tabPage.Controls.Add(this.label51);
             this.KPI3_tabPage.Controls.Add(this.label50);
             this.KPI3_tabPage.Controls.Add(this.KPI3_lblDecisionFinal);
@@ -939,6 +1004,44 @@ namespace StrykerEIP
             this.KPI3_tabPage.Size = new System.Drawing.Size(1572, 283);
             this.KPI3_tabPage.TabIndex = 2;
             this.KPI3_tabPage.Text = "Operations";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label51.Location = new System.Drawing.Point(1265, 7);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(70, 17);
+            this.label51.TabIndex = 55;
+            this.label51.Text = "Decision";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.Transparent;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label50.Location = new System.Drawing.Point(1265, 7);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(0, 17);
+            this.label50.TabIndex = 54;
+            // 
+            // KPI3_lblDecisionFinal
+            // 
+            this.KPI3_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.KPI3_lblDecisionFinal.Location = new System.Drawing.Point(1306, 49);
+            this.KPI3_lblDecisionFinal.Name = "KPI3_lblDecisionFinal";
+            this.KPI3_lblDecisionFinal.Size = new System.Drawing.Size(227, 188);
+            this.KPI3_lblDecisionFinal.TabIndex = 53;
+            // 
+            // KPI3_lblResult
+            // 
+            this.KPI3_lblResult.AutoSize = true;
+            this.KPI3_lblResult.Location = new System.Drawing.Point(665, 98);
+            this.KPI3_lblResult.Name = "KPI3_lblResult";
+            this.KPI3_lblResult.Size = new System.Drawing.Size(37, 13);
+            this.KPI3_lblResult.TabIndex = 52;
+            this.KPI3_lblResult.Text = "Result";
             // 
             // label46
             // 
@@ -987,7 +1090,7 @@ namespace StrykerEIP
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 265);
+            this.label17.Location = new System.Drawing.Point(4, 267);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(30, 13);
             this.label17.TabIndex = 44;
@@ -1022,12 +1125,13 @@ namespace StrykerEIP
             // 
             // KPI3_btnCalculate
             // 
+            this.KPI3_btnCalculate.BackColor = System.Drawing.Color.Ivory;
             this.KPI3_btnCalculate.Location = new System.Drawing.Point(460, 66);
             this.KPI3_btnCalculate.Name = "KPI3_btnCalculate";
             this.KPI3_btnCalculate.Size = new System.Drawing.Size(75, 184);
             this.KPI3_btnCalculate.TabIndex = 40;
             this.KPI3_btnCalculate.Text = "Calculate";
-            this.KPI3_btnCalculate.UseVisualStyleBackColor = true;
+            this.KPI3_btnCalculate.UseVisualStyleBackColor = false;
             // 
             // KPI3_lblVar4
             // 
@@ -1096,13 +1200,15 @@ namespace StrykerEIP
             // 
             // KPI3_btnSubmitDecision
             // 
-            this.KPI3_btnSubmitDecision.Location = new System.Drawing.Point(1151, 218);
+            this.KPI3_btnSubmitDecision.BackColor = System.Drawing.Color.Ivory;
+            this.KPI3_btnSubmitDecision.Location = new System.Drawing.Point(1158, 219);
             this.KPI3_btnSubmitDecision.Name = "KPI3_btnSubmitDecision";
             this.KPI3_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI3_btnSubmitDecision.TabIndex = 31;
             this.KPI3_btnSubmitDecision.Text = "Submit Decision";
-            this.KPI3_btnSubmitDecision.UseVisualStyleBackColor = true;
+            this.KPI3_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI3_btnSubmitDecision.Visible = false;
+            this.KPI3_btnSubmitDecision.Click += new System.EventHandler(this.KPI3_btnSubmitDecision_Click_1);
             // 
             // KPI3_groupDecision
             // 
@@ -1228,7 +1334,7 @@ namespace StrykerEIP
             // 
             // KPI4_tabPage
             // 
-            this.KPI4_tabPage.BackColor = System.Drawing.Color.Lavender;
+            this.KPI4_tabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.KPI4_tabPage.Controls.Add(this.KPI4_lblDecisionFinal);
             this.KPI4_tabPage.Controls.Add(this.label16);
             this.KPI4_tabPage.Controls.Add(this.KPI4_lblResult);
@@ -1266,6 +1372,36 @@ namespace StrykerEIP
             this.KPI4_tabPage.Size = new System.Drawing.Size(1572, 283);
             this.KPI4_tabPage.TabIndex = 3;
             this.KPI4_tabPage.Text = "Innovations";
+            // 
+            // KPI4_lblDecisionFinal
+            // 
+            this.KPI4_lblDecisionFinal.AutoSize = true;
+            this.KPI4_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.KPI4_lblDecisionFinal.Location = new System.Drawing.Point(1375, 126);
+            this.KPI4_lblDecisionFinal.Name = "KPI4_lblDecisionFinal";
+            this.KPI4_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
+            this.KPI4_lblDecisionFinal.TabIndex = 57;
+            this.KPI4_lblDecisionFinal.Text = "Result";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label16.Location = new System.Drawing.Point(1261, 3);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(70, 17);
+            this.label16.TabIndex = 56;
+            this.label16.Text = "Decision";
+            // 
+            // KPI4_lblResult
+            // 
+            this.KPI4_lblResult.AutoSize = true;
+            this.KPI4_lblResult.Location = new System.Drawing.Point(669, 98);
+            this.KPI4_lblResult.Name = "KPI4_lblResult";
+            this.KPI4_lblResult.Size = new System.Drawing.Size(37, 13);
+            this.KPI4_lblResult.TabIndex = 52;
+            this.KPI4_lblResult.Text = "Result";
             // 
             // label8
             // 
@@ -1314,7 +1450,7 @@ namespace StrykerEIP
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(2, 265);
+            this.label3.Location = new System.Drawing.Point(3, 267);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 44;
@@ -1350,12 +1486,13 @@ namespace StrykerEIP
             // 
             // KPI4_btnCalculate
             // 
+            this.KPI4_btnCalculate.BackColor = System.Drawing.Color.Ivory;
             this.KPI4_btnCalculate.Location = new System.Drawing.Point(460, 66);
             this.KPI4_btnCalculate.Name = "KPI4_btnCalculate";
             this.KPI4_btnCalculate.Size = new System.Drawing.Size(75, 183);
             this.KPI4_btnCalculate.TabIndex = 40;
             this.KPI4_btnCalculate.Text = "Calculate";
-            this.KPI4_btnCalculate.UseVisualStyleBackColor = true;
+            this.KPI4_btnCalculate.UseVisualStyleBackColor = false;
             // 
             // KPI4_lblVar4
             // 
@@ -1428,12 +1565,13 @@ namespace StrykerEIP
             // 
             // KPI4_btnSubmitDecision
             // 
-            this.KPI4_btnSubmitDecision.Location = new System.Drawing.Point(1143, 219);
+            this.KPI4_btnSubmitDecision.BackColor = System.Drawing.Color.Ivory;
+            this.KPI4_btnSubmitDecision.Location = new System.Drawing.Point(1156, 219);
             this.KPI4_btnSubmitDecision.Name = "KPI4_btnSubmitDecision";
             this.KPI4_btnSubmitDecision.Size = new System.Drawing.Size(91, 40);
             this.KPI4_btnSubmitDecision.TabIndex = 31;
             this.KPI4_btnSubmitDecision.Text = "Submit Decision";
-            this.KPI4_btnSubmitDecision.UseVisualStyleBackColor = true;
+            this.KPI4_btnSubmitDecision.UseVisualStyleBackColor = false;
             this.KPI4_btnSubmitDecision.Visible = false;
             // 
             // KPI4_groupDecision
@@ -1792,7 +1930,7 @@ namespace StrykerEIP
             this.lblKPI1Name.AutoSize = true;
             this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI1Name.ForeColor = System.Drawing.Color.Blue;
+            this.lblKPI1Name.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblKPI1Name.Location = new System.Drawing.Point(45, 124);
             this.lblKPI1Name.Name = "lblKPI1Name";
             this.lblKPI1Name.Size = new System.Drawing.Size(170, 37);
@@ -1805,7 +1943,7 @@ namespace StrykerEIP
             this.lblKPI2Name.AutoSize = true;
             this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI2Name.ForeColor = System.Drawing.Color.Blue;
+            this.lblKPI2Name.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblKPI2Name.Location = new System.Drawing.Point(425, 124);
             this.lblKPI2Name.Name = "lblKPI2Name";
             this.lblKPI2Name.Size = new System.Drawing.Size(170, 37);
@@ -1818,7 +1956,7 @@ namespace StrykerEIP
             this.lblKPI3Name.AutoSize = true;
             this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI3Name.ForeColor = System.Drawing.Color.Blue;
+            this.lblKPI3Name.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblKPI3Name.Location = new System.Drawing.Point(805, 124);
             this.lblKPI3Name.Name = "lblKPI3Name";
             this.lblKPI3Name.Size = new System.Drawing.Size(170, 37);
@@ -1831,143 +1969,13 @@ namespace StrykerEIP
             this.lblKPI4Name.AutoSize = true;
             this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI4Name.ForeColor = System.Drawing.Color.Blue;
+            this.lblKPI4Name.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblKPI4Name.Location = new System.Drawing.Point(1185, 124);
             this.lblKPI4Name.Name = "lblKPI4Name";
             this.lblKPI4Name.Size = new System.Drawing.Size(170, 37);
             this.lblKPI4Name.TabIndex = 21;
             this.lblKPI4Name.Text = "KPI Name";
             this.lblKPI4Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // KPI1_lblResult
-            // 
-            this.KPI1_lblResult.AutoSize = true;
-            this.KPI1_lblResult.Location = new System.Drawing.Point(666, 88);
-            this.KPI1_lblResult.Name = "KPI1_lblResult";
-            this.KPI1_lblResult.Size = new System.Drawing.Size(37, 13);
-            this.KPI1_lblResult.TabIndex = 51;
-            this.KPI1_lblResult.Text = "Result";
-            // 
-            // KPI2_lblResult
-            // 
-            this.KPI2_lblResult.AutoSize = true;
-            this.KPI2_lblResult.Location = new System.Drawing.Point(667, 96);
-            this.KPI2_lblResult.Name = "KPI2_lblResult";
-            this.KPI2_lblResult.Size = new System.Drawing.Size(37, 13);
-            this.KPI2_lblResult.TabIndex = 52;
-            this.KPI2_lblResult.Text = "Result";
-            // 
-            // KPI3_lblResult
-            // 
-            this.KPI3_lblResult.AutoSize = true;
-            this.KPI3_lblResult.Location = new System.Drawing.Point(665, 98);
-            this.KPI3_lblResult.Name = "KPI3_lblResult";
-            this.KPI3_lblResult.Size = new System.Drawing.Size(37, 13);
-            this.KPI3_lblResult.TabIndex = 52;
-            this.KPI3_lblResult.Text = "Result";
-            // 
-            // KPI4_lblResult
-            // 
-            this.KPI4_lblResult.AutoSize = true;
-            this.KPI4_lblResult.Location = new System.Drawing.Point(669, 98);
-            this.KPI4_lblResult.Name = "KPI4_lblResult";
-            this.KPI4_lblResult.Size = new System.Drawing.Size(37, 13);
-            this.KPI4_lblResult.TabIndex = 52;
-            this.KPI4_lblResult.Text = "Result";
-            // 
-            // KPI3_lblDecisionFinal
-            // 
-            this.KPI3_lblDecisionFinal.AutoSize = true;
-            this.KPI3_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI3_lblDecisionFinal.Location = new System.Drawing.Point(1392, 127);
-            this.KPI3_lblDecisionFinal.Name = "KPI3_lblDecisionFinal";
-            this.KPI3_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
-            this.KPI3_lblDecisionFinal.TabIndex = 53;
-            this.KPI3_lblDecisionFinal.Text = "Result";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.BackColor = System.Drawing.Color.Transparent;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label50.Location = new System.Drawing.Point(1265, 7);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(0, 17);
-            this.label50.TabIndex = 54;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.BackColor = System.Drawing.Color.Transparent;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label51.Location = new System.Drawing.Point(1265, 7);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(70, 17);
-            this.label51.TabIndex = 55;
-            this.label51.Text = "Decision";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(1261, 3);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(70, 17);
-            this.label16.TabIndex = 56;
-            this.label16.Text = "Decision";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.BackColor = System.Drawing.Color.Transparent;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label52.Location = new System.Drawing.Point(1267, 4);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(70, 17);
-            this.label52.TabIndex = 56;
-            this.label52.Text = "Decision";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.BackColor = System.Drawing.Color.Transparent;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label53.Location = new System.Drawing.Point(1280, 4);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(70, 17);
-            this.label53.TabIndex = 56;
-            this.label53.Text = "Decision";
-            // 
-            // KPI4_lblDecisionFinal
-            // 
-            this.KPI4_lblDecisionFinal.AutoSize = true;
-            this.KPI4_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI4_lblDecisionFinal.Location = new System.Drawing.Point(1375, 126);
-            this.KPI4_lblDecisionFinal.Name = "KPI4_lblDecisionFinal";
-            this.KPI4_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
-            this.KPI4_lblDecisionFinal.TabIndex = 57;
-            this.KPI4_lblDecisionFinal.Text = "Result";
-            // 
-            // KPI2_lblDecisionFinal
-            // 
-            this.KPI2_lblDecisionFinal.AutoSize = true;
-            this.KPI2_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI2_lblDecisionFinal.Location = new System.Drawing.Point(1392, 131);
-            this.KPI2_lblDecisionFinal.Name = "KPI2_lblDecisionFinal";
-            this.KPI2_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
-            this.KPI2_lblDecisionFinal.TabIndex = 57;
-            this.KPI2_lblDecisionFinal.Text = "Result";
-            // 
-            // KPI1_lblDecisionFinal
-            // 
-            this.KPI1_lblDecisionFinal.AutoSize = true;
-            this.KPI1_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI1_lblDecisionFinal.Location = new System.Drawing.Point(1397, 124);
-            this.KPI1_lblDecisionFinal.Name = "KPI1_lblDecisionFinal";
-            this.KPI1_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
-            this.KPI1_lblDecisionFinal.TabIndex = 57;
-            this.KPI1_lblDecisionFinal.Text = "Result";
             // 
             // BusinessIntelligenceForm
             // 
