@@ -16,6 +16,8 @@ namespace StrykerEIP
         public ContactForm()
         {   
             InitializeComponent();
+
+            this.CenterToScreen();
         }
 
         private void ContactForm_Load(object sender, EventArgs e)

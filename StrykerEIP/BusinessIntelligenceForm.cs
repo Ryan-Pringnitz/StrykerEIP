@@ -1507,5 +1507,15 @@ namespace StrykerEIP
                     break;
             }
         }
+
+        private void CustomerChart_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblKPI1Name_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

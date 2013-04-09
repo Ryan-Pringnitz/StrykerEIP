@@ -64,5 +64,25 @@ namespace StrykerEIP
         {
 
         }
+
+        private void mdOverviewsGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mdGlobalIntelligenceButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mdWelcomeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mdMessageGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
