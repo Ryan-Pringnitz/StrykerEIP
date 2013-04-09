@@ -14,8 +14,6 @@ namespace StrykerEIP
         public LoginForm()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
