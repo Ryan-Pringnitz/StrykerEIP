@@ -61,7 +61,7 @@
             this.mdWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.mdWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
-            this.mdWelcomeLabel.Location = new System.Drawing.Point(35, 28);
+            this.mdWelcomeLabel.Location = new System.Drawing.Point(64, 28);
             this.mdWelcomeLabel.Name = "mdWelcomeLabel";
             this.mdWelcomeLabel.Size = new System.Drawing.Size(1127, 63);
             this.mdWelcomeLabel.TabIndex = 0;
