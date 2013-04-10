@@ -52,6 +52,7 @@
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.lfGroupBox.SuspendLayout();
             this.lfLoginGroupBox.SuspendLayout();
             this.lfMessageGroupBox.SuspendLayout();
@@ -200,7 +201,7 @@
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
-    "e and Password and press the button labeled \"Log In\"";
+                "e and Password and press the button labeled \"Log In\"";
             // 
             // lfHelpButton
             // 
@@ -316,12 +317,23 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo4;
+            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo5;
             this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(391, 108);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 105);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(371, 20);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Buildling Medical Technology for a Healthier Society";
             // 
             // LoginForm
             // 
@@ -331,6 +343,7 @@
             this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1400, 844);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lfGroupBox);
             this.Controls.Add(this.menuStrip1);
@@ -378,6 +391,7 @@
         private System.Windows.Forms.Button lfHelpButton;
         private System.Windows.Forms.Button lfExitButton;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
 
     }
 }

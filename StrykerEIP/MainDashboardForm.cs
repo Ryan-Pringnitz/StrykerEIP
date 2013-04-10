@@ -84,7 +84,7 @@ namespace StrykerEIP
 
         private void mdBIButton_HoverOver(object sender, EventArgs e)
         {
-            BIPictureBox.Image = StrykerEIP.Properties.Resources.REALBI2;
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.BusinessIntelligenceIcon;
         }
 
         private void mdBIButton_Leave(object sender, EventArgs e)

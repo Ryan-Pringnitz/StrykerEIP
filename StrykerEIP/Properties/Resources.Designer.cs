@@ -67,6 +67,13 @@ namespace StrykerEIP.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap BusinessIntelligenceIcon {
+            get {
+                object obj = ResourceManager.GetObject("BusinessIntelligenceIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap GlobalIntelligenceIcon {
             get {
                 object obj = ResourceManager.GetObject("GlobalIntelligenceIcon", resourceCulture);
@@ -81,13 +88,6 @@ namespace StrykerEIP.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap REALBI2 {
-            get {
-                object obj = ResourceManager.GetObject("REALBI2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap StrykerLoginBG {
             get {
                 object obj = ResourceManager.GetObject("StrykerLoginBG", resourceCulture);
@@ -95,9 +95,9 @@ namespace StrykerEIP.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap StrykerLogo4 {
+        internal static System.Drawing.Bitmap StrykerLogo5 {
             get {
-                object obj = ResourceManager.GetObject("StrykerLogo4", resourceCulture);
+                object obj = ResourceManager.GetObject("StrykerLogo5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

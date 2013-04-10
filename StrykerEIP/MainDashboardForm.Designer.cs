@@ -49,6 +49,7 @@
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.mdMessageGroupBox.SuspendLayout();
             this.mdOverviewsGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BIPictureBox)).BeginInit();
@@ -77,8 +78,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-    "elp\".";
+                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+                "elp\".";
             // 
             // mdHelpButton
             // 
@@ -284,12 +285,23 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo4;
+            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo5;
             this.pictureBox1.Location = new System.Drawing.Point(0, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(391, 108);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 106);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(365, 20);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Building Medical Technology for a healthier Society";
             // 
             // MainDashboardForm
             // 
@@ -298,6 +310,7 @@
             this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1172, 515);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.mdOverviewsGroupBox);
             this.Controls.Add(this.mdMessageGroupBox);
@@ -344,5 +357,6 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.PictureBox BIPictureBox;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
