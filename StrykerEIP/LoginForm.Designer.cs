@@ -60,19 +60,18 @@
             // 
             // lfGroupBox
             // 
-            this.lfGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lfGroupBox.BackColor = System.Drawing.Color.Maroon;
-            this.lfGroupBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lfGroupBox.BackgroundImage")));
+            this.lfGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lfGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.lfGroupBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.lfGroupBox.Controls.Add(this.lfLoginGroupBox);
             this.lfGroupBox.Controls.Add(this.lfMessageGroupBox);
             this.lfGroupBox.Controls.Add(this.biWelcomeLabel);
             this.lfGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.lfGroupBox.Location = new System.Drawing.Point(47, 68);
+            this.lfGroupBox.Location = new System.Drawing.Point(27, 68);
             this.lfGroupBox.Name = "lfGroupBox";
-            this.lfGroupBox.Size = new System.Drawing.Size(856, 478);
+            this.lfGroupBox.Size = new System.Drawing.Size(979, 478);
             this.lfGroupBox.TabIndex = 8;
             this.lfGroupBox.TabStop = false;
             // 
@@ -88,7 +87,7 @@
             this.lfLoginGroupBox.Controls.Add(this.biUserNameLabel);
             this.lfLoginGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfLoginGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfLoginGroupBox.Location = new System.Drawing.Point(525, 277);
+            this.lfLoginGroupBox.Location = new System.Drawing.Point(586, 277);
             this.lfLoginGroupBox.Name = "lfLoginGroupBox";
             this.lfLoginGroupBox.Size = new System.Drawing.Size(265, 183);
             this.lfLoginGroupBox.TabIndex = 9;
@@ -172,7 +171,7 @@
             this.lfMessageGroupBox.Controls.Add(this.lfExitButton);
             this.lfMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfMessageGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfMessageGroupBox.Location = new System.Drawing.Point(59, 277);
+            this.lfMessageGroupBox.Location = new System.Drawing.Point(120, 277);
             this.lfMessageGroupBox.Name = "lfMessageGroupBox";
             this.lfMessageGroupBox.Size = new System.Drawing.Size(433, 183);
             this.lfMessageGroupBox.TabIndex = 8;
@@ -201,7 +200,7 @@
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
-    "e and Password and press the button labeled \"Log In\"";
+                "e and Password and press the button labeled \"Log In\"";
             // 
             // lfHelpButton
             // 
@@ -235,11 +234,11 @@
             this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.biWelcomeLabel.Font = new System.Drawing.Font("Segoe UI", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biWelcomeLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.biWelcomeLabel.Location = new System.Drawing.Point(-58, 16);
+            this.biWelcomeLabel.Location = new System.Drawing.Point(6, 171);
             this.biWelcomeLabel.Name = "biWelcomeLabel";
-            this.biWelcomeLabel.Size = new System.Drawing.Size(975, 84);
+            this.biWelcomeLabel.Size = new System.Drawing.Size(983, 84);
             this.biWelcomeLabel.TabIndex = 4;
-            this.biWelcomeLabel.Text = "stryker Management Dashboard";
+            this.biWelcomeLabel.Text = "Stryker Management Dashboard";
             this.biWelcomeLabel.Click += new System.EventHandler(this.biWelcomeLabel_Click);
             // 
             // menuStrip1

@@ -1953,9 +1953,9 @@ namespace StrykerEIP
             this.lblBusinessProcessName.ForeColor = System.Drawing.Color.White;
             this.lblBusinessProcessName.Location = new System.Drawing.Point(404, 44);
             this.lblBusinessProcessName.Name = "lblBusinessProcessName";
-            this.lblBusinessProcessName.Size = new System.Drawing.Size(796, 63);
+            this.lblBusinessProcessName.Size = new System.Drawing.Size(805, 63);
             this.lblBusinessProcessName.TabIndex = 6;
-            this.lblBusinessProcessName.Text = "stryker Management Dashboard";
+            this.lblBusinessProcessName.Text = "Stryker Management Dashboard";
             // 
             // lblKPI1Name
             // 

@@ -76,8 +76,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-    "elp\".";
+                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+                "elp\".";
             // 
             // mdHelpButton
             // 
