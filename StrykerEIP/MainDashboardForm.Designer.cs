@@ -65,7 +65,7 @@
             this.mdWelcomeLabel.Name = "mdWelcomeLabel";
             this.mdWelcomeLabel.Size = new System.Drawing.Size(1127, 63);
             this.mdWelcomeLabel.TabIndex = 0;
-            this.mdWelcomeLabel.Text = "stryker Management Intelligence Dashboard";
+            this.mdWelcomeLabel.Text = "Stryker Management Intelligence Dashboard";
             // 
             // richTextBox1
             // 

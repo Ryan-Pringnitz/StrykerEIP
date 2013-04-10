@@ -157,9 +157,9 @@
             this.biUserNameLabel.ForeColor = System.Drawing.Color.White;
             this.biUserNameLabel.Location = new System.Drawing.Point(21, 34);
             this.biUserNameLabel.Name = "biUserNameLabel";
-            this.biUserNameLabel.Size = new System.Drawing.Size(77, 16);
+            this.biUserNameLabel.Size = new System.Drawing.Size(80, 16);
             this.biUserNameLabel.TabIndex = 0;
-            this.biUserNameLabel.Text = "UserName:";
+            this.biUserNameLabel.Text = "User Name:";
             // 
             // lfMessageGroupBox
             // 
@@ -205,7 +205,7 @@
             // lfHelpButton
             // 
             this.lfHelpButton.BackColor = System.Drawing.Color.Ivory;
-            this.lfHelpButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lfHelpButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfHelpButton.ForeColor = System.Drawing.Color.DarkBlue;
             this.lfHelpButton.Location = new System.Drawing.Point(103, 107);
             this.lfHelpButton.Name = "lfHelpButton";
@@ -217,7 +217,7 @@
             // lfExitButton
             // 
             this.lfExitButton.BackColor = System.Drawing.Color.Ivory;
-            this.lfExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lfExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfExitButton.ForeColor = System.Drawing.Color.DarkBlue;
             this.lfExitButton.Location = new System.Drawing.Point(229, 107);
             this.lfExitButton.Name = "lfExitButton";
