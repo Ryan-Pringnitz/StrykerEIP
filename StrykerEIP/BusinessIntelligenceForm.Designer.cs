@@ -1950,7 +1950,7 @@ namespace StrykerEIP
             this.lblBusinessProcessName.AutoSize = true;
             this.lblBusinessProcessName.BackColor = System.Drawing.Color.Transparent;
             this.lblBusinessProcessName.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBusinessProcessName.ForeColor = System.Drawing.Color.White;
+            this.lblBusinessProcessName.ForeColor = System.Drawing.Color.Khaki;
             this.lblBusinessProcessName.Location = new System.Drawing.Point(404, 44);
             this.lblBusinessProcessName.Name = "lblBusinessProcessName";
             this.lblBusinessProcessName.Size = new System.Drawing.Size(805, 63);

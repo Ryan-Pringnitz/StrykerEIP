@@ -233,7 +233,7 @@
             this.biWelcomeLabel.AutoSize = true;
             this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.biWelcomeLabel.Font = new System.Drawing.Font("Segoe UI", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biWelcomeLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.biWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
             this.biWelcomeLabel.Location = new System.Drawing.Point(6, 171);
             this.biWelcomeLabel.Name = "biWelcomeLabel";
             this.biWelcomeLabel.Size = new System.Drawing.Size(983, 84);
