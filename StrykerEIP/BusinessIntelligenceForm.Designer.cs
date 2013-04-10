@@ -537,9 +537,9 @@ namespace StrykerEIP
             this.KPI1_lblDecisionLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.KPI1_lblDecisionLogo.Location = new System.Drawing.Point(832, 3);
             this.KPI1_lblDecisionLogo.Name = "KPI1_lblDecisionLogo";
-            this.KPI1_lblDecisionLogo.Size = new System.Drawing.Size(86, 17);
+            this.KPI1_lblDecisionLogo.Size = new System.Drawing.Size(127, 17);
             this.KPI1_lblDecisionLogo.TabIndex = 7;
-            this.KPI1_lblDecisionLogo.Text = "Awareness";
+            this.KPI1_lblDecisionLogo.Text = "Knowledge Base";
             // 
             // KPI1_lblStateLogo
             // 
@@ -898,9 +898,9 @@ namespace StrykerEIP
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label9.Location = new System.Drawing.Point(832, 3);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 17);
+            this.label9.Size = new System.Drawing.Size(127, 17);
             this.label9.TabIndex = 29;
-            this.label9.Text = "Awareness";
+            this.label9.Text = "Knowledge Base";
             // 
             // label10
             // 
@@ -1267,9 +1267,9 @@ namespace StrykerEIP
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label22.Location = new System.Drawing.Point(832, 3);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(86, 17);
+            this.label22.Size = new System.Drawing.Size(127, 17);
             this.label22.TabIndex = 29;
-            this.label22.Text = "Awareness";
+            this.label22.Text = "Knowledge Base";
             // 
             // label23
             // 
@@ -1632,9 +1632,9 @@ namespace StrykerEIP
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label35.Location = new System.Drawing.Point(832, 3);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(86, 17);
+            this.label35.Size = new System.Drawing.Size(127, 17);
             this.label35.TabIndex = 29;
-            this.label35.Text = "Awareness";
+            this.label35.Text = "Knowledge Base";
             // 
             // label36
             // 
@@ -1770,7 +1770,7 @@ namespace StrykerEIP
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1444, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -2016,7 +2016,7 @@ namespace StrykerEIP
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1276, 696);
+            this.ClientSize = new System.Drawing.Size(1444, 808);
             this.Controls.Add(this.lblKPI4Name);
             this.Controls.Add(this.lblKPI3Name);
             this.Controls.Add(this.lblKPI2Name);
