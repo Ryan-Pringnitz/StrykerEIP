@@ -723,6 +723,11 @@ namespace StrykerEIP
             KPI4_txtVar3.Text = "";
             KPI4_txtVar4.Text = "";
             KPI4_txtVar5.Text = "";
+
+            KPI1_lblDecisionFinal.Text = "";
+            KPI2_lblDecisionFinal.Text = "";
+            KPI3_lblDecisionFinal.Text = "";
+            KPI4_lblDecisionFinal.Text = "";
         }
 
         private void returnToMenuToolStripMenuItem_Click(object sender, EventArgs e)

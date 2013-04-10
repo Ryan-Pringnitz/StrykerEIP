@@ -287,13 +287,11 @@ namespace StrykerEIP
             // 
             // KPI1_lblDecisionFinal
             // 
-            this.KPI1_lblDecisionFinal.AutoSize = true;
             this.KPI1_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI1_lblDecisionFinal.Location = new System.Drawing.Point(1397, 124);
+            this.KPI1_lblDecisionFinal.Location = new System.Drawing.Point(1307, 43);
             this.KPI1_lblDecisionFinal.Name = "KPI1_lblDecisionFinal";
-            this.KPI1_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
+            this.KPI1_lblDecisionFinal.Size = new System.Drawing.Size(236, 201);
             this.KPI1_lblDecisionFinal.TabIndex = 57;
-            this.KPI1_lblDecisionFinal.Text = "Result";
             // 
             // label53
             // 
@@ -650,13 +648,11 @@ namespace StrykerEIP
             // 
             // KPI2_lblDecisionFinal
             // 
-            this.KPI2_lblDecisionFinal.AutoSize = true;
             this.KPI2_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI2_lblDecisionFinal.Location = new System.Drawing.Point(1392, 131);
+            this.KPI2_lblDecisionFinal.Location = new System.Drawing.Point(1290, 45);
             this.KPI2_lblDecisionFinal.Name = "KPI2_lblDecisionFinal";
-            this.KPI2_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
+            this.KPI2_lblDecisionFinal.Size = new System.Drawing.Size(236, 201);
             this.KPI2_lblDecisionFinal.TabIndex = 57;
-            this.KPI2_lblDecisionFinal.Text = "Result";
             // 
             // label52
             // 
@@ -1379,13 +1375,11 @@ namespace StrykerEIP
             // 
             // KPI4_lblDecisionFinal
             // 
-            this.KPI4_lblDecisionFinal.AutoSize = true;
             this.KPI4_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI4_lblDecisionFinal.Location = new System.Drawing.Point(1375, 126);
+            this.KPI4_lblDecisionFinal.Location = new System.Drawing.Point(1290, 45);
             this.KPI4_lblDecisionFinal.Name = "KPI4_lblDecisionFinal";
-            this.KPI4_lblDecisionFinal.Size = new System.Drawing.Size(62, 24);
+            this.KPI4_lblDecisionFinal.Size = new System.Drawing.Size(236, 201);
             this.KPI4_lblDecisionFinal.TabIndex = 57;
-            this.KPI4_lblDecisionFinal.Text = "Result";
             // 
             // label16
             // 
