@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.lfGroupBox = new System.Windows.Forms.GroupBox();
             this.lfLoginGroupBox = new System.Windows.Forms.GroupBox();
             this.lfPasswordTextBox = new System.Windows.Forms.TextBox();
@@ -318,7 +317,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo4;
-            this.pictureBox1.Location = new System.Drawing.Point(1220, 781);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(391, 108);
             this.pictureBox1.TabIndex = 10;
@@ -329,7 +328,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1400, 844);
             this.Controls.Add(this.pictureBox1);
