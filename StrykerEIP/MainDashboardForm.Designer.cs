@@ -60,9 +60,9 @@
             this.mdWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.mdWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
-            this.mdWelcomeLabel.Location = new System.Drawing.Point(64, 28);
+            this.mdWelcomeLabel.Location = new System.Drawing.Point(152, 28);
             this.mdWelcomeLabel.Name = "mdWelcomeLabel";
-            this.mdWelcomeLabel.Size = new System.Drawing.Size(1127, 63);
+            this.mdWelcomeLabel.Size = new System.Drawing.Size(869, 63);
             this.mdWelcomeLabel.TabIndex = 0;
             this.mdWelcomeLabel.Text = "Stryker Management Intelligence Dashboard";
             // 
@@ -75,8 +75,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-                "elp\".";
+    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+    "elp\".";
             // 
             // mdHelpButton
             // 
@@ -157,7 +157,7 @@
             this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Khaki;
             this.mdOverviewsGroupBox.Location = new System.Drawing.Point(560, 134);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
-            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(547, 369);
+            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(547, 383);
             this.mdOverviewsGroupBox.TabIndex = 7;
             this.mdOverviewsGroupBox.TabStop = false;
             this.mdOverviewsGroupBox.Text = "Stragic Intelligences:";

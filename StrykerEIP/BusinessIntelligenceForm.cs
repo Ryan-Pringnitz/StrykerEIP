@@ -43,7 +43,7 @@ namespace StrykerEIP
         #endregion
 
         public BusinessIntelligenceForm()
-        {   
+        {
             InitializeComponent();
 
             this.FormBorderStyle = FormBorderStyle.None;
@@ -792,7 +792,7 @@ namespace StrykerEIP
             //KPI4_txtVar3.Text = "";
             //KPI4_txtVar4.Text = "";
             //KPI4_txtVar5.Text = "";
-#endregion
+            #endregion
 
 
 
@@ -1071,7 +1071,7 @@ namespace StrykerEIP
                     }
                     KPI1_lblState.Text = kpiState;
                     break;
-                
+
                 case "Debiting Employers":
                     calculatedKPI = double.Parse(KPI2_txtVar2.Text) / double.Parse(KPI2_txtVar3.Text);
                     KPI2_lblResult.Text = calculatedKPI.ToString();
@@ -1100,7 +1100,7 @@ namespace StrykerEIP
 
                     KPI2_lblState.Text = kpiState;
                     break;
-                
+
                 case "Timekeeping for Employee Hours":
                     calculatedKPI = double.Parse(KPI3_txtVar2.Text) - double.Parse(KPI3_txtVar3.Text);
                     KPI3_lblResult.Text = calculatedKPI.ToString();
@@ -1129,7 +1129,7 @@ namespace StrykerEIP
 
                     KPI4_lblState.Text = kpiState;
                     break;
-                
+
                 case "Pay Period Information Access":
                     calculatedKPI = double.Parse(KPI4_txtVar2.Text) - double.Parse(KPI4_txtVar3.Text);
                     KPI4_lblResult.Text = calculatedKPI.ToString();
@@ -1188,7 +1188,7 @@ namespace StrykerEIP
                     }
                     KPI1_lblState.Text = kpiState;
                     break;
-               case "Training Expense Measure":
+                case "Training Expense Measure":
                     calculatedKPI = double.Parse(KPI2_txtVar3.Text);
                     KPI2_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
@@ -1215,7 +1215,7 @@ namespace StrykerEIP
                     }
                     KPI2_lblState.Text = kpiState;
                     break;
-               case "Employee Loyalty":
+                case "Employee Loyalty":
                     calculatedKPI = double.Parse(KPI3_txtVar3.Text);
                     KPI3_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
@@ -1242,7 +1242,7 @@ namespace StrykerEIP
                     }
                     KPI3_lblState.Text = kpiState;
                     break;
-               case "New Jobs Created Measure":
+                case "New Jobs Created Measure":
                     calculatedKPI = double.Parse(KPI4_txtVar2.Text) / double.Parse(KPI4_txtVar3.Text);
                     KPI4_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
@@ -1620,6 +1620,15 @@ namespace StrykerEIP
             }
         }
 
+        public void PreLoadGlobalIntelligence()
+        {
+            globalIntellToolStripMenuItem.PerformClick();
+        }
+
+        public void PreLoadSustainabilityIntelligence()
+        {
+            sustainableIntelligencToolStripMenuItem.PerformClick();
+        }
 
         //Following are the "Submit Decision" button commands
         //KPI 1
@@ -1627,21 +1636,21 @@ namespace StrykerEIP
 
         private void KPI1_btnSubmitDecision_Click(object sender, EventArgs e)
         {
-            
+
             if (KPI1_radioDecision1.Checked == true)
             {
                 KPI1_lblDecisionFinal.Text = KPI1_radioDecision1.Text;
             }
             else
-            if (KPI1_radioDecision2.Checked == true)
-            {
-                KPI1_lblDecisionFinal.Text = KPI1_radioDecision2.Text;
-            }
-            else
-            if (KPI1_radioDecision3.Checked == true)
-            {
-                KPI1_lblDecisionFinal.Text = KPI1_radioDecision3.Text;
-            }
+                if (KPI1_radioDecision2.Checked == true)
+                {
+                    KPI1_lblDecisionFinal.Text = KPI1_radioDecision2.Text;
+                }
+                else
+                    if (KPI1_radioDecision3.Checked == true)
+                    {
+                        KPI1_lblDecisionFinal.Text = KPI1_radioDecision3.Text;
+                    }
         }
         #endregion
         //KPI2
@@ -1654,15 +1663,15 @@ namespace StrykerEIP
                 KPI2_lblDecisionFinal.Text = KPI2_radioDecision1.Text;
             }
             else
-            if (KPI2_radioDecision2.Checked == true)
-            {
-                KPI2_lblDecisionFinal.Text = KPI2_radioDecision2.Text;
-            }
-            else
-            if (KPI2_radioDecision3.Checked == true)
-            {
-                KPI2_lblDecisionFinal.Text = KPI2_radioDecision3.Text;
-            }
+                if (KPI2_radioDecision2.Checked == true)
+                {
+                    KPI2_lblDecisionFinal.Text = KPI2_radioDecision2.Text;
+                }
+                else
+                    if (KPI2_radioDecision3.Checked == true)
+                    {
+                        KPI2_lblDecisionFinal.Text = KPI2_radioDecision3.Text;
+                    }
         }
         #endregion
         //KPI3
@@ -1675,15 +1684,15 @@ namespace StrykerEIP
                 KPI3_lblDecisionFinal.Text = KPI3_radioDecision1.Text;
             }
             else
-            if (KPI3_radioDecision2.Checked == true)
-            {
-                KPI3_lblDecisionFinal.Text = KPI3_radioDecision2.Text;
-            }
-            else
-            if (KPI3_radioDecision3.Checked == true)
-            {
-                KPI3_lblDecisionFinal.Text = KPI3_radioDecision3.Text;
-            }
+                if (KPI3_radioDecision2.Checked == true)
+                {
+                    KPI3_lblDecisionFinal.Text = KPI3_radioDecision2.Text;
+                }
+                else
+                    if (KPI3_radioDecision3.Checked == true)
+                    {
+                        KPI3_lblDecisionFinal.Text = KPI3_radioDecision3.Text;
+                    }
         }
         #endregion
         //KPI4
@@ -1696,15 +1705,15 @@ namespace StrykerEIP
                 KPI4_lblDecisionFinal.Text = KPI4_radioDecision1.Text;
             }
             else
-            if (KPI4_radioDecision2.Checked == true)
-            {
-                KPI4_lblDecisionFinal.Text = KPI4_radioDecision2.Text;
-            }
-            else
-            if (KPI4_radioDecision3.Checked == true)
-            {
-                KPI4_lblDecisionFinal.Text = KPI4_radioDecision3.Text;
-            }
+                if (KPI4_radioDecision2.Checked == true)
+                {
+                    KPI4_lblDecisionFinal.Text = KPI4_radioDecision2.Text;
+                }
+                else
+                    if (KPI4_radioDecision3.Checked == true)
+                    {
+                        KPI4_lblDecisionFinal.Text = KPI4_radioDecision3.Text;
+                    }
         }
         #endregion
 

@@ -25,7 +25,6 @@ namespace StrykerEIP
             BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
             this.Hide();
             frmBI.Show();
-
         }
 
         private void mdExitButton_Click(object sender, EventArgs e)
@@ -71,6 +70,7 @@ namespace StrykerEIP
             BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
             this.Hide();
             frmBI.Show();
+            frmBI.PreLoadGlobalIntelligence();
         }
 
         private void mdSustainabilityIntelligence_Click(object sender, EventArgs e)
@@ -79,6 +79,7 @@ namespace StrykerEIP
             BusinessIntelligenceForm frmBI = new BusinessIntelligenceForm();
             this.Hide();
             frmBI.Show();
+            frmBI.PreLoadSustainabilityIntelligence();
         }
 
         private void mdBIButton_HoverOver(object sender, EventArgs e)
