@@ -754,28 +754,28 @@ namespace StrykerEIP
             KPI1_lblState.Visible = true;
             KPI1_lblState.Visible = true;
             KPI1_btnSubmitDecision.Visible = true;
-            //KPI1_lblResult.Visible = true;
+            KPI1_lblResult.Visible = true;
             //Clears fields of all content - KPI2
             KPI2_groupDecision.Visible = true;
             KPI2_btnSubmitDecision.Visible = true;
             KPI2_lblState.Visible = true;
             KPI2_lblState.Visible = true;
             KPI2_btnSubmitDecision.Visible = true;
-            //KPI2_lblResult.Visible = true;
+            KPI2_lblResult.Visible = true;
             //Clears fields of all content - KPI3
             KPI3_groupDecision.Visible = true;
             KPI3_btnSubmitDecision.Visible = true;
             KPI3_lblState.Visible = true;
             KPI3_lblState.Visible = true;
             KPI3_btnSubmitDecision.Visible = true;
-            //KPI3_lblResult.Visible = true;
+            KPI3_lblResult.Visible = true;
             //Clears fields of all content - KPI4
             KPI4_groupDecision.Visible = true;
             KPI4_btnSubmitDecision.Visible = true;
             KPI4_lblState.Visible = true;
             KPI4_lblState.Visible = true;
             KPI4_btnSubmitDecision.Visible = true;
-            //KPI4_lblResult.Visible = true;
+            KPI4_lblResult.Visible = true;
             #endregion
 
 
