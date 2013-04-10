@@ -169,6 +169,18 @@
   <ItemGroup>
     <None Include="Resources\BlankIcon.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gradient4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrykerLogo4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrykerLoginBG.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

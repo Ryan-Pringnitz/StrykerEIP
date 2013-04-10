@@ -74,9 +74,30 @@ namespace StrykerEIP.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap Gradient4 {
+            get {
+                object obj = ResourceManager.GetObject("Gradient4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap REALBI2 {
             get {
                 object obj = ResourceManager.GetObject("REALBI2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap StrykerLoginBG {
+            get {
+                object obj = ResourceManager.GetObject("StrykerLoginBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap StrykerLogo4 {
+            get {
+                object obj = ResourceManager.GetObject("StrykerLogo4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

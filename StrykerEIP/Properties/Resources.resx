@@ -124,8 +124,17 @@
   <data name="GlobalIntelligenceIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GlobalIntelligenceIcon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Gradient4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gradient4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="REALBI2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\REALBI2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StrykerLoginBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StrykerLoginBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StrykerLogo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StrykerLogo4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SustainabilityIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SustainabilityIcon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

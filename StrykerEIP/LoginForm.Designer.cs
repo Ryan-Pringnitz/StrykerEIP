@@ -52,10 +52,12 @@
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lfGroupBox.SuspendLayout();
             this.lfLoginGroupBox.SuspendLayout();
             this.lfMessageGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lfGroupBox
@@ -64,6 +66,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.lfGroupBox.BackColor = System.Drawing.Color.Transparent;
+            this.lfGroupBox.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.lfGroupBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.lfGroupBox.Controls.Add(this.lfLoginGroupBox);
             this.lfGroupBox.Controls.Add(this.lfMessageGroupBox);
@@ -71,7 +74,7 @@
             this.lfGroupBox.ForeColor = System.Drawing.Color.Black;
             this.lfGroupBox.Location = new System.Drawing.Point(27, 68);
             this.lfGroupBox.Name = "lfGroupBox";
-            this.lfGroupBox.Size = new System.Drawing.Size(979, 478);
+            this.lfGroupBox.Size = new System.Drawing.Size(1207, 636);
             this.lfGroupBox.TabIndex = 8;
             this.lfGroupBox.TabStop = false;
             // 
@@ -87,7 +90,7 @@
             this.lfLoginGroupBox.Controls.Add(this.biUserNameLabel);
             this.lfLoginGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfLoginGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfLoginGroupBox.Location = new System.Drawing.Point(586, 277);
+            this.lfLoginGroupBox.Location = new System.Drawing.Point(700, 356);
             this.lfLoginGroupBox.Name = "lfLoginGroupBox";
             this.lfLoginGroupBox.Size = new System.Drawing.Size(265, 183);
             this.lfLoginGroupBox.TabIndex = 9;
@@ -171,7 +174,7 @@
             this.lfMessageGroupBox.Controls.Add(this.lfExitButton);
             this.lfMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfMessageGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfMessageGroupBox.Location = new System.Drawing.Point(120, 277);
+            this.lfMessageGroupBox.Location = new System.Drawing.Point(234, 356);
             this.lfMessageGroupBox.Name = "lfMessageGroupBox";
             this.lfMessageGroupBox.Size = new System.Drawing.Size(433, 183);
             this.lfMessageGroupBox.TabIndex = 8;
@@ -234,7 +237,7 @@
             this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.biWelcomeLabel.Font = new System.Drawing.Font("Segoe UI", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
-            this.biWelcomeLabel.Location = new System.Drawing.Point(6, 171);
+            this.biWelcomeLabel.Location = new System.Drawing.Point(120, 250);
             this.biWelcomeLabel.Name = "biWelcomeLabel";
             this.biWelcomeLabel.Size = new System.Drawing.Size(983, 84);
             this.biWelcomeLabel.TabIndex = 4;
@@ -249,7 +252,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(964, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1334, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -313,6 +316,16 @@
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo4;
+            this.pictureBox1.Location = new System.Drawing.Point(1250, 848);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(391, 108);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -320,7 +333,8 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(964, 584);
+            this.ClientSize = new System.Drawing.Size(1334, 968);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lfGroupBox);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;
@@ -335,6 +349,7 @@
             this.lfMessageGroupBox.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -365,6 +380,7 @@
         private System.Windows.Forms.Button biLoginButton;
         private System.Windows.Forms.Button lfHelpButton;
         private System.Windows.Forms.Button lfExitButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
     }
 }
