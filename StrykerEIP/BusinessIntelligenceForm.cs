@@ -1102,7 +1102,7 @@ namespace StrykerEIP
                     break;
                 
                 case "Timekeeping for Employee Hours":
-                    calculatedKPI = double.Parse(KPI4_txtVar2.Text) - double.Parse(KPI4_txtVar3.Text);
+                    calculatedKPI = double.Parse(KPI3_txtVar2.Text) - double.Parse(KPI3_txtVar3.Text);
                     KPI3_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
