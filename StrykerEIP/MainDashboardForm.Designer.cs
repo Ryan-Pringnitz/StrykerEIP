@@ -57,33 +57,36 @@
             // 
             // mdWelcomeLabel
             // 
-            this.mdWelcomeLabel.AutoSize = true;
+            this.mdWelcomeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mdWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.mdWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdWelcomeLabel.Location = new System.Drawing.Point(272, 274);
+            this.mdWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
+            this.mdWelcomeLabel.Location = new System.Drawing.Point(35, 28);
             this.mdWelcomeLabel.Name = "mdWelcomeLabel";
-            this.mdWelcomeLabel.Size = new System.Drawing.Size(371, 20);
+            this.mdWelcomeLabel.Size = new System.Drawing.Size(1127, 63);
             this.mdWelcomeLabel.TabIndex = 0;
-            this.mdWelcomeLabel.Text = "Stryker Management Intelligence Dashboard:";
+            this.mdWelcomeLabel.Text = "stryker Management Intelligence Dashboard";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.Thistle;
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(17, 26);
+            this.richTextBox1.BackColor = System.Drawing.Color.AliceBlue;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(37, 45);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(337, 74);
+            this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-                "elp\".";
+    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+    "elp\".";
             // 
             // mdHelpButton
             // 
             this.mdHelpButton.BackColor = System.Drawing.Color.Ivory;
-            this.mdHelpButton.Location = new System.Drawing.Point(185, 106);
+            this.mdHelpButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdHelpButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.mdHelpButton.Location = new System.Drawing.Point(37, 264);
             this.mdHelpButton.Name = "mdHelpButton";
-            this.mdHelpButton.Size = new System.Drawing.Size(75, 23);
+            this.mdHelpButton.Size = new System.Drawing.Size(185, 69);
             this.mdHelpButton.TabIndex = 2;
             this.mdHelpButton.Text = "&Help";
             this.mdHelpButton.UseVisualStyleBackColor = false;
@@ -91,9 +94,11 @@
             // mdExitButton
             // 
             this.mdExitButton.BackColor = System.Drawing.Color.Ivory;
-            this.mdExitButton.Location = new System.Drawing.Point(266, 106);
+            this.mdExitButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdExitButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.mdExitButton.Location = new System.Drawing.Point(256, 264);
             this.mdExitButton.Name = "mdExitButton";
-            this.mdExitButton.Size = new System.Drawing.Size(75, 23);
+            this.mdExitButton.Size = new System.Drawing.Size(185, 69);
             this.mdExitButton.TabIndex = 3;
             this.mdExitButton.Text = "E&xit";
             this.mdExitButton.UseVisualStyleBackColor = false;
@@ -101,10 +106,11 @@
             // 
             // mdDateLabel
             // 
+            this.mdDateLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mdDateLabel.AutoSize = true;
             this.mdDateLabel.BackColor = System.Drawing.Color.Transparent;
             this.mdDateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdDateLabel.Location = new System.Drawing.Point(329, 451);
+            this.mdDateLabel.Location = new System.Drawing.Point(441, 106);
             this.mdDateLabel.Name = "mdDateLabel";
             this.mdDateLabel.Size = new System.Drawing.Size(80, 13);
             this.mdDateLabel.TabIndex = 4;
@@ -112,38 +118,45 @@
             // 
             // mdDateTimePicker
             // 
+            this.mdDateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mdDateTimePicker.CalendarMonthBackground = System.Drawing.Color.Maroon;
             this.mdDateTimePicker.CalendarTitleForeColor = System.Drawing.Color.Maroon;
             this.mdDateTimePicker.CalendarTrailingForeColor = System.Drawing.Color.Maroon;
             this.mdDateTimePicker.Enabled = false;
-            this.mdDateTimePicker.Location = new System.Drawing.Point(415, 447);
+            this.mdDateTimePicker.Location = new System.Drawing.Point(527, 102);
             this.mdDateTimePicker.Name = "mdDateTimePicker";
             this.mdDateTimePicker.Size = new System.Drawing.Size(205, 20);
             this.mdDateTimePicker.TabIndex = 5;
             // 
             // mdMessageGroupBox
             // 
+            this.mdMessageGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mdMessageGroupBox.AutoSize = true;
             this.mdMessageGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.mdMessageGroupBox.Controls.Add(this.richTextBox1);
             this.mdMessageGroupBox.Controls.Add(this.mdHelpButton);
             this.mdMessageGroupBox.Controls.Add(this.mdExitButton);
-            this.mdMessageGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.mdMessageGroupBox.Location = new System.Drawing.Point(289, 297);
+            this.mdMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdMessageGroupBox.ForeColor = System.Drawing.Color.Khaki;
+            this.mdMessageGroupBox.Location = new System.Drawing.Point(65, 134);
             this.mdMessageGroupBox.Name = "mdMessageGroupBox";
-            this.mdMessageGroupBox.Size = new System.Drawing.Size(369, 135);
+            this.mdMessageGroupBox.Size = new System.Drawing.Size(474, 369);
             this.mdMessageGroupBox.TabIndex = 6;
             this.mdMessageGroupBox.TabStop = false;
             this.mdMessageGroupBox.Text = "Choose Scope of Intelligence:";
             // 
             // mdOverviewsGroupBox
             // 
+            this.mdOverviewsGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mdOverviewsGroupBox.AutoSize = true;
             this.mdOverviewsGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.mdOverviewsGroupBox.Controls.Add(this.BIPictureBox);
             this.mdOverviewsGroupBox.Controls.Add(this.mdSustainabilityIntelligence);
             this.mdOverviewsGroupBox.Controls.Add(this.mdGlobalIntelligenceButton);
             this.mdOverviewsGroupBox.Controls.Add(this.mdBusinessIntelligenceButton);
-            this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.mdOverviewsGroupBox.Location = new System.Drawing.Point(684, 297);
+            this.mdOverviewsGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Khaki;
+            this.mdOverviewsGroupBox.Location = new System.Drawing.Point(560, 134);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
             this.mdOverviewsGroupBox.Size = new System.Drawing.Size(547, 369);
             this.mdOverviewsGroupBox.TabIndex = 7;
@@ -152,7 +165,7 @@
             // 
             // BIPictureBox
             // 
-            this.BIPictureBox.Location = new System.Drawing.Point(254, 23);
+            this.BIPictureBox.Location = new System.Drawing.Point(250, 35);
             this.BIPictureBox.Name = "BIPictureBox";
             this.BIPictureBox.Size = new System.Drawing.Size(283, 298);
             this.BIPictureBox.TabIndex = 3;
@@ -161,10 +174,11 @@
             // mdSustainabilityIntelligence
             // 
             this.mdSustainabilityIntelligence.BackColor = System.Drawing.Color.Ivory;
-            this.mdSustainabilityIntelligence.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdSustainabilityIntelligence.Location = new System.Drawing.Point(40, 247);
+            this.mdSustainabilityIntelligence.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdSustainabilityIntelligence.ForeColor = System.Drawing.Color.DarkBlue;
+            this.mdSustainabilityIntelligence.Location = new System.Drawing.Point(16, 250);
             this.mdSustainabilityIntelligence.Name = "mdSustainabilityIntelligence";
-            this.mdSustainabilityIntelligence.Size = new System.Drawing.Size(205, 30);
+            this.mdSustainabilityIntelligence.Size = new System.Drawing.Size(223, 102);
             this.mdSustainabilityIntelligence.TabIndex = 2;
             this.mdSustainabilityIntelligence.Text = "Sustainability Intelligence";
             this.mdSustainabilityIntelligence.UseVisualStyleBackColor = false;
@@ -175,10 +189,11 @@
             // mdGlobalIntelligenceButton
             // 
             this.mdGlobalIntelligenceButton.BackColor = System.Drawing.Color.Ivory;
-            this.mdGlobalIntelligenceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdGlobalIntelligenceButton.Location = new System.Drawing.Point(40, 130);
+            this.mdGlobalIntelligenceButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdGlobalIntelligenceButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.mdGlobalIntelligenceButton.Location = new System.Drawing.Point(16, 142);
             this.mdGlobalIntelligenceButton.Name = "mdGlobalIntelligenceButton";
-            this.mdGlobalIntelligenceButton.Size = new System.Drawing.Size(205, 30);
+            this.mdGlobalIntelligenceButton.Size = new System.Drawing.Size(223, 102);
             this.mdGlobalIntelligenceButton.TabIndex = 1;
             this.mdGlobalIntelligenceButton.Text = "Global Intelligence";
             this.mdGlobalIntelligenceButton.UseVisualStyleBackColor = false;
@@ -189,10 +204,11 @@
             // mdBusinessIntelligenceButton
             // 
             this.mdBusinessIntelligenceButton.BackColor = System.Drawing.Color.Ivory;
-            this.mdBusinessIntelligenceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdBusinessIntelligenceButton.Location = new System.Drawing.Point(40, 19);
+            this.mdBusinessIntelligenceButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mdBusinessIntelligenceButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.mdBusinessIntelligenceButton.Location = new System.Drawing.Point(16, 36);
             this.mdBusinessIntelligenceButton.Name = "mdBusinessIntelligenceButton";
-            this.mdBusinessIntelligenceButton.Size = new System.Drawing.Size(205, 30);
+            this.mdBusinessIntelligenceButton.Size = new System.Drawing.Size(223, 102);
             this.mdBusinessIntelligenceButton.TabIndex = 0;
             this.mdBusinessIntelligenceButton.Text = "Business Intelligence";
             this.mdBusinessIntelligenceButton.UseVisualStyleBackColor = false;
@@ -208,7 +224,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1172, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -224,14 +240,14 @@
             // LogOutToolStripMenuItem
             // 
             this.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem";
-            this.LogOutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.LogOutToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.LogOutToolStripMenuItem.Text = "Log Out";
             this.LogOutToolStripMenuItem.Click += new System.EventHandler(this.LogOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -270,7 +286,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1276, 696);
+            this.ClientSize = new System.Drawing.Size(1172, 515);
             this.Controls.Add(this.mdOverviewsGroupBox);
             this.Controls.Add(this.mdMessageGroupBox);
             this.Controls.Add(this.mdDateTimePicker);

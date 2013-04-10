@@ -1514,10 +1514,10 @@ namespace StrykerEIP
                     switch (KPI1_lblState.Text)
                     {
                         case "Success":
-                            KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Success State
+                            KPI1_lblState.ForeColor = System.Drawing.Color.LimeGreen; //Success State
                             break;
                         case "Normal":
-                            KPI1_lblState.ForeColor = System.Drawing.Color.Green; //Normal State
+                            KPI1_lblState.ForeColor = System.Drawing.Color.Blue; //Normal State
                             break;
                         case "Conflict":
                             KPI1_lblState.ForeColor = System.Drawing.Color.Goldenrod; //Conflict State

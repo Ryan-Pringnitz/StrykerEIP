@@ -14,6 +14,9 @@ namespace StrykerEIP
         public LoginForm()
         {
             InitializeComponent();
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
@@ -104,6 +107,11 @@ namespace StrykerEIP
         private void lfExitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void biWelcomeLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

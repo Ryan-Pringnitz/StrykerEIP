@@ -60,6 +60,9 @@
             // 
             // lfGroupBox
             // 
+            this.lfGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lfGroupBox.BackColor = System.Drawing.Color.Maroon;
             this.lfGroupBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lfGroupBox.BackgroundImage")));
             this.lfGroupBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -67,7 +70,7 @@
             this.lfGroupBox.Controls.Add(this.lfMessageGroupBox);
             this.lfGroupBox.Controls.Add(this.biWelcomeLabel);
             this.lfGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.lfGroupBox.Location = new System.Drawing.Point(189, 68);
+            this.lfGroupBox.Location = new System.Drawing.Point(47, 68);
             this.lfGroupBox.Name = "lfGroupBox";
             this.lfGroupBox.Size = new System.Drawing.Size(856, 478);
             this.lfGroupBox.TabIndex = 8;
@@ -75,6 +78,7 @@
             // 
             // lfLoginGroupBox
             // 
+            this.lfLoginGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lfLoginGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.lfLoginGroupBox.Controls.Add(this.lfPasswordTextBox);
             this.lfLoginGroupBox.Controls.Add(this.lfUserNameTextBox);
@@ -82,40 +86,41 @@
             this.lfLoginGroupBox.Controls.Add(this.biPasswordLabel);
             this.lfLoginGroupBox.Controls.Add(this.biLoginButton);
             this.lfLoginGroupBox.Controls.Add(this.biUserNameLabel);
+            this.lfLoginGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfLoginGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfLoginGroupBox.Location = new System.Drawing.Point(546, 307);
+            this.lfLoginGroupBox.Location = new System.Drawing.Point(525, 277);
             this.lfLoginGroupBox.Name = "lfLoginGroupBox";
-            this.lfLoginGroupBox.Size = new System.Drawing.Size(244, 153);
+            this.lfLoginGroupBox.Size = new System.Drawing.Size(265, 183);
             this.lfLoginGroupBox.TabIndex = 9;
             this.lfLoginGroupBox.TabStop = false;
             this.lfLoginGroupBox.Text = "Provide Login Information:";
             // 
             // lfPasswordTextBox
             // 
-            this.lfPasswordTextBox.BackColor = System.Drawing.Color.Black;
-            this.lfPasswordTextBox.ForeColor = System.Drawing.Color.White;
-            this.lfPasswordTextBox.Location = new System.Drawing.Point(102, 61);
+            this.lfPasswordTextBox.BackColor = System.Drawing.Color.AliceBlue;
+            this.lfPasswordTextBox.ForeColor = System.Drawing.Color.Black;
+            this.lfPasswordTextBox.Location = new System.Drawing.Point(104, 67);
             this.lfPasswordTextBox.Name = "lfPasswordTextBox";
-            this.lfPasswordTextBox.Size = new System.Drawing.Size(100, 20);
+            this.lfPasswordTextBox.Size = new System.Drawing.Size(129, 27);
             this.lfPasswordTextBox.TabIndex = 11;
             // 
             // lfUserNameTextBox
             // 
-            this.lfUserNameTextBox.BackColor = System.Drawing.Color.Black;
-            this.lfUserNameTextBox.ForeColor = System.Drawing.Color.White;
-            this.lfUserNameTextBox.Location = new System.Drawing.Point(104, 25);
+            this.lfUserNameTextBox.BackColor = System.Drawing.Color.AliceBlue;
+            this.lfUserNameTextBox.ForeColor = System.Drawing.Color.Black;
+            this.lfUserNameTextBox.Location = new System.Drawing.Point(104, 31);
             this.lfUserNameTextBox.Name = "lfUserNameTextBox";
-            this.lfUserNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.lfUserNameTextBox.Size = new System.Drawing.Size(129, 27);
             this.lfUserNameTextBox.TabIndex = 10;
             // 
             // lfClearButton
             // 
             this.lfClearButton.BackColor = System.Drawing.Color.Ivory;
-            this.lfClearButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lfClearButton.ForeColor = System.Drawing.Color.Black;
-            this.lfClearButton.Location = new System.Drawing.Point(128, 105);
+            this.lfClearButton.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lfClearButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lfClearButton.Location = new System.Drawing.Point(134, 111);
             this.lfClearButton.Name = "lfClearButton";
-            this.lfClearButton.Size = new System.Drawing.Size(85, 33);
+            this.lfClearButton.Size = new System.Drawing.Size(97, 49);
             this.lfClearButton.TabIndex = 14;
             this.lfClearButton.Text = "C&lear";
             this.lfClearButton.UseVisualStyleBackColor = false;
@@ -126,7 +131,7 @@
             this.biPasswordLabel.AutoSize = true;
             this.biPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biPasswordLabel.ForeColor = System.Drawing.Color.White;
-            this.biPasswordLabel.Location = new System.Drawing.Point(25, 63);
+            this.biPasswordLabel.Location = new System.Drawing.Point(27, 69);
             this.biPasswordLabel.Name = "biPasswordLabel";
             this.biPasswordLabel.Size = new System.Drawing.Size(71, 16);
             this.biPasswordLabel.TabIndex = 10;
@@ -136,11 +141,11 @@
             // 
             this.biLoginButton.AccessibleDescription = "lfLoginButton";
             this.biLoginButton.BackColor = System.Drawing.Color.Ivory;
-            this.biLoginButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biLoginButton.ForeColor = System.Drawing.Color.Black;
-            this.biLoginButton.Location = new System.Drawing.Point(28, 105);
+            this.biLoginButton.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biLoginButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.biLoginButton.Location = new System.Drawing.Point(34, 111);
             this.biLoginButton.Name = "biLoginButton";
-            this.biLoginButton.Size = new System.Drawing.Size(85, 33);
+            this.biLoginButton.Size = new System.Drawing.Size(97, 49);
             this.biLoginButton.TabIndex = 13;
             this.biLoginButton.Text = "&Log in";
             this.biLoginButton.UseVisualStyleBackColor = false;
@@ -151,7 +156,7 @@
             this.biUserNameLabel.AutoSize = true;
             this.biUserNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biUserNameLabel.ForeColor = System.Drawing.Color.White;
-            this.biUserNameLabel.Location = new System.Drawing.Point(21, 28);
+            this.biUserNameLabel.Location = new System.Drawing.Point(21, 34);
             this.biUserNameLabel.Name = "biUserNameLabel";
             this.biUserNameLabel.Size = new System.Drawing.Size(77, 16);
             this.biUserNameLabel.TabIndex = 0;
@@ -159,16 +164,17 @@
             // 
             // lfMessageGroupBox
             // 
+            this.lfMessageGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lfMessageGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.lfMessageGroupBox.Controls.Add(this.biBoldedLoginLabel);
             this.lfMessageGroupBox.Controls.Add(this.biSplashScreenRichTextBox);
             this.lfMessageGroupBox.Controls.Add(this.lfHelpButton);
             this.lfMessageGroupBox.Controls.Add(this.lfExitButton);
-            this.lfMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lfMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfMessageGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfMessageGroupBox.Location = new System.Drawing.Point(43, 307);
+            this.lfMessageGroupBox.Location = new System.Drawing.Point(59, 277);
             this.lfMessageGroupBox.Name = "lfMessageGroupBox";
-            this.lfMessageGroupBox.Size = new System.Drawing.Size(449, 153);
+            this.lfMessageGroupBox.Size = new System.Drawing.Size(433, 183);
             this.lfMessageGroupBox.TabIndex = 8;
             this.lfMessageGroupBox.TabStop = false;
             this.lfMessageGroupBox.Text = "Please Log in";
@@ -176,10 +182,10 @@
             // biBoldedLoginLabel
             // 
             this.biBoldedLoginLabel.AutoSize = true;
-            this.biBoldedLoginLabel.BackColor = System.Drawing.Color.Black;
+            this.biBoldedLoginLabel.BackColor = System.Drawing.Color.AliceBlue;
             this.biBoldedLoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biBoldedLoginLabel.ForeColor = System.Drawing.Color.White;
-            this.biBoldedLoginLabel.Location = new System.Drawing.Point(265, 24);
+            this.biBoldedLoginLabel.ForeColor = System.Drawing.Color.Black;
+            this.biBoldedLoginLabel.Location = new System.Drawing.Point(264, 34);
             this.biBoldedLoginLabel.Name = "biBoldedLoginLabel";
             this.biBoldedLoginLabel.Size = new System.Drawing.Size(66, 18);
             this.biBoldedLoginLabel.TabIndex = 8;
@@ -187,24 +193,24 @@
             // 
             // biSplashScreenRichTextBox
             // 
-            this.biSplashScreenRichTextBox.BackColor = System.Drawing.Color.Black;
+            this.biSplashScreenRichTextBox.BackColor = System.Drawing.Color.AliceBlue;
             this.biSplashScreenRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biSplashScreenRichTextBox.ForeColor = System.Drawing.Color.White;
-            this.biSplashScreenRichTextBox.Location = new System.Drawing.Point(16, 19);
+            this.biSplashScreenRichTextBox.ForeColor = System.Drawing.Color.Black;
+            this.biSplashScreenRichTextBox.Location = new System.Drawing.Point(16, 30);
             this.biSplashScreenRichTextBox.Name = "biSplashScreenRichTextBox";
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
-                "e and Password and press the button labeled \"Log In\"";
+    "e and Password and press the button labeled \"Log In\"";
             // 
             // lfHelpButton
             // 
             this.lfHelpButton.BackColor = System.Drawing.Color.Ivory;
             this.lfHelpButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lfHelpButton.ForeColor = System.Drawing.Color.Black;
-            this.lfHelpButton.Location = new System.Drawing.Point(53, 107);
+            this.lfHelpButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lfHelpButton.Location = new System.Drawing.Point(103, 107);
             this.lfHelpButton.Name = "lfHelpButton";
-            this.lfHelpButton.Size = new System.Drawing.Size(93, 31);
+            this.lfHelpButton.Size = new System.Drawing.Size(120, 60);
             this.lfHelpButton.TabIndex = 5;
             this.lfHelpButton.Text = "&Help";
             this.lfHelpButton.UseVisualStyleBackColor = false;
@@ -213,10 +219,10 @@
             // 
             this.lfExitButton.BackColor = System.Drawing.Color.Ivory;
             this.lfExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lfExitButton.ForeColor = System.Drawing.Color.Black;
-            this.lfExitButton.Location = new System.Drawing.Point(295, 107);
+            this.lfExitButton.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lfExitButton.Location = new System.Drawing.Point(229, 107);
             this.lfExitButton.Name = "lfExitButton";
-            this.lfExitButton.Size = new System.Drawing.Size(91, 31);
+            this.lfExitButton.Size = new System.Drawing.Size(118, 60);
             this.lfExitButton.TabIndex = 7;
             this.lfExitButton.Text = "E&xit";
             this.lfExitButton.UseVisualStyleBackColor = false;
@@ -224,15 +230,17 @@
             // 
             // biWelcomeLabel
             // 
+            this.biWelcomeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.biWelcomeLabel.AutoSize = true;
-            this.biWelcomeLabel.BackColor = System.Drawing.Color.Black;
-            this.biWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.biWelcomeLabel.ForeColor = System.Drawing.Color.White;
-            this.biWelcomeLabel.Location = new System.Drawing.Point(15, 271);
+            this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.biWelcomeLabel.Font = new System.Drawing.Font("Segoe UI", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biWelcomeLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.biWelcomeLabel.Location = new System.Drawing.Point(-58, 16);
             this.biWelcomeLabel.Name = "biWelcomeLabel";
-            this.biWelcomeLabel.Size = new System.Drawing.Size(466, 24);
+            this.biWelcomeLabel.Size = new System.Drawing.Size(975, 84);
             this.biWelcomeLabel.TabIndex = 4;
-            this.biWelcomeLabel.Text = "Welcome to the Stryker Management Dashboard:";
+            this.biWelcomeLabel.Text = "stryker Management Dashboard";
+            this.biWelcomeLabel.Click += new System.EventHandler(this.biWelcomeLabel_Click);
             // 
             // menuStrip1
             // 
@@ -242,7 +250,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1276, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(964, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -259,21 +267,21 @@
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.loginToolStripMenuItem.Text = "Login";
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // clearFormToolStripMenuItem
             // 
             this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.clearFormToolStripMenuItem.Text = "Clear Form";
             this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
             // 
             // exitProgramToolStripMenuItem
             // 
             this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.exitProgramToolStripMenuItem.Text = "Exit Program";
             this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
             // 
@@ -313,7 +321,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1276, 674);
+            this.ClientSize = new System.Drawing.Size(964, 584);
             this.Controls.Add(this.lfGroupBox);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;
