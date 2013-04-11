@@ -31,30 +31,25 @@ namespace StrykerEIP
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.KPIs_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
-            this.label55 = new System.Windows.Forms.Label();
             this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.KPI1_lblResult = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
             this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
             this.KPI1_lblVar5 = new System.Windows.Forms.Label();
             this.KPI1_lblState = new System.Windows.Forms.Label();
@@ -218,6 +213,11 @@ namespace StrykerEIP
             this.lblKPI3Name = new System.Windows.Forms.Label();
             this.lblKPI4Name = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
             this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -241,26 +241,26 @@ namespace StrykerEIP
             this.KPIs_tabPage.Controls.Add(this.KPI3_tabPage);
             this.KPIs_tabPage.Controls.Add(this.KPI4_tabPage);
             this.KPIs_tabPage.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.KPIs_tabPage.Location = new System.Drawing.Point(0, 320);
+            this.KPIs_tabPage.Location = new System.Drawing.Point(0, 301);
             this.KPIs_tabPage.Name = "KPIs_tabPage";
             this.KPIs_tabPage.SelectedIndex = 0;
-            this.KPIs_tabPage.Size = new System.Drawing.Size(1147, 249);
+            this.KPIs_tabPage.Size = new System.Drawing.Size(1147, 301);
             this.KPIs_tabPage.TabIndex = 0;
             // 
             // KPI1_tabPage
             // 
             this.KPI1_tabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.KPI1_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient2;
-            this.KPI1_tabPage.Controls.Add(this.label55);
+            this.KPI1_tabPage.Controls.Add(this.label54);
+            this.KPI1_tabPage.Controls.Add(this.label44);
+            this.KPI1_tabPage.Controls.Add(this.label43);
+            this.KPI1_tabPage.Controls.Add(this.label42);
+            this.KPI1_tabPage.Controls.Add(this.label34);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblDecisionFinal);
             this.KPI1_tabPage.Controls.Add(this.label53);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblResult);
             this.KPI1_tabPage.Controls.Add(this.label48);
             this.KPI1_tabPage.Controls.Add(this.label45);
-            this.KPI1_tabPage.Controls.Add(this.label44);
-            this.KPI1_tabPage.Controls.Add(this.label43);
-            this.KPI1_tabPage.Controls.Add(this.label42);
-            this.KPI1_tabPage.Controls.Add(this.label34);
             this.KPI1_tabPage.Controls.Add(this.KPI1_txtVar5);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblVar5);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblState);
@@ -286,20 +286,9 @@ namespace StrykerEIP
             this.KPI1_tabPage.Location = new System.Drawing.Point(4, 22);
             this.KPI1_tabPage.Name = "KPI1_tabPage";
             this.KPI1_tabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.KPI1_tabPage.Size = new System.Drawing.Size(1139, 223);
+            this.KPI1_tabPage.Size = new System.Drawing.Size(1139, 275);
             this.KPI1_tabPage.TabIndex = 0;
             this.KPI1_tabPage.Text = "Customer";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.BackColor = System.Drawing.Color.Transparent;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label55.Location = new System.Drawing.Point(538, 187);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(63, 17);
-            this.label55.TabIndex = 62;
-            this.label55.Text = "Change";
             // 
             // KPI1_lblDecisionFinal
             // 
@@ -316,11 +305,11 @@ namespace StrykerEIP
             this.label53.AutoSize = true;
             this.label53.BackColor = System.Drawing.Color.Transparent;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label53.Location = new System.Drawing.Point(970, 3);
+            this.label53.Location = new System.Drawing.Point(962, 3);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(70, 17);
+            this.label53.Size = new System.Drawing.Size(57, 17);
             this.label53.TabIndex = 56;
-            this.label53.Text = "Decision";
+            this.label53.Text = "Choice";
             // 
             // KPI1_lblResult
             // 
@@ -351,42 +340,6 @@ namespace StrykerEIP
             this.label45.TabIndex = 49;
             this.label45.Text = "Wisdom";
             // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(830, 265);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(60, 13);
-            this.label44.TabIndex = 48;
-            this.label44.Text = "Knowledge";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(557, 264);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(47, 13);
-            this.label43.TabIndex = 47;
-            this.label43.Text = "Concept";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(211, 264);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(59, 13);
-            this.label42.TabIndex = 46;
-            this.label42.Text = "Information";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(4, 266);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(30, 13);
-            this.label34.TabIndex = 45;
-            this.label34.Text = "Data";
-            // 
             // KPI1_txtVar5
             // 
             this.KPI1_txtVar5.Location = new System.Drawing.Point(313, 194);
@@ -410,7 +363,7 @@ namespace StrykerEIP
             this.KPI1_lblState.AutoSize = true;
             this.KPI1_lblState.BackColor = System.Drawing.Color.Transparent;
             this.KPI1_lblState.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KPI1_lblState.Location = new System.Drawing.Point(539, 41);
+            this.KPI1_lblState.Location = new System.Drawing.Point(539, 70);
             this.KPI1_lblState.Margin = new System.Windows.Forms.Padding(0);
             this.KPI1_lblState.Name = "KPI1_lblState";
             this.KPI1_lblState.Size = new System.Drawing.Size(128, 44);
@@ -422,7 +375,7 @@ namespace StrykerEIP
             // KPI1_btnCalculate
             // 
             this.KPI1_btnCalculate.BackColor = System.Drawing.Color.Ivory;
-            this.KPI1_btnCalculate.Location = new System.Drawing.Point(450, 27);
+            this.KPI1_btnCalculate.Location = new System.Drawing.Point(450, 29);
             this.KPI1_btnCalculate.Name = "KPI1_btnCalculate";
             this.KPI1_btnCalculate.Size = new System.Drawing.Size(75, 185);
             this.KPI1_btnCalculate.TabIndex = 18;
@@ -565,9 +518,9 @@ namespace StrykerEIP
             this.KPI1_lblDecisionLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.KPI1_lblDecisionLogo.Location = new System.Drawing.Point(724, 3);
             this.KPI1_lblDecisionLogo.Name = "KPI1_lblDecisionLogo";
-            this.KPI1_lblDecisionLogo.Size = new System.Drawing.Size(206, 17);
+            this.KPI1_lblDecisionLogo.Size = new System.Drawing.Size(202, 17);
             this.KPI1_lblDecisionLogo.TabIndex = 7;
-            this.KPI1_lblDecisionLogo.Text = "Knowledge (Expert System)";
+            this.KPI1_lblDecisionLogo.Text = "Business Knowledge Rules";
             // 
             // KPI1_lblStateLogo
             // 
@@ -587,9 +540,9 @@ namespace StrykerEIP
             this.KPI1_lblCalculateLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.KPI1_lblCalculateLogo.Location = new System.Drawing.Point(203, 3);
             this.KPI1_lblCalculateLogo.Name = "KPI1_lblCalculateLogo";
-            this.KPI1_lblCalculateLogo.Size = new System.Drawing.Size(137, 17);
+            this.KPI1_lblCalculateLogo.Size = new System.Drawing.Size(63, 17);
             this.KPI1_lblCalculateLogo.TabIndex = 5;
-            this.KPI1_lblCalculateLogo.Text = "Data (Happening)";
+            this.KPI1_lblCalculateLogo.Text = "Change";
             // 
             // KPI1_lblSummaryLogo
             // 
@@ -608,7 +561,7 @@ namespace StrykerEIP
             this.KPI1_txtKPISummary.Location = new System.Drawing.Point(3, 23);
             this.KPI1_txtKPISummary.Name = "KPI1_txtKPISummary";
             this.KPI1_txtKPISummary.ReadOnly = true;
-            this.KPI1_txtKPISummary.Size = new System.Drawing.Size(189, 196);
+            this.KPI1_txtKPISummary.Size = new System.Drawing.Size(189, 252);
             this.KPI1_txtKPISummary.TabIndex = 3;
             this.KPI1_txtKPISummary.Text = "";
             // 
@@ -1740,17 +1693,17 @@ namespace StrykerEIP
             this.CustomerChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CustomerChart.BackColor = System.Drawing.Color.Lavender;
             this.CustomerChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend1);
-            this.CustomerChart.Location = new System.Drawing.Point(4, 135);
+            chartArea9.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea9);
+            legend9.Enabled = false;
+            legend9.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend9);
+            this.CustomerChart.Location = new System.Drawing.Point(4, 117);
             this.CustomerChart.Name = "CustomerChart";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series1);
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series9);
             this.CustomerChart.Size = new System.Drawing.Size(269, 178);
             this.CustomerChart.TabIndex = 1;
             this.CustomerChart.Text = "chart1";
@@ -1760,18 +1713,18 @@ namespace StrykerEIP
             this.OperationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.OperationsChart.BackColor = System.Drawing.Color.Lavender;
             this.OperationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend2);
-            this.OperationsChart.Location = new System.Drawing.Point(584, 135);
+            chartArea10.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea10);
+            legend10.Enabled = false;
+            legend10.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend10);
+            this.OperationsChart.Location = new System.Drawing.Point(584, 117);
             this.OperationsChart.Name = "OperationsChart";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series2.Legend = "Legend1";
-            series2.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series2);
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series10.Legend = "Legend1";
+            series10.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series10);
             this.OperationsChart.Size = new System.Drawing.Size(269, 178);
             this.OperationsChart.TabIndex = 3;
             this.OperationsChart.Text = "chart3";
@@ -1781,18 +1734,18 @@ namespace StrykerEIP
             this.InnovationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.InnovationsChart.BackColor = System.Drawing.Color.Lavender;
             this.InnovationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea3.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend3);
-            this.InnovationsChart.Location = new System.Drawing.Point(874, 135);
+            chartArea11.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea11);
+            legend11.Enabled = false;
+            legend11.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend11);
+            this.InnovationsChart.Location = new System.Drawing.Point(874, 117);
             this.InnovationsChart.Name = "InnovationsChart";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series3);
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series11.Legend = "Legend1";
+            series11.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series11);
             this.InnovationsChart.Size = new System.Drawing.Size(269, 178);
             this.InnovationsChart.TabIndex = 4;
             this.InnovationsChart.Text = "chart4";
@@ -1966,18 +1919,18 @@ namespace StrykerEIP
             this.FinancialChart.BackColor = System.Drawing.Color.Lavender;
             this.FinancialChart.BackSecondaryColor = System.Drawing.Color.Transparent;
             this.FinancialChart.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea4.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea4);
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend4);
-            this.FinancialChart.Location = new System.Drawing.Point(294, 135);
+            chartArea12.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea12);
+            legend12.Enabled = false;
+            legend12.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend12);
+            this.FinancialChart.Location = new System.Drawing.Point(294, 117);
             this.FinancialChart.Name = "FinancialChart";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series4.Legend = "Legend1";
-            series4.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series4);
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series12.Legend = "Legend1";
+            series12.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series12);
             this.FinancialChart.Size = new System.Drawing.Size(269, 178);
             this.FinancialChart.TabIndex = 2;
             this.FinancialChart.Text = "chart2";
@@ -2001,7 +1954,7 @@ namespace StrykerEIP
             this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI1Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI1Name.Location = new System.Drawing.Point(4, 97);
+            this.lblKPI1Name.Location = new System.Drawing.Point(4, 79);
             this.lblKPI1Name.Name = "lblKPI1Name";
             this.lblKPI1Name.Size = new System.Drawing.Size(269, 37);
             this.lblKPI1Name.TabIndex = 18;
@@ -2014,7 +1967,7 @@ namespace StrykerEIP
             this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI2Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI2Name.Location = new System.Drawing.Point(294, 97);
+            this.lblKPI2Name.Location = new System.Drawing.Point(294, 79);
             this.lblKPI2Name.Name = "lblKPI2Name";
             this.lblKPI2Name.Size = new System.Drawing.Size(269, 37);
             this.lblKPI2Name.TabIndex = 19;
@@ -2027,7 +1980,7 @@ namespace StrykerEIP
             this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI3Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI3Name.Location = new System.Drawing.Point(584, 97);
+            this.lblKPI3Name.Location = new System.Drawing.Point(584, 79);
             this.lblKPI3Name.Name = "lblKPI3Name";
             this.lblKPI3Name.Size = new System.Drawing.Size(269, 37);
             this.lblKPI3Name.TabIndex = 20;
@@ -2040,7 +1993,7 @@ namespace StrykerEIP
             this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI4Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI4Name.Location = new System.Drawing.Point(874, 97);
+            this.lblKPI4Name.Location = new System.Drawing.Point(874, 79);
             this.lblKPI4Name.Name = "lblKPI4Name";
             this.lblKPI4Name.Size = new System.Drawing.Size(269, 37);
             this.lblKPI4Name.TabIndex = 21;
@@ -2058,6 +2011,61 @@ namespace StrykerEIP
             this.label49.TabIndex = 23;
             this.label49.Text = "Building Medical Technology for a Healthier Society";
             // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(230, 230);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(258, 37);
+            this.label34.TabIndex = 63;
+            this.label34.Text = "Data - Information";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(557, 227);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(135, 37);
+            this.label42.TabIndex = 64;
+            this.label42.Text = "Concepts";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(754, 230);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(162, 37);
+            this.label43.TabIndex = 65;
+            this.label43.Text = "Knowledge";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(986, 232);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(123, 37);
+            this.label44.TabIndex = 66;
+            this.label44.Text = "Wisdom";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.Transparent;
+            this.label54.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(547, 19);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(90, 17);
+            this.label54.TabIndex = 67;
+            this.label54.Text = "Expert System";
+            // 
             // BusinessIntelligenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2065,7 +2073,7 @@ namespace StrykerEIP
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1147, 569);
+            this.ClientSize = new System.Drawing.Size(1147, 602);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.lblKPI4Name);
             this.Controls.Add(this.lblKPI3Name);
@@ -2246,10 +2254,6 @@ namespace StrykerEIP
         private Label KPI2_lblState;
         private Label label48;
         private Label label45;
-        private Label label44;
-        private Label label43;
-        private Label label42;
-        private Label label34;
         private Label label47;
         private Label label33;
         private Label label32;
@@ -2286,7 +2290,11 @@ namespace StrykerEIP
         private ToolStripSeparator toolStripSeparator3;
         private ToolStripMenuItem sustainableIntelligencToolStripMenuItem;
         private Label label49;
-        private Label label55;
+        private Label label54;
+        private Label label44;
+        private Label label43;
+        private Label label42;
+        private Label label34;
     }
 }
 
