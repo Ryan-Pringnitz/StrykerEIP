@@ -59,10 +59,13 @@ namespace StrykerEIP
             KPI3_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
             KPI4_btnCalculate.Click += new EventHandler(KPI_btnCalculate_Click);
 
-            KPI1_txtVar1.Text = DateTime.Now.ToString();
-            KPI2_txtVar1.Text = DateTime.Now.ToString();
-            KPI3_txtVar1.Text = DateTime.Now.ToString();
-            KPI4_txtVar1.Text = DateTime.Now.ToString();
+
+
+
+
+            KPI1_lblStateLogo.Text = "Concept" + Environment.NewLine + "(State of Affairs)";
+            label55.Text = "Information" + Environment.NewLine + "(Change)";
+            label53.Text = "Wisdom" + Environment.NewLine + "(Informated Decision)";
         }
 
         private void subSystem_Click(object sender, EventArgs e)
@@ -71,6 +74,7 @@ namespace StrykerEIP
             //Add comments
             var selectedSubSystem = (ToolStripItem)sender;
 
+            #region Initialize Text Fields
             foreach (ToolStripItem subSystem in perspectivesToolStripMenuItem.DropDownItems)
             {
                 subSystem.BackColor = Color.Transparent;
@@ -80,6 +84,80 @@ namespace StrykerEIP
             selectedSubSystem.BackColor = Color.Gainsboro;
 
             lblBusinessProcessName.Text = selectedSubSystem.Text + " Management Dashboard";
+
+            foreach (Control c in KPI1_tabPage.Controls)
+            {
+                if (c.GetType().ToString() == "System.Windows.Forms.TextBox")
+                {
+                    c.Text = string.Empty;
+                }
+            }
+            foreach (Control c in KPI2_tabPage.Controls)
+            {
+                if (c.GetType().ToString() == "System.Windows.Forms.TextBox")
+                {
+                    c.Text = string.Empty;
+                }
+            }
+            foreach (Control c in KPI3_tabPage.Controls)
+            {
+                if (c.GetType().ToString() == "System.Windows.Forms.TextBox")
+                {
+                    c.Text = string.Empty;
+                }
+            }
+            foreach (Control c in KPI4_tabPage.Controls)
+            {
+                if (c.GetType().ToString() == "System.Windows.Forms.TextBox")
+                {
+                    c.Text = string.Empty;
+                }
+            }
+
+            KPI1_txtVar1.Text = DateTime.Now.ToString();
+            KPI2_txtVar1.Text = DateTime.Now.ToString();
+            KPI3_txtVar1.Text = DateTime.Now.ToString();
+            KPI4_txtVar1.Text = DateTime.Now.ToString();
+
+            KPI1_lblResult.Visible = false;
+            KPI2_lblResult.Visible = false;
+            KPI3_lblResult.Visible = false;
+            KPI4_lblResult.Visible = false;
+
+            KPI1_lblState.Visible = false;
+            KPI2_lblState.Visible = false;
+            KPI3_lblState.Visible = false;
+            KPI4_lblState.Visible = false;
+
+            KPI1_lblDecisionFinal.Text = string.Empty;
+            KPI2_lblDecisionFinal.Text = string.Empty;
+            KPI3_lblDecisionFinal.Text = string.Empty;
+            KPI4_lblDecisionFinal.Text = string.Empty;
+
+            KPI1_btnSubmitDecision.Visible = false;
+            KPI2_btnSubmitDecision.Visible = false;
+            KPI3_btnSubmitDecision.Visible = false;
+            KPI4_btnSubmitDecision.Visible = false;
+
+            KPI1_groupDecision.Visible = false;
+            KPI2_groupDecision.Visible = false;
+            KPI3_groupDecision.Visible = false;
+            KPI4_groupDecision.Visible = false;
+
+            KPI1_radioDecision1.Checked = false;
+            KPI1_radioDecision2.Checked = false;
+            KPI1_radioDecision3.Checked = false;
+            KPI2_radioDecision1.Checked = false;
+            KPI2_radioDecision2.Checked = false;
+            KPI2_radioDecision3.Checked = false;
+            KPI3_radioDecision1.Checked = false;
+            KPI3_radioDecision2.Checked = false;
+            KPI3_radioDecision3.Checked = false;
+            KPI4_radioDecision1.Checked = false;
+            KPI4_radioDecision2.Checked = false;
+            KPI4_radioDecision3.Checked = false;
+
+            #endregion
 
             try
             {
@@ -120,63 +198,44 @@ namespace StrykerEIP
                     {
                         case 0:
                             CustomerChart.Series["CustomerSeries"].ChartType = kpiChartType;
-                            //if (kpiChartType != SeriesChartType.Pie)
-                            //{
                             CustomerChart.Series["CustomerSeries"].XValueMember = "Date";
                             CustomerChart.Series["CustomerSeries"].XValueType = ChartValueType.Date;
                             CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
                             lblKPI1Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI1_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI1_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
-                            //}
-                            //else
-                            //{
-
-                            //}
                             break;
                         case 1:
                             OperationsChart.Series["OperationsSeries"].ChartType = kpiChartType;
-                            //if (kpiChartType != SeriesChartType.Pie)
-                            //{
                             OperationsChart.Series["OperationsSeries"].XValueMember = "Date";
                             OperationsChart.Series["OperationsSeries"].XValueType = ChartValueType.Date;
                             OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
                             lblKPI2Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI2_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI2_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
-                            //}
                             break;
                         case 2:
                             FinancialChart.Series["FinancialSeries"].ChartType = kpiChartType;
-                            //if (kpiChartType != SeriesChartType.Pie)
-                            //{
                             FinancialChart.Series["FinancialSeries"].XValueMember = "Date";
                             FinancialChart.Series["FinancialSeries"].XValueType = ChartValueType.Date;
                             FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
                             lblKPI3Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI3_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI3_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
-                            //}
                             break;
                         case 3:
                             InnovationsChart.Series["InnovationsSeries"].ChartType = kpiChartType;
-                            //if (kpiChartType != SeriesChartType.Pie)
-                            //{
                             InnovationsChart.Series["InnovationsSeries"].XValueMember = "Date";
                             InnovationsChart.Series["InnovationsSeries"].XValueType = ChartValueType.Date;
                             InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
                             lblKPI4Name.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI4_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI4_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
-                            //}
                             break;
                     }
                 }
 
-
-
-                //Adds text to the labels for KPI #1
-                #region
+                #region Add text to the labels for KPI #1
 
                 string[] arr1 = new string[dataSetBusinessProcess.Tables[1].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[1].Columns.Count; j++)
@@ -290,8 +349,8 @@ namespace StrykerEIP
                     }
                 }
                 #endregion
-                //Adds text to the labels for KPI #2
-                #region
+
+                #region Add text to the labels for KPI #2
 
                 string[] arr2 = new string[dataSetBusinessProcess.Tables[2].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[2].Columns.Count; j++)
@@ -406,8 +465,8 @@ namespace StrykerEIP
                 }
 
                 #endregion
-                //Adds text to the labels for KPI #3
-                #region
+
+                #region Add text to the labels for KPI #3
 
                 string[] arr3 = new string[dataSetBusinessProcess.Tables[3].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[3].Columns.Count; j++)
@@ -517,8 +576,8 @@ namespace StrykerEIP
                     }
                 }
                 #endregion
-                //Adds text to the labels for KPI #4
-                #region
+
+                #region Add text to the labels for KPI #4
 
                 string[] arr4 = new string[dataSetBusinessProcess.Tables[4].Columns.Count];
                 for (int j = 0; j < dataSetBusinessProcess.Tables[4].Columns.Count; j++)
@@ -1518,7 +1577,7 @@ namespace StrykerEIP
                     KPI1_lblState.Text = kpiState;
                     break;
                 case "Market Presence":
-                    calculatedKPI = double.Parse(KPI2_txtVar2.Text) / (double.Parse(KPI2_txtVar2.Text)+ double.Parse(KPI2_txtVar3.Text));
+                    calculatedKPI = double.Parse(KPI2_txtVar2.Text) / (double.Parse(KPI2_txtVar2.Text) + double.Parse(KPI2_txtVar3.Text));
                     KPI2_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
