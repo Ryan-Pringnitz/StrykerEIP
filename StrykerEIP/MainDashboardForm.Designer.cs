@@ -50,11 +50,13 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.mdPictureBox2 = new System.Windows.Forms.PictureBox();
             this.mdMessageGroupBox.SuspendLayout();
             this.mdOverviewsGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BIPictureBox)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // mdWelcomeLabel
@@ -79,8 +81,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-    "elp\".";
+                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+                "elp\".";
             // 
             // mdHelpButton
             // 
@@ -153,6 +155,7 @@
             this.mdOverviewsGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mdOverviewsGroupBox.AutoSize = true;
             this.mdOverviewsGroupBox.BackColor = System.Drawing.Color.Transparent;
+            this.mdOverviewsGroupBox.Controls.Add(this.mdPictureBox2);
             this.mdOverviewsGroupBox.Controls.Add(this.BIPictureBox);
             this.mdOverviewsGroupBox.Controls.Add(this.mdSustainabilityIntelligence);
             this.mdOverviewsGroupBox.Controls.Add(this.mdGlobalIntelligenceButton);
@@ -161,16 +164,16 @@
             this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Khaki;
             this.mdOverviewsGroupBox.Location = new System.Drawing.Point(558, 132);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
-            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(547, 383);
+            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(574, 383);
             this.mdOverviewsGroupBox.TabIndex = 7;
             this.mdOverviewsGroupBox.TabStop = false;
             this.mdOverviewsGroupBox.Text = "Stragic Intelligences:";
             // 
             // BIPictureBox
             // 
-            this.BIPictureBox.Location = new System.Drawing.Point(250, 35);
+            this.BIPictureBox.Location = new System.Drawing.Point(288, 36);
             this.BIPictureBox.Name = "BIPictureBox";
-            this.BIPictureBox.Size = new System.Drawing.Size(283, 298);
+            this.BIPictureBox.Size = new System.Drawing.Size(270, 298);
             this.BIPictureBox.TabIndex = 3;
             this.BIPictureBox.TabStop = false;
             // 
@@ -305,6 +308,15 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Building Medical Technology for a healthier Society";
             // 
+            // mdPictureBox2
+            // 
+            this.mdPictureBox2.Image = global::StrykerEIP.Properties.Resources.AllIcons2;
+            this.mdPictureBox2.Location = new System.Drawing.Point(245, 36);
+            this.mdPictureBox2.Name = "mdPictureBox2";
+            this.mdPictureBox2.Size = new System.Drawing.Size(72, 316);
+            this.mdPictureBox2.TabIndex = 4;
+            this.mdPictureBox2.TabStop = false;
+            // 
             // MainDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,6 +343,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,5 +373,6 @@
         private System.Windows.Forms.PictureBox BIPictureBox;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox mdPictureBox2;
     }
 }

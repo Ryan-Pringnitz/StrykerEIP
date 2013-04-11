@@ -64,15 +64,17 @@
             // 
             this.lfGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lfGroupBox.BackColor = System.Drawing.Color.Transparent;
-            this.lfGroupBox.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
+            this.lfGroupBox.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerBridgeOriginal3;
             this.lfGroupBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lfGroupBox.Controls.Add(this.label1);
             this.lfGroupBox.Controls.Add(this.lfLoginGroupBox);
+            this.lfGroupBox.Controls.Add(this.pictureBox1);
             this.lfGroupBox.Controls.Add(this.lfMessageGroupBox);
             this.lfGroupBox.Controls.Add(this.biWelcomeLabel);
             this.lfGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.lfGroupBox.Location = new System.Drawing.Point(15, 88);
+            this.lfGroupBox.Location = new System.Drawing.Point(15, 44);
             this.lfGroupBox.Name = "lfGroupBox";
-            this.lfGroupBox.Size = new System.Drawing.Size(1129, 396);
+            this.lfGroupBox.Size = new System.Drawing.Size(1129, 453);
             this.lfGroupBox.TabIndex = 8;
             this.lfGroupBox.TabStop = false;
             // 
@@ -88,7 +90,7 @@
             this.lfLoginGroupBox.Controls.Add(this.biUserNameLabel);
             this.lfLoginGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfLoginGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfLoginGroupBox.Location = new System.Drawing.Point(637, 157);
+            this.lfLoginGroupBox.Location = new System.Drawing.Point(609, 253);
             this.lfLoginGroupBox.Name = "lfLoginGroupBox";
             this.lfLoginGroupBox.Size = new System.Drawing.Size(265, 183);
             this.lfLoginGroupBox.TabIndex = 9;
@@ -172,7 +174,7 @@
             this.lfMessageGroupBox.Controls.Add(this.lfExitButton);
             this.lfMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfMessageGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfMessageGroupBox.Location = new System.Drawing.Point(171, 157);
+            this.lfMessageGroupBox.Location = new System.Drawing.Point(143, 253);
             this.lfMessageGroupBox.Name = "lfMessageGroupBox";
             this.lfMessageGroupBox.Size = new System.Drawing.Size(433, 183);
             this.lfMessageGroupBox.TabIndex = 8;
@@ -201,7 +203,7 @@
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
-    "e and Password and press the button labeled \"Log In\"";
+                "e and Password and press the button labeled \"Log In\"";
             // 
             // lfHelpButton
             // 
@@ -235,7 +237,7 @@
             this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.biWelcomeLabel.Font = new System.Drawing.Font("Segoe UI", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
-            this.biWelcomeLabel.Location = new System.Drawing.Point(30, 20);
+            this.biWelcomeLabel.Location = new System.Drawing.Point(43, 157);
             this.biWelcomeLabel.Name = "biWelcomeLabel";
             this.biWelcomeLabel.Size = new System.Drawing.Size(1068, 84);
             this.biWelcomeLabel.TabIndex = 4;
@@ -318,7 +320,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo5;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(268, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -331,7 +333,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 72);
+            this.label1.Location = new System.Drawing.Point(18, 64);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(246, 13);
             this.label1.TabIndex = 11;
@@ -344,9 +346,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1163, 496);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1163, 504);
             this.Controls.Add(this.lfGroupBox);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;

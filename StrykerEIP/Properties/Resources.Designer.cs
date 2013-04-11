@@ -60,6 +60,13 @@ namespace StrykerEIP.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap AllIcons2 {
+            get {
+                object obj = ResourceManager.GetObject("AllIcons2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap BlankIcon {
             get {
                 object obj = ResourceManager.GetObject("BlankIcon", resourceCulture);
@@ -84,6 +91,13 @@ namespace StrykerEIP.Properties {
         internal static System.Drawing.Bitmap Gradient4 {
             get {
                 object obj = ResourceManager.GetObject("Gradient4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap StrykerBridgeOriginal3 {
+            get {
+                object obj = ResourceManager.GetObject("StrykerBridgeOriginal3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
