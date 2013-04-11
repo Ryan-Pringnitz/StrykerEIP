@@ -108,5 +108,12 @@ namespace StrykerEIP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap WhiteToRedGradient {
+            get {
+                object obj = ResourceManager.GetObject("WhiteToRedGradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

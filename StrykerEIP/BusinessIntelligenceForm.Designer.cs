@@ -31,18 +31,18 @@ namespace StrykerEIP
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.KPIs_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
             this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
@@ -185,38 +185,6 @@ namespace StrykerEIP
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.CustomerChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.OperationsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.InnovationsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calculateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.clearFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.returnToMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.perspectivesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eServicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.financialAccountingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.materialsManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.productionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customerServiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.humanResourcesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.globalIntellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.sustainableIntelligencToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.FinancialChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.lblBusinessProcessName = new System.Windows.Forms.Label();
-            this.lblKPI1Name = new System.Windows.Forms.Label();
-            this.lblKPI2Name = new System.Windows.Forms.Label();
-            this.lblKPI3Name = new System.Windows.Forms.Label();
-            this.lblKPI4Name = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
@@ -252,6 +220,38 @@ namespace StrykerEIP
             this.label73 = new System.Windows.Forms.Label();
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
+            this.CustomerChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.OperationsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.InnovationsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.clearFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnToMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perspectivesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eServicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.financialAccountingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.materialsManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.customerServiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.humanResourcesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.globalIntellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.sustainableIntelligencToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FinancialChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.lblBusinessProcessName = new System.Windows.Forms.Label();
+            this.lblKPI1Name = new System.Windows.Forms.Label();
+            this.lblKPI2Name = new System.Windows.Forms.Label();
+            this.lblKPI3Name = new System.Windows.Forms.Label();
+            this.lblKPI4Name = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
             this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -261,13 +261,13 @@ namespace StrykerEIP
             this.KPI3_groupDecision.SuspendLayout();
             this.KPI4_tabPage.SuspendLayout();
             this.KPI4_groupDecision.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationsChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).BeginInit();
-            this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // KPIs_tabPage
@@ -287,6 +287,7 @@ namespace StrykerEIP
             // KPI1_tabPage
             // 
             this.KPI1_tabPage.BackColor = System.Drawing.Color.AliceBlue;
+            this.KPI1_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient;
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblDecisionFinal);
             this.KPI1_tabPage.Controls.Add(this.label53);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblResult);
@@ -1747,329 +1748,6 @@ namespace StrykerEIP
             this.label41.Size = new System.Drawing.Size(10, 285);
             this.label41.TabIndex = 22;
             // 
-            // CustomerChart
-            // 
-            this.CustomerChart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.CustomerChart.BackColor = System.Drawing.Color.Lavender;
-            this.CustomerChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea17.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea17);
-            legend17.Enabled = false;
-            legend17.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend17);
-            this.CustomerChart.Location = new System.Drawing.Point(4, 135);
-            this.CustomerChart.Name = "CustomerChart";
-            series17.ChartArea = "ChartArea1";
-            series17.Legend = "Legend1";
-            series17.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series17);
-            this.CustomerChart.Size = new System.Drawing.Size(269, 178);
-            this.CustomerChart.TabIndex = 1;
-            this.CustomerChart.Text = "chart1";
-            // 
-            // OperationsChart
-            // 
-            this.OperationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OperationsChart.BackColor = System.Drawing.Color.Lavender;
-            this.OperationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea18.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea18);
-            legend18.Enabled = false;
-            legend18.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend18);
-            this.OperationsChart.Location = new System.Drawing.Point(584, 135);
-            this.OperationsChart.Name = "OperationsChart";
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series18.Legend = "Legend1";
-            series18.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series18);
-            this.OperationsChart.Size = new System.Drawing.Size(269, 178);
-            this.OperationsChart.TabIndex = 3;
-            this.OperationsChart.Text = "chart3";
-            // 
-            // InnovationsChart
-            // 
-            this.InnovationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.InnovationsChart.BackColor = System.Drawing.Color.Lavender;
-            this.InnovationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea19.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea19);
-            legend19.Enabled = false;
-            legend19.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend19);
-            this.InnovationsChart.Location = new System.Drawing.Point(874, 135);
-            this.InnovationsChart.Name = "InnovationsChart";
-            series19.ChartArea = "ChartArea1";
-            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series19.Legend = "Legend1";
-            series19.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series19);
-            this.InnovationsChart.Size = new System.Drawing.Size(269, 178);
-            this.InnovationsChart.TabIndex = 4;
-            this.InnovationsChart.Text = "chart4";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.perspectivesToolStripMenuItem,
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1147, 24);
-            this.menuStrip1.TabIndex = 5;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calculateToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.clearFormToolStripMenuItem,
-            this.returnToMenuToolStripMenuItem,
-            this.exitProgramToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // calculateToolStripMenuItem
-            // 
-            this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
-            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.calculateToolStripMenuItem.Text = "Calculate";
-            this.calculateToolStripMenuItem.Click += new System.EventHandler(this.calculateToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(154, 6);
-            // 
-            // clearFormToolStripMenuItem
-            // 
-            this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.clearFormToolStripMenuItem.Text = "Clear Form";
-            this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
-            // 
-            // returnToMenuToolStripMenuItem
-            // 
-            this.returnToMenuToolStripMenuItem.Name = "returnToMenuToolStripMenuItem";
-            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.returnToMenuToolStripMenuItem.Text = "Return to Menu";
-            this.returnToMenuToolStripMenuItem.Click += new System.EventHandler(this.returnToMenuToolStripMenuItem_Click);
-            // 
-            // exitProgramToolStripMenuItem
-            // 
-            this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.exitProgramToolStripMenuItem.Text = "Exit Program";
-            this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
-            // 
-            // perspectivesToolStripMenuItem
-            // 
-            this.perspectivesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eServicesToolStripMenuItem,
-            this.financialAccountingToolStripMenuItem,
-            this.materialsManagementToolStripMenuItem,
-            this.productionToolStripMenuItem,
-            this.customerServiceToolStripMenuItem,
-            this.humanResourcesToolStripMenuItem,
-            this.toolStripSeparator2,
-            this.globalIntellToolStripMenuItem,
-            this.toolStripSeparator3,
-            this.sustainableIntelligencToolStripMenuItem});
-            this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
-            this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
-            this.perspectivesToolStripMenuItem.Text = "Perspective";
-            // 
-            // eServicesToolStripMenuItem
-            // 
-            this.eServicesToolStripMenuItem.Name = "eServicesToolStripMenuItem";
-            this.eServicesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.eServicesToolStripMenuItem.Text = "E-Services";
-            // 
-            // financialAccountingToolStripMenuItem
-            // 
-            this.financialAccountingToolStripMenuItem.Name = "financialAccountingToolStripMenuItem";
-            this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.financialAccountingToolStripMenuItem.Text = "Financial Accounting";
-            // 
-            // materialsManagementToolStripMenuItem
-            // 
-            this.materialsManagementToolStripMenuItem.Name = "materialsManagementToolStripMenuItem";
-            this.materialsManagementToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.materialsManagementToolStripMenuItem.Text = "Materials Management";
-            // 
-            // productionToolStripMenuItem
-            // 
-            this.productionToolStripMenuItem.Name = "productionToolStripMenuItem";
-            this.productionToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.productionToolStripMenuItem.Text = "Production";
-            // 
-            // customerServiceToolStripMenuItem
-            // 
-            this.customerServiceToolStripMenuItem.Name = "customerServiceToolStripMenuItem";
-            this.customerServiceToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.customerServiceToolStripMenuItem.Text = "Customer Service";
-            // 
-            // humanResourcesToolStripMenuItem
-            // 
-            this.humanResourcesToolStripMenuItem.Name = "humanResourcesToolStripMenuItem";
-            this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.humanResourcesToolStripMenuItem.Text = "Human Resources";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(205, 6);
-            // 
-            // globalIntellToolStripMenuItem
-            // 
-            this.globalIntellToolStripMenuItem.Name = "globalIntellToolStripMenuItem";
-            this.globalIntellToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.globalIntellToolStripMenuItem.Text = "Global Intelligence";
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(205, 6);
-            // 
-            // sustainableIntelligencToolStripMenuItem
-            // 
-            this.sustainableIntelligencToolStripMenuItem.Name = "sustainableIntelligencToolStripMenuItem";
-            this.sustainableIntelligencToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.sustainableIntelligencToolStripMenuItem.Text = "Sustainability Intelligence";
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.selfHelpPDFToolStripMenuItem,
-            this.contactToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // selfHelpPDFToolStripMenuItem
-            // 
-            this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
-            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
-            this.selfHelpPDFToolStripMenuItem.Click += new System.EventHandler(this.selfHelpPDFToolStripMenuItem_Click);
-            // 
-            // contactToolStripMenuItem
-            // 
-            this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.contactToolStripMenuItem.Text = "Contact";
-            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // FinancialChart
-            // 
-            this.FinancialChart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FinancialChart.BackColor = System.Drawing.Color.Lavender;
-            this.FinancialChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            this.FinancialChart.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea20.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea20);
-            legend20.Enabled = false;
-            legend20.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend20);
-            this.FinancialChart.Location = new System.Drawing.Point(294, 135);
-            this.FinancialChart.Name = "FinancialChart";
-            series20.ChartArea = "ChartArea1";
-            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series20.Legend = "Legend1";
-            series20.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series20);
-            this.FinancialChart.Size = new System.Drawing.Size(269, 178);
-            this.FinancialChart.TabIndex = 2;
-            this.FinancialChart.Text = "chart2";
-            // 
-            // lblBusinessProcessName
-            // 
-            this.lblBusinessProcessName.BackColor = System.Drawing.Color.Transparent;
-            this.lblBusinessProcessName.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblBusinessProcessName.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBusinessProcessName.ForeColor = System.Drawing.Color.Khaki;
-            this.lblBusinessProcessName.Location = new System.Drawing.Point(0, 24);
-            this.lblBusinessProcessName.Name = "lblBusinessProcessName";
-            this.lblBusinessProcessName.Size = new System.Drawing.Size(1147, 63);
-            this.lblBusinessProcessName.TabIndex = 6;
-            this.lblBusinessProcessName.Text = "Stryker Management Dashboard";
-            this.lblBusinessProcessName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblKPI1Name
-            // 
-            this.lblKPI1Name.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI1Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI1Name.Location = new System.Drawing.Point(4, 97);
-            this.lblKPI1Name.Name = "lblKPI1Name";
-            this.lblKPI1Name.Size = new System.Drawing.Size(269, 37);
-            this.lblKPI1Name.TabIndex = 18;
-            this.lblKPI1Name.Text = "KPI Name";
-            this.lblKPI1Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblKPI2Name
-            // 
-            this.lblKPI2Name.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI2Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI2Name.Location = new System.Drawing.Point(294, 97);
-            this.lblKPI2Name.Name = "lblKPI2Name";
-            this.lblKPI2Name.Size = new System.Drawing.Size(269, 37);
-            this.lblKPI2Name.TabIndex = 19;
-            this.lblKPI2Name.Text = "KPI Name";
-            this.lblKPI2Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblKPI3Name
-            // 
-            this.lblKPI3Name.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI3Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI3Name.Location = new System.Drawing.Point(584, 97);
-            this.lblKPI3Name.Name = "lblKPI3Name";
-            this.lblKPI3Name.Size = new System.Drawing.Size(269, 37);
-            this.lblKPI3Name.TabIndex = 20;
-            this.lblKPI3Name.Text = "KPI Name";
-            this.lblKPI3Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblKPI4Name
-            // 
-            this.lblKPI4Name.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKPI4Name.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblKPI4Name.Location = new System.Drawing.Point(874, 97);
-            this.lblKPI4Name.Name = "lblKPI4Name";
-            this.lblKPI4Name.Size = new System.Drawing.Size(269, 37);
-            this.lblKPI4Name.TabIndex = 21;
-            this.lblKPI4Name.Text = "KPI Name";
-            this.lblKPI4Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.BackColor = System.Drawing.Color.Transparent;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(40, 956);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(368, 20);
-            this.label49.TabIndex = 23;
-            this.label49.Text = "Building Medical Technology for a Healthier Society";
-            // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.AliceBlue;
@@ -2435,6 +2113,329 @@ namespace StrykerEIP
             this.label75.Size = new System.Drawing.Size(10, 285);
             this.label75.TabIndex = 0;
             // 
+            // CustomerChart
+            // 
+            this.CustomerChart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CustomerChart.BackColor = System.Drawing.Color.Lavender;
+            this.CustomerChart.BackSecondaryColor = System.Drawing.Color.Transparent;
+            chartArea1.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend1);
+            this.CustomerChart.Location = new System.Drawing.Point(4, 135);
+            this.CustomerChart.Name = "CustomerChart";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series1);
+            this.CustomerChart.Size = new System.Drawing.Size(269, 178);
+            this.CustomerChart.TabIndex = 1;
+            this.CustomerChart.Text = "chart1";
+            // 
+            // OperationsChart
+            // 
+            this.OperationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.OperationsChart.BackColor = System.Drawing.Color.Lavender;
+            this.OperationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
+            chartArea2.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend2);
+            this.OperationsChart.Location = new System.Drawing.Point(584, 135);
+            this.OperationsChart.Name = "OperationsChart";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Legend = "Legend1";
+            series2.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series2);
+            this.OperationsChart.Size = new System.Drawing.Size(269, 178);
+            this.OperationsChart.TabIndex = 3;
+            this.OperationsChart.Text = "chart3";
+            // 
+            // InnovationsChart
+            // 
+            this.InnovationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.InnovationsChart.BackColor = System.Drawing.Color.Lavender;
+            this.InnovationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
+            chartArea3.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend3);
+            this.InnovationsChart.Location = new System.Drawing.Point(874, 135);
+            this.InnovationsChart.Name = "InnovationsChart";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series3);
+            this.InnovationsChart.Size = new System.Drawing.Size(269, 178);
+            this.InnovationsChart.TabIndex = 4;
+            this.InnovationsChart.Text = "chart4";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.perspectivesToolStripMenuItem,
+            this.helpToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1147, 24);
+            this.menuStrip1.TabIndex = 5;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calculateToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.clearFormToolStripMenuItem,
+            this.returnToMenuToolStripMenuItem,
+            this.exitProgramToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // calculateToolStripMenuItem
+            // 
+            this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
+            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.calculateToolStripMenuItem.Text = "Calculate";
+            this.calculateToolStripMenuItem.Click += new System.EventHandler(this.calculateToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(154, 6);
+            // 
+            // clearFormToolStripMenuItem
+            // 
+            this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.clearFormToolStripMenuItem.Text = "Clear Form";
+            this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
+            // 
+            // returnToMenuToolStripMenuItem
+            // 
+            this.returnToMenuToolStripMenuItem.Name = "returnToMenuToolStripMenuItem";
+            this.returnToMenuToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.returnToMenuToolStripMenuItem.Text = "Return to Menu";
+            this.returnToMenuToolStripMenuItem.Click += new System.EventHandler(this.returnToMenuToolStripMenuItem_Click);
+            // 
+            // exitProgramToolStripMenuItem
+            // 
+            this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.exitProgramToolStripMenuItem.Text = "Exit Program";
+            this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
+            // 
+            // perspectivesToolStripMenuItem
+            // 
+            this.perspectivesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.eServicesToolStripMenuItem,
+            this.financialAccountingToolStripMenuItem,
+            this.materialsManagementToolStripMenuItem,
+            this.productionToolStripMenuItem,
+            this.customerServiceToolStripMenuItem,
+            this.humanResourcesToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.globalIntellToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.sustainableIntelligencToolStripMenuItem});
+            this.perspectivesToolStripMenuItem.Name = "perspectivesToolStripMenuItem";
+            this.perspectivesToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
+            this.perspectivesToolStripMenuItem.Text = "Perspective";
+            // 
+            // eServicesToolStripMenuItem
+            // 
+            this.eServicesToolStripMenuItem.Name = "eServicesToolStripMenuItem";
+            this.eServicesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.eServicesToolStripMenuItem.Text = "E-Services";
+            // 
+            // financialAccountingToolStripMenuItem
+            // 
+            this.financialAccountingToolStripMenuItem.Name = "financialAccountingToolStripMenuItem";
+            this.financialAccountingToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.financialAccountingToolStripMenuItem.Text = "Financial Accounting";
+            // 
+            // materialsManagementToolStripMenuItem
+            // 
+            this.materialsManagementToolStripMenuItem.Name = "materialsManagementToolStripMenuItem";
+            this.materialsManagementToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.materialsManagementToolStripMenuItem.Text = "Materials Management";
+            // 
+            // productionToolStripMenuItem
+            // 
+            this.productionToolStripMenuItem.Name = "productionToolStripMenuItem";
+            this.productionToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.productionToolStripMenuItem.Text = "Production";
+            // 
+            // customerServiceToolStripMenuItem
+            // 
+            this.customerServiceToolStripMenuItem.Name = "customerServiceToolStripMenuItem";
+            this.customerServiceToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.customerServiceToolStripMenuItem.Text = "Customer Service";
+            // 
+            // humanResourcesToolStripMenuItem
+            // 
+            this.humanResourcesToolStripMenuItem.Name = "humanResourcesToolStripMenuItem";
+            this.humanResourcesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.humanResourcesToolStripMenuItem.Text = "Human Resources";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(205, 6);
+            // 
+            // globalIntellToolStripMenuItem
+            // 
+            this.globalIntellToolStripMenuItem.Name = "globalIntellToolStripMenuItem";
+            this.globalIntellToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.globalIntellToolStripMenuItem.Text = "Global Intelligence";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(205, 6);
+            // 
+            // sustainableIntelligencToolStripMenuItem
+            // 
+            this.sustainableIntelligencToolStripMenuItem.Name = "sustainableIntelligencToolStripMenuItem";
+            this.sustainableIntelligencToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.sustainableIntelligencToolStripMenuItem.Text = "Sustainability Intelligence";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.selfHelpPDFToolStripMenuItem,
+            this.contactToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // selfHelpPDFToolStripMenuItem
+            // 
+            this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
+            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
+            this.selfHelpPDFToolStripMenuItem.Click += new System.EventHandler(this.selfHelpPDFToolStripMenuItem_Click);
+            // 
+            // contactToolStripMenuItem
+            // 
+            this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.contactToolStripMenuItem.Text = "Contact";
+            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // FinancialChart
+            // 
+            this.FinancialChart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FinancialChart.BackColor = System.Drawing.Color.Lavender;
+            this.FinancialChart.BackSecondaryColor = System.Drawing.Color.Transparent;
+            this.FinancialChart.BorderlineColor = System.Drawing.Color.Transparent;
+            chartArea4.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend4);
+            this.FinancialChart.Location = new System.Drawing.Point(294, 135);
+            this.FinancialChart.Name = "FinancialChart";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series4.Legend = "Legend1";
+            series4.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series4);
+            this.FinancialChart.Size = new System.Drawing.Size(269, 178);
+            this.FinancialChart.TabIndex = 2;
+            this.FinancialChart.Text = "chart2";
+            // 
+            // lblBusinessProcessName
+            // 
+            this.lblBusinessProcessName.BackColor = System.Drawing.Color.Transparent;
+            this.lblBusinessProcessName.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblBusinessProcessName.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBusinessProcessName.ForeColor = System.Drawing.Color.Khaki;
+            this.lblBusinessProcessName.Location = new System.Drawing.Point(0, 24);
+            this.lblBusinessProcessName.Name = "lblBusinessProcessName";
+            this.lblBusinessProcessName.Size = new System.Drawing.Size(1147, 63);
+            this.lblBusinessProcessName.TabIndex = 6;
+            this.lblBusinessProcessName.Text = "Stryker Management Dashboard";
+            this.lblBusinessProcessName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblKPI1Name
+            // 
+            this.lblKPI1Name.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
+            this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI1Name.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblKPI1Name.Location = new System.Drawing.Point(4, 97);
+            this.lblKPI1Name.Name = "lblKPI1Name";
+            this.lblKPI1Name.Size = new System.Drawing.Size(269, 37);
+            this.lblKPI1Name.TabIndex = 18;
+            this.lblKPI1Name.Text = "KPI Name";
+            this.lblKPI1Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblKPI2Name
+            // 
+            this.lblKPI2Name.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
+            this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI2Name.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblKPI2Name.Location = new System.Drawing.Point(294, 97);
+            this.lblKPI2Name.Name = "lblKPI2Name";
+            this.lblKPI2Name.Size = new System.Drawing.Size(269, 37);
+            this.lblKPI2Name.TabIndex = 19;
+            this.lblKPI2Name.Text = "KPI Name";
+            this.lblKPI2Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblKPI3Name
+            // 
+            this.lblKPI3Name.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
+            this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI3Name.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblKPI3Name.Location = new System.Drawing.Point(584, 97);
+            this.lblKPI3Name.Name = "lblKPI3Name";
+            this.lblKPI3Name.Size = new System.Drawing.Size(269, 37);
+            this.lblKPI3Name.TabIndex = 20;
+            this.lblKPI3Name.Text = "KPI Name";
+            this.lblKPI3Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblKPI4Name
+            // 
+            this.lblKPI4Name.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
+            this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKPI4Name.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblKPI4Name.Location = new System.Drawing.Point(874, 97);
+            this.lblKPI4Name.Name = "lblKPI4Name";
+            this.lblKPI4Name.Size = new System.Drawing.Size(269, 37);
+            this.lblKPI4Name.TabIndex = 21;
+            this.lblKPI4Name.Text = "KPI Name";
+            this.lblKPI4Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(40, 956);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(368, 20);
+            this.label49.TabIndex = 23;
+            this.label49.Text = "Building Medical Technology for a Healthier Society";
+            // 
             // BusinessIntelligenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2477,16 +2478,16 @@ namespace StrykerEIP
             this.KPI4_tabPage.PerformLayout();
             this.KPI4_groupDecision.ResumeLayout(false);
             this.KPI4_groupDecision.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationsChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).EndInit();
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
