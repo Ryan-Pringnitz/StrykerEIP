@@ -250,7 +250,7 @@ namespace StrykerEIP
             // KPI1_tabPage
             // 
             this.KPI1_tabPage.BackColor = System.Drawing.Color.AliceBlue;
-            this.KPI1_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient;
+            this.KPI1_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient2;
             this.KPI1_tabPage.Controls.Add(this.label55);
             this.KPI1_tabPage.Controls.Add(this.KPI1_lblDecisionFinal);
             this.KPI1_tabPage.Controls.Add(this.label53);
@@ -639,7 +639,7 @@ namespace StrykerEIP
             // KPI2_tabPage
             // 
             this.KPI2_tabPage.BackColor = System.Drawing.Color.AliceBlue;
-            this.KPI2_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient;
+            this.KPI2_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient2;
             this.KPI2_tabPage.Controls.Add(this.KPI2_lblDecisionFinal);
             this.KPI2_tabPage.Controls.Add(this.label52);
             this.KPI2_tabPage.Controls.Add(this.KPI2_lblResult);
@@ -1000,7 +1000,7 @@ namespace StrykerEIP
             // KPI3_tabPage
             // 
             this.KPI3_tabPage.BackColor = System.Drawing.Color.AliceBlue;
-            this.KPI3_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient;
+            this.KPI3_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient2;
             this.KPI3_tabPage.Controls.Add(this.label51);
             this.KPI3_tabPage.Controls.Add(this.label50);
             this.KPI3_tabPage.Controls.Add(this.KPI3_lblDecisionFinal);
@@ -1372,7 +1372,7 @@ namespace StrykerEIP
             // KPI4_tabPage
             // 
             this.KPI4_tabPage.BackColor = System.Drawing.Color.AliceBlue;
-            this.KPI4_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient;
+            this.KPI4_tabPage.BackgroundImage = global::StrykerEIP.Properties.Resources.WhiteToRedGradient2;
             this.KPI4_tabPage.Controls.Add(this.KPI4_lblDecisionFinal);
             this.KPI4_tabPage.Controls.Add(this.label16);
             this.KPI4_tabPage.Controls.Add(this.KPI4_lblResult);
