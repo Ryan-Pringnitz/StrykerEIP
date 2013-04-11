@@ -31,18 +31,18 @@ namespace StrykerEIP
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.KPIs_tabPage = new System.Windows.Forms.TabControl();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
             this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
@@ -217,6 +217,41 @@ namespace StrykerEIP
             this.lblKPI3Name = new System.Windows.Forms.Label();
             this.lblKPI4Name = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
             this.KPIs_tabPage.SuspendLayout();
             this.KPI1_tabPage.SuspendLayout();
             this.KPI1_groupDecision.SuspendLayout();
@@ -231,6 +266,8 @@ namespace StrykerEIP
             ((System.ComponentModel.ISupportInitialize)(this.InnovationsChart)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // KPIs_tabPage
@@ -239,10 +276,12 @@ namespace StrykerEIP
             this.KPIs_tabPage.Controls.Add(this.KPI2_tabPage);
             this.KPIs_tabPage.Controls.Add(this.KPI3_tabPage);
             this.KPIs_tabPage.Controls.Add(this.KPI4_tabPage);
-            this.KPIs_tabPage.Location = new System.Drawing.Point(4, 317);
+            this.KPIs_tabPage.Controls.Add(this.tabPage1);
+            this.KPIs_tabPage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.KPIs_tabPage.Location = new System.Drawing.Point(0, 320);
             this.KPIs_tabPage.Name = "KPIs_tabPage";
             this.KPIs_tabPage.SelectedIndex = 0;
-            this.KPIs_tabPage.Size = new System.Drawing.Size(1139, 249);
+            this.KPIs_tabPage.Size = new System.Drawing.Size(1147, 249);
             this.KPIs_tabPage.TabIndex = 0;
             // 
             // KPI1_tabPage
@@ -282,7 +321,7 @@ namespace StrykerEIP
             this.KPI1_tabPage.Location = new System.Drawing.Point(4, 22);
             this.KPI1_tabPage.Name = "KPI1_tabPage";
             this.KPI1_tabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.KPI1_tabPage.Size = new System.Drawing.Size(1131, 223);
+            this.KPI1_tabPage.Size = new System.Drawing.Size(1139, 223);
             this.KPI1_tabPage.TabIndex = 0;
             this.KPI1_tabPage.Text = "Customer";
             // 
@@ -378,6 +417,7 @@ namespace StrykerEIP
             // 
             // KPI1_lblVar5
             // 
+            this.KPI1_lblVar5.AutoEllipsis = true;
             this.KPI1_lblVar5.Location = new System.Drawing.Point(212, 194);
             this.KPI1_lblVar5.Name = "KPI1_lblVar5";
             this.KPI1_lblVar5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -409,6 +449,7 @@ namespace StrykerEIP
             // 
             // KPI1_lblVar4
             // 
+            this.KPI1_lblVar4.AutoEllipsis = true;
             this.KPI1_lblVar4.Location = new System.Drawing.Point(212, 153);
             this.KPI1_lblVar4.Name = "KPI1_lblVar4";
             this.KPI1_lblVar4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -428,6 +469,7 @@ namespace StrykerEIP
             // 
             // KPI1_lblVar2
             // 
+            this.KPI1_lblVar2.AutoEllipsis = true;
             this.KPI1_lblVar2.Location = new System.Drawing.Point(212, 71);
             this.KPI1_lblVar2.Name = "KPI1_lblVar2";
             this.KPI1_lblVar2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -437,10 +479,11 @@ namespace StrykerEIP
             // 
             // KPI1_lblVar1
             // 
+            this.KPI1_lblVar1.AutoEllipsis = true;
             this.KPI1_lblVar1.Location = new System.Drawing.Point(212, 30);
             this.KPI1_lblVar1.Name = "KPI1_lblVar1";
             this.KPI1_lblVar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar1.Size = new System.Drawing.Size(101, 17);
+            this.KPI1_lblVar1.Size = new System.Drawing.Size(104, 17);
             this.KPI1_lblVar1.TabIndex = 14;
             this.KPI1_lblVar1.Text = "label3";
             // 
@@ -645,7 +688,7 @@ namespace StrykerEIP
             this.KPI2_tabPage.Location = new System.Drawing.Point(4, 22);
             this.KPI2_tabPage.Name = "KPI2_tabPage";
             this.KPI2_tabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.KPI2_tabPage.Size = new System.Drawing.Size(1572, 283);
+            this.KPI2_tabPage.Size = new System.Drawing.Size(1139, 223);
             this.KPI2_tabPage.TabIndex = 1;
             this.KPI2_tabPage.Text = "Financial";
             // 
@@ -1006,7 +1049,7 @@ namespace StrykerEIP
             this.KPI3_tabPage.Location = new System.Drawing.Point(4, 22);
             this.KPI3_tabPage.Name = "KPI3_tabPage";
             this.KPI3_tabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.KPI3_tabPage.Size = new System.Drawing.Size(1572, 283);
+            this.KPI3_tabPage.Size = new System.Drawing.Size(1139, 223);
             this.KPI3_tabPage.TabIndex = 2;
             this.KPI3_tabPage.Text = "Operations";
             // 
@@ -1376,7 +1419,7 @@ namespace StrykerEIP
             this.KPI4_tabPage.Location = new System.Drawing.Point(4, 22);
             this.KPI4_tabPage.Name = "KPI4_tabPage";
             this.KPI4_tabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.KPI4_tabPage.Size = new System.Drawing.Size(1572, 283);
+            this.KPI4_tabPage.Size = new System.Drawing.Size(1139, 223);
             this.KPI4_tabPage.TabIndex = 3;
             this.KPI4_tabPage.Text = "Innovations";
             // 
@@ -1706,59 +1749,62 @@ namespace StrykerEIP
             // 
             // CustomerChart
             // 
+            this.CustomerChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CustomerChart.BackColor = System.Drawing.Color.Lavender;
             this.CustomerChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend1);
+            chartArea17.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea17);
+            legend17.Enabled = false;
+            legend17.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend17);
             this.CustomerChart.Location = new System.Drawing.Point(4, 135);
             this.CustomerChart.Name = "CustomerChart";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series1);
+            series17.ChartArea = "ChartArea1";
+            series17.Legend = "Legend1";
+            series17.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series17);
             this.CustomerChart.Size = new System.Drawing.Size(269, 178);
             this.CustomerChart.TabIndex = 1;
             this.CustomerChart.Text = "chart1";
             // 
             // OperationsChart
             // 
+            this.OperationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.OperationsChart.BackColor = System.Drawing.Color.Lavender;
             this.OperationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend2);
+            chartArea18.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea18);
+            legend18.Enabled = false;
+            legend18.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend18);
             this.OperationsChart.Location = new System.Drawing.Point(584, 135);
             this.OperationsChart.Name = "OperationsChart";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series2.Legend = "Legend1";
-            series2.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series2);
+            series18.ChartArea = "ChartArea1";
+            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series18.Legend = "Legend1";
+            series18.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series18);
             this.OperationsChart.Size = new System.Drawing.Size(269, 178);
             this.OperationsChart.TabIndex = 3;
             this.OperationsChart.Text = "chart3";
             // 
             // InnovationsChart
             // 
+            this.InnovationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.InnovationsChart.BackColor = System.Drawing.Color.Lavender;
             this.InnovationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea3.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend3);
+            chartArea19.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea19);
+            legend19.Enabled = false;
+            legend19.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend19);
             this.InnovationsChart.Location = new System.Drawing.Point(874, 135);
             this.InnovationsChart.Name = "InnovationsChart";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series3);
+            series19.ChartArea = "ChartArea1";
+            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series19.Legend = "Legend1";
+            series19.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series19);
             this.InnovationsChart.Size = new System.Drawing.Size(269, 178);
             this.InnovationsChart.TabIndex = 4;
             this.InnovationsChart.Text = "chart4";
@@ -1928,21 +1974,22 @@ namespace StrykerEIP
             // 
             // FinancialChart
             // 
+            this.FinancialChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FinancialChart.BackColor = System.Drawing.Color.Lavender;
             this.FinancialChart.BackSecondaryColor = System.Drawing.Color.Transparent;
             this.FinancialChart.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea4.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea4);
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend4);
+            chartArea20.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea20);
+            legend20.Enabled = false;
+            legend20.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend20);
             this.FinancialChart.Location = new System.Drawing.Point(294, 135);
             this.FinancialChart.Name = "FinancialChart";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series4.Legend = "Legend1";
-            series4.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series4);
+            series20.ChartArea = "ChartArea1";
+            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series20.Legend = "Legend1";
+            series20.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series20);
             this.FinancialChart.Size = new System.Drawing.Size(269, 178);
             this.FinancialChart.TabIndex = 2;
             this.FinancialChart.Text = "chart2";
@@ -1950,17 +1997,19 @@ namespace StrykerEIP
             // lblBusinessProcessName
             // 
             this.lblBusinessProcessName.BackColor = System.Drawing.Color.Transparent;
+            this.lblBusinessProcessName.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblBusinessProcessName.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBusinessProcessName.ForeColor = System.Drawing.Color.Khaki;
-            this.lblBusinessProcessName.Location = new System.Drawing.Point(126, 33);
+            this.lblBusinessProcessName.Location = new System.Drawing.Point(0, 24);
             this.lblBusinessProcessName.Name = "lblBusinessProcessName";
-            this.lblBusinessProcessName.Size = new System.Drawing.Size(895, 63);
+            this.lblBusinessProcessName.Size = new System.Drawing.Size(1147, 63);
             this.lblBusinessProcessName.TabIndex = 6;
             this.lblBusinessProcessName.Text = "Stryker Management Dashboard";
             this.lblBusinessProcessName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblKPI1Name
             // 
+            this.lblKPI1Name.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblKPI1Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI1Name.ForeColor = System.Drawing.Color.DarkBlue;
@@ -1973,6 +2022,7 @@ namespace StrykerEIP
             // 
             // lblKPI2Name
             // 
+            this.lblKPI2Name.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblKPI2Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI2Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI2Name.ForeColor = System.Drawing.Color.DarkBlue;
@@ -1985,6 +2035,7 @@ namespace StrykerEIP
             // 
             // lblKPI3Name
             // 
+            this.lblKPI3Name.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblKPI3Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI3Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI3Name.ForeColor = System.Drawing.Color.DarkBlue;
@@ -1997,6 +2048,7 @@ namespace StrykerEIP
             // 
             // lblKPI4Name
             // 
+            this.lblKPI4Name.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblKPI4Name.BackColor = System.Drawing.Color.Transparent;
             this.lblKPI4Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKPI4Name.ForeColor = System.Drawing.Color.DarkBlue;
@@ -2017,6 +2069,371 @@ namespace StrykerEIP
             this.label49.Size = new System.Drawing.Size(368, 20);
             this.label49.TabIndex = 23;
             this.label49.Text = "Building Medical Technology for a Healthier Society";
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.AliceBlue;
+            this.tabPage1.Controls.Add(this.label54);
+            this.tabPage1.Controls.Add(this.label55);
+            this.tabPage1.Controls.Add(this.label56);
+            this.tabPage1.Controls.Add(this.label57);
+            this.tabPage1.Controls.Add(this.label58);
+            this.tabPage1.Controls.Add(this.label59);
+            this.tabPage1.Controls.Add(this.label60);
+            this.tabPage1.Controls.Add(this.label61);
+            this.tabPage1.Controls.Add(this.label62);
+            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.label63);
+            this.tabPage1.Controls.Add(this.label64);
+            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Controls.Add(this.label65);
+            this.tabPage1.Controls.Add(this.label66);
+            this.tabPage1.Controls.Add(this.label67);
+            this.tabPage1.Controls.Add(this.label68);
+            this.tabPage1.Controls.Add(this.textBox2);
+            this.tabPage1.Controls.Add(this.textBox3);
+            this.tabPage1.Controls.Add(this.textBox4);
+            this.tabPage1.Controls.Add(this.textBox5);
+            this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.label69);
+            this.tabPage1.Controls.Add(this.label70);
+            this.tabPage1.Controls.Add(this.label71);
+            this.tabPage1.Controls.Add(this.label72);
+            this.tabPage1.Controls.Add(this.richTextBox1);
+            this.tabPage1.Controls.Add(this.label73);
+            this.tabPage1.Controls.Add(this.label74);
+            this.tabPage1.Controls.Add(this.label75);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1139, 223);
+            this.tabPage1.TabIndex = 4;
+            this.tabPage1.Text = "Customer";
+            // 
+            // label54
+            // 
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label54.Location = new System.Drawing.Point(945, 28);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(185, 191);
+            this.label54.TabIndex = 57;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.Color.Transparent;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label55.Location = new System.Drawing.Point(1002, 3);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(70, 17);
+            this.label55.TabIndex = 56;
+            this.label55.Text = "Decision";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(630, 133);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(53, 21);
+            this.label56.TabIndex = 51;
+            this.label56.Text = "Result";
+            this.label56.Visible = false;
+            // 
+            // label57
+            // 
+            this.label57.BackColor = System.Drawing.Color.Silver;
+            this.label57.Location = new System.Drawing.Point(928, -1);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(10, 285);
+            this.label57.TabIndex = 50;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(1281, 264);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(45, 13);
+            this.label58.TabIndex = 49;
+            this.label58.Text = "Wisdom";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(830, 265);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(60, 13);
+            this.label59.TabIndex = 48;
+            this.label59.Text = "Knowledge";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(557, 264);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(47, 13);
+            this.label60.TabIndex = 47;
+            this.label60.Text = "Concept";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(211, 264);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(59, 13);
+            this.label61.TabIndex = 46;
+            this.label61.Text = "Information";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(4, 266);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(30, 13);
+            this.label62.TabIndex = 45;
+            this.label62.Text = "Data";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(322, 194);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(130, 20);
+            this.textBox1.TabIndex = 21;
+            // 
+            // label63
+            // 
+            this.label63.AutoEllipsis = true;
+            this.label63.Location = new System.Drawing.Point(212, 194);
+            this.label63.Name = "label63";
+            this.label63.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label63.Size = new System.Drawing.Size(104, 17);
+            this.label63.TabIndex = 20;
+            this.label63.Text = "label7";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(590, 44);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(132, 46);
+            this.label64.TabIndex = 19;
+            this.label64.Text = "label7";
+            this.label64.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Ivory;
+            this.button1.Location = new System.Drawing.Point(459, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 185);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Calculate";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label65
+            // 
+            this.label65.AutoEllipsis = true;
+            this.label65.Location = new System.Drawing.Point(212, 153);
+            this.label65.Name = "label65";
+            this.label65.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label65.Size = new System.Drawing.Size(104, 17);
+            this.label65.TabIndex = 17;
+            this.label65.Text = "label6";
+            // 
+            // label66
+            // 
+            this.label66.AutoEllipsis = true;
+            this.label66.Location = new System.Drawing.Point(212, 112);
+            this.label66.Name = "label66";
+            this.label66.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label66.Size = new System.Drawing.Size(104, 17);
+            this.label66.TabIndex = 16;
+            this.label66.Text = "label5";
+            // 
+            // label67
+            // 
+            this.label67.AutoEllipsis = true;
+            this.label67.Location = new System.Drawing.Point(212, 71);
+            this.label67.Name = "label67";
+            this.label67.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label67.Size = new System.Drawing.Size(104, 17);
+            this.label67.TabIndex = 15;
+            this.label67.Text = "label4";
+            // 
+            // label68
+            // 
+            this.label68.AutoEllipsis = true;
+            this.label68.Location = new System.Drawing.Point(212, 30);
+            this.label68.Name = "label68";
+            this.label68.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label68.Size = new System.Drawing.Size(104, 17);
+            this.label68.TabIndex = 14;
+            this.label68.Text = "label3";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(322, 153);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(130, 20);
+            this.textBox2.TabIndex = 13;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(322, 112);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(130, 20);
+            this.textBox3.TabIndex = 12;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(322, 71);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(130, 20);
+            this.textBox4.TabIndex = 11;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(322, 30);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(130, 20);
+            this.textBox5.TabIndex = 10;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Ivory;
+            this.button2.Location = new System.Drawing.Point(787, 153);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 39);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Submit Decision";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Visible = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Location = new System.Drawing.Point(780, 23);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(110, 106);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Visible = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(7, 66);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton3";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(7, 43);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(7, 20);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.TabIndex = 0;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton1";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.BackColor = System.Drawing.Color.Transparent;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label69.Location = new System.Drawing.Point(784, 3);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(127, 17);
+            this.label69.TabIndex = 7;
+            this.label69.Text = "Knowledge Base";
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.BackColor = System.Drawing.Color.Transparent;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label70.Location = new System.Drawing.Point(559, 3);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(117, 17);
+            this.label70.TabIndex = 6;
+            this.label70.Text = "State of Affairs";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.BackColor = System.Drawing.Color.Transparent;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label71.Location = new System.Drawing.Point(212, 3);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(130, 17);
+            this.label71.TabIndex = 5;
+            this.label71.Text = "Input Information";
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.BackColor = System.Drawing.Color.Transparent;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label72.Location = new System.Drawing.Point(6, 3);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(103, 17);
+            this.label72.TabIndex = 4;
+            this.label72.Text = "KPI Summary";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.ForeColor = System.Drawing.Color.Black;
+            this.richTextBox1.Location = new System.Drawing.Point(3, 23);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(189, 196);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "";
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.Silver;
+            this.label73.Location = new System.Drawing.Point(764, 0);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(10, 285);
+            this.label73.TabIndex = 2;
+            // 
+            // label74
+            // 
+            this.label74.BackColor = System.Drawing.Color.Silver;
+            this.label74.Location = new System.Drawing.Point(543, 0);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(10, 285);
+            this.label74.TabIndex = 1;
+            // 
+            // label75
+            // 
+            this.label75.BackColor = System.Drawing.Color.Silver;
+            this.label75.Location = new System.Drawing.Point(196, 0);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(10, 285);
+            this.label75.TabIndex = 0;
             // 
             // BusinessIntelligenceForm
             // 
@@ -2066,6 +2483,10 @@ namespace StrykerEIP
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FinancialChart)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2247,6 +2668,41 @@ namespace StrykerEIP
         private ToolStripSeparator toolStripSeparator3;
         private ToolStripMenuItem sustainableIntelligencToolStripMenuItem;
         private Label label49;
+        private TabPage tabPage1;
+        private Label label54;
+        private Label label55;
+        private Label label56;
+        private Label label57;
+        private Label label58;
+        private Label label59;
+        private Label label60;
+        private Label label61;
+        private Label label62;
+        private TextBox textBox1;
+        private Label label63;
+        private Label label64;
+        private Button button1;
+        private Label label65;
+        private Label label66;
+        private Label label67;
+        private Label label68;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private Button button2;
+        private GroupBox groupBox1;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private RadioButton radioButton3;
+        private Label label69;
+        private Label label70;
+        private Label label71;
+        private Label label72;
+        private RichTextBox richTextBox1;
+        private Label label73;
+        private Label label74;
+        private Label label75;
     }
 }
 
