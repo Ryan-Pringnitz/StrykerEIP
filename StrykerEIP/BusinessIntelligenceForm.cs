@@ -63,7 +63,7 @@ namespace StrykerEIP
 
 
 
-            KPI1_lblStateLogo.Text = "Concept" + Environment.NewLine + "(State of Affairs)";
+            //KPI1_lblStateLogo.Text = "Concept" + Environment.NewLine + "(State of Affairs)";
             //label55.Text = "Information" + Environment.NewLine + "(Change)";
             //label53.Text = "Wisdom" + Environment.NewLine + "(Informated Decision)";
         }
