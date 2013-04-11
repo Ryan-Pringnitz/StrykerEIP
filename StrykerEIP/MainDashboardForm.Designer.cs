@@ -63,11 +63,12 @@
             this.mdWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.mdWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
-            this.mdWelcomeLabel.Location = new System.Drawing.Point(152, 28);
+            this.mdWelcomeLabel.Location = new System.Drawing.Point(386, 32);
             this.mdWelcomeLabel.Name = "mdWelcomeLabel";
-            this.mdWelcomeLabel.Size = new System.Drawing.Size(869, 63);
+            this.mdWelcomeLabel.Size = new System.Drawing.Size(719, 63);
             this.mdWelcomeLabel.TabIndex = 0;
-            this.mdWelcomeLabel.Text = "Stryker Management Intelligence Dashboard";
+            this.mdWelcomeLabel.Text = "Management Intelligence Dashboard";
+            this.mdWelcomeLabel.Click += new System.EventHandler(this.mdWelcomeLabel_Click);
             // 
             // richTextBox1
             // 
@@ -78,8 +79,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-                "elp\".";
+    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+    "elp\".";
             // 
             // mdHelpButton
             // 
@@ -112,7 +113,7 @@
             this.mdDateLabel.AutoSize = true;
             this.mdDateLabel.BackColor = System.Drawing.Color.Transparent;
             this.mdDateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mdDateLabel.Location = new System.Drawing.Point(441, 106);
+            this.mdDateLabel.Location = new System.Drawing.Point(441, 110);
             this.mdDateLabel.Name = "mdDateLabel";
             this.mdDateLabel.Size = new System.Drawing.Size(80, 13);
             this.mdDateLabel.TabIndex = 4;
@@ -125,7 +126,7 @@
             this.mdDateTimePicker.CalendarTitleForeColor = System.Drawing.Color.Maroon;
             this.mdDateTimePicker.CalendarTrailingForeColor = System.Drawing.Color.Maroon;
             this.mdDateTimePicker.Enabled = false;
-            this.mdDateTimePicker.Location = new System.Drawing.Point(527, 102);
+            this.mdDateTimePicker.Location = new System.Drawing.Point(527, 106);
             this.mdDateTimePicker.Name = "mdDateTimePicker";
             this.mdDateTimePicker.Size = new System.Drawing.Size(205, 20);
             this.mdDateTimePicker.TabIndex = 5;
@@ -140,7 +141,7 @@
             this.mdMessageGroupBox.Controls.Add(this.mdExitButton);
             this.mdMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdMessageGroupBox.ForeColor = System.Drawing.Color.Khaki;
-            this.mdMessageGroupBox.Location = new System.Drawing.Point(65, 134);
+            this.mdMessageGroupBox.Location = new System.Drawing.Point(65, 132);
             this.mdMessageGroupBox.Name = "mdMessageGroupBox";
             this.mdMessageGroupBox.Size = new System.Drawing.Size(474, 369);
             this.mdMessageGroupBox.TabIndex = 6;
@@ -158,7 +159,7 @@
             this.mdOverviewsGroupBox.Controls.Add(this.mdBusinessIntelligenceButton);
             this.mdOverviewsGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Khaki;
-            this.mdOverviewsGroupBox.Location = new System.Drawing.Point(560, 134);
+            this.mdOverviewsGroupBox.Location = new System.Drawing.Point(558, 132);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
             this.mdOverviewsGroupBox.Size = new System.Drawing.Size(547, 383);
             this.mdOverviewsGroupBox.TabIndex = 7;
@@ -288,7 +289,8 @@
             this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo5;
             this.pictureBox1.Location = new System.Drawing.Point(0, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(391, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(238, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -296,10 +298,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 106);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(365, 20);
+            this.label1.Size = new System.Drawing.Size(243, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "Building Medical Technology for a healthier Society";
             // 
@@ -309,7 +311,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1172, 515);
+            this.ClientSize = new System.Drawing.Size(1172, 523);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.mdOverviewsGroupBox);

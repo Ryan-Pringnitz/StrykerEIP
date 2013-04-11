@@ -15,8 +15,8 @@ namespace StrykerEIP
         {
             InitializeComponent();
 
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+            //this.FormBorderStyle = FormBorderStyle.None;
+            //this.WindowState = FormWindowState.Maximized;
         }
 
         private void mdBusinessIntelligenceButton_Click(object sender, EventArgs e)
@@ -110,6 +110,11 @@ namespace StrykerEIP
         private void mdSIButton_Leave(object sender, EventArgs e)
         {
             BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
+        }
+
+        private void mdWelcomeLabel_Click(object sender, EventArgs e)
+        {
+
         }
 
 

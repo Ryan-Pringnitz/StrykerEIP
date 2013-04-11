@@ -70,9 +70,9 @@
             this.lfGroupBox.Controls.Add(this.lfMessageGroupBox);
             this.lfGroupBox.Controls.Add(this.biWelcomeLabel);
             this.lfGroupBox.ForeColor = System.Drawing.Color.Black;
-            this.lfGroupBox.Location = new System.Drawing.Point(102, 149);
+            this.lfGroupBox.Location = new System.Drawing.Point(15, 88);
             this.lfGroupBox.Name = "lfGroupBox";
-            this.lfGroupBox.Size = new System.Drawing.Size(1207, 550);
+            this.lfGroupBox.Size = new System.Drawing.Size(1129, 396);
             this.lfGroupBox.TabIndex = 8;
             this.lfGroupBox.TabStop = false;
             // 
@@ -88,7 +88,7 @@
             this.lfLoginGroupBox.Controls.Add(this.biUserNameLabel);
             this.lfLoginGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfLoginGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfLoginGroupBox.Location = new System.Drawing.Point(700, 313);
+            this.lfLoginGroupBox.Location = new System.Drawing.Point(637, 157);
             this.lfLoginGroupBox.Name = "lfLoginGroupBox";
             this.lfLoginGroupBox.Size = new System.Drawing.Size(265, 183);
             this.lfLoginGroupBox.TabIndex = 9;
@@ -172,7 +172,7 @@
             this.lfMessageGroupBox.Controls.Add(this.lfExitButton);
             this.lfMessageGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lfMessageGroupBox.ForeColor = System.Drawing.Color.White;
-            this.lfMessageGroupBox.Location = new System.Drawing.Point(234, 313);
+            this.lfMessageGroupBox.Location = new System.Drawing.Point(171, 157);
             this.lfMessageGroupBox.Name = "lfMessageGroupBox";
             this.lfMessageGroupBox.Size = new System.Drawing.Size(433, 183);
             this.lfMessageGroupBox.TabIndex = 8;
@@ -201,7 +201,7 @@
             this.biSplashScreenRichTextBox.Size = new System.Drawing.Size(408, 67);
             this.biSplashScreenRichTextBox.TabIndex = 2;
             this.biSplashScreenRichTextBox.Text = "To review the conditions of Stryker                  by entering a valid User Nam" +
-                "e and Password and press the button labeled \"Log In\"";
+    "e and Password and press the button labeled \"Log In\"";
             // 
             // lfHelpButton
             // 
@@ -235,11 +235,11 @@
             this.biWelcomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.biWelcomeLabel.Font = new System.Drawing.Font("Segoe UI", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.biWelcomeLabel.ForeColor = System.Drawing.Color.Khaki;
-            this.biWelcomeLabel.Location = new System.Drawing.Point(112, 81);
+            this.biWelcomeLabel.Location = new System.Drawing.Point(30, 20);
             this.biWelcomeLabel.Name = "biWelcomeLabel";
-            this.biWelcomeLabel.Size = new System.Drawing.Size(983, 84);
+            this.biWelcomeLabel.Size = new System.Drawing.Size(1068, 84);
             this.biWelcomeLabel.TabIndex = 4;
-            this.biWelcomeLabel.Text = "Stryker Management Dashboard";
+            this.biWelcomeLabel.Text = "Enterprise Management Dashboard";
             this.biWelcomeLabel.Click += new System.EventHandler(this.biWelcomeLabel_Click);
             // 
             // menuStrip1
@@ -250,7 +250,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1400, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1163, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -320,7 +320,8 @@
             this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo5;
             this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(391, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(268, 43);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
@@ -328,10 +329,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 105);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(12, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(371, 20);
+            this.label1.Size = new System.Drawing.Size(246, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "Buildling Medical Technology for a Healthier Society";
             // 
@@ -342,7 +344,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::StrykerEIP.Properties.Resources.StrykerLoginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1400, 844);
+            this.ClientSize = new System.Drawing.Size(1163, 496);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lfGroupBox);

@@ -46,8 +46,8 @@ namespace StrykerEIP
         {
             InitializeComponent();
 
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+            //this.FormBorderStyle = FormBorderStyle.None;
+            //this.WindowState = FormWindowState.Maximized;
 
             foreach (ToolStripItem subSystem in perspectivesToolStripMenuItem.DropDownItems)
             {
