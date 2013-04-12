@@ -67,13 +67,6 @@ namespace StrykerEIP.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap AllIcons3 {
-            get {
-                object obj = ResourceManager.GetObject("AllIcons3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap BlankIcon {
             get {
                 object obj = ResourceManager.GetObject("BlankIcon", resourceCulture);
@@ -88,23 +81,9 @@ namespace StrykerEIP.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap BusinessIntelligenceIcon_Small {
-            get {
-                object obj = ResourceManager.GetObject("BusinessIntelligenceIcon_Small", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap GlobalIntelligenceIcon {
             get {
                 object obj = ResourceManager.GetObject("GlobalIntelligenceIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap GlobalIntelligenceIcon_Small {
-            get {
-                object obj = ResourceManager.GetObject("GlobalIntelligenceIcon_Small", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -140,13 +119,6 @@ namespace StrykerEIP.Properties {
         internal static System.Drawing.Bitmap SustainabilityIcon {
             get {
                 object obj = ResourceManager.GetObject("SustainabilityIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap SustainabilityIcon_small {
-            get {
-                object obj = ResourceManager.GetObject("SustainabilityIcon_small", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
