@@ -36,7 +36,9 @@
             this.mdDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.mdMessageGroupBox = new System.Windows.Forms.GroupBox();
             this.mdOverviewsGroupBox = new System.Windows.Forms.GroupBox();
-            this.mdPictureBox2 = new System.Windows.Forms.PictureBox();
+            this.mdSIPictureBox = new System.Windows.Forms.PictureBox();
+            this.mdGIPictureBox = new System.Windows.Forms.PictureBox();
+            this.mdBIPictureBox = new System.Windows.Forms.PictureBox();
             this.BIPictureBox = new System.Windows.Forms.PictureBox();
             this.mdSustainabilityIntelligence = new System.Windows.Forms.Button();
             this.mdGlobalIntelligenceButton = new System.Windows.Forms.Button();
@@ -53,7 +55,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.mdMessageGroupBox.SuspendLayout();
             this.mdOverviewsGroupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdSIPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdGIPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdBIPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BIPictureBox)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -81,8 +85,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-    "elp\".";
+                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+                "elp\".";
             // 
             // mdHelpButton
             // 
@@ -155,7 +159,9 @@
             this.mdOverviewsGroupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mdOverviewsGroupBox.AutoSize = true;
             this.mdOverviewsGroupBox.BackColor = System.Drawing.Color.Transparent;
-            this.mdOverviewsGroupBox.Controls.Add(this.mdPictureBox2);
+            this.mdOverviewsGroupBox.Controls.Add(this.mdSIPictureBox);
+            this.mdOverviewsGroupBox.Controls.Add(this.mdGIPictureBox);
+            this.mdOverviewsGroupBox.Controls.Add(this.mdBIPictureBox);
             this.mdOverviewsGroupBox.Controls.Add(this.BIPictureBox);
             this.mdOverviewsGroupBox.Controls.Add(this.mdSustainabilityIntelligence);
             this.mdOverviewsGroupBox.Controls.Add(this.mdGlobalIntelligenceButton);
@@ -164,23 +170,41 @@
             this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Khaki;
             this.mdOverviewsGroupBox.Location = new System.Drawing.Point(558, 132);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
-            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(574, 446);
+            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(602, 446);
             this.mdOverviewsGroupBox.TabIndex = 7;
             this.mdOverviewsGroupBox.TabStop = false;
             this.mdOverviewsGroupBox.Text = "Stragic Intelligences:";
             // 
-            // mdPictureBox2
+            // mdSIPictureBox
             // 
-            this.mdPictureBox2.Image = global::StrykerEIP.Properties.Resources.AllIcons2;
-            this.mdPictureBox2.Location = new System.Drawing.Point(245, 36);
-            this.mdPictureBox2.Name = "mdPictureBox2";
-            this.mdPictureBox2.Size = new System.Drawing.Size(72, 316);
-            this.mdPictureBox2.TabIndex = 4;
-            this.mdPictureBox2.TabStop = false;
+            this.mdSIPictureBox.Image = global::StrykerEIP.Properties.Resources.siSmallIcon;
+            this.mdSIPictureBox.Location = new System.Drawing.Point(250, 264);
+            this.mdSIPictureBox.Name = "mdSIPictureBox";
+            this.mdSIPictureBox.Size = new System.Drawing.Size(67, 57);
+            this.mdSIPictureBox.TabIndex = 6;
+            this.mdSIPictureBox.TabStop = false;
+            // 
+            // mdGIPictureBox
+            // 
+            this.mdGIPictureBox.Image = global::StrykerEIP.Properties.Resources.giSmallIcon;
+            this.mdGIPictureBox.Location = new System.Drawing.Point(250, 155);
+            this.mdGIPictureBox.Name = "mdGIPictureBox";
+            this.mdGIPictureBox.Size = new System.Drawing.Size(67, 70);
+            this.mdGIPictureBox.TabIndex = 5;
+            this.mdGIPictureBox.TabStop = false;
+            // 
+            // mdBIPictureBox
+            // 
+            this.mdBIPictureBox.Image = global::StrykerEIP.Properties.Resources.biSmallIcon;
+            this.mdBIPictureBox.Location = new System.Drawing.Point(250, 55);
+            this.mdBIPictureBox.Name = "mdBIPictureBox";
+            this.mdBIPictureBox.Size = new System.Drawing.Size(67, 70);
+            this.mdBIPictureBox.TabIndex = 4;
+            this.mdBIPictureBox.TabStop = false;
             // 
             // BIPictureBox
             // 
-            this.BIPictureBox.Location = new System.Drawing.Point(288, 36);
+            this.BIPictureBox.Location = new System.Drawing.Point(326, 35);
             this.BIPictureBox.Name = "BIPictureBox";
             this.BIPictureBox.Size = new System.Drawing.Size(270, 298);
             this.BIPictureBox.TabIndex = 3;
@@ -339,7 +363,9 @@
             this.Load += new System.EventHandler(this.MainDashboardForm_Load);
             this.mdMessageGroupBox.ResumeLayout(false);
             this.mdOverviewsGroupBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdSIPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdGIPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mdBIPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BIPictureBox)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -373,6 +399,8 @@
         private System.Windows.Forms.PictureBox BIPictureBox;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox mdPictureBox2;
+        private System.Windows.Forms.PictureBox mdSIPictureBox;
+        private System.Windows.Forms.PictureBox mdGIPictureBox;
+        private System.Windows.Forms.PictureBox mdBIPictureBox;
     }
 }
