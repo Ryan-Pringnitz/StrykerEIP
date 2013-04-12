@@ -199,6 +199,18 @@
   <ItemGroup>
     <None Include="Resources\WhiteToRedGradient2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BusinessIntelligenceIcon_Small.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GlobalIntelligenceIcon_Small.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SustainabilityIcon_small.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AllIcons3.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

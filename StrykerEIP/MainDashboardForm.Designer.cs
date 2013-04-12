@@ -36,6 +36,7 @@
             this.mdDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.mdMessageGroupBox = new System.Windows.Forms.GroupBox();
             this.mdOverviewsGroupBox = new System.Windows.Forms.GroupBox();
+            this.mdPictureBox2 = new System.Windows.Forms.PictureBox();
             this.BIPictureBox = new System.Windows.Forms.PictureBox();
             this.mdSustainabilityIntelligence = new System.Windows.Forms.Button();
             this.mdGlobalIntelligenceButton = new System.Windows.Forms.Button();
@@ -50,13 +51,12 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.mdPictureBox2 = new System.Windows.Forms.PictureBox();
             this.mdMessageGroupBox.SuspendLayout();
             this.mdOverviewsGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BIPictureBox)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // mdWelcomeLabel
@@ -81,8 +81,8 @@
             this.richTextBox1.Size = new System.Drawing.Size(404, 189);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Choose the Scope of Intelligence you wish to review.  For descriptions of Strateg" +
-                "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
-                "elp\".";
+    "ic Intelligence Overviews and/or general assistance choose the button labeled \"H" +
+    "elp\".";
             // 
             // mdHelpButton
             // 
@@ -164,10 +164,19 @@
             this.mdOverviewsGroupBox.ForeColor = System.Drawing.Color.Khaki;
             this.mdOverviewsGroupBox.Location = new System.Drawing.Point(558, 132);
             this.mdOverviewsGroupBox.Name = "mdOverviewsGroupBox";
-            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(574, 383);
+            this.mdOverviewsGroupBox.Size = new System.Drawing.Size(574, 446);
             this.mdOverviewsGroupBox.TabIndex = 7;
             this.mdOverviewsGroupBox.TabStop = false;
             this.mdOverviewsGroupBox.Text = "Stragic Intelligences:";
+            // 
+            // mdPictureBox2
+            // 
+            this.mdPictureBox2.Image = global::StrykerEIP.Properties.Resources.AllIcons2;
+            this.mdPictureBox2.Location = new System.Drawing.Point(245, 36);
+            this.mdPictureBox2.Name = "mdPictureBox2";
+            this.mdPictureBox2.Size = new System.Drawing.Size(72, 316);
+            this.mdPictureBox2.TabIndex = 4;
+            this.mdPictureBox2.TabStop = false;
             // 
             // BIPictureBox
             // 
@@ -179,7 +188,7 @@
             // 
             // mdSustainabilityIntelligence
             // 
-            this.mdSustainabilityIntelligence.BackColor = System.Drawing.Color.Ivory;
+            this.mdSustainabilityIntelligence.BackColor = System.Drawing.Color.PaleGreen;
             this.mdSustainabilityIntelligence.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdSustainabilityIntelligence.ForeColor = System.Drawing.Color.DarkBlue;
             this.mdSustainabilityIntelligence.Location = new System.Drawing.Point(16, 250);
@@ -194,7 +203,7 @@
             // 
             // mdGlobalIntelligenceButton
             // 
-            this.mdGlobalIntelligenceButton.BackColor = System.Drawing.Color.Ivory;
+            this.mdGlobalIntelligenceButton.BackColor = System.Drawing.Color.LightBlue;
             this.mdGlobalIntelligenceButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdGlobalIntelligenceButton.ForeColor = System.Drawing.Color.DarkBlue;
             this.mdGlobalIntelligenceButton.Location = new System.Drawing.Point(16, 142);
@@ -209,7 +218,7 @@
             // 
             // mdBusinessIntelligenceButton
             // 
-            this.mdBusinessIntelligenceButton.BackColor = System.Drawing.Color.Ivory;
+            this.mdBusinessIntelligenceButton.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.mdBusinessIntelligenceButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mdBusinessIntelligenceButton.ForeColor = System.Drawing.Color.DarkBlue;
             this.mdBusinessIntelligenceButton.Location = new System.Drawing.Point(16, 36);
@@ -308,15 +317,6 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Building Medical Technology for a healthier Society";
             // 
-            // mdPictureBox2
-            // 
-            this.mdPictureBox2.Image = global::StrykerEIP.Properties.Resources.AllIcons2;
-            this.mdPictureBox2.Location = new System.Drawing.Point(245, 36);
-            this.mdPictureBox2.Name = "mdPictureBox2";
-            this.mdPictureBox2.Size = new System.Drawing.Size(72, 316);
-            this.mdPictureBox2.TabIndex = 4;
-            this.mdPictureBox2.TabStop = false;
-            // 
             // MainDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -339,11 +339,11 @@
             this.Load += new System.EventHandler(this.MainDashboardForm_Load);
             this.mdMessageGroupBox.ResumeLayout(false);
             this.mdOverviewsGroupBox.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BIPictureBox)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mdPictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

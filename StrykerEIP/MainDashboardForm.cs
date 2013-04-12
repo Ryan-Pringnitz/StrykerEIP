@@ -61,7 +61,6 @@ namespace StrykerEIP
 
         private void MainDashboardForm_Load(object sender, EventArgs e)
         {
-
         }
 
         private void mdGlobalIntelligenceButton_Click(object sender, EventArgs e)
