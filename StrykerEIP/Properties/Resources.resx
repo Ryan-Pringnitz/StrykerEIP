@@ -154,4 +154,19 @@
   <data name="SustainabilityIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SustainabilityIcon2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="G1BlueToGreenGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G1BlueToGreenGradient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G2LightBluetoBlueGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G2LightBluetoBlueGradient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G3WhiteToBlueGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G3WhiteToBlueGradient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G4WhiteToBrownGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G4WhiteToBrownGradient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G7YellowToGreenGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G7YellowToGreenGradient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

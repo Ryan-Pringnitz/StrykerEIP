@@ -81,6 +81,41 @@ namespace StrykerEIP.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap G1BlueToGreenGradient {
+            get {
+                object obj = ResourceManager.GetObject("G1BlueToGreenGradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G2LightBluetoBlueGradient {
+            get {
+                object obj = ResourceManager.GetObject("G2LightBluetoBlueGradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G3WhiteToBlueGradient {
+            get {
+                object obj = ResourceManager.GetObject("G3WhiteToBlueGradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G4WhiteToBrownGradient {
+            get {
+                object obj = ResourceManager.GetObject("G4WhiteToBrownGradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G7YellowToGreenGradient {
+            get {
+                object obj = ResourceManager.GetObject("G7YellowToGreenGradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap giSmallIcon {
             get {
                 object obj = ResourceManager.GetObject("giSmallIcon", resourceCulture);
