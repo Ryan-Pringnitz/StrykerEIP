@@ -86,37 +86,37 @@ namespace StrykerEIP
         private void mdBIButton_HoverOver(object sender, EventArgs e)
         {
             BIPictureBox.Image = StrykerEIP.Properties.Resources.BusinessIntelligenceIcon;
-            mdPictureBox2.Visible = false;
+            mdBIPictureBox.Visible = false;
         }
 
         private void mdBIButton_Leave(object sender, EventArgs e)
         {
             BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
-            mdPictureBox2.Visible = true;
+            mdBIPictureBox.Visible = true;
         }
 
         private void mdGIButton_MouseHover(object sender, EventArgs e)
         {
             BIPictureBox.Image = StrykerEIP.Properties.Resources.GlobalIntelligenceIcon;
-            mdPictureBox2.Visible = false;
+            mdGIPictureBox.Visible = false;
         }
 
         private void mdGIButton_Leave(object sender, EventArgs e)
         {
             BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
-            mdPictureBox2.Visible = true;
+            mdGIPictureBox.Visible = true;
         }
 
         private void mdSIButton_MouseHover(object sender, EventArgs e)
         {
-            BIPictureBox.Image = StrykerEIP.Properties.Resources.SustainabilityIcon;
-            mdPictureBox2.Visible = false;
+            BIPictureBox.Image = StrykerEIP.Properties.Resources.SustainabilityIcon2;
+            mdSIPictureBox.Visible = false;
         }
 
         private void mdSIButton_Leave(object sender, EventArgs e)
         {
             BIPictureBox.Image = StrykerEIP.Properties.Resources.BlankIcon;
-            mdPictureBox2.Visible = true;
+            mdSIPictureBox.Visible = true;
         }
 
         private void mdWelcomeLabel_Click(object sender, EventArgs e)
