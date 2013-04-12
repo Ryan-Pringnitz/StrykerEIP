@@ -1206,7 +1206,7 @@ namespace StrykerEIP
                 #region Human Resources
                 case "Customer Feedback":
                     calculatedKPI = double.Parse(KPI1_txtVar3.Text);
-                    KPI1_lblResult.Text = calculatedKPI.ToString();
+                    KPI1_lblResult.Text = KPI1_txtVar2.Text +"'s feedback score is: " + calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
                     drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
@@ -1576,8 +1576,8 @@ namespace StrykerEIP
 
                     KPI1_lblState.Text = kpiState;
                     break;
-                case "Market Presence":
-                    calculatedKPI = double.Parse(KPI2_txtVar2.Text) / (double.Parse(KPI2_txtVar2.Text) + double.Parse(KPI2_txtVar3.Text));
+                case "Greenhouse Gas Emissions":
+                    calculatedKPI = double.Parse(KPI2_txtVar2.Text) / double.Parse(KPI2_txtVar3.Text);
                     KPI2_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
@@ -1604,11 +1604,69 @@ namespace StrykerEIP
 
                     KPI2_lblState.Text = kpiState;
                     break;
+
+                case "Energy Usage":
+                    calculatedKPI = double.Parse(KPI3_txtVar2.Text) / double.Parse(KPI3_txtVar3.Text);
+                    KPI3_lblResult.Text = calculatedKPI.ToString();
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI3_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI3_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI3_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI3_lblState.Text = kpiState;
+                    break;
+
+                case "Waste Disposal":
+                    calculatedKPI = double.Parse(KPI4_txtVar2.Text) / double.Parse(KPI4_txtVar3.Text);
+                    KPI4_lblResult.Text = calculatedKPI.ToString();
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI4_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI4_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI4_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI4_lblState.Text = kpiState;
+                    break;
                 #endregion
                 // Global KPIs
                 #region
                 case "Donations":
-                    calculatedKPI = double.Parse(KPI1_txtVar2.Text) / double.Parse(KPI1_txtVar2.Text);
+                    calculatedKPI = double.Parse(KPI1_txtVar2.Text) / double.Parse(KPI1_txtVar3.Text);
                     KPI1_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
@@ -1635,7 +1693,7 @@ namespace StrykerEIP
 
                     KPI1_lblState.Text = kpiState;
                     break;
-                case "Global Outreach":
+                case "Worldwide Patients":
                     calculatedKPI = double.Parse(KPI2_txtVar3.Text) / (double.Parse(KPI2_lblVar2.Text) + double.Parse(KPI2_lblVar3.Text));
                     KPI2_lblResult.Text = calculatedKPI.ToString();
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
@@ -1662,6 +1720,64 @@ namespace StrykerEIP
                     }
 
                     KPI2_lblState.Text = kpiState;
+                    break;
+
+                case "Market Presence":
+                    calculatedKPI = double.Parse(KPI3_txtVar2.Text) / (double.Parse(KPI3_lblVar2.Text) + double.Parse(KPI3_lblVar3.Text));
+                    KPI3_lblResult.Text = calculatedKPI.ToString();
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI3_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI3_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI3_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI3_lblState.Text = kpiState;
+                    break;
+
+                case "Worldwide Employees":
+                    calculatedKPI = double.Parse(KPI4_txtVar3.Text) / (double.Parse(KPI4_lblVar2.Text) + double.Parse(KPI4_lblVar3.Text));
+                    KPI4_lblResult.Text = calculatedKPI.ToString();
+                    drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
+                    kpiState = drkpiState.First()["State"].ToString().Trim();
+                    drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
+                    i = 1;
+                    foreach (DataRow dr in drCollectionKPIDecisions)
+                    {
+                        switch (i)
+                        {
+                            case 1:
+                                KPI4_radioDecision1.Text = dr["Decision"].ToString();
+                                break;
+                            case 2:
+                                KPI4_radioDecision2.Text = dr["Decision"].ToString();
+                                break;
+                            case 3:
+                                KPI4_radioDecision3.Text = dr["Decision"].ToString();
+                                break;
+                            default:
+                                break;
+                        }
+                        i++;
+                    }
+
+                    KPI4_lblState.Text = kpiState;
                     break;
                 #endregion
                 default:

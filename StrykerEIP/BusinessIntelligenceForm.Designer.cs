@@ -31,18 +31,18 @@ namespace StrykerEIP
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.CustomerChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.OperationsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.InnovationsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -76,41 +76,41 @@ namespace StrykerEIP
             this.lblKPI4Name = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.KPI1_tabPage = new System.Windows.Forms.TabPage();
-            this.lblColumn1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.KPI1_txtKPISummary = new System.Windows.Forms.RichTextBox();
-            this.KPI1_lblSummaryLogo = new System.Windows.Forms.Label();
-            this.KPI1_lblCalculateLogo = new System.Windows.Forms.Label();
-            this.KPI1_lblStateLogo = new System.Windows.Forms.Label();
-            this.KPI1_lblDecisionLogo = new System.Windows.Forms.Label();
-            this.KPI1_groupDecision = new System.Windows.Forms.GroupBox();
-            this.KPI1_radioDecision1 = new System.Windows.Forms.RadioButton();
-            this.KPI1_radioDecision2 = new System.Windows.Forms.RadioButton();
-            this.KPI1_radioDecision3 = new System.Windows.Forms.RadioButton();
-            this.KPI1_btnSubmitDecision = new System.Windows.Forms.Button();
-            this.KPI1_txtVar1 = new System.Windows.Forms.TextBox();
-            this.KPI1_txtVar2 = new System.Windows.Forms.TextBox();
-            this.KPI1_txtVar3 = new System.Windows.Forms.TextBox();
-            this.KPI1_txtVar4 = new System.Windows.Forms.TextBox();
-            this.KPI1_lblVar1 = new System.Windows.Forms.Label();
-            this.KPI1_lblVar2 = new System.Windows.Forms.Label();
-            this.KPI1_lblVar3 = new System.Windows.Forms.Label();
-            this.KPI1_lblVar4 = new System.Windows.Forms.Label();
-            this.KPI1_btnCalculate = new System.Windows.Forms.Button();
-            this.KPI1_lblState = new System.Windows.Forms.Label();
-            this.KPI1_lblVar5 = new System.Windows.Forms.Label();
-            this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.KPI1_lblResult = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.KPI1_lblDecisionFinal = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.KPI1_lblResult = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.KPI1_txtVar5 = new System.Windows.Forms.TextBox();
+            this.KPI1_txtVar4 = new System.Windows.Forms.TextBox();
+            this.KPI1_txtVar3 = new System.Windows.Forms.TextBox();
+            this.KPI1_txtVar2 = new System.Windows.Forms.TextBox();
+            this.KPI1_txtVar1 = new System.Windows.Forms.TextBox();
+            this.KPI1_txtKPISummary = new System.Windows.Forms.RichTextBox();
+            this.KPI1_lblVar5 = new System.Windows.Forms.Label();
+            this.KPI1_lblState = new System.Windows.Forms.Label();
+            this.KPI1_btnCalculate = new System.Windows.Forms.Button();
+            this.KPI1_lblVar4 = new System.Windows.Forms.Label();
+            this.KPI1_lblVar3 = new System.Windows.Forms.Label();
+            this.KPI1_lblVar2 = new System.Windows.Forms.Label();
+            this.KPI1_lblVar1 = new System.Windows.Forms.Label();
+            this.KPI1_btnSubmitDecision = new System.Windows.Forms.Button();
+            this.KPI1_groupDecision = new System.Windows.Forms.GroupBox();
+            this.KPI1_radioDecision3 = new System.Windows.Forms.RadioButton();
+            this.KPI1_radioDecision2 = new System.Windows.Forms.RadioButton();
+            this.KPI1_radioDecision1 = new System.Windows.Forms.RadioButton();
+            this.KPI1_lblDecisionLogo = new System.Windows.Forms.Label();
+            this.KPI1_lblStateLogo = new System.Windows.Forms.Label();
+            this.KPI1_lblCalculateLogo = new System.Windows.Forms.Label();
+            this.KPI1_lblSummaryLogo = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblColumn1 = new System.Windows.Forms.Label();
             this.KPI4_txtKPISummary = new System.Windows.Forms.TabControl();
             this.KPI2_tabPage = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
@@ -241,17 +241,17 @@ namespace StrykerEIP
             this.CustomerChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CustomerChart.BackColor = System.Drawing.Color.Lavender;
             this.CustomerChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea17.Name = "ChartArea1";
-            this.CustomerChart.ChartAreas.Add(chartArea17);
-            legend17.Enabled = false;
-            legend17.Name = "Legend1";
-            this.CustomerChart.Legends.Add(legend17);
+            chartArea1.Name = "ChartArea1";
+            this.CustomerChart.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.CustomerChart.Legends.Add(legend1);
             this.CustomerChart.Location = new System.Drawing.Point(4, 117);
             this.CustomerChart.Name = "CustomerChart";
-            series17.ChartArea = "ChartArea1";
-            series17.Legend = "Legend1";
-            series17.Name = "CustomerSeries";
-            this.CustomerChart.Series.Add(series17);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "CustomerSeries";
+            this.CustomerChart.Series.Add(series1);
             this.CustomerChart.Size = new System.Drawing.Size(269, 178);
             this.CustomerChart.TabIndex = 1;
             this.CustomerChart.Text = "chart1";
@@ -261,18 +261,18 @@ namespace StrykerEIP
             this.OperationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.OperationsChart.BackColor = System.Drawing.Color.Lavender;
             this.OperationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea18.Name = "ChartArea1";
-            this.OperationsChart.ChartAreas.Add(chartArea18);
-            legend18.Enabled = false;
-            legend18.Name = "Legend1";
-            this.OperationsChart.Legends.Add(legend18);
+            chartArea2.Name = "ChartArea1";
+            this.OperationsChart.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.OperationsChart.Legends.Add(legend2);
             this.OperationsChart.Location = new System.Drawing.Point(584, 117);
             this.OperationsChart.Name = "OperationsChart";
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series18.Legend = "Legend1";
-            series18.Name = "OperationsSeries";
-            this.OperationsChart.Series.Add(series18);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Legend = "Legend1";
+            series2.Name = "OperationsSeries";
+            this.OperationsChart.Series.Add(series2);
             this.OperationsChart.Size = new System.Drawing.Size(269, 178);
             this.OperationsChart.TabIndex = 3;
             this.OperationsChart.Text = "chart3";
@@ -282,18 +282,18 @@ namespace StrykerEIP
             this.InnovationsChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.InnovationsChart.BackColor = System.Drawing.Color.Lavender;
             this.InnovationsChart.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea19.Name = "ChartArea1";
-            this.InnovationsChart.ChartAreas.Add(chartArea19);
-            legend19.Enabled = false;
-            legend19.Name = "Legend1";
-            this.InnovationsChart.Legends.Add(legend19);
+            chartArea3.Name = "ChartArea1";
+            this.InnovationsChart.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.InnovationsChart.Legends.Add(legend3);
             this.InnovationsChart.Location = new System.Drawing.Point(874, 117);
             this.InnovationsChart.Name = "InnovationsChart";
-            series19.ChartArea = "ChartArea1";
-            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series19.Legend = "Legend1";
-            series19.Name = "InnovationsSeries";
-            this.InnovationsChart.Series.Add(series19);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.Name = "InnovationsSeries";
+            this.InnovationsChart.Series.Add(series3);
             this.InnovationsChart.Size = new System.Drawing.Size(269, 178);
             this.InnovationsChart.TabIndex = 4;
             this.InnovationsChart.Text = "chart4";
@@ -467,18 +467,18 @@ namespace StrykerEIP
             this.FinancialChart.BackColor = System.Drawing.Color.Lavender;
             this.FinancialChart.BackSecondaryColor = System.Drawing.Color.Transparent;
             this.FinancialChart.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea20.Name = "ChartArea1";
-            this.FinancialChart.ChartAreas.Add(chartArea20);
-            legend20.Enabled = false;
-            legend20.Name = "Legend1";
-            this.FinancialChart.Legends.Add(legend20);
+            chartArea4.Name = "ChartArea1";
+            this.FinancialChart.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.FinancialChart.Legends.Add(legend4);
             this.FinancialChart.Location = new System.Drawing.Point(294, 117);
             this.FinancialChart.Name = "FinancialChart";
-            series20.ChartArea = "ChartArea1";
-            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
-            series20.Legend = "Legend1";
-            series20.Name = "FinancialSeries";
-            this.FinancialChart.Series.Add(series20);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series4.Legend = "Legend1";
+            series4.Name = "FinancialSeries";
+            this.FinancialChart.Series.Add(series4);
             this.FinancialChart.Size = new System.Drawing.Size(269, 178);
             this.FinancialChart.TabIndex = 2;
             this.FinancialChart.Text = "chart2";
@@ -602,29 +602,146 @@ namespace StrykerEIP
             this.KPI1_tabPage.TabIndex = 0;
             this.KPI1_tabPage.Text = "Customer";
             // 
-            // lblColumn1
+            // label54
             // 
-            this.lblColumn1.BackColor = System.Drawing.Color.Silver;
-            this.lblColumn1.Location = new System.Drawing.Point(196, 0);
-            this.lblColumn1.Name = "lblColumn1";
-            this.lblColumn1.Size = new System.Drawing.Size(4, 285);
-            this.lblColumn1.TabIndex = 0;
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.Transparent;
+            this.label54.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(549, 19);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(90, 17);
+            this.label54.TabIndex = 67;
+            this.label54.Text = "Expert System";
             // 
-            // label1
+            // label44
             // 
-            this.label1.BackColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(531, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(4, 285);
-            this.label1.TabIndex = 1;
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(986, 230);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(123, 37);
+            this.label44.TabIndex = 66;
+            this.label44.Text = "Wisdom";
             // 
-            // label2
+            // label43
             // 
-            this.label2.BackColor = System.Drawing.Color.Silver;
-            this.label2.Location = new System.Drawing.Point(716, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(4, 285);
-            this.label2.TabIndex = 2;
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(754, 230);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(162, 37);
+            this.label43.TabIndex = 65;
+            this.label43.Text = "Knowledge";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(557, 230);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(123, 37);
+            this.label42.TabIndex = 64;
+            this.label42.Text = "Concept";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(230, 230);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(258, 37);
+            this.label34.TabIndex = 63;
+            this.label34.Text = "Data - Information";
+            // 
+            // KPI1_lblDecisionFinal
+            // 
+            this.KPI1_lblDecisionFinal.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.KPI1_lblDecisionFinal.Location = new System.Drawing.Point(966, 42);
+            this.KPI1_lblDecisionFinal.Name = "KPI1_lblDecisionFinal";
+            this.KPI1_lblDecisionFinal.Size = new System.Drawing.Size(165, 172);
+            this.KPI1_lblDecisionFinal.TabIndex = 57;
+            this.KPI1_lblDecisionFinal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label53.Location = new System.Drawing.Point(962, 3);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(57, 17);
+            this.label53.TabIndex = 56;
+            this.label53.Text = "Choice";
+            // 
+            // KPI1_lblResult
+            // 
+            this.KPI1_lblResult.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KPI1_lblResult.Location = new System.Drawing.Point(548, 129);
+            this.KPI1_lblResult.Name = "KPI1_lblResult";
+            this.KPI1_lblResult.Size = new System.Drawing.Size(140, 90);
+            this.KPI1_lblResult.TabIndex = 51;
+            this.KPI1_lblResult.Text = "Result";
+            this.KPI1_lblResult.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.KPI1_lblResult.Visible = false;
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.Silver;
+            this.label48.Location = new System.Drawing.Point(953, -1);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(4, 285);
+            this.label48.TabIndex = 50;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(1281, 264);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(45, 13);
+            this.label45.TabIndex = 49;
+            this.label45.Text = "Wisdom";
+            // 
+            // KPI1_txtVar5
+            // 
+            this.KPI1_txtVar5.Location = new System.Drawing.Point(313, 194);
+            this.KPI1_txtVar5.Name = "KPI1_txtVar5";
+            this.KPI1_txtVar5.Size = new System.Drawing.Size(130, 20);
+            this.KPI1_txtVar5.TabIndex = 21;
+            // 
+            // KPI1_txtVar4
+            // 
+            this.KPI1_txtVar4.Location = new System.Drawing.Point(313, 153);
+            this.KPI1_txtVar4.Name = "KPI1_txtVar4";
+            this.KPI1_txtVar4.Size = new System.Drawing.Size(130, 20);
+            this.KPI1_txtVar4.TabIndex = 13;
+            // 
+            // KPI1_txtVar3
+            // 
+            this.KPI1_txtVar3.Location = new System.Drawing.Point(313, 112);
+            this.KPI1_txtVar3.Name = "KPI1_txtVar3";
+            this.KPI1_txtVar3.Size = new System.Drawing.Size(130, 20);
+            this.KPI1_txtVar3.TabIndex = 12;
+            // 
+            // KPI1_txtVar2
+            // 
+            this.KPI1_txtVar2.Location = new System.Drawing.Point(313, 71);
+            this.KPI1_txtVar2.Name = "KPI1_txtVar2";
+            this.KPI1_txtVar2.Size = new System.Drawing.Size(130, 20);
+            this.KPI1_txtVar2.TabIndex = 11;
+            // 
+            // KPI1_txtVar1
+            // 
+            this.KPI1_txtVar1.Location = new System.Drawing.Point(313, 30);
+            this.KPI1_txtVar1.Name = "KPI1_txtVar1";
+            this.KPI1_txtVar1.ReadOnly = true;
+            this.KPI1_txtVar1.Size = new System.Drawing.Size(130, 20);
+            this.KPI1_txtVar1.TabIndex = 10;
             // 
             // KPI1_txtKPISummary
             // 
@@ -636,188 +753,16 @@ namespace StrykerEIP
             this.KPI1_txtKPISummary.TabIndex = 3;
             this.KPI1_txtKPISummary.Text = "";
             // 
-            // KPI1_lblSummaryLogo
+            // KPI1_lblVar5
             // 
-            this.KPI1_lblSummaryLogo.AutoSize = true;
-            this.KPI1_lblSummaryLogo.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblSummaryLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.KPI1_lblSummaryLogo.Location = new System.Drawing.Point(6, 3);
-            this.KPI1_lblSummaryLogo.Name = "KPI1_lblSummaryLogo";
-            this.KPI1_lblSummaryLogo.Size = new System.Drawing.Size(103, 17);
-            this.KPI1_lblSummaryLogo.TabIndex = 4;
-            this.KPI1_lblSummaryLogo.Text = "KPI Summary";
-            // 
-            // KPI1_lblCalculateLogo
-            // 
-            this.KPI1_lblCalculateLogo.AutoSize = true;
-            this.KPI1_lblCalculateLogo.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblCalculateLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.KPI1_lblCalculateLogo.Location = new System.Drawing.Point(203, 3);
-            this.KPI1_lblCalculateLogo.Name = "KPI1_lblCalculateLogo";
-            this.KPI1_lblCalculateLogo.Size = new System.Drawing.Size(63, 17);
-            this.KPI1_lblCalculateLogo.TabIndex = 5;
-            this.KPI1_lblCalculateLogo.Text = "Change";
-            // 
-            // KPI1_lblStateLogo
-            // 
-            this.KPI1_lblStateLogo.AutoSize = true;
-            this.KPI1_lblStateLogo.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblStateLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.KPI1_lblStateLogo.Location = new System.Drawing.Point(539, 3);
-            this.KPI1_lblStateLogo.Name = "KPI1_lblStateLogo";
-            this.KPI1_lblStateLogo.Size = new System.Drawing.Size(117, 17);
-            this.KPI1_lblStateLogo.TabIndex = 6;
-            this.KPI1_lblStateLogo.Text = "State of Affairs";
-            // 
-            // KPI1_lblDecisionLogo
-            // 
-            this.KPI1_lblDecisionLogo.AutoSize = true;
-            this.KPI1_lblDecisionLogo.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblDecisionLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.KPI1_lblDecisionLogo.Location = new System.Drawing.Point(724, 3);
-            this.KPI1_lblDecisionLogo.Name = "KPI1_lblDecisionLogo";
-            this.KPI1_lblDecisionLogo.Size = new System.Drawing.Size(202, 17);
-            this.KPI1_lblDecisionLogo.TabIndex = 7;
-            this.KPI1_lblDecisionLogo.Text = "Business Knowledge Rules";
-            // 
-            // KPI1_groupDecision
-            // 
-            this.KPI1_groupDecision.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision3);
-            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision2);
-            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision1);
-            this.KPI1_groupDecision.Location = new System.Drawing.Point(725, 23);
-            this.KPI1_groupDecision.Name = "KPI1_groupDecision";
-            this.KPI1_groupDecision.Size = new System.Drawing.Size(224, 156);
-            this.KPI1_groupDecision.TabIndex = 8;
-            this.KPI1_groupDecision.TabStop = false;
-            this.KPI1_groupDecision.Visible = false;
-            // 
-            // KPI1_radioDecision1
-            // 
-            this.KPI1_radioDecision1.Location = new System.Drawing.Point(7, 20);
-            this.KPI1_radioDecision1.Name = "KPI1_radioDecision1";
-            this.KPI1_radioDecision1.Size = new System.Drawing.Size(200, 40);
-            this.KPI1_radioDecision1.TabIndex = 0;
-            this.KPI1_radioDecision1.TabStop = true;
-            this.KPI1_radioDecision1.Text = "Choice 1";
-            this.KPI1_radioDecision1.UseVisualStyleBackColor = true;
-            // 
-            // KPI1_radioDecision2
-            // 
-            this.KPI1_radioDecision2.Location = new System.Drawing.Point(7, 63);
-            this.KPI1_radioDecision2.Name = "KPI1_radioDecision2";
-            this.KPI1_radioDecision2.Size = new System.Drawing.Size(200, 40);
-            this.KPI1_radioDecision2.TabIndex = 1;
-            this.KPI1_radioDecision2.TabStop = true;
-            this.KPI1_radioDecision2.Text = "Choice 2";
-            this.KPI1_radioDecision2.UseVisualStyleBackColor = true;
-            // 
-            // KPI1_radioDecision3
-            // 
-            this.KPI1_radioDecision3.Location = new System.Drawing.Point(7, 108);
-            this.KPI1_radioDecision3.Name = "KPI1_radioDecision3";
-            this.KPI1_radioDecision3.Size = new System.Drawing.Size(200, 40);
-            this.KPI1_radioDecision3.TabIndex = 2;
-            this.KPI1_radioDecision3.TabStop = true;
-            this.KPI1_radioDecision3.Text = "Choice 3";
-            this.KPI1_radioDecision3.UseVisualStyleBackColor = true;
-            // 
-            // KPI1_btnSubmitDecision
-            // 
-            this.KPI1_btnSubmitDecision.BackColor = System.Drawing.Color.Ivory;
-            this.KPI1_btnSubmitDecision.Location = new System.Drawing.Point(848, 185);
-            this.KPI1_btnSubmitDecision.Name = "KPI1_btnSubmitDecision";
-            this.KPI1_btnSubmitDecision.Size = new System.Drawing.Size(91, 39);
-            this.KPI1_btnSubmitDecision.TabIndex = 9;
-            this.KPI1_btnSubmitDecision.Text = "Submit Decision";
-            this.KPI1_btnSubmitDecision.UseVisualStyleBackColor = false;
-            this.KPI1_btnSubmitDecision.Visible = false;
-            this.KPI1_btnSubmitDecision.Click += new System.EventHandler(this.KPI1_btnSubmitDecision_Click);
-            // 
-            // KPI1_txtVar1
-            // 
-            this.KPI1_txtVar1.Location = new System.Drawing.Point(313, 30);
-            this.KPI1_txtVar1.Name = "KPI1_txtVar1";
-            this.KPI1_txtVar1.ReadOnly = true;
-            this.KPI1_txtVar1.Size = new System.Drawing.Size(130, 20);
-            this.KPI1_txtVar1.TabIndex = 10;
-            // 
-            // KPI1_txtVar2
-            // 
-            this.KPI1_txtVar2.Location = new System.Drawing.Point(313, 71);
-            this.KPI1_txtVar2.Name = "KPI1_txtVar2";
-            this.KPI1_txtVar2.Size = new System.Drawing.Size(130, 20);
-            this.KPI1_txtVar2.TabIndex = 11;
-            // 
-            // KPI1_txtVar3
-            // 
-            this.KPI1_txtVar3.Location = new System.Drawing.Point(313, 112);
-            this.KPI1_txtVar3.Name = "KPI1_txtVar3";
-            this.KPI1_txtVar3.Size = new System.Drawing.Size(130, 20);
-            this.KPI1_txtVar3.TabIndex = 12;
-            // 
-            // KPI1_txtVar4
-            // 
-            this.KPI1_txtVar4.Location = new System.Drawing.Point(313, 153);
-            this.KPI1_txtVar4.Name = "KPI1_txtVar4";
-            this.KPI1_txtVar4.Size = new System.Drawing.Size(130, 20);
-            this.KPI1_txtVar4.TabIndex = 13;
-            // 
-            // KPI1_lblVar1
-            // 
-            this.KPI1_lblVar1.AutoEllipsis = true;
-            this.KPI1_lblVar1.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblVar1.Location = new System.Drawing.Point(203, 30);
-            this.KPI1_lblVar1.Name = "KPI1_lblVar1";
-            this.KPI1_lblVar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar1.Size = new System.Drawing.Size(104, 36);
-            this.KPI1_lblVar1.TabIndex = 14;
-            this.KPI1_lblVar1.Text = "Variable 1";
-            // 
-            // KPI1_lblVar2
-            // 
-            this.KPI1_lblVar2.AutoEllipsis = true;
-            this.KPI1_lblVar2.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblVar2.Location = new System.Drawing.Point(203, 71);
-            this.KPI1_lblVar2.Name = "KPI1_lblVar2";
-            this.KPI1_lblVar2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar2.Size = new System.Drawing.Size(104, 36);
-            this.KPI1_lblVar2.TabIndex = 15;
-            this.KPI1_lblVar2.Text = "Variable 2";
-            // 
-            // KPI1_lblVar3
-            // 
-            this.KPI1_lblVar3.AutoEllipsis = true;
-            this.KPI1_lblVar3.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblVar3.Location = new System.Drawing.Point(203, 112);
-            this.KPI1_lblVar3.Name = "KPI1_lblVar3";
-            this.KPI1_lblVar3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar3.Size = new System.Drawing.Size(104, 36);
-            this.KPI1_lblVar3.TabIndex = 16;
-            this.KPI1_lblVar3.Text = "Variable 3";
-            // 
-            // KPI1_lblVar4
-            // 
-            this.KPI1_lblVar4.AutoEllipsis = true;
-            this.KPI1_lblVar4.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblVar4.Location = new System.Drawing.Point(203, 153);
-            this.KPI1_lblVar4.Name = "KPI1_lblVar4";
-            this.KPI1_lblVar4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar4.Size = new System.Drawing.Size(104, 36);
-            this.KPI1_lblVar4.TabIndex = 17;
-            this.KPI1_lblVar4.Text = "Variable 4";
-            // 
-            // KPI1_btnCalculate
-            // 
-            this.KPI1_btnCalculate.BackColor = System.Drawing.Color.Ivory;
-            this.KPI1_btnCalculate.Location = new System.Drawing.Point(450, 29);
-            this.KPI1_btnCalculate.Name = "KPI1_btnCalculate";
-            this.KPI1_btnCalculate.Size = new System.Drawing.Size(75, 185);
-            this.KPI1_btnCalculate.TabIndex = 18;
-            this.KPI1_btnCalculate.Text = "Calculate";
-            this.KPI1_btnCalculate.UseVisualStyleBackColor = false;
-            this.KPI1_btnCalculate.Click += new System.EventHandler(this.KPI_btnCalculate_Click);
+            this.KPI1_lblVar5.AutoEllipsis = true;
+            this.KPI1_lblVar5.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblVar5.Location = new System.Drawing.Point(203, 194);
+            this.KPI1_lblVar5.Name = "KPI1_lblVar5";
+            this.KPI1_lblVar5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.KPI1_lblVar5.Size = new System.Drawing.Size(104, 36);
+            this.KPI1_lblVar5.TabIndex = 20;
+            this.KPI1_lblVar5.Text = "Variable 5";
             // 
             // KPI1_lblState
             // 
@@ -833,128 +778,183 @@ namespace StrykerEIP
             this.KPI1_lblState.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.KPI1_lblState.Visible = false;
             // 
-            // KPI1_lblVar5
+            // KPI1_btnCalculate
             // 
-            this.KPI1_lblVar5.AutoEllipsis = true;
-            this.KPI1_lblVar5.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblVar5.Location = new System.Drawing.Point(203, 194);
-            this.KPI1_lblVar5.Name = "KPI1_lblVar5";
-            this.KPI1_lblVar5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.KPI1_lblVar5.Size = new System.Drawing.Size(104, 36);
-            this.KPI1_lblVar5.TabIndex = 20;
-            this.KPI1_lblVar5.Text = "Variable 5";
+            this.KPI1_btnCalculate.BackColor = System.Drawing.Color.Ivory;
+            this.KPI1_btnCalculate.Location = new System.Drawing.Point(450, 29);
+            this.KPI1_btnCalculate.Name = "KPI1_btnCalculate";
+            this.KPI1_btnCalculate.Size = new System.Drawing.Size(75, 185);
+            this.KPI1_btnCalculate.TabIndex = 18;
+            this.KPI1_btnCalculate.Text = "Calculate";
+            this.KPI1_btnCalculate.UseVisualStyleBackColor = false;
+            this.KPI1_btnCalculate.Click += new System.EventHandler(this.KPI_btnCalculate_Click);
             // 
-            // KPI1_txtVar5
+            // KPI1_lblVar4
             // 
-            this.KPI1_txtVar5.Location = new System.Drawing.Point(313, 194);
-            this.KPI1_txtVar5.Name = "KPI1_txtVar5";
-            this.KPI1_txtVar5.Size = new System.Drawing.Size(130, 20);
-            this.KPI1_txtVar5.TabIndex = 21;
+            this.KPI1_lblVar4.AutoEllipsis = true;
+            this.KPI1_lblVar4.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblVar4.Location = new System.Drawing.Point(203, 153);
+            this.KPI1_lblVar4.Name = "KPI1_lblVar4";
+            this.KPI1_lblVar4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.KPI1_lblVar4.Size = new System.Drawing.Size(104, 36);
+            this.KPI1_lblVar4.TabIndex = 17;
+            this.KPI1_lblVar4.Text = "Variable 4";
             // 
-            // label45
+            // KPI1_lblVar3
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(1281, 264);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(45, 13);
-            this.label45.TabIndex = 49;
-            this.label45.Text = "Wisdom";
+            this.KPI1_lblVar3.AutoEllipsis = true;
+            this.KPI1_lblVar3.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblVar3.Location = new System.Drawing.Point(203, 112);
+            this.KPI1_lblVar3.Name = "KPI1_lblVar3";
+            this.KPI1_lblVar3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.KPI1_lblVar3.Size = new System.Drawing.Size(104, 36);
+            this.KPI1_lblVar3.TabIndex = 16;
+            this.KPI1_lblVar3.Text = "Variable 3";
             // 
-            // label48
+            // KPI1_lblVar2
             // 
-            this.label48.BackColor = System.Drawing.Color.Silver;
-            this.label48.Location = new System.Drawing.Point(953, -1);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(4, 285);
-            this.label48.TabIndex = 50;
+            this.KPI1_lblVar2.AutoEllipsis = true;
+            this.KPI1_lblVar2.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblVar2.Location = new System.Drawing.Point(203, 71);
+            this.KPI1_lblVar2.Name = "KPI1_lblVar2";
+            this.KPI1_lblVar2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.KPI1_lblVar2.Size = new System.Drawing.Size(104, 36);
+            this.KPI1_lblVar2.TabIndex = 15;
+            this.KPI1_lblVar2.Text = "Variable 2";
             // 
-            // KPI1_lblResult
+            // KPI1_lblVar1
             // 
-            this.KPI1_lblResult.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KPI1_lblResult.Location = new System.Drawing.Point(566, 129);
-            this.KPI1_lblResult.Name = "KPI1_lblResult";
-            this.KPI1_lblResult.Size = new System.Drawing.Size(120, 54);
-            this.KPI1_lblResult.TabIndex = 51;
-            this.KPI1_lblResult.Text = "Result";
-            this.KPI1_lblResult.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.KPI1_lblResult.Visible = false;
+            this.KPI1_lblVar1.AutoEllipsis = true;
+            this.KPI1_lblVar1.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblVar1.Location = new System.Drawing.Point(203, 30);
+            this.KPI1_lblVar1.Name = "KPI1_lblVar1";
+            this.KPI1_lblVar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.KPI1_lblVar1.Size = new System.Drawing.Size(104, 36);
+            this.KPI1_lblVar1.TabIndex = 14;
+            this.KPI1_lblVar1.Text = "Variable 1";
             // 
-            // label53
+            // KPI1_btnSubmitDecision
             // 
-            this.label53.AutoSize = true;
-            this.label53.BackColor = System.Drawing.Color.Transparent;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.label53.Location = new System.Drawing.Point(962, 3);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(57, 17);
-            this.label53.TabIndex = 56;
-            this.label53.Text = "Choice";
+            this.KPI1_btnSubmitDecision.BackColor = System.Drawing.Color.Ivory;
+            this.KPI1_btnSubmitDecision.Location = new System.Drawing.Point(848, 185);
+            this.KPI1_btnSubmitDecision.Name = "KPI1_btnSubmitDecision";
+            this.KPI1_btnSubmitDecision.Size = new System.Drawing.Size(91, 39);
+            this.KPI1_btnSubmitDecision.TabIndex = 9;
+            this.KPI1_btnSubmitDecision.Text = "Submit Decision";
+            this.KPI1_btnSubmitDecision.UseVisualStyleBackColor = false;
+            this.KPI1_btnSubmitDecision.Visible = false;
+            this.KPI1_btnSubmitDecision.Click += new System.EventHandler(this.KPI1_btnSubmitDecision_Click);
             // 
-            // KPI1_lblDecisionFinal
+            // KPI1_groupDecision
             // 
-            this.KPI1_lblDecisionFinal.BackColor = System.Drawing.Color.Transparent;
-            this.KPI1_lblDecisionFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.KPI1_lblDecisionFinal.Location = new System.Drawing.Point(966, 42);
-            this.KPI1_lblDecisionFinal.Name = "KPI1_lblDecisionFinal";
-            this.KPI1_lblDecisionFinal.Size = new System.Drawing.Size(165, 172);
-            this.KPI1_lblDecisionFinal.TabIndex = 57;
-            this.KPI1_lblDecisionFinal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.KPI1_groupDecision.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision3);
+            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision2);
+            this.KPI1_groupDecision.Controls.Add(this.KPI1_radioDecision1);
+            this.KPI1_groupDecision.Location = new System.Drawing.Point(725, 23);
+            this.KPI1_groupDecision.Name = "KPI1_groupDecision";
+            this.KPI1_groupDecision.Size = new System.Drawing.Size(224, 156);
+            this.KPI1_groupDecision.TabIndex = 8;
+            this.KPI1_groupDecision.TabStop = false;
+            this.KPI1_groupDecision.Visible = false;
             // 
-            // label34
+            // KPI1_radioDecision3
             // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(230, 230);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(258, 37);
-            this.label34.TabIndex = 63;
-            this.label34.Text = "Data - Information";
+            this.KPI1_radioDecision3.Location = new System.Drawing.Point(7, 108);
+            this.KPI1_radioDecision3.Name = "KPI1_radioDecision3";
+            this.KPI1_radioDecision3.Size = new System.Drawing.Size(200, 40);
+            this.KPI1_radioDecision3.TabIndex = 2;
+            this.KPI1_radioDecision3.TabStop = true;
+            this.KPI1_radioDecision3.Text = "Choice 3";
+            this.KPI1_radioDecision3.UseVisualStyleBackColor = true;
             // 
-            // label42
+            // KPI1_radioDecision2
             // 
-            this.label42.AutoSize = true;
-            this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.label42.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(557, 230);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(123, 37);
-            this.label42.TabIndex = 64;
-            this.label42.Text = "Concept";
+            this.KPI1_radioDecision2.Location = new System.Drawing.Point(7, 63);
+            this.KPI1_radioDecision2.Name = "KPI1_radioDecision2";
+            this.KPI1_radioDecision2.Size = new System.Drawing.Size(200, 40);
+            this.KPI1_radioDecision2.TabIndex = 1;
+            this.KPI1_radioDecision2.TabStop = true;
+            this.KPI1_radioDecision2.Text = "Choice 2";
+            this.KPI1_radioDecision2.UseVisualStyleBackColor = true;
             // 
-            // label43
+            // KPI1_radioDecision1
             // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(754, 230);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(162, 37);
-            this.label43.TabIndex = 65;
-            this.label43.Text = "Knowledge";
+            this.KPI1_radioDecision1.Location = new System.Drawing.Point(7, 20);
+            this.KPI1_radioDecision1.Name = "KPI1_radioDecision1";
+            this.KPI1_radioDecision1.Size = new System.Drawing.Size(200, 40);
+            this.KPI1_radioDecision1.TabIndex = 0;
+            this.KPI1_radioDecision1.TabStop = true;
+            this.KPI1_radioDecision1.Text = "Choice 1";
+            this.KPI1_radioDecision1.UseVisualStyleBackColor = true;
             // 
-            // label44
+            // KPI1_lblDecisionLogo
             // 
-            this.label44.AutoSize = true;
-            this.label44.BackColor = System.Drawing.Color.Transparent;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(986, 230);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(123, 37);
-            this.label44.TabIndex = 66;
-            this.label44.Text = "Wisdom";
+            this.KPI1_lblDecisionLogo.AutoSize = true;
+            this.KPI1_lblDecisionLogo.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblDecisionLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.KPI1_lblDecisionLogo.Location = new System.Drawing.Point(724, 3);
+            this.KPI1_lblDecisionLogo.Name = "KPI1_lblDecisionLogo";
+            this.KPI1_lblDecisionLogo.Size = new System.Drawing.Size(202, 17);
+            this.KPI1_lblDecisionLogo.TabIndex = 7;
+            this.KPI1_lblDecisionLogo.Text = "Business Knowledge Rules";
             // 
-            // label54
+            // KPI1_lblStateLogo
             // 
-            this.label54.AutoSize = true;
-            this.label54.BackColor = System.Drawing.Color.Transparent;
-            this.label54.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(549, 19);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(90, 17);
-            this.label54.TabIndex = 67;
-            this.label54.Text = "Expert System";
+            this.KPI1_lblStateLogo.AutoSize = true;
+            this.KPI1_lblStateLogo.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblStateLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.KPI1_lblStateLogo.Location = new System.Drawing.Point(539, 3);
+            this.KPI1_lblStateLogo.Name = "KPI1_lblStateLogo";
+            this.KPI1_lblStateLogo.Size = new System.Drawing.Size(117, 17);
+            this.KPI1_lblStateLogo.TabIndex = 6;
+            this.KPI1_lblStateLogo.Text = "State of Affairs";
+            // 
+            // KPI1_lblCalculateLogo
+            // 
+            this.KPI1_lblCalculateLogo.AutoSize = true;
+            this.KPI1_lblCalculateLogo.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblCalculateLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.KPI1_lblCalculateLogo.Location = new System.Drawing.Point(203, 3);
+            this.KPI1_lblCalculateLogo.Name = "KPI1_lblCalculateLogo";
+            this.KPI1_lblCalculateLogo.Size = new System.Drawing.Size(63, 17);
+            this.KPI1_lblCalculateLogo.TabIndex = 5;
+            this.KPI1_lblCalculateLogo.Text = "Change";
+            // 
+            // KPI1_lblSummaryLogo
+            // 
+            this.KPI1_lblSummaryLogo.AutoSize = true;
+            this.KPI1_lblSummaryLogo.BackColor = System.Drawing.Color.Transparent;
+            this.KPI1_lblSummaryLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.KPI1_lblSummaryLogo.Location = new System.Drawing.Point(6, 3);
+            this.KPI1_lblSummaryLogo.Name = "KPI1_lblSummaryLogo";
+            this.KPI1_lblSummaryLogo.Size = new System.Drawing.Size(103, 17);
+            this.KPI1_lblSummaryLogo.TabIndex = 4;
+            this.KPI1_lblSummaryLogo.Text = "KPI Summary";
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Silver;
+            this.label2.Location = new System.Drawing.Point(716, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(4, 285);
+            this.label2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.Location = new System.Drawing.Point(531, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(4, 285);
+            this.label1.TabIndex = 1;
+            // 
+            // lblColumn1
+            // 
+            this.lblColumn1.BackColor = System.Drawing.Color.Silver;
+            this.lblColumn1.Location = new System.Drawing.Point(196, 0);
+            this.lblColumn1.Name = "lblColumn1";
+            this.lblColumn1.Size = new System.Drawing.Size(4, 285);
+            this.lblColumn1.TabIndex = 0;
             // 
             // KPI4_txtKPISummary
             // 
@@ -1092,9 +1092,9 @@ namespace StrykerEIP
             // 
             this.KPI2_lblResult.BackColor = System.Drawing.Color.Transparent;
             this.KPI2_lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KPI2_lblResult.Location = new System.Drawing.Point(566, 129);
+            this.KPI2_lblResult.Location = new System.Drawing.Point(548, 129);
             this.KPI2_lblResult.Name = "KPI2_lblResult";
-            this.KPI2_lblResult.Size = new System.Drawing.Size(120, 54);
+            this.KPI2_lblResult.Size = new System.Drawing.Size(140, 90);
             this.KPI2_lblResult.TabIndex = 51;
             this.KPI2_lblResult.Text = "Result";
             this.KPI2_lblResult.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1487,9 +1487,9 @@ namespace StrykerEIP
             // 
             this.KPI3_lblResult.BackColor = System.Drawing.Color.Transparent;
             this.KPI3_lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KPI3_lblResult.Location = new System.Drawing.Point(566, 129);
+            this.KPI3_lblResult.Location = new System.Drawing.Point(548, 129);
             this.KPI3_lblResult.Name = "KPI3_lblResult";
-            this.KPI3_lblResult.Size = new System.Drawing.Size(120, 54);
+            this.KPI3_lblResult.Size = new System.Drawing.Size(140, 90);
             this.KPI3_lblResult.TabIndex = 51;
             this.KPI3_lblResult.Text = "Result";
             this.KPI3_lblResult.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1882,9 +1882,9 @@ namespace StrykerEIP
             // 
             this.KPI4_lblResult.BackColor = System.Drawing.Color.Transparent;
             this.KPI4_lblResult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KPI4_lblResult.Location = new System.Drawing.Point(566, 129);
+            this.KPI4_lblResult.Location = new System.Drawing.Point(548, 129);
             this.KPI4_lblResult.Name = "KPI4_lblResult";
-            this.KPI4_lblResult.Size = new System.Drawing.Size(120, 54);
+            this.KPI4_lblResult.Size = new System.Drawing.Size(140, 90);
             this.KPI4_lblResult.TabIndex = 51;
             this.KPI4_lblResult.Text = "Result";
             this.KPI4_lblResult.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
