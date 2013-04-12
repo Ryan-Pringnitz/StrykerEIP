@@ -842,8 +842,8 @@ namespace StrykerEIP
             DataTable dtStates = _globalBusinessProcessDataSet.Tables["States"];
             DataTable dtKPI = _globalBusinessProcessDataSet.Tables["KPI"];
             DataTable dtDecisions = _globalBusinessProcessDataSet.Tables["Decisions"];
-            var selectedTabIndex = KPIs_tabPage.SelectedTab.TabIndex;
-            var kpiName = KPIs_tabPage.SelectedTab.Text;
+            var selectedTabIndex = KPI4_txtKPISummary.SelectedTab.TabIndex;
+            var kpiName = KPI4_txtKPISummary.SelectedTab.Text;
             var drKPI = dtKPI.AsEnumerable().Where(dr => dr.Field<string>("Name") == kpiName);
             var kpiId = drKPI.First()["KPIID"].ToString().Trim();
             var drKPIStates = dtStates.AsEnumerable().Where(dr => dr.Field<string>("KPIID") == kpiId);
