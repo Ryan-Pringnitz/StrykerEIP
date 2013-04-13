@@ -173,6 +173,10 @@ namespace StrykerEIP
                 FinancialChart.DataSource = dtKPIResult2;
                 OperationsChart.DataSource = dtKPIResult3;
                 InnovationsChart.DataSource = dtKPIResult4;
+                CustomerChart.Visible = true;
+                FinancialChart.Visible = true;
+                InnovationsChart.Visible = true;
+                OperationsChart.Visible = true;
 
                 // Get and change chart type
                 System.Windows.Forms.DataVisualization.Charting.SeriesChartType kpiChartType;
@@ -202,6 +206,7 @@ namespace StrykerEIP
                             CustomerChart.Series["CustomerSeries"].XValueType = ChartValueType.Date;
                             CustomerChart.Series["CustomerSeries"].YValueMembers = "KPIValue";
                             lblKPI1Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            lblKPI1Name.Visible = true;
                             KPI1_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI1_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             break;
@@ -211,6 +216,7 @@ namespace StrykerEIP
                             OperationsChart.Series["OperationsSeries"].XValueType = ChartValueType.Date;
                             OperationsChart.Series["OperationsSeries"].YValueMembers = "KPIValue";
                             lblKPI2Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            lblKPI2Name.Visible = true;
                             KPI2_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI2_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             break;
@@ -220,6 +226,7 @@ namespace StrykerEIP
                             FinancialChart.Series["FinancialSeries"].XValueType = ChartValueType.Date;
                             FinancialChart.Series["FinancialSeries"].YValueMembers = "KPIValue";
                             lblKPI3Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            lblKPI3Name.Visible = true;
                             KPI3_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI3_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             break;
@@ -229,6 +236,7 @@ namespace StrykerEIP
                             InnovationsChart.Series["InnovationsSeries"].XValueType = ChartValueType.Date;
                             InnovationsChart.Series["InnovationsSeries"].YValueMembers = "KPIValue";
                             lblKPI4Name.Text = dtKPI.Rows[i]["Name"].ToString();
+                            lblKPI4Name.Visible = true;
                             KPI4_tabPage.Text = dtKPI.Rows[i]["Name"].ToString();
                             KPI4_txtKPISummary.Text = dtKPI.Rows[i]["Summary"].ToString().Replace("\\n", Environment.NewLine);
                             break;
