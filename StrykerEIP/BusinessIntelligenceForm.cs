@@ -1550,7 +1550,7 @@ namespace StrykerEIP
                 #region
                 case "Community Events":
                     calculatedKPI = double.Parse(KPI1_txtVar3.Text) / double.Parse(KPI1_txtVar4.Text);
-                    KPI1_lblResult.Text = calculatedKPI.ToString();
+                    KPI1_lblResult.Text = calculatedKPI.ToString("P") + " attended event";
                     drkpiState = drKPIStates.AsEnumerable().Where(item => (double.Parse(item.Field<decimal>("RangeMin").ToString()) <= calculatedKPI) && (double.Parse(item.Field<decimal>("RangeMax").ToString()) >= calculatedKPI));
                     kpiState = drkpiState.First()["State"].ToString().Trim();
                     drCollectionKPIDecisions = dtDecisions.AsEnumerable().Where(dt => dt.Field<string>("State") == kpiState && dt.Field<string>("KPIID") == kpiId);
