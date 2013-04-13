@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lfGroupBox = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.lfLoginGroupBox = new System.Windows.Forms.GroupBox();
             this.lfPasswordTextBox = new System.Windows.Forms.TextBox();
             this.lfUserNameTextBox = new System.Windows.Forms.TextBox();
@@ -36,6 +37,7 @@
             this.biPasswordLabel = new System.Windows.Forms.Label();
             this.biLoginButton = new System.Windows.Forms.Button();
             this.biUserNameLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lfMessageGroupBox = new System.Windows.Forms.GroupBox();
             this.biBoldedLoginLabel = new System.Windows.Forms.Label();
             this.biSplashScreenRichTextBox = new System.Windows.Forms.RichTextBox();
@@ -51,13 +53,11 @@
             this.selfHelpPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.lfGroupBox.SuspendLayout();
             this.lfLoginGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.lfMessageGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lfGroupBox
@@ -77,6 +77,18 @@
             this.lfGroupBox.Size = new System.Drawing.Size(1129, 453);
             this.lfGroupBox.TabIndex = 8;
             this.lfGroupBox.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(18, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(246, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Buildling Medical Technology for a Healthier Society";
             // 
             // lfLoginGroupBox
             // 
@@ -163,6 +175,17 @@
             this.biUserNameLabel.Size = new System.Drawing.Size(80, 16);
             this.biUserNameLabel.TabIndex = 0;
             this.biUserNameLabel.Text = "User Name:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo3;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(268, 54);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
             // 
             // lfMessageGroupBox
             // 
@@ -263,27 +286,27 @@
             this.clearFormToolStripMenuItem,
             this.exitProgramToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.loginToolStripMenuItem.Text = "Login";
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // clearFormToolStripMenuItem
             // 
             this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.clearFormToolStripMenuItem.Text = "Clear Form";
             this.clearFormToolStripMenuItem.Click += new System.EventHandler(this.clearFormToolStripMenuItem_Click);
             // 
             // exitProgramToolStripMenuItem
             // 
             this.exitProgramToolStripMenuItem.Name = "exitProgramToolStripMenuItem";
-            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.exitProgramToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.exitProgramToolStripMenuItem.Text = "Exit Program";
             this.exitProgramToolStripMenuItem.Click += new System.EventHandler(this.exitProgramToolStripMenuItem_Click);
             // 
@@ -293,51 +316,28 @@
             this.selfHelpPDFToolStripMenuItem,
             this.contactToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // selfHelpPDFToolStripMenuItem
             // 
             this.selfHelpPDFToolStripMenuItem.Name = "selfHelpPDFToolStripMenuItem";
-            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.selfHelpPDFToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.selfHelpPDFToolStripMenuItem.Text = "Self-Help PDF";
             // 
             // contactToolStripMenuItem
             // 
             this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.contactToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.contactToolStripMenuItem.Text = "Contact";
             this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::StrykerEIP.Properties.Resources.StrykerLogo5;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(268, 43);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(18, 64);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 13);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Buildling Medical Technology for a Healthier Society";
             // 
             // LoginForm
             // 
@@ -357,11 +357,11 @@
             this.lfGroupBox.PerformLayout();
             this.lfLoginGroupBox.ResumeLayout(false);
             this.lfLoginGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.lfMessageGroupBox.ResumeLayout(false);
             this.lfMessageGroupBox.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
